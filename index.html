@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Guida all'Asta Fantacalcio Classic 2026-27</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; line-height: 1.55; color: #1a1a1a; background: #fafafa; }
+  h1 { color: #0b3d0b; border-bottom: 3px solid #0b3d0b; padding-bottom: 8px; }
+  h2 { color: #145214; margin-top: 36px; border-left: 5px solid #2e7d32; padding-left: 10px; }
+  h3 { color: #1b5e20; margin-top: 22px; }
+  h4 { margin-top: 18px; color: #333; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; background: #fff; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; font-size: 14px; }
+  th { background: #2e7d32; color: #fff; }
+  tr:nth-child(even) { background: #f0f7f0; }
+  .tier-A { color: #b30000; font-weight: bold; }
+  .tier-B { color: #b36b00; font-weight: bold; }
+  .tier-C { color: #00695c; font-weight: bold; }
+  .tier-D { color: #555; font-weight: bold; }
+  .box { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
+  .warn { background: #fff8e1; border-left: 5px solid #f9a825; padding: 10px 16px; margin: 14px 0; }
+  ul, ol { padding-left: 22px; }
+  .price { font-weight: bold; color: #0b3d0b; }
+  .top { color: #b30000; font-weight: 600; }
+  .invest { color: #1565c0; font-weight: 600; }
+  .bet { color: #6a1b9a; font-weight: 600; }
+  .avoid { color: #757575; font-style: italic; }
+  footer { margin-top: 40px; font-size: 12px; color: #777; border-top: 1px solid #ccc; padding-top: 10px; }
+</style>
+</head>
+<body>
+
+<h1>⚽ Guida all'Asta Fantacalcio Classic 2026-27</h1>
+<p><b>Lega 10 squadre — 500 crediti a testa</b></p>
+
+<h2>Parte 1 — Modelli di forecasting applicati al fantacalcio</h2>
+<div class="box">
+<p>Nel calcio quasi tutte le metriche "count" (gol, assist, voti) sono rumorose su piccoli campioni (38 partite/anno). I modelli migliori non provano a prevedere il risultato esatto, ma stimano i processi generativi sottostanti e convertono le stime in outcome attesi.</p>
+<p><b>1. Modelli Poisson/Dixon-Coles.</b> I gol seguono una distribuzione di Poisson, con tasso atteso stimato da forza offensiva, forza defensiva dell'avversario e fattore campo. Dixon-Coles corregge la correlazione tra i punteggi (soprattutto sui risultati bassi). Utile per stimare quanti gol/assist "ci sono da spartire" tra gli attaccanti di una squadra in una giornata.</p>
+<p><b>2. xG/xA come predittori migliori dei numeri grezzi.</b> Gol e assist realizzati sono soggetti a forte varianza. xG/xA misurano la qualità delle occasioni create, sono più stabili anno su anno. Regola pratica: gol >> xG = rischio di regressione verso la media (occhio a pagarlo caro); xG >> gol = possibile investimento sottovalutato.</p>
+<p><b>3. Rating di forza squadra (tipo Elo).</b> Pesano le prestazioni passate in base alla difficoltà degli avversari e stimano i prossimi impegni.</p>
+<p><b>4. Aging curves.</b> Esterni/attaccanti rapidi calano prima (30-31 anni); centrali difensivi restano competitivi più a lungo ma crollano rapidamente dopo i 32-33 anni; i portieri hanno le curve più lunghe.</p>
+<p><b>5. Storico infortuni</b> come predittore di disponibilità futura — più della qualità tecnica.</p>
+<p><b>6. Minutaggio previsto: la variabile regina.</b> Minuti attesi = (probabilità titolarità) × (minuti a partita) × (probabilità di finire la stagione).</p>
+</div>
+
+<h2>Parte 2 — Quadro Serie A 2026-27</h2>
+<p><b>Le 20 squadre</b> (retrocesse: Cremonese, Pisa, Verona; promosse: <b>Monza</b>, <b>Frosinone</b>, <b>Venezia</b>):<br>
+Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus, Lazio, Lecce, Milan, Monza, Napoli, Parma, Roma, Sassuolo, Torino, Udinese, Venezia.</p>
+
+<p><b>Inizio campionato:</b> weekend 22-24 agosto 2026. Fine prevista: 30 maggio 2027.</p>
+
+<p><b>Coppe europee 2026-27</b> (doppio impegno settimanale = più rotazioni):</p>
+<ul>
+<li>Champions League: Inter, Napoli, Roma, Como</li>
+<li>Europa League: Milan, Juventus</li>
+<li>Conference League: Atalanta</li>
+</ul>
+
+<p><b>Cambi di allenatore principali:</b></p>
+<ul>
+<li>Napoli → Allegri (ex Milan)</li>
+<li>Milan → Rúben Amorim</li>
+<li>Lazio → Gennaro Gattuso</li>
+<li>Atalanta → Maurizio Sarri (ex Lazio)</li>
+<li>Fiorentina → Grosso</li>
+<li>Confermati: Chivu (Inter), Spalletti (Juventus), Gasperini (Roma)</li>
+</ul>
+
+<div class="warn">
+<b>Variabili spesso sottovalutate:</b>
+<ul>
+<li>Calendario delle prime giornate</li>
+<li>Effetto Coppe: rotazioni per le 7 squadre europee da settembre</li>
+<li>Neo-acquisti non subito titolari, specialmente nelle neopromosse</li>
+<li>Expected assists sottostimati rispetto ai gol</li>
+<li>Varianza dei rigoristi: le gerarchie cambiano rapidamente con un nuovo allenatore</li>
+</ul>
+<p><b>⚠️ Mercato aperto fino al 1° settembre 2026:</b> gerarchie rigoristi e portieri appena trasferiti non sono definitive.</p>
+</div>
+
+<h2>Parte 3 — Squadra per squadra</h2>
+<table>
+<tr><th>Squadra</th><th>Tier</th><th>Allenatore / Modulo</th><th>Rigorista</th><th>Ballottaggio chiave</th></tr>
+<tr><td>Inter</td><td class="tier-A">A</td><td>Chivu, 3-5-2</td><td>Calhanoglu</td><td>Portiere Martinez vs Provedel; Frattesi/Sucic</td></tr>
+<tr><td>Napoli</td><td class="tier-A">A</td><td>Allegri, 4-3-3</td><td>Lukaku (occhio a Hojlund)</td><td>Portiere Milinkovic-Savic vs Meret</td></tr>
+<tr><td>Milan</td><td class="tier-A">A</td><td>Amorim, 3-4-2-1</td><td>Nkunku vs Gonçalo Ramos</td><td>Gila in difesa</td></tr>
+<tr><td>Juventus</td><td class="tier-A">A</td><td>Spalletti, 4-2-3-1</td><td>Yildiz vs Locatelli</td><td>Alajbegovic trequartista</td></tr>
+<tr><td>Roma</td><td class="tier-A">A/B</td><td>Gasperini, 3-4-2-1</td><td>Malen vs Dybala</td><td>—</td></tr>
+<tr><td>Atalanta</td><td class="tier-A">A/B</td><td>Sarri, 4-3-3</td><td>Scamacca</td><td>Gaetano centrocampo</td></tr>
+<tr><td>Bologna</td><td class="tier-B">B</td><td>Tedesco, 4-3-3</td><td>Orsolini</td><td>Portiere Skorupski/riserva</td></tr>
+<tr><td>Como</td><td class="tier-B">B</td><td>Fabregas, 4-2-3-1</td><td>Da Cunha</td><td>Portiere Butez vs Audero</td></tr>
+<tr><td>Fiorentina</td><td class="tier-B">B</td><td>Grosso, 4-3-3</td><td>Fluido: Gudmundsson/Mandragora/Kean</td><td>Difesa e centrocampo aperti</td></tr>
+<tr><td>Lazio</td><td class="tier-B">B</td><td>Gattuso, 4-3-3</td><td>Zaccagni</td><td>Portiere Mandas vs Motta</td></tr>
+<tr><td>Torino</td><td class="tier-B">B/C</td><td>Abate, 3-5-2</td><td>Vlasic</td><td>Comuzzo-Comert centrali</td></tr>
+<tr><td>Udinese</td><td class="tier-B">B/C</td><td>Runjaic, 3-5-2</td><td>Davis</td><td>Unai Gomez centrocampo</td></tr>
+<tr><td>Genoa</td><td class="tier-C">C</td><td>De Rossi, 3-4-2-1</td><td>Colombo</td><td>Mitaj centrocampo</td></tr>
+<tr><td>Sassuolo</td><td class="tier-C">C</td><td>Aquilani, 4-3-3</td><td>Berardi</td><td>Portiere Muric vs Turati</td></tr>
+<tr><td>Cagliari</td><td class="tier-C">C</td><td>Pisacane, 3-5-2</td><td>Esposito</td><td>Fazzini centrocampo</td></tr>
+<tr><td>Lecce</td><td class="tier-C">C/D</td><td>Di Francesco, 4-2-3-1</td><td>Stulic</td><td>Geubbels unica punta</td></tr>
+<tr><td>Parma</td><td class="tier-C">C/D</td><td>Cuesta, 3-5-2</td><td>Pellegrino</td><td>—</td></tr>
+<tr><td>Frosinone (neo)</td><td class="tier-D">D</td><td>Alvini, 4-3-3</td><td>Calò</td><td>Portiere Palmisani vs Desplanches</td></tr>
+<tr><td>Monza (neo)</td><td class="tier-D">D</td><td>Juric, 3-4-2-1</td><td>Pessina</td><td>Mangas centrocampo</td></tr>
+<tr><td>Venezia (neo)</td><td class="tier-D">D</td><td>Stroppa, 3-5-2</td><td>Adams vs Rrahmani Al. (aperto)</td><td>Ballottaggi fasce/centrocampo</td></tr>
+</table>
+<p class="warn">⚠️ Neopromosse e ballottaggi portiere Juventus/Sassuolo/Lazio: situazioni meno consolidate, verificare a ridosso dell'asta.</p>
+
+<h2>Parte 4 — Tier-list per ruolo con prezzi (crediti)</h2>
+<p><i>Scala 500 crediti / 10 squadre, ricalibrata sul listone Fantacalcio.it.</i></p>
+
+<h3>🧤 Portieri</h3>
+<div class="box">
+<p><span class="top">Top (15-30cr):</span> Svilar (Roma), Maignan (Milan), Carnesecchi (Atalanta), Butez (Como)</p>
+<p><span class="invest">Investment-worthy (8-15cr):</span> Meret/Milinkovic-Savic (Napoli), Di Gregorio (Juve), Mandas/Motta (Lazio), Caprile (Cagliari), Skorupski (Bologna), De Gea (Fiorentina)</p>
+<p><span class="bet">Scommesse (1-8cr):</span> Falcone (Lecce), Suzuki (Parma), Muric (Sassuolo), Okoye (Udinese), Thiam (Monza), Stankovic (Venezia), Bijlow (Genoa), Paleari (Torino)</p>
+<p class="avoid">Da evitare: riserve con gerarchia incerta a fine mercato</p>
+</div>
+
+<h3>🛡️ Difensori</h3>
+<h4>Con spunto offensivo</h4>
+<div class="box">
+<p><span class="top">Top (25-45cr):</span> Dimarco (Inter — il migliore assoluto), Wesley (Roma)</p>
+<p><span class="invest">Investment-worthy (12-20cr):</span> Bremer, Bastoni, Pavlovic, Cambiaso, Dodò, Di Lorenzo</p>
+<p><span class="bet">Scommesse (3-8cr):</span> Jimenez, Koulierakis, Kaiki, Doekhi, Ostigard, Zappacosta, Ahanor</p>
+</div>
+<h4>Difensori puri</h4>
+<div class="box">
+<p><span class="top">Top (15-25cr):</span> Akanji (Inter), Mancini (Roma), Rrahmani (Napoli)</p>
+<p><span class="invest">Investment-worthy (8-14cr):</span> Kalulu, N'Dicka, Solet, Scalvini, Gila, Stones, Bisseck</p>
+<p><span class="bet">Scommesse (1-8cr):</span> Hien, Lucumì/Miranda, Mina, Dragusin, Norton-Cuffy, Djimsiti, Coco/Ismajli, Idzes + difensori neopromosse</p>
+</div>
+
+<h3>⚙️ Centrocampisti</h3>
+<h4>Da bonus</h4>
+<div class="box">
+<p><span class="top">Top (30-45cr):</span> McTominay (Napoli — il migliore assoluto), Calhanoglu (Inter), Nico Paz (Como)</p>
+<p><span class="invest">Investment-worthy (15-25cr):</span> Orsolini, Barella, Da Cunha, Zaccagni, De Bruyne</p>
+<p><span class="bet">Scommesse (3-19cr):</span> Baturina, Ekkelenkamp, Unai Gomez, Casadei, Sucic, Locatelli</p>
+</div>
+<h4>Mediani di sostanza</h4>
+<div class="box">
+<p><span class="invest">Investment-worthy (8-15cr):</span> Zambo Anguissa, Thorstvedt, Modric, Lobotka (sottovalutato)</p>
+<p><span class="bet">Scommesse (1-9cr):</span> Frattesi, Cristante, Pasalic, Frendrup, Bernabé, Pobega, Colpani</p>
+</div>
+
+<h3>⚽ Attaccanti</h3>
+<div class="box">
+<p><span class="top">Top (35-55+cr):</span> Lautaro Martinez (Inter — il più costoso), Malen (Roma), Hojlund (Napoli), Gonçalo Ramos (Milan), Kolo Muani (Juve), Kean (Fiorentina)</p>
+<p><span class="invest">Investment-worthy (18-30cr):</span> Pulisic, Yildiz, Douvikas, Scamacca, Davis, Krstovic, Leao, Berardi, Zaniolo, De Ketelaere</p>
+<p><b>Occhio al turnover/rischio:</b> Lukaku (ballottaggio con Hojlund), Rabiot (spesso arretrato), David (quotazione in calo), Dovbyk</p>
+<p><span class="bet">Scommesse (2-15cr):</span> Pinamonti, Simeone, Raspadori, Colombo, Dia, Ratkov, Cutrone, Geubbels, Adams, Piccoli, Dallinga, Cambiaghi, Odgaard, Konè I.</p>
+<p class="avoid">Da evitare: terze/quarte punte senza garanzie di minutaggio</p>
+</div>
+
+<h2>Parte 5 — Strategia d'asta</h2>
+<div class="box">
+<p><b>Allocazione budget (rosa 25: 3P-8D-8C-6A):</b></p>
+<ul>
+<li>Attaccanti: 40-45% del budget</li>
+<li>Centrocampisti: 25-30%</li>
+<li>Difensori: 15-20%</li>
+<li>Portieri: 8-10%</li>
+</ul>
+<p><b>Ordine di acquisto consigliato:</b></p>
+<ol>
+<li>Attaccanti titolari indiscussi delle big — chiudere presto, si esauriscono in fretta</li>
+<li>1-2 centrocampisti da bonus (tier McTominay/Calhanoglu)</li>
+<li>Difensori con spunto offensivo (tier Dimarco) — rari, alta domanda</li>
+<li>Portieri e scommesse economiche a fine asta, quando gli altri hanno meno budget</li>
+</ol>
+<p><b>Attenzione:</b> ballottaggi Napoli, Milan, Fiorentina, portiere Lazio/Sassuolo da monitorare fino a fine mercato. Neopromosse: max 8-10 crediti per i migliori, il resto con scommesse da 1-5cr. Non sovrapagare veterani difensori oltre 32-33 anni. Prediligere xG/xA alti con gol/assist reali ancora bassi (probabile sottovalutazione).</p>
+</div>
+
+<footer>
+<p><b>Fonti:</b> Fantacalcio.it (listone ufficiale), Gazzetta.it/fantanews, Goal.it, Sky Sport, Eurosport, Calciodangolo.com, Il Fatto Quotidiano, numericalcio.it, Calcio e Finanza.</p>
+<p>⚠️ Dati aggiornati a inizio agosto 2026, mercato aperto fino al 1° settembre. Rose, gerarchie e quotazioni vanno riverificate a ridosso dell'asta.</p>
+</footer>
+
+</body>
+</html>
