@@ -2,16 +2,26 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Guida all'Asta Fantacalcio Classic 2026-27</title>
 <style>
-  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; line-height: 1.55; color: #1a1a1a; background: #fafafa; }
-  h1 { color: #0b3d0b; border-bottom: 3px solid #0b3d0b; padding-bottom: 8px; }
-  h2 { color: #145214; margin-top: 36px; border-left: 5px solid #2e7d32; padding-left: 10px; }
-  h3 { color: #1b5e20; margin-top: 22px; }
+  :root { --green: #2e7d32; --dark-green: #0b3d0b; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color: #1a1a1a; background: #fafafa; }
+  .layout { display: flex; max-width: 1200px; margin: 0 auto; }
+  nav.sidebar { position: sticky; top: 0; align-self: flex-start; width: 220px; padding: 20px 14px; background: #fff; border-right: 1px solid #ddd; height: 100vh; overflow-y: auto; }
+  nav.sidebar h3 { font-size: 13px; text-transform: uppercase; color: #888; margin: 18px 0 6px; }
+  nav.sidebar a { display: block; padding: 6px 8px; color: #1b5e20; text-decoration: none; border-radius: 6px; font-size: 14px; }
+  nav.sidebar a:hover { background: #e8f5e9; }
+  main { flex: 1; padding: 24px 32px; max-width: 900px; line-height: 1.55; }
+  h1 { color: var(--dark-green); border-bottom: 3px solid var(--dark-green); padding-bottom: 8px; }
+  h2 { color: #145214; margin-top: 40px; border-left: 5px solid var(--green); padding-left: 10px; scroll-margin-top: 12px; }
+  h3 { color: #1b5e20; margin-top: 22px; scroll-margin-top: 12px; }
   h4 { margin-top: 18px; color: #333; }
   table { border-collapse: collapse; width: 100%; margin: 16px 0; background: #fff; }
   th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; font-size: 14px; }
-  th { background: #2e7d32; color: #fff; }
+  th { background: var(--green); color: #fff; cursor: pointer; user-select: none; }
+  th:hover { background: #1b5e20; }
   tr:nth-child(even) { background: #f0f7f0; }
   .tier-A { color: #b30000; font-weight: bold; }
   .tier-B { color: #b36b00; font-weight: bold; }
@@ -20,20 +30,42 @@
   .box { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
   .warn { background: #fff8e1; border-left: 5px solid #f9a825; padding: 10px 16px; margin: 14px 0; }
   ul, ol { padding-left: 22px; }
-  .price { font-weight: bold; color: #0b3d0b; }
+  .price { font-weight: bold; color: var(--dark-green); }
   .top { color: #b30000; font-weight: 600; }
   .invest { color: #1565c0; font-weight: 600; }
   .bet { color: #6a1b9a; font-weight: 600; }
   .avoid { color: #757575; font-style: italic; }
   footer { margin-top: 40px; font-size: 12px; color: #777; border-top: 1px solid #ccc; padding-top: 10px; }
+  .toc-toggle { display: none; }
+  #search-box { width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 12px; }
+  .badge { display: inline-block; background: var(--green); color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 10px; margin-left: 8px; }
+  #listone-count { color: #777; font-size: 13px; margin-bottom: 8px; }
+  @media (max-width: 800px) {
+    nav.sidebar { display: none; }
+    main { padding: 16px; max-width: 100%; }
+  }
 </style>
 </head>
 <body>
 
-<h1>⚽ Guida all'Asta Fantacalcio Classic 2026-27</h1>
-<p><b>Lega 10 squadre — 500 crediti a testa</b></p>
+<div class="layout">
+<nav class="sidebar">
+  <h3>Sommario</h3>
+  <a href="#parte1">1. Modelli di forecasting</a>
+  <a href="#parte2">2. Quadro Serie A 2026-27</a>
+  <a href="#parte3">3. Squadra per squadra</a>
+  <a href="#parte4">4. Tier-list per ruolo</a>
+  <a href="#parte4-5">4.5 Analisi xG/xA</a>
+  <a href="#listone">📋 Listone completo</a>
+  <a href="#parte5">5. Strategia d'asta</a>
+</nav>
 
-<h2>Parte 1 — Modelli di forecasting applicati al fantacalcio</h2>
+<main>
+
+<h1>⚽ Guida all'Asta Fantacalcio Classic 2026-27</h1>
+<p><b>Lega 10 squadre — 500 crediti a testa</b> <span class="badge" id="update-badge"></span></p>
+
+<h2 id="parte1">Parte 1 — Modelli di forecasting applicati al fantacalcio</h2>
 <div class="box">
 <p>Nel calcio quasi tutte le metriche "count" (gol, assist, voti) sono rumorose su piccoli campioni (38 partite/anno). I modelli migliori non provano a prevedere il risultato esatto, ma stimano i processi generativi sottostanti e convertono le stime in outcome attesi.</p>
 <p><b>1. Modelli Poisson/Dixon-Coles.</b> I gol seguono una distribuzione di Poisson, con tasso atteso stimato da forza offensiva, forza defensiva dell'avversario e fattore campo. Dixon-Coles corregge la correlazione tra i punteggi (soprattutto sui risultati bassi). Utile per stimare quanti gol/assist "ci sono da spartire" tra gli attaccanti di una squadra in una giornata.</p>
@@ -44,7 +76,7 @@
 <p><b>6. Minutaggio previsto: la variabile regina.</b> Minuti attesi = (probabilità titolarità) × (minuti a partita) × (probabilità di finire la stagione).</p>
 </div>
 
-<h2>Parte 2 — Quadro Serie A 2026-27</h2>
+<h2 id="parte2">Parte 2 — Quadro Serie A 2026-27</h2>
 <p><b>Le 20 squadre</b> (retrocesse: Cremonese, Pisa, Verona; promosse: <b>Monza</b>, <b>Frosinone</b>, <b>Venezia</b>):<br>
 Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus, Lazio, Lecce, Milan, Monza, Napoli, Parma, Roma, Sassuolo, Torino, Udinese, Venezia.</p>
 
@@ -79,7 +111,7 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <p><b>⚠️ Mercato aperto fino al 1° settembre 2026:</b> gerarchie rigoristi e portieri appena trasferiti non sono definitive.</p>
 </div>
 
-<h2>Parte 3 — Squadra per squadra</h2>
+<h2 id="parte3">Parte 3 — Squadra per squadra</h2>
 <table>
 <tr><th>Squadra</th><th>Tier</th><th>Allenatore / Modulo</th><th>Rigorista</th><th>Ballottaggio chiave</th></tr>
 <tr><td>Inter</td><td class="tier-A">A</td><td>Chivu, 3-5-2</td><td>Calhanoglu</td><td>Portiere Martinez vs Provedel; Frattesi/Sucic</td></tr>
@@ -105,7 +137,7 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 </table>
 <p class="warn">⚠️ Neopromosse e ballottaggi portiere Juventus/Sassuolo/Lazio: situazioni meno consolidate, verificare a ridosso dell'asta.</p>
 
-<h2>Parte 4 — Tier-list per ruolo con prezzi (crediti)</h2>
+<h2 id="parte4">Parte 4 — Tier-list per ruolo con prezzi (crediti)</h2>
 <p><i>Scala 500 crediti / 10 squadre, ricalibrata sul listone Fantacalcio.it.</i></p>
 
 <h3>🧤 Portieri</h3>
@@ -152,7 +184,7 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <p class="avoid">Da evitare: terze/quarte punte senza garanzie di minutaggio</p>
 </div>
 
-<h2>Parte 4.5 — Analisi xG/xA 2025-26 (Understat.com): chi sopravvalutare/sottovalutare</h2>
+<h2 id="parte4-5">Parte 4.5 — Analisi xG/xA 2025-26 (Understat.com): chi sopravvalutare/sottovalutare</h2>
 <p><i>Dati reali gol/assist vs Expected Goals/Assists della stagione 2025-26 appena conclusa, per applicare il principio di "regressione verso la media" spiegato in Parte 1. Fonte: Understat.com (FBref era bloccato da anti-bot durante la raccolta). ⚠️ Dati stagione precedente, utile per calibrare i prezzi ma non garanzia di ripetizione.</i></p>
 
 <h3>🔴 Sopravvalutati per la prossima asta (gol/assist reali molto sopra xG/xA — rischio flessione)</h3>
@@ -197,7 +229,19 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <p><b>Il "campione perfetto" (nessuna bandiera rossa statistica):</b> Lautaro Martínez (17 gol su 17,14 xG) e Dimarco (7 gol/16 assist quasi identici agli attesi) — numeri reali coerenti con le occasioni create, massima fiducia sulla ripetibilità.</p>
 </div>
 
-<h2>Parte 5 — Strategia d'asta</h2>
+<h2 id="listone">📋 Listone completo — Quotazioni ufficiali Fantacalcio.it</h2>
+<p><i>Quotazioni Classic (QA / FVM) prelevate da <a href="https://www.fantacalcio.it/quotazioni-fantacalcio" target="_blank">fantacalcio.it/quotazioni-fantacalcio</a>. Cerca un giocatore o clicca sulle intestazioni per ordinare.</i></p>
+<input type="text" id="search-box" placeholder="🔎 Cerca giocatore o squadra (es. 'Lautaro' o 'INT')...">
+<div id="listone-count"></div>
+<table id="listone-table">
+<thead>
+<tr><th data-col="0">Giocatore</th><th data-col="1">Squadra</th><th data-col="2">QA Classic</th><th data-col="3">FVM/1000</th></tr>
+</thead>
+<tbody id="listone-body"></tbody>
+</table>
+<p class="warn">⚠️ Listone parziale (i giocatori con quotazione più bassa/marginale non sono tutti presenti). Per la lista integrale e sempre aggiornata consulta il sito ufficiale.</p>
+
+<h2 id="parte5">Parte 5 — Strategia d'asta</h2>
 <div class="box">
 <p><b>Allocazione budget (rosa 25: 3P-8D-8C-6A):</b></p>
 <ul>
@@ -217,9 +261,50 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 </div>
 
 <footer>
-<p><b>Fonti:</b> Fantacalcio.it (listone ufficiale), Gazzetta.it/fantanews, Goal.it, Sky Sport, Eurosport, Calciodangolo.com, Il Fatto Quotidiano, numericalcio.it, Calcio e Finanza.</p>
-<p>⚠️ Dati aggiornati a inizio agosto 2026, mercato aperto fino al 1° settembre. Rose, gerarchie e quotazioni vanno riverificate a ridosso dell'asta.</p>
+<p><b>Fonti:</b> Fantacalcio.it (listone ufficiale quotazioni), Gazzetta.it/fantanews, Goal.it, Sky Sport, Eurosport, Calciodangolo.com, Il Fatto Quotidiano, numericalcio.it, Calcio e Finanza, Understat.com.</p>
+<p>⚠️ Mercato aperto fino al 1° settembre 2026. Rose, gerarchie e quotazioni vanno riverificate a ridosso dell'asta.</p>
 </footer>
+
+</main>
+</div>
+
+<script src="listone_data.js"></script>
+<script>
+  document.getElementById('update-badge').textContent = "Listone aggiornato: " + LISTONE_UPDATED_AT;
+
+  let sortState = { col: 2, asc: false };
+
+  function renderListone(filter) {
+    const body = document.getElementById('listone-body');
+    const f = (filter || '').toLowerCase();
+    let rows = LISTONE_DATA.filter(r => !f || r[0].toLowerCase().includes(f) || r[1].toLowerCase().includes(f));
+    rows.sort((a, b) => {
+      const c = sortState.col;
+      let va = a[c], vb = b[c];
+      if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+      if (va < vb) return sortState.asc ? -1 : 1;
+      if (va > vb) return sortState.asc ? 1 : -1;
+      return 0;
+    });
+    body.innerHTML = rows.map(r =>
+      `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`
+    ).join('');
+    document.getElementById('listone-count').textContent = rows.length + " giocatori" + (f ? " (filtrati)" : " totali");
+  }
+
+  document.getElementById('search-box').addEventListener('input', e => renderListone(e.target.value));
+
+  document.querySelectorAll('#listone-table th').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = parseInt(th.dataset.col);
+      if (sortState.col === col) sortState.asc = !sortState.asc;
+      else { sortState.col = col; sortState.asc = false; }
+      renderListone(document.getElementById('search-box').value);
+    });
+  });
+
+  renderListone('');
+</script>
 
 </body>
 </html>
