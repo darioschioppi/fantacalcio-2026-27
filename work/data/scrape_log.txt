@@ -1,0 +1,471 @@
+2026-08-08 17:20:18,621 INFO 2015-16 giornata 1: 825 righe salvate
+2026-08-08 17:20:21,360 INFO 2015-16 giornata 2: 831 righe salvate
+2026-08-08 17:20:24,531 INFO 2015-16 giornata 3: 831 righe salvate
+2026-08-08 17:20:27,399 INFO 2015-16 giornata 4: 831 righe salvate
+2026-08-08 17:20:30,674 INFO 2015-16 giornata 5: 834 righe salvate
+2026-08-08 17:20:33,428 INFO 2015-16 giornata 6: 831 righe salvate
+2026-08-08 17:20:36,776 INFO 2015-16 giornata 7: 828 righe salvate
+2026-08-08 17:20:39,789 INFO 2015-16 giornata 8: 828 righe salvate
+2026-08-08 17:20:42,481 INFO 2015-16 giornata 9: 831 righe salvate
+2026-08-08 17:20:45,654 INFO 2015-16 giornata 10: 825 righe salvate
+2026-08-08 17:20:48,506 INFO 2015-16 giornata 11: 831 righe salvate
+2026-08-08 17:20:51,279 INFO 2015-16 giornata 12: 831 righe salvate
+2026-08-08 17:20:54,209 INFO 2015-16 giornata 13: 828 righe salvate
+2026-08-08 17:20:57,355 INFO 2015-16 giornata 14: 828 righe salvate
+2026-08-08 17:21:00,202 INFO 2015-16 giornata 15: 825 righe salvate
+2026-08-08 17:21:03,132 INFO 2015-16 giornata 16: 825 righe salvate
+2026-08-08 17:21:06,190 INFO 2015-16 giornata 17: 822 righe salvate
+2026-08-08 17:21:09,320 INFO 2015-16 giornata 18: 834 righe salvate
+2026-08-08 17:21:12,282 INFO 2015-16 giornata 19: 828 righe salvate
+2026-08-08 17:21:15,035 INFO 2015-16 giornata 20: 828 righe salvate
+2026-08-08 17:21:18,193 INFO 2015-16 giornata 21: 825 righe salvate
+2026-08-08 17:21:21,321 INFO 2015-16 giornata 22: 825 righe salvate
+2026-08-08 17:21:24,400 INFO 2015-16 giornata 23: 831 righe salvate
+2026-08-08 17:21:27,483 INFO 2015-16 giornata 24: 828 righe salvate
+2026-08-08 17:21:30,332 INFO 2015-16 giornata 25: 819 righe salvate
+2026-08-08 17:21:32,967 INFO 2015-16 giornata 26: 828 righe salvate
+2026-08-08 17:21:35,717 INFO 2015-16 giornata 27: 825 righe salvate
+2026-08-08 17:21:38,667 INFO 2015-16 giornata 28: 834 righe salvate
+2026-08-08 17:21:41,563 INFO 2015-16 giornata 29: 831 righe salvate
+2026-08-08 17:21:44,435 INFO 2015-16 giornata 30: 825 righe salvate
+2026-08-08 17:21:47,353 INFO 2015-16 giornata 31: 831 righe salvate
+2026-08-08 17:21:50,234 INFO 2015-16 giornata 32: 828 righe salvate
+2026-08-08 17:21:52,985 INFO 2015-16 giornata 33: 825 righe salvate
+2026-08-08 17:21:54,955 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:21:55,888 INFO 2015-16 giornata 34: 831 righe salvate
+2026-08-08 17:21:58,752 INFO 2015-16 giornata 35: 828 righe salvate
+2026-08-08 17:22:01,806 INFO 2015-16 giornata 36: 825 righe salvate
+2026-08-08 17:22:04,678 INFO 2015-16 giornata 37: 828 righe salvate
+2026-08-08 17:22:07,379 INFO 2015-16 giornata 38: 834 righe salvate
+2026-08-08 17:22:08,560 INFO === Stagione 2015-16 completata: {'righe_totali': 31476, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:22:10,418 INFO 2016-17 giornata 1: 837 righe salvate
+2026-08-08 17:22:13,245 INFO 2016-17 giornata 2: 831 righe salvate
+2026-08-08 17:22:16,660 INFO 2016-17 giornata 3: 852 righe salvate
+2026-08-08 17:22:19,293 INFO 2016-17 giornata 4: 840 righe salvate
+2026-08-08 17:22:22,078 INFO 2016-17 giornata 5: 837 righe salvate
+2026-08-08 17:22:25,451 INFO 2016-17 giornata 6: 837 righe salvate
+2026-08-08 17:22:28,634 INFO 2016-17 giornata 7: 837 righe salvate
+2026-08-08 17:22:31,798 INFO 2016-17 giornata 8: 837 righe salvate
+2026-08-08 17:22:34,877 INFO 2016-17 giornata 9: 837 righe salvate
+2026-08-08 17:22:37,907 INFO 2016-17 giornata 10: 831 righe salvate
+2026-08-08 17:22:40,773 INFO 2016-17 giornata 11: 831 righe salvate
+2026-08-08 17:22:43,470 INFO 2016-17 giornata 12: 840 righe salvate
+2026-08-08 17:22:46,617 INFO 2016-17 giornata 13: 840 righe salvate
+2026-08-08 17:22:49,662 INFO 2016-17 giornata 14: 837 righe salvate
+2026-08-08 17:22:52,665 INFO 2016-17 giornata 15: 828 righe salvate
+2026-08-08 17:22:55,398 INFO 2016-17 giornata 16: 831 righe salvate
+2026-08-08 17:22:58,165 INFO 2016-17 giornata 17: 834 righe salvate
+2026-08-08 17:23:00,967 INFO 2016-17 giornata 18: 831 righe salvate
+2026-08-08 17:23:04,028 INFO 2016-17 giornata 19: 828 righe salvate
+2026-08-08 17:23:06,644 INFO 2016-17 giornata 20: 831 righe salvate
+2026-08-08 17:23:09,391 INFO 2016-17 giornata 21: 831 righe salvate
+2026-08-08 17:23:12,219 INFO 2016-17 giornata 22: 825 righe salvate
+2026-08-08 17:23:15,194 INFO 2016-17 giornata 23: 840 righe salvate
+2026-08-08 17:23:17,855 INFO 2016-17 giornata 24: 834 righe salvate
+2026-08-08 17:23:20,909 INFO 2016-17 giornata 25: 834 righe salvate
+2026-08-08 17:23:23,676 INFO 2016-17 giornata 26: 837 righe salvate
+2026-08-08 17:23:26,726 INFO 2016-17 giornata 27: 828 righe salvate
+2026-08-08 17:23:28,598 WARNING Valore numerico fuori range plausibile: '-3' -> -3.0
+2026-08-08 17:23:28,598 WARNING Valore numerico fuori range plausibile: '-2,5' -> -2.5
+2026-08-08 17:23:28,598 WARNING Valore numerico fuori range plausibile: '-2,5' -> -2.5
+2026-08-08 17:23:29,661 INFO 2016-17 giornata 28: 834 righe salvate
+2026-08-08 17:23:32,739 INFO 2016-17 giornata 29: 837 righe salvate
+2026-08-08 17:23:35,815 INFO 2016-17 giornata 30: 837 righe salvate
+2026-08-08 17:23:38,575 INFO 2016-17 giornata 31: 837 righe salvate
+2026-08-08 17:23:41,234 INFO 2016-17 giornata 32: 837 righe salvate
+2026-08-08 17:23:44,495 INFO 2016-17 giornata 33: 834 righe salvate
+2026-08-08 17:23:47,370 INFO 2016-17 giornata 34: 834 righe salvate
+2026-08-08 17:23:49,983 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:23:49,983 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:23:50,143 INFO 2016-17 giornata 35: 837 righe salvate
+2026-08-08 17:23:53,235 INFO 2016-17 giornata 36: 834 righe salvate
+2026-08-08 17:23:55,276 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:23:55,276 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:23:56,171 INFO 2016-17 giornata 37: 837 righe salvate
+2026-08-08 17:23:59,173 INFO 2016-17 giornata 38: 831 righe salvate
+2026-08-08 17:24:00,638 INFO === Stagione 2016-17 completata: {'righe_totali': 31725, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:24:02,236 INFO 2017-18 giornata 1: 834 righe salvate
+2026-08-08 17:24:04,982 INFO 2017-18 giornata 2: 840 righe salvate
+2026-08-08 17:24:07,778 INFO 2017-18 giornata 3: 840 righe salvate
+2026-08-08 17:24:10,611 INFO 2017-18 giornata 4: 840 righe salvate
+2026-08-08 17:24:13,307 INFO 2017-18 giornata 5: 834 righe salvate
+2026-08-08 17:24:15,959 INFO 2017-18 giornata 6: 840 righe salvate
+2026-08-08 17:24:18,707 INFO 2017-18 giornata 7: 837 righe salvate
+2026-08-08 17:24:21,779 INFO 2017-18 giornata 8: 831 righe salvate
+2026-08-08 17:24:24,874 INFO 2017-18 giornata 9: 837 righe salvate
+2026-08-08 17:24:27,803 INFO 2017-18 giornata 10: 840 righe salvate
+2026-08-08 17:24:30,875 INFO 2017-18 giornata 11: 837 righe salvate
+2026-08-08 17:24:33,912 INFO 2017-18 giornata 12: 837 righe salvate
+2026-08-08 17:24:36,852 INFO 2017-18 giornata 13: 834 righe salvate
+2026-08-08 17:24:39,827 INFO 2017-18 giornata 14: 837 righe salvate
+2026-08-08 17:24:42,698 INFO 2017-18 giornata 15: 834 righe salvate
+2026-08-08 17:24:45,542 INFO 2017-18 giornata 16: 831 righe salvate
+2026-08-08 17:24:48,407 INFO 2017-18 giornata 17: 834 righe salvate
+2026-08-08 17:24:51,270 INFO 2017-18 giornata 18: 834 righe salvate
+2026-08-08 17:24:54,137 INFO 2017-18 giornata 19: 837 righe salvate
+2026-08-08 17:24:57,244 INFO 2017-18 giornata 20: 837 righe salvate
+2026-08-08 17:25:00,236 INFO 2017-18 giornata 21: 834 righe salvate
+2026-08-08 17:25:03,376 INFO 2017-18 giornata 22: 840 righe salvate
+2026-08-08 17:25:06,250 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:25:06,251 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:25:06,552 INFO 2017-18 giornata 23: 837 righe salvate
+2026-08-08 17:25:09,643 INFO 2017-18 giornata 24: 834 righe salvate
+2026-08-08 17:25:12,592 INFO 2017-18 giornata 25: 837 righe salvate
+2026-08-08 17:25:15,348 INFO 2017-18 giornata 26: 834 righe salvate
+2026-08-08 17:25:18,264 INFO 2017-18 giornata 27: 831 righe salvate
+2026-08-08 17:25:21,049 INFO 2017-18 giornata 28: 840 righe salvate
+2026-08-08 17:25:23,933 INFO 2017-18 giornata 29: 834 righe salvate
+2026-08-08 17:25:25,876 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:25:25,876 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:25:25,876 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:25:26,959 INFO 2017-18 giornata 30: 831 righe salvate
+2026-08-08 17:25:29,857 INFO 2017-18 giornata 31: 831 righe salvate
+2026-08-08 17:25:32,740 INFO 2017-18 giornata 32: 834 righe salvate
+2026-08-08 17:25:35,799 INFO 2017-18 giornata 33: 840 righe salvate
+2026-08-08 17:25:38,889 INFO 2017-18 giornata 34: 840 righe salvate
+2026-08-08 17:25:41,749 INFO 2017-18 giornata 35: 834 righe salvate
+2026-08-08 17:25:44,925 INFO 2017-18 giornata 36: 837 righe salvate
+2026-08-08 17:25:47,924 INFO 2017-18 giornata 37: 837 righe salvate
+2026-08-08 17:25:50,583 INFO 2017-18 giornata 38: 834 righe salvate
+2026-08-08 17:25:51,634 INFO === Stagione 2017-18 completata: {'righe_totali': 31764, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:25:53,296 INFO 2018-19 giornata 1: 837 righe salvate
+2026-08-08 17:25:56,371 INFO 2018-19 giornata 2: 840 righe salvate
+2026-08-08 17:25:59,176 INFO 2018-19 giornata 3: 840 righe salvate
+2026-08-08 17:26:01,730 INFO 2018-19 giornata 4: 840 righe salvate
+2026-08-08 17:26:04,877 INFO 2018-19 giornata 5: 840 righe salvate
+2026-08-08 17:26:07,748 INFO 2018-19 giornata 6: 840 righe salvate
+2026-08-08 17:26:10,684 INFO 2018-19 giornata 7: 840 righe salvate
+2026-08-08 17:26:13,693 INFO 2018-19 giornata 8: 837 righe salvate
+2026-08-08 17:26:16,449 INFO 2018-19 giornata 9: 837 righe salvate
+2026-08-08 17:26:19,426 INFO 2018-19 giornata 10: 840 righe salvate
+2026-08-08 17:26:22,323 INFO 2018-19 giornata 11: 834 righe salvate
+2026-08-08 17:26:25,271 INFO 2018-19 giornata 12: 831 righe salvate
+2026-08-08 17:26:27,918 INFO 2018-19 giornata 13: 822 righe salvate
+2026-08-08 17:26:30,592 INFO 2018-19 giornata 14: 825 righe salvate
+2026-08-08 17:26:33,607 INFO 2018-19 giornata 15: 825 righe salvate
+2026-08-08 17:26:36,184 INFO 2018-19 giornata 16: 825 righe salvate
+2026-08-08 17:26:39,053 INFO 2018-19 giornata 17: 828 righe salvate
+2026-08-08 17:26:42,165 INFO 2018-19 giornata 18: 828 righe salvate
+2026-08-08 17:26:44,874 INFO 2018-19 giornata 19: 831 righe salvate
+2026-08-08 17:26:47,536 INFO 2018-19 giornata 20: 831 righe salvate
+2026-08-08 17:26:50,714 INFO 2018-19 giornata 21: 840 righe salvate
+2026-08-08 17:26:53,475 INFO 2018-19 giornata 22: 825 righe salvate
+2026-08-08 17:26:56,589 INFO 2018-19 giornata 23: 837 righe salvate
+2026-08-08 17:26:59,144 INFO 2018-19 giornata 24: 837 righe salvate
+2026-08-08 17:27:02,269 INFO 2018-19 giornata 25: 840 righe salvate
+2026-08-08 17:27:04,995 INFO 2018-19 giornata 26: 834 righe salvate
+2026-08-08 17:27:07,923 INFO 2018-19 giornata 27: 837 righe salvate
+2026-08-08 17:27:10,532 INFO 2018-19 giornata 28: 834 righe salvate
+2026-08-08 17:27:13,256 INFO 2018-19 giornata 29: 840 righe salvate
+2026-08-08 17:27:16,185 INFO 2018-19 giornata 30: 828 righe salvate
+2026-08-08 17:27:19,220 INFO 2018-19 giornata 31: 834 righe salvate
+2026-08-08 17:27:22,186 INFO 2018-19 giornata 32: 840 righe salvate
+2026-08-08 17:27:25,114 INFO 2018-19 giornata 33: 834 righe salvate
+2026-08-08 17:27:27,972 INFO 2018-19 giornata 34: 840 righe salvate
+2026-08-08 17:27:30,975 INFO 2018-19 giornata 35: 831 righe salvate
+2026-08-08 17:27:33,832 INFO 2018-19 giornata 36: 837 righe salvate
+2026-08-08 17:27:36,628 INFO 2018-19 giornata 37: 840 righe salvate
+2026-08-08 17:27:39,577 INFO 2018-19 giornata 38: 822 righe salvate
+2026-08-08 17:27:40,731 INFO === Stagione 2018-19 completata: {'righe_totali': 31701, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:27:42,236 INFO 2019-20 giornata 1: 837 righe salvate
+2026-08-08 17:27:45,393 INFO 2019-20 giornata 2: 837 righe salvate
+2026-08-08 17:27:48,423 INFO 2019-20 giornata 3: 831 righe salvate
+2026-08-08 17:27:51,268 INFO 2019-20 giornata 4: 840 righe salvate
+2026-08-08 17:27:54,320 INFO 2019-20 giornata 5: 837 righe salvate
+2026-08-08 17:27:57,459 INFO 2019-20 giornata 6: 840 righe salvate
+2026-08-08 17:28:00,311 INFO 2019-20 giornata 7: 840 righe salvate
+2026-08-08 17:28:03,245 INFO 2019-20 giornata 8: 840 righe salvate
+2026-08-08 17:28:06,043 INFO 2019-20 giornata 9: 840 righe salvate
+2026-08-08 17:28:08,964 INFO 2019-20 giornata 10: 834 righe salvate
+2026-08-08 17:28:11,763 INFO 2019-20 giornata 11: 837 righe salvate
+2026-08-08 17:28:14,773 INFO 2019-20 giornata 12: 837 righe salvate
+2026-08-08 17:28:17,806 INFO 2019-20 giornata 13: 840 righe salvate
+2026-08-08 17:28:20,831 INFO 2019-20 giornata 14: 831 righe salvate
+2026-08-08 17:28:24,007 INFO 2019-20 giornata 15: 834 righe salvate
+2026-08-08 17:28:26,731 INFO 2019-20 giornata 16: 837 righe salvate
+2026-08-08 17:28:29,504 INFO 2019-20 giornata 17: 834 righe salvate
+2026-08-08 17:28:32,304 INFO 2019-20 giornata 18: 834 righe salvate
+2026-08-08 17:28:35,390 INFO 2019-20 giornata 19: 825 righe salvate
+2026-08-08 17:28:38,378 INFO 2019-20 giornata 20: 837 righe salvate
+2026-08-08 17:28:40,233 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:28:41,271 INFO 2019-20 giornata 21: 837 righe salvate
+2026-08-08 17:28:44,245 INFO 2019-20 giornata 22: 831 righe salvate
+2026-08-08 17:28:47,341 INFO 2019-20 giornata 23: 828 righe salvate
+2026-08-08 17:28:50,500 INFO 2019-20 giornata 24: 828 righe salvate
+2026-08-08 17:28:53,449 INFO 2019-20 giornata 25: 855 righe salvate
+2026-08-08 17:28:55,090 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:28:55,090 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:28:55,090 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:28:56,164 INFO 2019-20 giornata 26: 834 righe salvate
+2026-08-08 17:28:59,160 INFO 2019-20 giornata 27: 927 righe salvate
+2026-08-08 17:29:02,184 INFO 2019-20 giornata 28: 939 righe salvate
+2026-08-08 17:29:05,488 INFO 2019-20 giornata 29: 945 righe salvate
+2026-08-08 17:29:08,552 INFO 2019-20 giornata 30: 927 righe salvate
+2026-08-08 17:29:11,774 INFO 2019-20 giornata 31: 933 righe salvate
+2026-08-08 17:29:14,959 INFO 2019-20 giornata 32: 918 righe salvate
+2026-08-08 17:29:17,937 INFO 2019-20 giornata 33: 942 righe salvate
+2026-08-08 17:29:20,671 INFO 2019-20 giornata 34: 900 righe salvate
+2026-08-08 17:29:23,841 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:29:23,841 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:29:23,841 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:29:23,910 INFO 2019-20 giornata 35: 921 righe salvate
+2026-08-08 17:29:26,891 INFO 2019-20 giornata 36: 903 righe salvate
+2026-08-08 17:29:29,725 INFO 2019-20 giornata 37: 927 righe salvate
+2026-08-08 17:29:32,878 INFO 2019-20 giornata 38: 939 righe salvate
+2026-08-08 17:29:33,981 INFO === Stagione 2019-20 completata: {'righe_totali': 32856, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:29:35,742 INFO 2020-21 giornata 1: 939 righe salvate
+2026-08-08 17:29:38,652 INFO 2020-21 giornata 2: 924 righe salvate
+2026-08-08 17:29:41,447 INFO 2020-21 giornata 3: 927 righe salvate
+2026-08-08 17:29:44,319 INFO 2020-21 giornata 4: 915 righe salvate
+2026-08-08 17:29:47,386 INFO 2020-21 giornata 5: 915 righe salvate
+2026-08-08 17:29:50,391 INFO 2020-21 giornata 6: 924 righe salvate
+2026-08-08 17:29:53,297 INFO 2020-21 giornata 7: 900 righe salvate
+2026-08-08 17:29:55,962 INFO 2020-21 giornata 8: 915 righe salvate
+2026-08-08 17:29:58,968 INFO 2020-21 giornata 9: 912 righe salvate
+2026-08-08 17:30:02,158 INFO 2020-21 giornata 10: 918 righe salvate
+2026-08-08 17:30:05,155 INFO 2020-21 giornata 11: 921 righe salvate
+2026-08-08 17:30:08,225 INFO 2020-21 giornata 12: 900 righe salvate
+2026-08-08 17:30:11,336 INFO 2020-21 giornata 13: 930 righe salvate
+2026-08-08 17:30:14,707 INFO 2020-21 giornata 14: 927 righe salvate
+2026-08-08 17:30:17,789 INFO 2020-21 giornata 15: 921 righe salvate
+2026-08-08 17:30:20,917 INFO 2020-21 giornata 16: 930 righe salvate
+2026-08-08 17:30:23,864 INFO 2020-21 giornata 17: 924 righe salvate
+2026-08-08 17:30:27,243 INFO 2020-21 giornata 18: 915 righe salvate
+2026-08-08 17:30:30,404 INFO 2020-21 giornata 19: 918 righe salvate
+2026-08-08 17:30:33,387 INFO 2020-21 giornata 20: 921 righe salvate
+2026-08-08 17:30:36,520 INFO 2020-21 giornata 21: 936 righe salvate
+2026-08-08 17:30:39,739 INFO 2020-21 giornata 22: 900 righe salvate
+2026-08-08 17:30:42,803 INFO 2020-21 giornata 23: 930 righe salvate
+2026-08-08 17:30:45,549 INFO 2020-21 giornata 24: 912 righe salvate
+2026-08-08 17:30:48,857 INFO 2020-21 giornata 25: 918 righe salvate
+2026-08-08 17:30:51,667 INFO 2020-21 giornata 26: 903 righe salvate
+2026-08-08 17:30:54,935 INFO 2020-21 giornata 27: 927 righe salvate
+2026-08-08 17:30:57,976 INFO 2020-21 giornata 28: 912 righe salvate
+2026-08-08 17:31:00,726 INFO 2020-21 giornata 29: 915 righe salvate
+2026-08-08 17:31:03,704 INFO 2020-21 giornata 30: 924 righe salvate
+2026-08-08 17:31:06,876 INFO 2020-21 giornata 31: 918 righe salvate
+2026-08-08 17:31:09,683 INFO 2020-21 giornata 32: 912 righe salvate
+2026-08-08 17:31:13,021 INFO 2020-21 giornata 33: 927 righe salvate
+2026-08-08 17:31:16,103 INFO 2020-21 giornata 34: 894 righe salvate
+2026-08-08 17:31:19,184 INFO 2020-21 giornata 35: 924 righe salvate
+2026-08-08 17:31:21,284 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:31:21,284 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:31:21,284 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:31:22,076 INFO 2020-21 giornata 36: 918 righe salvate
+2026-08-08 17:31:25,074 INFO 2020-21 giornata 37: 927 righe salvate
+2026-08-08 17:31:28,003 INFO 2020-21 giornata 38: 933 righe salvate
+2026-08-08 17:31:29,010 INFO === Stagione 2020-21 completata: {'righe_totali': 34926, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:31:30,691 INFO 2021-22 giornata 1: 933 righe salvate
+2026-08-08 17:31:33,654 INFO 2021-22 giornata 2: 933 righe salvate
+2026-08-08 17:31:36,483 INFO 2021-22 giornata 3: 939 righe salvate
+2026-08-08 17:31:39,565 INFO 2021-22 giornata 4: 951 righe salvate
+2026-08-08 17:31:42,718 INFO 2021-22 giornata 5: 942 righe salvate
+2026-08-08 17:31:45,599 INFO 2021-22 giornata 6: 942 righe salvate
+2026-08-08 17:31:48,444 INFO 2021-22 giornata 7: 918 righe salvate
+2026-08-08 17:31:51,408 INFO 2021-22 giornata 8: 918 righe salvate
+2026-08-08 17:31:54,729 INFO 2021-22 giornata 9: 918 righe salvate
+2026-08-08 17:31:57,868 INFO 2021-22 giornata 10: 933 righe salvate
+2026-08-08 17:32:00,832 INFO 2021-22 giornata 11: 933 righe salvate
+2026-08-08 17:32:03,884 INFO 2021-22 giornata 12: 924 righe salvate
+2026-08-08 17:32:06,751 INFO 2021-22 giornata 13: 909 righe salvate
+2026-08-08 17:32:09,785 INFO 2021-22 giornata 14: 927 righe salvate
+2026-08-08 17:32:12,552 INFO 2021-22 giornata 15: 930 righe salvate
+2026-08-08 17:32:15,521 INFO 2021-22 giornata 16: 930 righe salvate
+2026-08-08 17:32:18,700 INFO 2021-22 giornata 17: 930 righe salvate
+2026-08-08 17:32:21,433 INFO 2021-22 giornata 18: 942 righe salvate
+2026-08-08 17:32:24,504 INFO 2021-22 giornata 19: 909 righe salvate
+2026-08-08 17:32:27,347 INFO 2021-22 giornata 20: 909 righe salvate
+2026-08-08 17:32:30,442 INFO 2021-22 giornata 21: 900 righe salvate
+2026-08-08 17:32:33,759 INFO 2021-22 giornata 22: 906 righe salvate
+2026-08-08 17:32:36,650 INFO 2021-22 giornata 23: 888 righe salvate
+2026-08-08 17:32:39,808 INFO 2021-22 giornata 24: 909 righe salvate
+2026-08-08 17:32:42,700 INFO 2021-22 giornata 25: 924 righe salvate
+2026-08-08 17:32:45,750 INFO 2021-22 giornata 26: 918 righe salvate
+2026-08-08 17:32:48,989 INFO 2021-22 giornata 27: 903 righe salvate
+2026-08-08 17:32:52,061 INFO 2021-22 giornata 28: 903 righe salvate
+2026-08-08 17:32:55,227 INFO 2021-22 giornata 29: 924 righe salvate
+2026-08-08 17:32:58,137 INFO 2021-22 giornata 30: 909 righe salvate
+2026-08-08 17:33:01,068 INFO 2021-22 giornata 31: 930 righe salvate
+2026-08-08 17:33:04,140 INFO 2021-22 giornata 32: 927 righe salvate
+2026-08-08 17:33:07,136 INFO 2021-22 giornata 33: 945 righe salvate
+2026-08-08 17:33:10,400 INFO 2021-22 giornata 34: 921 righe salvate
+2026-08-08 17:33:13,617 INFO 2021-22 giornata 35: 927 righe salvate
+2026-08-08 17:33:16,798 INFO 2021-22 giornata 36: 924 righe salvate
+2026-08-08 17:33:19,879 INFO 2021-22 giornata 37: 951 righe salvate
+2026-08-08 17:33:22,946 INFO 2021-22 giornata 38: 954 righe salvate
+2026-08-08 17:33:24,257 INFO === Stagione 2021-22 completata: {'righe_totali': 35133, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:33:26,056 INFO 2022-23 giornata 1: 936 righe salvate
+2026-08-08 17:33:29,250 INFO 2022-23 giornata 2: 927 righe salvate
+2026-08-08 17:33:32,493 INFO 2022-23 giornata 3: 951 righe salvate
+2026-08-08 17:33:35,551 INFO 2022-23 giornata 4: 948 righe salvate
+2026-08-08 17:33:38,827 INFO 2022-23 giornata 5: 951 righe salvate
+2026-08-08 17:33:41,678 INFO 2022-23 giornata 6: 939 righe salvate
+2026-08-08 17:33:44,780 INFO 2022-23 giornata 7: 939 righe salvate
+2026-08-08 17:33:47,758 INFO 2022-23 giornata 8: 951 righe salvate
+2026-08-08 17:33:50,947 INFO 2022-23 giornata 9: 948 righe salvate
+2026-08-08 17:33:54,388 INFO 2022-23 giornata 10: 930 righe salvate
+2026-08-08 17:33:57,297 INFO 2022-23 giornata 11: 930 righe salvate
+2026-08-08 17:34:00,490 INFO 2022-23 giornata 12: 945 righe salvate
+2026-08-08 17:34:03,630 INFO 2022-23 giornata 13: 942 righe salvate
+2026-08-08 17:34:06,523 INFO 2022-23 giornata 14: 951 righe salvate
+2026-08-08 17:34:09,915 INFO 2022-23 giornata 15: 936 righe salvate
+2026-08-08 17:34:12,809 INFO 2022-23 giornata 16: 927 righe salvate
+2026-08-08 17:34:15,930 INFO 2022-23 giornata 17: 936 righe salvate
+2026-08-08 17:34:19,136 INFO 2022-23 giornata 18: 939 righe salvate
+2026-08-08 17:34:22,025 INFO 2022-23 giornata 19: 918 righe salvate
+2026-08-08 17:34:25,046 INFO 2022-23 giornata 20: 936 righe salvate
+2026-08-08 17:34:27,889 INFO 2022-23 giornata 21: 936 righe salvate
+2026-08-08 17:34:30,923 INFO 2022-23 giornata 22: 933 righe salvate
+2026-08-08 17:34:33,921 INFO 2022-23 giornata 23: 945 righe salvate
+2026-08-08 17:34:37,200 INFO 2022-23 giornata 24: 936 righe salvate
+2026-08-08 17:34:40,309 INFO 2022-23 giornata 25: 927 righe salvate
+2026-08-08 17:34:43,506 INFO 2022-23 giornata 26: 936 righe salvate
+2026-08-08 17:34:46,769 INFO 2022-23 giornata 27: 942 righe salvate
+2026-08-08 17:34:49,805 INFO 2022-23 giornata 28: 945 righe salvate
+2026-08-08 17:34:52,782 INFO 2022-23 giornata 29: 939 righe salvate
+2026-08-08 17:34:55,868 INFO 2022-23 giornata 30: 936 righe salvate
+2026-08-08 17:34:58,651 INFO 2022-23 giornata 31: 933 righe salvate
+2026-08-08 17:35:01,863 INFO 2022-23 giornata 32: 951 righe salvate
+2026-08-08 17:35:05,252 INFO 2022-23 giornata 33: 936 righe salvate
+2026-08-08 17:35:08,389 INFO 2022-23 giornata 34: 933 righe salvate
+2026-08-08 17:35:11,535 INFO 2022-23 giornata 35: 918 righe salvate
+2026-08-08 17:35:14,489 INFO 2022-23 giornata 36: 933 righe salvate
+2026-08-08 17:35:17,425 INFO 2022-23 giornata 37: 933 righe salvate
+2026-08-08 17:35:20,260 INFO 2022-23 giornata 38: 951 righe salvate
+2026-08-08 17:35:21,640 INFO === Stagione 2022-23 completata: {'righe_totali': 35643, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:35:23,308 INFO 2023-24 giornata 1: 951 righe salvate
+2026-08-08 17:35:26,272 INFO 2023-24 giornata 2: 951 righe salvate
+2026-08-08 17:35:29,438 INFO 2023-24 giornata 3: 951 righe salvate
+2026-08-08 17:35:32,058 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:35:32,058 WARNING Valore numerico fuori range plausibile: '-1,5' -> -1.5
+2026-08-08 17:35:32,058 WARNING Valore numerico fuori range plausibile: '-2' -> -2.0
+2026-08-08 17:35:32,387 INFO 2023-24 giornata 4: 954 righe salvate
+2026-08-08 17:35:35,432 INFO 2023-24 giornata 5: 948 righe salvate
+2026-08-08 17:35:38,632 INFO 2023-24 giornata 6: 954 righe salvate
+2026-08-08 17:35:41,324 INFO 2023-24 giornata 7: 948 righe salvate
+2026-08-08 17:35:44,460 INFO 2023-24 giornata 8: 933 righe salvate
+2026-08-08 17:35:47,497 INFO 2023-24 giornata 9: 945 righe salvate
+2026-08-08 17:35:50,717 INFO 2023-24 giornata 10: 951 righe salvate
+2026-08-08 17:35:54,030 INFO 2023-24 giornata 11: 936 righe salvate
+2026-08-08 17:35:57,029 INFO 2023-24 giornata 12: 936 righe salvate
+2026-08-08 17:36:00,263 INFO 2023-24 giornata 13: 939 righe salvate
+2026-08-08 17:36:03,152 INFO 2023-24 giornata 14: 933 righe salvate
+2026-08-08 17:36:06,344 INFO 2023-24 giornata 15: 921 righe salvate
+2026-08-08 17:36:09,436 INFO 2023-24 giornata 16: 930 righe salvate
+2026-08-08 17:36:12,348 INFO 2023-24 giornata 17: 933 righe salvate
+2026-08-08 17:36:15,355 INFO 2023-24 giornata 18: 936 righe salvate
+2026-08-08 17:36:18,177 INFO 2023-24 giornata 19: 924 righe salvate
+2026-08-08 17:36:20,946 INFO 2023-24 giornata 20: 930 righe salvate
+2026-08-08 17:36:23,813 INFO 2023-24 giornata 21: 912 righe salvate
+2026-08-08 17:36:26,755 INFO 2023-24 giornata 22: 933 righe salvate
+2026-08-08 17:36:30,008 INFO 2023-24 giornata 23: 942 righe salvate
+2026-08-08 17:36:33,070 INFO 2023-24 giornata 24: 945 righe salvate
+2026-08-08 17:36:36,272 INFO 2023-24 giornata 25: 954 righe salvate
+2026-08-08 17:36:39,497 INFO 2023-24 giornata 26: 948 righe salvate
+2026-08-08 17:36:42,393 INFO 2023-24 giornata 27: 936 righe salvate
+2026-08-08 17:36:45,508 INFO 2023-24 giornata 28: 945 righe salvate
+2026-08-08 17:36:48,646 INFO 2023-24 giornata 29: 954 righe salvate
+2026-08-08 17:36:51,348 INFO 2023-24 giornata 30: 924 righe salvate
+2026-08-08 17:36:54,388 INFO 2023-24 giornata 31: 942 righe salvate
+2026-08-08 17:36:57,228 INFO 2023-24 giornata 32: 933 righe salvate
+2026-08-08 17:37:00,422 INFO 2023-24 giornata 33: 930 righe salvate
+2026-08-08 17:37:03,340 INFO 2023-24 giornata 34: 936 righe salvate
+2026-08-08 17:37:06,475 INFO 2023-24 giornata 35: 924 righe salvate
+2026-08-08 17:37:09,819 INFO 2023-24 giornata 36: 951 righe salvate
+2026-08-08 17:37:13,009 INFO 2023-24 giornata 37: 942 righe salvate
+2026-08-08 17:37:15,919 INFO 2023-24 giornata 38: 951 righe salvate
+2026-08-08 17:37:17,236 INFO === Stagione 2023-24 completata: {'righe_totali': 35706, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:37:19,128 INFO 2024-25 giornata 1: 930 righe salvate
+2026-08-08 17:37:22,369 INFO 2024-25 giornata 2: 939 righe salvate
+2026-08-08 17:37:25,462 INFO 2024-25 giornata 3: 948 righe salvate
+2026-08-08 17:37:28,516 INFO 2024-25 giornata 4: 933 righe salvate
+2026-08-08 17:37:31,401 INFO 2024-25 giornata 5: 936 righe salvate
+2026-08-08 17:37:34,771 INFO 2024-25 giornata 6: 942 righe salvate
+2026-08-08 17:37:37,782 INFO 2024-25 giornata 7: 939 righe salvate
+2026-08-08 17:37:40,667 INFO 2024-25 giornata 8: 942 righe salvate
+2026-08-08 17:37:43,508 INFO 2024-25 giornata 9: 939 righe salvate
+2026-08-08 17:37:47,058 INFO 2024-25 giornata 10: 942 righe salvate
+2026-08-08 17:37:50,311 INFO 2024-25 giornata 11: 954 righe salvate
+2026-08-08 17:37:53,531 INFO 2024-25 giornata 12: 936 righe salvate
+2026-08-08 17:37:56,648 INFO 2024-25 giornata 13: 924 righe salvate
+2026-08-08 17:37:59,800 INFO 2024-25 giornata 14: 945 righe salvate
+2026-08-08 17:38:02,981 INFO 2024-25 giornata 15: 942 righe salvate
+2026-08-08 17:38:05,826 INFO 2024-25 giornata 16: 933 righe salvate
+2026-08-08 17:38:08,980 INFO 2024-25 giornata 17: 918 righe salvate
+2026-08-08 17:38:11,887 INFO 2024-25 giornata 18: 933 righe salvate
+2026-08-08 17:38:15,154 INFO 2024-25 giornata 19: 930 righe salvate
+2026-08-08 17:38:18,375 INFO 2024-25 giornata 20: 918 righe salvate
+2026-08-08 17:38:21,430 INFO 2024-25 giornata 21: 939 righe salvate
+2026-08-08 17:38:24,565 INFO 2024-25 giornata 22: 936 righe salvate
+2026-08-08 17:38:27,686 INFO 2024-25 giornata 23: 930 righe salvate
+2026-08-08 17:38:30,865 INFO 2024-25 giornata 24: 951 righe salvate
+2026-08-08 17:38:33,774 INFO 2024-25 giornata 25: 930 righe salvate
+2026-08-08 17:38:36,893 INFO 2024-25 giornata 26: 945 righe salvate
+2026-08-08 17:38:40,175 INFO 2024-25 giornata 27: 942 righe salvate
+2026-08-08 17:38:43,438 INFO 2024-25 giornata 28: 945 righe salvate
+2026-08-08 17:38:46,525 INFO 2024-25 giornata 29: 942 righe salvate
+2026-08-08 17:38:49,717 INFO 2024-25 giornata 30: 945 righe salvate
+2026-08-08 17:38:52,429 INFO 2024-25 giornata 31: 936 righe salvate
+2026-08-08 17:38:55,480 INFO 2024-25 giornata 32: 948 righe salvate
+2026-08-08 17:38:58,474 INFO 2024-25 giornata 33: 945 righe salvate
+2026-08-08 17:39:01,662 INFO 2024-25 giornata 34: 942 righe salvate
+2026-08-08 17:39:04,889 INFO 2024-25 giornata 35: 939 righe salvate
+2026-08-08 17:39:07,817 INFO 2024-25 giornata 36: 936 righe salvate
+2026-08-08 17:39:11,018 INFO 2024-25 giornata 37: 939 righe salvate
+2026-08-08 17:39:13,868 INFO 2024-25 giornata 38: 945 righe salvate
+2026-08-08 17:39:14,923 INFO === Stagione 2024-25 completata: {'righe_totali': 35658, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:39:16,672 INFO 2025-26 giornata 1: 942 righe salvate
+2026-08-08 17:39:19,925 INFO 2025-26 giornata 2: 945 righe salvate
+2026-08-08 17:39:23,034 INFO 2025-26 giornata 3: 957 righe salvate
+2026-08-08 17:39:25,932 INFO 2025-26 giornata 4: 948 righe salvate
+2026-08-08 17:39:28,810 INFO 2025-26 giornata 5: 945 righe salvate
+2026-08-08 17:39:32,041 INFO 2025-26 giornata 6: 939 righe salvate
+2026-08-08 17:39:35,347 INFO 2025-26 giornata 7: 939 righe salvate
+2026-08-08 17:39:38,495 INFO 2025-26 giornata 8: 933 righe salvate
+2026-08-08 17:39:41,563 INFO 2025-26 giornata 9: 933 righe salvate
+2026-08-08 17:39:44,375 INFO 2025-26 giornata 10: 945 righe salvate
+2026-08-08 17:39:47,574 INFO 2025-26 giornata 11: 939 righe salvate
+2026-08-08 17:39:50,788 INFO 2025-26 giornata 12: 945 righe salvate
+2026-08-08 17:39:53,848 INFO 2025-26 giornata 13: 936 righe salvate
+2026-08-08 17:39:56,762 INFO 2025-26 giornata 14: 936 righe salvate
+2026-08-08 17:39:59,789 INFO 2025-26 giornata 15: 933 righe salvate
+2026-08-08 17:40:02,925 INFO 2025-26 giornata 16: 945 righe salvate
+2026-08-08 17:40:05,765 INFO 2025-26 giornata 17: 942 righe salvate
+2026-08-08 17:40:08,927 INFO 2025-26 giornata 18: 942 righe salvate
+2026-08-08 17:40:12,217 INFO 2025-26 giornata 19: 936 righe salvate
+2026-08-08 17:40:15,334 INFO 2025-26 giornata 20: 936 righe salvate
+2026-08-08 17:40:18,353 INFO 2025-26 giornata 21: 927 righe salvate
+2026-08-08 17:40:21,473 INFO 2025-26 giornata 22: 933 righe salvate
+2026-08-08 17:40:24,473 INFO 2025-26 giornata 23: 939 righe salvate
+2026-08-08 17:40:27,678 INFO 2025-26 giornata 24: 936 righe salvate
+2026-08-08 17:40:30,734 INFO 2025-26 giornata 25: 939 righe salvate
+2026-08-08 17:40:33,879 INFO 2025-26 giornata 26: 936 righe salvate
+2026-08-08 17:40:37,025 INFO 2025-26 giornata 27: 945 righe salvate
+2026-08-08 17:40:39,931 INFO 2025-26 giornata 28: 939 righe salvate
+2026-08-08 17:40:43,289 INFO 2025-26 giornata 29: 951 righe salvate
+2026-08-08 17:40:46,226 INFO 2025-26 giornata 30: 948 righe salvate
+2026-08-08 17:40:49,364 INFO 2025-26 giornata 31: 942 righe salvate
+2026-08-08 17:40:52,532 INFO 2025-26 giornata 32: 948 righe salvate
+2026-08-08 17:40:55,919 INFO 2025-26 giornata 33: 948 righe salvate
+2026-08-08 17:40:59,242 INFO 2025-26 giornata 34: 951 righe salvate
+2026-08-08 17:41:02,111 INFO 2025-26 giornata 35: 930 righe salvate
+2026-08-08 17:41:05,000 INFO 2025-26 giornata 36: 942 righe salvate
+2026-08-08 17:41:08,280 INFO 2025-26 giornata 37: 948 righe salvate
+2026-08-08 17:41:11,142 INFO 2025-26 giornata 38: 960 righe salvate
+2026-08-08 17:41:12,148 INFO === Stagione 2025-26 completata: {'righe_totali': 35778, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0} ===
+2026-08-08 17:41:18,075 INFO Aggregato finale scritto in /app/sandbox/chat_-5519413290/work/data/voti_storici_2015_2026.csv (372366 righe totali)
+
+=== RIEPILOGO FINALE ===
+2015-16: {'righe_totali': 31476, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2016-17: {'righe_totali': 31725, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2017-18: {'righe_totali': 31764, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2018-19: {'righe_totali': 31701, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2019-20: {'righe_totali': 32856, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2020-21: {'righe_totali': 34926, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2021-22: {'righe_totali': 35133, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2022-23: {'righe_totali': 35643, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2023-24: {'righe_totali': 35706, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2024-25: {'righe_totali': 35658, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+2025-26: {'righe_totali': 35778, 'giornate_ok': 38, 'giornate_vuote_o_saltate': 0}
+TOTALE RIGHE AGGREGATO: 372366
+2026-08-08 17:41:18,075 INFO Scraping completato. Totale righe aggregato: 372366

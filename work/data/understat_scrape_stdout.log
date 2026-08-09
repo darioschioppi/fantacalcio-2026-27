@@ -1,0 +1,25 @@
+2026-08-09 07:00:30,946 INFO 2015-16: 380 partite trovate via getLeagueData
+2026-08-09 07:09:14,837 INFO 2015-16: 380 partite scaricate ok, 0 fallite, 10592 righe roster, 9849 righe tiri
+2026-08-09 07:09:17,049 INFO 2016-17: 380 partite trovate via getLeagueData
+2026-08-09 07:18:00,343 INFO 2016-17: 380 partite scaricate ok, 0 fallite, 10602 righe roster, 10146 righe tiri
+2026-08-09 07:18:03,164 INFO 2017-18: 380 partite trovate via getLeagueData
+2026-08-09 07:26:38,810 INFO 2017-18: 380 partite scaricate ok, 0 fallite, 10589 righe roster, 9794 righe tiri
+2026-08-09 07:26:41,274 INFO 2018-19: 380 partite trovate via getLeagueData
+2026-08-09 07:35:20,147 INFO 2018-19: 380 partite scaricate ok, 0 fallite, 10569 righe roster, 10587 righe tiri
+2026-08-09 07:35:22,408 INFO 2019-20: 380 partite trovate via getLeagueData
+2026-08-09 07:44:03,398 INFO 2019-20: 380 partite scaricate ok, 0 fallite, 10956 righe roster, 10898 righe tiri
+2026-08-09 07:44:05,122 INFO 2020-21: 380 partite trovate via getLeagueData
+2026-08-09 07:52:43,065 INFO 2020-21: 380 partite scaricate ok, 0 fallite, 11644 righe roster, 9517 righe tiri
+2026-08-09 07:52:44,819 INFO 2021-22: 380 partite trovate via getLeagueData
+2026-08-09 08:01:22,180 INFO 2021-22: 380 partite scaricate ok, 0 fallite, 11717 righe roster, 9932 righe tiri
+2026-08-09 08:01:24,343 INFO 2022-23: 380 partite trovate via getLeagueData
+2026-08-09 08:10:02,574 INFO 2022-23: 380 partite scaricate ok, 0 fallite, 11885 righe roster, 9675 righe tiri
+2026-08-09 08:10:04,962 INFO 2023-24: 380 partite trovate via getLeagueData
+2026-08-09 08:18:44,971 INFO 2023-24: 380 partite scaricate ok, 0 fallite, 11909 righe roster, 9728 righe tiri
+2026-08-09 08:18:46,694 INFO 2024-25: 380 partite trovate via getLeagueData
+2026-08-09 08:27:32,046 INFO 2024-25: 380 partite scaricate ok, 0 fallite, 11888 righe roster, 9242 righe tiri
+2026-08-09 08:27:33,825 INFO 2025-26: 380 partite trovate via getLeagueData
+2026-08-09 08:36:05,677 INFO 2025-26: 380 partite scaricate ok, 0 fallite, 11928 righe roster, 9373 righe tiri
+2026-08-09 08:36:09,676 INFO Aggregato understat_player_match_stats scritto in understat_player_match_stats_storico_2015_2026.csv (124279 righe, 26 colonne)
+2026-08-09 08:36:11,654 INFO Aggregato understat_shots scritto in understat_shots_storico_2015_2026.csv (108741 righe, 20 colonne)
+2026-08-09 08:36:11,720 INFO Scraping Understat completato. Righe roster: 124279, righe shots: 108741

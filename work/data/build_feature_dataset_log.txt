@@ -1,0 +1,3 @@
+2026-08-08 19:41:54,953 INFO Caricate statistiche squadra per 220 combinazioni (stagione, squadra)
+2026-08-08 19:42:03,907 INFO Righe totali: 372366, con contesto squadra agganciato: 372366 (100.0%)
+2026-08-08 19:42:03,907 INFO Dataset feature scritto in /app/sandbox/chat_-5519413290/work/data/feature_dataset_v0.csv

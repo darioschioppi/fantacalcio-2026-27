@@ -1,0 +1,103 @@
+2026-08-09 14:39:47,665 INFO Caricamento /app/sandbox/chat_-5519413290/work/data/feature_dataset_v2.csv ...
+2026-08-09 14:39:52,452 INFO Righe totali caricate: 372366
+2026-08-09 14:39:52,685 INFO Dopo filtro fonte_voto=redazione: 124122 righe
+2026-08-09 14:39:52,772 INFO Dopo filtro senza_voto/target nullo: 114111 righe
+2026-08-09 14:39:52,783 INFO Train: 81800 righe (['2015-16', '2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23'])
+2026-08-09 14:39:52,784 INFO Validation: 10805 righe (['2023-24'])
+2026-08-09 14:39:52,784 INFO Test: 21506 righe (['2024-25', '2025-26'])
+2026-08-09 14:39:52,889 INFO Feature usate (55): ['giornata', 'squadra_casa', 'squadra_ospite', 'gol_casa', 'gol_ospite', 'squadra_giocatore', 'ruolo', 'gol_fatti', 'gol_subiti', 'autogol', 'rigori_segnati', 'rigori_sbagliati', 'rigori_parati', 'assist', 'ammonizione', 'espulsione', 'mvp', 'squadra_games-played', 'squadra_total-points', 'squadra_total-wins', 'squadra_total-draws', 'squadra_total-losses', 'squadra_goals', 'squadra_goals-against', 'squadra_expectedGoals', 'squadra_expectedGoalAgainst', 'squadra_home-wins', 'squadra_home-draws', 'squadra_home-losses', 'squadra_away-wins', 'squadra_away-draws', 'squadra_away-losses', 'understat_position', 'understat_time', 'understat_goals', 'understat_own_goals', 'understat_assists', 'understat_shots', 'understat_key_passes', 'understat_xG', 'understat_xA', 'understat_xGChain', 'understat_xGBuildup', 'understat_yellow_card', 'understat_red_card', 'squadra_modulo', 'avversario_modulo', 'squadra_allenatore', 'avversario_allenatore', 'squadra_posizione_pre', 'squadra_punti_pre', 'squadra_diff_reti_pre', 'avversario_posizione_pre', 'avversario_punti_pre', 'avversario_diff_reti_pre']
+2026-08-09 14:39:52,905 INFO Inizio training LightGBM...
+2026-08-09 14:40:20,410 INFO Training completato. Best iteration: 451
+2026-08-09 14:40:20,477 INFO Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_voto_v1.txt
+2026-08-09 14:40:25,179 INFO [TRAIN] MAE=0.2896 RMSE=0.3724 R2=0.6797 (n=81800)
+2026-08-09 14:40:25,183 INFO [VALIDATION] MAE=0.3049 RMSE=0.3967 R2=0.5472 (n=10805)
+2026-08-09 14:40:25,186 INFO [TEST] MAE=0.3133 RMSE=0.4056 R2=0.5459 (n=21506)
+2026-08-09 14:40:25,190 INFO [TEST (baseline: media train)] MAE=0.4422 RMSE=0.6023 R2=-0.0010 (n=21506)
+2026-08-09 14:40:25,192 INFO --- Top 20 feature per importanza (gain) ---
+understat_goals             76056.900922
+assist                      12498.437918
+squadra_ospite              11740.775059
+squadra_casa                10427.775720
+understat_position          10363.799272
+gol_casa                     9599.003005
+squadra_giocatore            9044.284970
+gol_ospite                   8386.329731
+ruolo                        7046.194966
+understat_assists            6379.047390
+gol_fatti                    4831.805373
+understat_time               4828.029109
+espulsione                   4685.796409
+understat_xGBuildup          3890.046195
+understat_xGChain            3603.801220
+understat_xA                 2897.147855
+squadra_goals-against        2112.912160
+avversario_diff_reti_pre     2102.617925
+avversario_modulo            2061.599655
+gol_subiti                   1900.373526
+2026-08-09 14:40:25,204 INFO --- Bias check per squadra_giocatore (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 14:40:25,206 INFO Sottostimati (errore medio più negativo):
+                       mean  count
+squadra_giocatore                 
+Pisa              -0.059309    555
+Empoli            -0.052653    524
+Cagliari          -0.045517   1095
+Napoli            -0.034670   1022
+Roma              -0.030427   1067
+2026-08-09 14:40:25,208 INFO Sovrastimati (errore medio più positivo):
+                       mean  count
+squadra_giocatore                 
+Juventus           0.010827   1055
+Milan              0.011694   1061
+Fiorentina         0.016256   1072
+Torino             0.020019   1088
+Atalanta           0.029882   1116
+2026-08-09 14:40:25,213 INFO --- Bias check per ruolo (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 14:40:25,214 INFO Sottostimati (errore medio più negativo):
+                    mean  count
+ruolo                          
+attaccante     -0.033080   4253
+centrocampista -0.016003   7834
+difensore       0.002715   7886
+portiere        0.022497   1533
+2026-08-09 14:40:25,215 INFO Sovrastimati (errore medio più positivo):
+                    mean  count
+ruolo                          
+attaccante     -0.033080   4253
+centrocampista -0.016003   7834
+difensore       0.002715   7886
+portiere        0.022497   1533
+2026-08-09 14:40:25,221 INFO --- Bias check per squadra_modulo (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 14:40:25,222 INFO Sottostimati (errore medio più negativo):
+                    mean  count
+squadra_modulo                 
+5-3-2          -0.135244     89
+3-1-4-2        -0.075546    238
+3-4-3          -0.047076    336
+3-5-1-1        -0.046603    732
+4-3-2-1        -0.040351    177
+2026-08-09 14:40:25,223 INFO Sovrastimati (errore medio più positivo):
+                    mean  count
+squadra_modulo                 
+4-4-1-1        -0.001206    127
+3-4-1-2         0.002334    920
+4-2-2-2         0.131802     41
+5-4-1           0.148179     55
+4-3-1-2         0.157069     71
+2026-08-09 14:40:25,229 INFO --- Bias check per squadra_allenatore (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 14:40:25,230 INFO Sottostimati (errore medio più negativo):
+                        mean  count
+squadra_allenatore                 
+Claudio Ranieri    -0.084375    346
+Daniele De Rossi   -0.057821    436
+Alberto Gilardino  -0.053975    489
+Paolo Sammarco     -0.048133    204
+Simone Inzaghi     -0.047796    480
+2026-08-09 14:40:25,231 INFO Sovrastimati (errore medio più positivo):
+                        mean  count
+squadra_allenatore                 
+Oscar Hiljemark     0.030020    220
+Luciano Spalletti   0.032420    400
+Igor Tudor          0.044471    238
+Ivan Jurić          0.076805    264
+Stefano Pioli       0.114969    146
+2026-08-09 14:40:25,232 INFO Analisi completata.

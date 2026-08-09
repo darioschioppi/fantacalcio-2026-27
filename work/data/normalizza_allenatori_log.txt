@@ -1,0 +1,17 @@
+2026-08-09 14:39:18,589 INFO Nomi allenatore distinti prima della normalizzazione: 59
+2026-08-09 14:39:18,595 INFO Fusi come 'Cristian Eugen Chivu': ['Cristian Chivu', 'Cristian Eugen Chivu']
+2026-08-09 14:39:18,595 INFO Fusi come 'Eusebio Luca Di Francesco': ['Eusebio Di Francesco', 'Eusebio Luca Di Francesco']
+2026-08-09 14:39:18,595 INFO Nomi allenatore distinti dopo la normalizzazione: 57
+2026-08-09 14:39:18,605 INFO 2015-16: 0 righe modificate
+2026-08-09 14:39:18,614 INFO 2016-17: 0 righe modificate
+2026-08-09 14:39:18,623 INFO 2017-18: 0 righe modificate
+2026-08-09 14:39:18,633 INFO 2018-19: 0 righe modificate
+2026-08-09 14:39:18,642 INFO 2019-20: 0 righe modificate
+2026-08-09 14:39:18,651 INFO 2020-21: 0 righe modificate
+2026-08-09 14:39:18,661 INFO 2021-22: 0 righe modificate
+2026-08-09 14:39:18,671 INFO 2022-23: 0 righe modificate
+2026-08-09 14:39:18,682 INFO 2023-24: 38 righe modificate
+2026-08-09 14:39:18,692 INFO 2024-25: 49 righe modificate
+2026-08-09 14:39:18,701 INFO 2025-26: 0 righe modificate
+2026-08-09 14:39:18,806 INFO Aggregato: 87 righe modificate
+2026-08-09 14:39:18,807 INFO Normalizzazione completata.
