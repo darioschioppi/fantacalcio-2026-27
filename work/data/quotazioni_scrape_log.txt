@@ -1,0 +1,26 @@
+2026-08-09 18:43:16,960 INFO Stagione 2015-16: 674 giocatori estratti
+2026-08-09 18:43:18,807 INFO Stagione 2016-17: 630 giocatori estratti
+2026-08-09 18:43:20,660 INFO Stagione 2017-18: 631 giocatori estratti
+2026-08-09 18:43:22,510 INFO Stagione 2018-19: 641 giocatori estratti
+2026-08-09 18:43:24,555 INFO Stagione 2019-20: 684 giocatori estratti
+2026-08-09 18:43:26,484 INFO Stagione 2020-21: 678 giocatori estratti
+2026-08-09 18:43:28,408 INFO Stagione 2021-22: 675 giocatori estratti
+2026-08-09 18:43:30,359 INFO Stagione 2022-23: 672 giocatori estratti
+2026-08-09 18:43:32,241 INFO Stagione 2023-24: 664 giocatori estratti
+2026-08-09 18:43:34,263 INFO Stagione 2024-25: 679 giocatori estratti
+2026-08-09 18:43:36,136 INFO Stagione 2025-26: 663 giocatori estratti
+2026-08-09 18:43:37,837 INFO Stagione 2026-27: 503 giocatori estratti
+2026-08-09 18:43:38,868 INFO Totale righe scritte: 7794 in /app/sandbox/chat_-5519413290/work/data/quotazioni_fantacalcio_storico_2015_2026.csv
+2026-08-09 18:43:38,869 INFO   2015-16: 674 righe
+2026-08-09 18:43:38,870 INFO   2016-17: 630 righe
+2026-08-09 18:43:38,870 INFO   2017-18: 631 righe
+2026-08-09 18:43:38,870 INFO   2018-19: 641 righe
+2026-08-09 18:43:38,870 INFO   2019-20: 684 righe
+2026-08-09 18:43:38,870 INFO   2020-21: 678 righe
+2026-08-09 18:43:38,870 INFO   2021-22: 675 righe
+2026-08-09 18:43:38,870 INFO   2022-23: 672 righe
+2026-08-09 18:43:38,870 INFO   2023-24: 664 righe
+2026-08-09 18:43:38,870 INFO   2024-25: 679 righe
+2026-08-09 18:43:38,870 INFO   2025-26: 663 righe
+2026-08-09 18:43:38,870 INFO   2026-27: 503 righe
+2026-08-09 18:43:38,871 INFO Spot-check OK: player_id=408 trovato (Higuain) in 6 stagioni: ['2015-16', '2016-17', '2017-18', '2018-19', '2019-20', '2020-21']
