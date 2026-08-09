@@ -1,0 +1,104 @@
+2026-08-09 16:28:14,611 INFO Caricamento /app/sandbox/chat_-5519413290/work/data/feature_dataset_v3.csv ...
+2026-08-09 16:28:20,256 INFO Righe totali caricate: 372366
+2026-08-09 16:28:20,459 INFO Dopo filtro fonte_voto=redazione: 124122 righe
+2026-08-09 16:28:20,540 INFO Dopo filtro senza_voto/target nullo: 114111 righe
+2026-08-09 16:28:20,549 INFO Train: 81800 righe (['2015-16', '2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23'])
+2026-08-09 16:28:20,550 INFO Validation: 10805 righe (['2023-24'])
+2026-08-09 16:28:20,550 INFO Test: 21506 righe (['2024-25', '2025-26'])
+2026-08-09 16:28:20,634 INFO Feature usate (46): ['giornata', 'squadra_casa', 'squadra_ospite', 'squadra_giocatore', 'ruolo', 'squadra_forma3_punti_mean', 'squadra_forma3_gf_mean', 'squadra_forma3_gs_mean', 'squadra_forma3_xg_for_mean', 'squadra_forma3_xg_against_mean', 'squadra_forma3_n_partite', 'squadra_forma5_punti_mean', 'squadra_forma5_gf_mean', 'squadra_forma5_gs_mean', 'squadra_forma5_xg_for_mean', 'squadra_forma5_xg_against_mean', 'squadra_forma5_n_partite', 'avversario_forma3_punti_mean', 'avversario_forma3_gf_mean', 'avversario_forma3_gs_mean', 'avversario_forma3_xg_for_mean', 'avversario_forma3_xg_against_mean', 'avversario_forma3_n_partite', 'avversario_forma5_punti_mean', 'avversario_forma5_gf_mean', 'avversario_forma5_gs_mean', 'avversario_forma5_xg_for_mean', 'avversario_forma5_xg_against_mean', 'avversario_forma5_n_partite', 'voto_lag_mean_3', 'voto_lag_mean_5', 'understat_xG_lag_mean_5', 'understat_xA_lag_mean_5', 'understat_shots_lag_mean_5', 'understat_time_lag_mean_5', 'presenze_cumulate', 'squadra_posizione_pre', 'squadra_punti_pre', 'squadra_diff_reti_pre', 'avversario_posizione_pre', 'avversario_punti_pre', 'avversario_diff_reti_pre', 'squadra_modulo', 'avversario_modulo', 'squadra_allenatore', 'avversario_allenatore']
+2026-08-09 16:28:20,648 INFO Inizio training LightGBM (modello previsionale)...
+2026-08-09 16:28:25,260 INFO Training completato. Best iteration: 3
+2026-08-09 16:28:25,261 INFO Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_voto_previsionale_v1.txt
+2026-08-09 16:28:25,369 INFO [TRAIN] MAE=0.4901 RMSE=0.6514 R2=0.0199 (n=81800)
+2026-08-09 16:28:25,372 INFO [VALIDATION] MAE=0.4245 RMSE=0.5866 R2=0.0101 (n=10805)
+2026-08-09 16:28:25,375 INFO [TEST] MAE=0.4399 RMSE=0.5986 R2=0.0111 (n=21506)
+2026-08-09 16:28:25,378 INFO [TEST (baseline: media train)] MAE=0.4422 RMSE=0.6023 R2=-0.0010 (n=21506)
+2026-08-09 16:28:25,382 INFO [TEST (baseline: voto_lag_mean_5 del giocatore)] MAE=0.4954 RMSE=0.6384 R2=-0.1246 (n=21506)
+2026-08-09 16:28:25,384 INFO --- Top 20 feature per importanza (gain) ---
+voto_lag_mean_5                      1752.421238
+squadra_giocatore                    1074.698246
+ruolo                                 895.097539
+squadra_casa                          733.408774
+squadra_ospite                        673.821463
+understat_shots_lag_mean_5            253.275601
+understat_xA_lag_mean_5               177.509082
+avversario_posizione_pre              160.195889
+squadra_modulo                         79.939981
+understat_xG_lag_mean_5                61.330851
+avversario_forma3_xg_against_mean      54.283101
+avversario_diff_reti_pre               50.147029
+avversario_forma5_xg_against_mean      45.862411
+squadra_diff_reti_pre                  29.861320
+squadra_forma3_xg_against_mean         20.656500
+avversario_forma5_xg_for_mean          20.594589
+squadra_forma5_xg_against_mean         20.025630
+understat_time_lag_mean_5              18.634300
+voto_lag_mean_3                        14.207600
+avversario_forma5_gs_mean              13.880900
+2026-08-09 16:28:25,394 INFO --- Bias check per squadra_giocatore (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 16:28:25,396 INFO Sottostimati (errore medio più negativo):
+                       mean  count
+squadra_giocatore                 
+Inter             -0.205934   1099
+Napoli            -0.139810   1022
+Roma              -0.131180   1067
+Como              -0.102888   1058
+Atalanta          -0.089871   1116
+2026-08-09 16:28:25,397 INFO Sovrastimati (errore medio più positivo):
+                       mean  count
+squadra_giocatore                 
+Torino             0.061025   1088
+Cremonese          0.067905    556
+Verona             0.127286   1071
+Monza              0.151037    528
+Pisa               0.159764    555
+2026-08-09 16:28:25,402 INFO --- Bias check per ruolo (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 16:28:25,404 INFO Sottostimati (errore medio più negativo):
+                    mean  count
+ruolo                          
+portiere       -0.178117   1533
+attaccante     -0.041112   4253
+centrocampista -0.034011   7834
+difensore       0.037673   7886
+2026-08-09 16:28:25,405 INFO Sovrastimati (errore medio più positivo):
+                    mean  count
+ruolo                          
+portiere       -0.178117   1533
+attaccante     -0.041112   4253
+centrocampista -0.034011   7834
+difensore       0.037673   7886
+2026-08-09 16:28:25,411 INFO --- Bias check per squadra_modulo (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 16:28:25,412 INFO Sottostimati (errore medio più negativo):
+                    mean  count
+squadra_modulo                 
+3-1-4-2        -0.091642    238
+5-3-2          -0.083551     89
+4-5-1          -0.065691    109
+3-4-3          -0.050601    336
+4-3-2-1        -0.049654    177
+2026-08-09 16:28:25,414 INFO Sovrastimati (errore medio più positivo):
+                    mean  count
+squadra_modulo                 
+4-4-2           0.037635    515
+4-4-1-1         0.062718    127
+4-2-2-2         0.100996     41
+5-4-1           0.221198     55
+4-3-1-2         0.424238     71
+2026-08-09 16:28:25,419 INFO --- Bias check per squadra_allenatore (TEST) - top 5 sovrastima / sottostima ---
+2026-08-09 16:28:25,421 INFO Sottostimati (errore medio più negativo):
+                          mean  count
+squadra_allenatore                   
+Simone Inzaghi       -0.204992    480
+Claudio Ranieri      -0.198362    346
+Cristian Eugen Chivu -0.184262    686
+Gian Piero Gasperini -0.144553   1029
+Antonio Conte        -0.142279    967
+2026-08-09 16:28:25,423 INFO Sovrastimati (errore medio più positivo):
+                         mean  count
+squadra_allenatore                  
+Paolo Zanetti        0.130052    838
+Luca Gotti           0.155611    169
+Stefano Pioli        0.229573    146
+Salvatore Bocchetti  0.254153    101
+Oscar Hiljemark      0.293930    220
+2026-08-09 16:28:25,423 INFO Analisi completata.

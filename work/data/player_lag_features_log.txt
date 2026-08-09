@@ -1,0 +1,6 @@
+2026-08-09 16:25:35,074 INFO Presenze valide caricate: 114111
+2026-08-09 16:25:36,332 INFO Giocatori distinti: 2124
+2026-08-09 16:25:36,332 INFO Righe totali: 114111
+2026-08-09 16:25:36,332 INFO Righe con almeno 1 presenza precedente: 111987 (98.1%)
+2026-08-09 16:25:36,333 INFO Righe con 5 presenze precedenti (finestra piena): 104503 (91.6%)
+2026-08-09 16:25:37,274 INFO Scritte 114111 righe in /app/sandbox/chat_-5519413290/work/data/player_lag_features_storico_2015_2026.csv
