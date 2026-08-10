@@ -1,0 +1,122 @@
+2026-08-10 07:28:27,591 INFO Squadre nello storico voti: 35
+2026-08-10 07:30:49,586 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2015/plus/1 (tentativo 1/4)
+2026-08-10 07:31:51,329 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/410/saison_id/2015/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:34:04,544 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/46/saison_id/2016/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:34:36,935 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/506/saison_id/2016/plus/1 (tentativo 1/4)
+2026-08-10 07:36:25,335 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/4171/saison_id/2017/plus/1 (tentativo 1/4)
+2026-08-10 07:37:25,704 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/862/saison_id/2017/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:38:08,791 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/862/saison_id/2017/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 2/4)
+2026-08-10 07:39:43,412 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/398/saison_id/2017/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:40:26,512 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/398/saison_id/2017/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 2/4)
+2026-08-10 07:42:28,816 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/2722/saison_id/2017/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:42:59,924 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/6574/saison_id/2017/plus/1 (tentativo 1/4)
+2026-08-10 07:43:17,236 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/800/saison_id/2018/plus/1 (tentativo 1/4)
+2026-08-10 07:44:38,338 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/862/saison_id/2018/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:46:30,155 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/46/saison_id/2018/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:47:19,078 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/506/saison_id/2018/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:49:13,880 WARNING Rosa Transfermarkt vuota per Brescia 2019-20 (verein 132806)
+2026-08-10 07:50:37,061 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/6195/saison_id/2019/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:52:37,045 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/276/saison_id/2019/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:54:30,081 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/5/saison_id/2020/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:55:29,120 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/130/saison_id/2020/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 07:56:12,206 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/130/saison_id/2020/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 2/4)
+2026-08-10 07:56:58,261 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/130/saison_id/2020/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 3/4)
+2026-08-10 07:58:12,717 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/1038/saison_id/2020/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:01:01,907 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/6195/saison_id/2021/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:01:16,465 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/6195/saison_id/2021/plus/1 (tentativo 2/4)
+2026-08-10 08:02:10,949 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/380/saison_id/2021/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:03:36,434 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/800/saison_id/2022/plus/1 (tentativo 1/4)
+2026-08-10 08:04:19,464 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/800/saison_id/2022/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 2/4)
+2026-08-10 08:05:04,849 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/749/saison_id/2022/plus/1 (tentativo 1/4)
+2026-08-10 08:05:53,769 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/46/saison_id/2022/plus/1 (tentativo 1/4)
+2026-08-10 08:06:02,341 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/506/saison_id/2022/plus/1 (tentativo 1/4)
+2026-08-10 08:07:22,160 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/1005/saison_id/2022/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:08:37,241 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2022/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:09:20,553 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/410/saison_id/2022/plus/1 (tentativo 1/4)
+2026-08-10 08:10:33,374 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/430/saison_id/2023/plus/1 (tentativo 1/4)
+2026-08-10 08:11:03,585 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/46/saison_id/2023/plus/1 (tentativo 1/4)
+2026-08-10 08:12:21,475 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/5/saison_id/2023/plus/1 (tentativo 1/4)
+2026-08-10 08:13:04,502 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/5/saison_id/2023/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 2/4)
+2026-08-10 08:13:58,900 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2023/plus/1 (tentativo 1/4)
+2026-08-10 08:14:01,948 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2023/plus/1 (tentativo 2/4)
+2026-08-10 08:14:07,987 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2023/plus/1 (tentativo 3/4)
+2026-08-10 08:14:17,031 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2023/plus/1 (tentativo 4/4)
+2026-08-10 08:14:30,231 ERROR Impossibile scaricare rosa Transfermarkt per Roma 2023-24 (verein 12) dopo retry
+2026-08-10 08:16:06,240 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/1025/saison_id/2024/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:16:24,429 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/1025/saison_id/2024/plus/1 (tentativo 2/4)
+2026-08-10 08:16:51,542 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/1390/saison_id/2024/plus/1 (tentativo 1/4)
+2026-08-10 08:17:39,932 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/5/saison_id/2024/plus/1 (tentativo 1/4)
+2026-08-10 08:19:17,372 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/130/saison_id/2024/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:20:04,781 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2024/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:21:29,058 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/410/saison_id/2024/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:22:32,873 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/1025/saison_id/2025/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:23:15,959 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/1025/saison_id/2025/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 2/4)
+2026-08-10 08:25:23,581 WARNING Errore rete per https://www.transfermarkt.it/-/kader/verein/12/saison_id/2025/plus/1: HTTPSConnectionPool(host='www.transfermarkt.it', port=443): Read timed out. (read timeout=40) (tentativo 1/4)
+2026-08-10 08:26:04,133 WARNING HTTP 503 per https://www.transfermarkt.it/-/kader/verein/410/saison_id/2025/plus/1 (tentativo 1/4)
+2026-08-10 08:26:48,258 INFO Righe eta' scritte: 6431 in /app/sandbox/chat_-5519413290/work/data/eta_giocatori_storico_2015_2026.csv
+2026-08-10 08:26:48,258 INFO === Copertura per stagione ===
+2026-08-10 08:26:48,259 INFO   2015-16: 569/579 giocatori matchati (98.3%)
+2026-08-10 08:26:48,259 INFO   2016-17: 575/581 giocatori matchati (99.0%)
+2026-08-10 08:26:48,259 INFO   2017-18: 545/551 giocatori matchati (98.9%)
+2026-08-10 08:26:48,259 INFO   2018-19: 561/567 giocatori matchati (98.9%)
+2026-08-10 08:26:48,259 INFO   2019-20: 561/600 giocatori matchati (93.5%)
+2026-08-10 08:26:48,259 INFO   2020-21: 616/619 giocatori matchati (99.5%)
+2026-08-10 08:26:48,259 INFO   2021-22: 628/631 giocatori matchati (99.5%)
+2026-08-10 08:26:48,259 INFO   2022-23: 589/603 giocatori matchati (97.7%)
+2026-08-10 08:26:48,259 INFO   2023-24: 570/613 giocatori matchati (93.0%)
+2026-08-10 08:26:48,259 INFO   2024-25: 624/633 giocatori matchati (98.6%)
+2026-08-10 08:26:48,259 INFO   2025-26: 593/609 giocatori matchati (97.4%)
+2026-08-10 08:26:48,259 INFO Giocatori fantacalcio.it NON matchati a nessun nome Transfermarkt: 93
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Bologna | 2015-16 | Oikonomou
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Empoli | 2015-16 | Ronaldo P
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Lazio | 2015-16 | Mauricio N.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Palermo | 2015-16 | Andelkovic
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Roma | 2015-16 | Emerson P.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Sampdoria | 2015-16 | Wszolek
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Sampdoria | 2015-16 | Dodo' R.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Udinese | 2015-16 | Danilo Lar.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Udinese | 2015-16 | Guilherme T.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Verona | 2015-16 | Wszolek
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Bologna | 2016-17 | Okwonkwo
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Inter | 2016-17 | Joao Mario N.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Palermo | 2016-17 | Andelkovic
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Roma | 2016-17 | Emerson P.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Sampdoria | 2016-17 | Dodo' R.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Udinese | 2016-17 | Danilo Lar.
+2026-08-10 08:26:48,259 INFO   NON MATCHATO: Inter | 2017-18 | Joao Mario N.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Lazio | 2017-18 | Mauricio N.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Roma | 2017-18 | Emerson P.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: SPAL | 2017-18 | Oikonomou
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Udinese | 2017-18 | Danilo Lar.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Udinese | 2017-18 | Stryger Larsen
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Bologna | 2018-19 | Okwonkwo
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Bologna | 2018-19 | Valencia Jm
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Empoli | 2018-19 | Traore' Hj.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Fiorentina | 2018-19 | Norgaard
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Inter | 2018-19 | Joao Mario N.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Udinese | 2018-19 | Stryger Larsen
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Bologna | 2019-20 | Danilo Lar.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Fiorentina | 2019-20 | Pedro G.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Genoa | 2019-20 | Jagiello
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Inter | 2019-20 | Esposito
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Juventus | 2019-20 | Rugani
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Sassuolo | 2019-20 | Ghion
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Udinese | 2019-20 | Stryger Larsen
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Bologna | 2020-21 | Danilo Lar.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Lazio | 2020-21 | Fares
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Udinese | 2020-21 | Stryger Larsen
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Bologna | 2021-22 | Aebischer
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Genoa | 2021-22 | Ostigard
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Juventus | 2021-22 | Rugani
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Atalanta | 2022-23 | Ederson D.s.
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Atalanta | 2022-23 | Hojlund
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Cremonese | 2022-23 | Afena-Gyan
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Juventus | 2022-23 | Rugani
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Lecce | 2022-23 | Maleh
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Milan | 2022-23 | Pobega
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Napoli | 2022-23 | Ostigard
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Napoli | 2022-23 | Zanoli
+2026-08-10 08:26:48,260 INFO   NON MATCHATO: Salernitana | 2022-23 | Lovato
+2026-08-10 08:26:48,260 INFO   ... e altri 43 non matchati (troncato nel log)
+2026-08-10 08:26:48,262 INFO Righe con player_tm_id popolato: 6009/6431 (93.4%)
+2026-08-10 08:26:48,264 INFO player_id fantacalcio distinti con almeno un player_tm_id noto: 2097

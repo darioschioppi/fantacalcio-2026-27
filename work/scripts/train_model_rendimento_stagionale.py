@@ -81,7 +81,7 @@ ID_COLS = ["stagione_target", "player_id", "nome_giocatore",
            "squadra_giocatore_target", "squadra_giocatore_n1"]
 ALL_TARGET_COLS = ["fantamedia_target", "gol_target", "assist_target",
                     "bonus_netti_target", "presenze_target"]
-CATEGORICAL_COLS = ["ruolo"]
+CATEGORICAL_COLS = ["ruolo", "nazionalita", "piede_dominante"]
 QUOTAZIONE_COL = "quotazione_iniziale_target"
 
 

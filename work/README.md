@@ -152,11 +152,95 @@ problema.
 Output: `models/lgbm_{fantamedia,gol,assist,bonus_netti}_stagionale_v1.txt`,
 `data/model_train_stagionale_log.txt`.
 
+## Aggiornamento v2: età, storico esteso, Champions League
+
+Gap dichiarato nella versione precedente (nessuna età/data di nascita
+giocatore) risolto con una nuova fonte: **Transfermarkt**
+(`scripts/scrape_eta_giocatori.py` → `data/eta_giocatori_storico_2015_2026.csv`),
+pagine rosa per squadra/stagione (`transfermarkt.it/.../kader/verein/{id}/saison_id/{anno}`),
+fuzzy-matching nome per collegare l'ID Transfermarkt al `player_id`
+fantacalcio.it (nessun ID condiviso tra le due fonti). Copertura 93-99% a
+seconda della stagione.
+
+Nuove feature aggiunte a `build_stagione_giocatore_dataset.py`:
+- `{metrica}_career_mean`: media della metrica su TUTTE le stagioni
+  precedenti disponibili (non solo le ultime 3 come `_ma3`) — cattura il
+  "livello vero" di un giocatore con storico lungo.
+- `eta_n1`: età al 1° agosto della stagione N-1.
+- `squadra_in_champions_n1` / `squadra_in_champions_target`: flag
+  partecipazione Champions League, verificato stagione per stagione via
+  Wikipedia (non un pattern fisso "prime 4 classificate", falso in più
+  occasioni — es. 2015-16 solo 2 squadre italiane qualificate).
+
+**Risultato v1→v2** (MAE test, R² test): miglioramento marginale ma reale
+su gol (1.338→1.355 → **nota: vedi v3 sotto per il valore aggiornato**) e
+assist, praticamente invariato su fantamedia/bonus_netti. `eta_n1` entra
+sempre in top-10/20 per importanza (specie gol/assist); il flag Champions
+resta marginale (rank 21-39/44, spesso gain≈0).
+
+## Aggiornamento v3: infortuni e profilo fisico
+
+Dario ha condiviso un documento con 327 variabili teoriche di rendimento
+(GPS/tracking, xT/VAEP/possession-value, scouting psicologico
+soggettivo...). Valutazione di fattibilità: la stragrande maggioranza
+richiede fornitori a pagamento (Opta/StatsBomb/Wyscout) o dati proprietari
+club, **non ottenibile da fonti pubbliche gratuite**. Sottoinsieme
+realisticamente fattibile identificato e implementato: **infortuni +
+profilo fisico**, via Transfermarkt (stessa fonte dell'età).
+
+`scripts/scrape_eta_giocatori.py` estratto anche l'ID Transfermarkt per
+giocatore (`player_tm_id`, "gratis" dall'href già presente nella pagina
+rosa, nessun secondo fuzzy-match necessario) → nuovo script
+`scripts/scrape_infortuni_profilo_giocatori.py` (scope: TUTTO lo storico
+2015-2026, non solo rosa attuale) scarica per ciascun `player_tm_id`
+univoco (2097 giocatori):
+- **Infortuni** (`data/infortuni_giocatori_storico_2015_2026.csv`, 16.996
+  episodi): tipo, data inizio/fine, giorni di stop, partite perse.
+- **Profilo fisico** (`data/profilo_giocatori_storico_2015_2026.csv`, 2088
+  giocatori): altezza, nazionalità, piede dominante, posizione naturale,
+  scadenza contratto. NOTA: profilo "attuale" al momento dello scraping,
+  non storico per stagione (semplificazione dichiarata: altezza/piede/
+  nazionalità cambiano raramente o mai). Nessun peso/BMI (Transfermarkt
+  non lo pubblica).
+
+**Nota tecnica**: durante lo scraping, il dominio italiano
+`transfermarkt.it` ha iniziato a rispondere HTTP 403 sulla maggioranza
+delle richieste dopo circa 300 giocatori (rate-limiting/anti-bot). Fonte
+cambiata al dominio inglese `transfermarkt.com` (stessa struttura dati),
+rate-limit più prudente, e salvataggio incrementale riga per riga (non
+più solo a fine run) per non perdere lavoro in caso di nuovo blocco.
+
+Nuove feature in `build_stagione_giocatore_dataset.py` (sempre pre-
+stagione N, principio anti-leakage invariato):
+- `infortuni_n1_count` / `infortuni_n1_giorni_totali`: episodi e giorni di
+  stop nella stagione N-1 (0, non None, se nessun episodio — dato valido).
+- `infortuni_career_count`: episodi cumulati in TUTTE le stagioni < N.
+- `altezza_m`, `piede_dominante`, `nazionalita`: dal profilo (vedi nota
+  "attuale" sopra). Scadenza contratto NON usata come feature (snapshot
+  non ricostruibile retroattivamente per stagioni passate).
+
+**Risultato v2→v3** (MAE test, R² test):
+
+| Target | v2 MAE / R² | v3 MAE / R² | Nota |
+|---|---|---|---|
+| fantamedia | 0.313 / 0.530 | 0.313 / 0.531 | invariato |
+| gol | 1.355 / 0.340 | **1.328 / 0.365** | miglioramento più tangibile |
+| assist | 1.088 / 0.276 | 1.083 / 0.257 | MAE lievemente meglio, R² lievemente peggio |
+| bonus netti | 5.412 / 0.604 | 5.379 / 0.603 | invariato |
+
+`altezza_m` è la feature nuova con più impatto (top-10 per gol/assist,
+probabilmente correlata al ruolo più che causale); gli infortuni hanno
+impatto medio (rank 13-20/50); nazionalità/piede restano marginali.
+**Conclusione onesta**: miglioramento reale ma modesto, non la svolta che
+il documento delle 327 variabili avrebbe fatto sperare — coerente con la
+valutazione di fattibilità iniziale.
+
+Applicato anche a `scripts/predict_como_2026_27.py` (previsioni rosa Como
+2026-27 con i modelli v3).
+
 ## Direzione futura (fase successiva, non ancora iniziata)
 
 Modello a livello **squadra** (stagione, squadra_target): stessa logica,
 target = punti finali stagione N, feature = aggregati/posizione stagione
 N-1 + eventuale aggregazione dei target giocatore previsti per la rosa
-nota. Da avviare dopo validazione con Dario del modello giocatore. Gap
-dichiarato non ancora risolto: nessuna età/data di nascita giocatore in
-nessuna fonte usata finora.
+nota. Da avviare dopo validazione con Dario del modello giocatore.

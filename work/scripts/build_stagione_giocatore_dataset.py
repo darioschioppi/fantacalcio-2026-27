@@ -60,6 +60,28 @@ fasi precedenti, qui a grana stagionale invece che a grana partita):
   - presenze_cumulate_carriera_N1 = numero di stagioni precedenti a N in
     cui il giocatore ha avuto almeno 1 presenza valida (proxy indiretto di
     esperienza/età, in assenza di data di nascita nei dati).
+  - `{metrica}_career_mean`: media della metrica su TUTTE le stagioni
+    precedenti disponibili del giocatore (non solo le ultime 3 come
+    ma3) - richiesto da Dario ("Bisogna trovare il modo da considerare
+    più fattori", in seguito al test sulla rosa Como 2026-27 dove ha
+    notato che il modello si basava quasi solo sulla stagione precedente).
+    Cattura il "livello vero" di un giocatore con storico lungo, a
+    differenza di lag1/ma3 che pesano solo gli ultimi 1-3 anni.
+  - `eta_n1`: età del giocatore al 1° agosto della stagione N-1 (sempre
+    nota per costruzione, calcolata da data di nascita - vedi
+    scrape_eta_giocatori.py/Transfermarkt). None se il giocatore non è
+    stato matchato alla fonte età (non e' un errore, va dichiarato).
+  - `squadra_in_champions_n1` / `squadra_in_champions_target`: flag 1/0,
+    la squadra del giocatore giocava/gioca la Champions League in quella
+    stagione. Tabella SQUADRE_CHAMPIONS sotto, verificata via ricerca
+    web stagione per stagione (fetch diretto pagine "fase a gironi"
+    Wikipedia) - NON assunta "sempre le prime 4 classificate" perché
+    falso in alcune stagioni (es. 2015-16: solo Juventus e Roma, Inter
+    4a classificata non qualificata; 2023-24: 5 italiane per posto extra
+    da ranking UEFA). squadra_in_champions_target NON è leakage: le
+    qualificazioni Champions sono decise a fine della stagione N-1,
+    quindi note prima che la stagione N cominci (stesso principio già
+    usato per quotazione_iniziale_target).
   - Quotazione ufficiale Fantacalcio.it (Classic): quotazione_iniziale_N1
     (quotazione a inizio della stagione N-1, quindi doppiamente "safe":
     nota MOLTO prima della stagione N) e, quando disponibile,
@@ -67,6 +89,36 @@ fasi precedenti, qui a grana stagionale invece che a grana partita):
     NON e' leakage: e' il prezzo d'asta ufficiale pubblicato PRIMA che la
     stagione N cominci, esattamente l'informazione disponibile a chi deve
     decidere se comprare il giocatore all'asta).
+  - AGGIORNAMENTO (Dario ha condiviso un PDF con 327 variabili teoriche di
+    rendimento; verificato che la maggioranza NON e' ottenibile da fonti
+    gratuite, ma infortuni + profilo fisico SI', via Transfermarkt -
+    scrape_infortuni_profilo_giocatori.py):
+    - `infortuni_n1_count`: numero di episodi di infortunio del giocatore
+      con anno di inizio riconducibile alla stagione N-1 (0 se nessuno,
+      non None - un giocatore senza infortuni quella stagione e'
+      un'informazione valida, non un dato mancante).
+    - `infortuni_n1_giorni_totali`: somma dei giorni di stop per quegli
+      stessi episodi N-1 (0.0 se nessuno).
+    - `infortuni_career_count`: numero totale di episodi in TUTTE le
+      stagioni precedenti a N (< N), stesso principio di `_career_mean`
+      - cattura la "fragilita' storica" di un giocatore, non solo
+      l'ultimo anno.
+    - `altezza_m`, `piede_dominante` (categoriale come `ruolo`),
+      `nazionalita` (categoriale): dal profilo Transfermarkt, che e'
+      "attuale" al momento dello scraping (10/08/2026), non storico per
+      stagione - semplificazione dichiarata esplicitamente: altezza/piede/
+      nazionalita' non cambiano nel tempo (o quasi mai), quindi usare il
+      valore attuale anche per stagioni passate e' un'approssimazione
+      accettabile, A DIFFERENZA di un dato come la quotazione che varia
+      stagione per stagione e per cui questo NON sarebbe accettabile.
+      None se il player_id non e' stato scrappato/matchato - dichiarato,
+      non riempito a caso.
+    - Scadenza contratto NON e' usata come feature quantitativa nel
+      training storico (e' uno snapshot "ad oggi", non ricostruibile
+      retroattivamente per le stagioni passate in modo affidabile - stesso
+      principio del punto sopra ma qui la variabile CAMBIA nel tempo in
+      modo non recuperabile da uno snapshot unico, quindi si esclude
+      invece di introdurre rumore/leakage silenzioso).
   - FVM (Fanta Valore di Mercato) della stagione N-1, `fvm_n1` - Dario ha
     confermato: "il FVM è una previsione di spesa fatta da fantacalcio"
     (una stima del sito, non solo un derivato meccanico di QI/QA) e ha
@@ -117,6 +169,9 @@ VOTI_PATH = DATA_DIR / "voti_storici_2015_2026.csv"
 UNDERSTAT_PATH = DATA_DIR / "understat_player_match_stats_storico_2015_2026.csv"
 CLASSIFICA_PATH = DATA_DIR / "classifica_dinamica_storico_2015_2026.csv"
 QUOTAZIONI_PATH = DATA_DIR / "quotazioni_fantacalcio_storico_2015_2026.csv"
+ETA_PATH = DATA_DIR / "eta_giocatori_storico_2015_2026.csv"
+INFORTUNI_PATH = DATA_DIR / "infortuni_giocatori_storico_2015_2026.csv"
+PROFILO_PATH = DATA_DIR / "profilo_giocatori_storico_2015_2026.csv"
 OUT_PATH = DATA_DIR / "stagione_giocatore_dataset_2015_2026.csv"
 LOG_PATH = DATA_DIR / "build_stagione_giocatore_dataset_log.txt"
 
@@ -151,6 +206,42 @@ SIGLA_TO_NOME = {
 # delle stagioni precedenti)
 METRICHE_BASE = ["fantamedia", "gol", "assist", "bonus_netti", "presenze",
                   "voto_medio", "minuti_totali", "xg_totale", "xa_totale", "shots_totali"]
+
+# Squadre italiane partecipanti alla fase a gironi/campionato della UEFA
+# Champions League DI QUELLA STAGIONE (non i turni preliminari). Verificato
+# via fetch diretto delle pagine Wikipedia "UEFA Champions League AAAA-AAAA
+# (fase a gironi)" / "UEFA Champions League AAAA-AAAA" per ogni stagione,
+# NON assunto un pattern fisso "sempre le prime 4 classificate dell'anno
+# prima" - falso in più occasioni:
+#  - 2015-16: solo Juventus e Roma (Napoli 2a e Inter 4a NON qualificate
+#    quell'anno, la Roma nemmeno era nelle prime 2 classificate 2014-15
+#    ma passò dai preliminari)
+#  - 2016-17: solo Napoli e Juventus (2 squadre)
+#  - 2017-18: Roma, Juventus, Napoli (Napoli passata dai preliminari)
+#  - 2023-24: 4 squadre, le prime 4 classificate Serie A 2022-23 (Napoli,
+#    Lazio, Inter, Milan) - coefficiente Italia 3° in Europa quell'anno,
+#    NESSUN posto extra (verificato via Wikipedia "UEFA Champions League
+#    2023-2024": Italia qualificata per 4 posti in fase a gironi)
+#  - 2024-25: 5 squadre per posto extra dato dal ranking UEFA nazioni
+#    (Atalanta, Inter, Milan, Juventus, Bologna)
+SQUADRE_CHAMPIONS = {
+    "2015-16": {"Juventus", "Roma"},
+    "2016-17": {"Napoli", "Juventus"},
+    "2017-18": {"Roma", "Juventus", "Napoli"},
+    "2018-19": {"Juventus", "Napoli", "Roma", "Inter"},
+    "2019-20": {"Juventus", "Atalanta", "Napoli", "Inter"},
+    "2020-21": {"Juventus", "Inter", "Lazio", "Atalanta"},
+    "2021-22": {"Milan", "Inter", "Atalanta", "Juventus"},
+    "2022-23": {"Napoli", "Inter", "Milan", "Juventus"},
+    "2023-24": {"Napoli", "Inter", "Lazio", "Milan"},
+    "2024-25": {"Atalanta", "Inter", "Milan", "Juventus", "Bologna"},
+    "2025-26": {"Napoli", "Inter", "Atalanta", "Juventus"},
+    "2026-27": {"Inter", "Napoli", "Roma", "Como"},
+}
+
+
+def in_champions(squadra, stagione):
+    return 1.0 if squadra in SQUADRE_CHAMPIONS.get(stagione, set()) else 0.0
 
 
 def to_float(v):
@@ -259,6 +350,79 @@ def carica_quotazioni():
     return quot
 
 
+def carica_eta():
+    """dict {(player_id, stagione): eta_al_1_agosto} - da
+    eta_giocatori_storico_2015_2026.csv (scrape_eta_giocatori.py,
+    Transfermarkt). File opzionale: se assente (script non ancora
+    eseguito), tutte le eta' risultano None, dichiarato esplicitamente nel
+    log, NON e' un errore bloccante."""
+    if not ETA_PATH.exists():
+        log.warning("File eta' giocatori non trovato (%s): eta_n1 sara' sempre None per questa run", ETA_PATH)
+        return {}
+    eta = {}
+    with open(ETA_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            v = to_float(row["eta_al_1_agosto"])
+            if v is not None:
+                eta[(row["player_id"], row["stagione"])] = v
+    log.info("Eta' giocatori caricate per %d combinazioni (player_id, stagione)", len(eta))
+    return eta
+
+
+def carica_infortuni():
+    """dict {player_id: [{'stagione':.., 'giorni_stop':..}, ...]} - una
+    lista di episodi per giocatore (da
+    scrape_infortuni_profilo_giocatori.py/Transfermarkt). Gli episodi con
+    'stagione' vuota (fuori dal range 2015-2026, verificato: sono tutti
+    infortuni anteriori al 2015) vengono scartati qui, non contano per
+    nessuna feature. File opzionale: se assente, tutte le feature
+    infortuni_* risultano 0/None, dichiarato nel log, non bloccante."""
+    per_player = defaultdict(list)
+    if not INFORTUNI_PATH.exists():
+        log.warning("File infortuni non trovato (%s): infortuni_* saranno sempre 0/None per questa run", INFORTUNI_PATH)
+        return per_player
+    scartati_stagione_vuota = 0
+    tot = 0
+    with open(INFORTUNI_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            tot += 1
+            stagione = row["stagione"]
+            if not stagione or stagione not in STAGIONE_IDX:
+                scartati_stagione_vuota += 1
+                continue
+            per_player[row["player_id"]].append({
+                "stagione": stagione,
+                "giorni_stop": to_float(row["giorni_stop"]) or 0.0,
+            })
+    log.info("Episodi infortunio caricati: %d totali, %d scartati (stagione fuori range 2015-2026, verificato: infortuni ante-2015), per %d player_id distinti",
+              tot, scartati_stagione_vuota, len(per_player))
+    return per_player
+
+
+def carica_profilo():
+    """dict {player_id: {'altezza_m':.., 'nazionalita':.., 'piede_dominante':..}}
+    da scrape_infortuni_profilo_giocatori.py/Transfermarkt. Profilo
+    "attuale" (non storico per stagione) - stessa semplificazione
+    dichiarata nella docstring del modulo. File opzionale: se assente,
+    tutte le feature profilo risultano None."""
+    profilo = {}
+    if not PROFILO_PATH.exists():
+        log.warning("File profilo non trovato (%s): altezza_m/nazionalita/piede_dominante saranno sempre None per questa run", PROFILO_PATH)
+        return profilo
+    with open(PROFILO_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            profilo[row["player_id"]] = {
+                "altezza_m": to_float(row["altezza_m"]),
+                "nazionalita": row["nazionalita"] or None,
+                "piede_dominante": row["piede_dominante"] or None,
+            }
+    log.info("Profili fisici caricati per %d player_id", len(profilo))
+    return profilo
+
+
 def aggrega_per_giocatore_stagione(presenze, understat_agg):
     """dict {(player_id, stagione): metriche aggregate}"""
     per_key = defaultdict(list)
@@ -300,7 +464,7 @@ def mean_or_none(values):
     return sum(vals) / len(vals)
 
 
-def costruisci_righe(aggregati, classifica_finale, quotazioni):
+def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortuni_map, profilo_map):
     per_player = defaultdict(dict)  # player_id -> {stagione: aggregato}
     for (player_id, stagione), agg in aggregati.items():
         per_player[player_id][stagione] = agg
@@ -365,6 +529,27 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni):
             for m in METRICHE_BASE:
                 riga[f"{m}_ma3"] = mean_or_none([s[m] for s in stagioni_prec])
 
+            # feature media di carriera: TUTTE le stagioni precedenti
+            # disponibili (non solo le ultime 3 come ma3) - richiesta da
+            # Dario per non basarsi quasi solo sull'ultima stagione.
+            stagioni_tutte_precedenti = [
+                per_stagione[s] for s in stagioni_giocatore if STAGIONE_IDX[s] < idx_target
+            ]
+            for m in METRICHE_BASE:
+                riga[f"{m}_career_mean"] = mean_or_none([s[m] for s in stagioni_tutte_precedenti])
+
+            # eta' al 1 agosto della stagione N-1 (sempre pre-stagione-N per
+            # costruzione). None se il giocatore non e' stato matchato alla
+            # fonte Transfermarkt - dichiarato, non riempito a caso.
+            riga["eta_n1"] = eta_map.get((player_id, stagione_n1))
+
+            # flag Champions League: squadra N-1 (nota) e squadra target
+            # (nota prima che la stagione N cominci, qualificazioni decise
+            # a fine N-1 - non e' leakage, stesso principio di
+            # quotazione_iniziale_target)
+            riga["squadra_in_champions_n1"] = in_champions(agg_n1["squadra_giocatore"], stagione_n1)
+            riga["squadra_in_champions_target"] = in_champions(target_agg["squadra_giocatore"], stagione_target)
+
             # contesto squadra: classifica finale della squadra N-1
             ctx_n1 = classifica_finale.get((stagione_n1, agg_n1["squadra_giocatore"]))
             riga["squadra_punti_finali_n1"] = ctx_n1["punti_pre"] if ctx_n1 else None
@@ -399,6 +584,33 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni):
             quot_target = quotazioni.get((player_id, stagione_target))
             riga["quotazione_iniziale_target"] = quot_target["quotazione_iniziale"] if quot_target else None
 
+            # infortuni: episodi del giocatore con stagione == N-1 (per
+            # costruzione, sempre nota a fine N-1, prima che N cominci) e
+            # conteggio cumulato su TUTTE le stagioni < N (stesso principio
+            # di _career_mean). 0 (non None) se il giocatore e' stato
+            # scrappato ma non ha episodi in quella stagione - un'assenza
+            # di infortuni e' un dato valido, non mancante. None solo se il
+            # player_id non e' MAI stato trovato nello scraping (dichiarato
+            # via infortuni_map.get(player_id) is None più sotto, gestito
+            # implicitamente: lista vuota in entrambi i casi con questa
+            # struttura dati - vedi nota nel log finale di main() per la
+            # distinzione).
+            episodi_giocatore = infortuni_map.get(player_id, [])
+            episodi_n1 = [e for e in episodi_giocatore if e["stagione"] == stagione_n1]
+            riga["infortuni_n1_count"] = float(len(episodi_n1))
+            riga["infortuni_n1_giorni_totali"] = sum(e["giorni_stop"] for e in episodi_n1)
+            episodi_career = [e for e in episodi_giocatore if STAGIONE_IDX.get(e["stagione"], 999) < idx_target]
+            riga["infortuni_career_count"] = float(len(episodi_career))
+
+            # profilo fisico: "attuale" al momento dello scraping, usato
+            # anche per stagioni passate (semplificazione dichiarata nella
+            # docstring del modulo). None se il player_id non e' stato
+            # scrappato/matchato a Transfermarkt.
+            prof = profilo_map.get(player_id)
+            riga["altezza_m"] = prof["altezza_m"] if prof else None
+            riga["nazionalita"] = prof["nazionalita"] if prof else None
+            riga["piede_dominante"] = prof["piede_dominante"] if prof else None
+
             righe.append(riga)
 
     log.info("Righe (player_id, stagione_target) costruite: %d", len(righe))
@@ -406,13 +618,16 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni):
 
 
 COLONNE_VIETATE = {
-    # nessuna colonna con suffisso diverso da _lag1/_ma3/_n1/_target
-    # (quotazione_iniziale_target e' l'unica eccezione dichiarata sopra)
-    # calcolata dagli aggregati della stagione TARGET stessa deve esistere
-    # nell'output, salvo i target espliciti e quotazione_iniziale_target.
+    # nessuna colonna con suffisso diverso da _lag1/_ma3/_career_mean/_n1/
+    # _target (quotazione_iniziale_target e squadra_in_champions_target
+    # sono le uniche eccezioni dichiarate sopra, entrambe genuinamente note
+    # prima che la stagione target cominci) calcolata dagli aggregati della
+    # stagione TARGET stessa deve esistere nell'output, salvo i target
+    # espliciti.
     "voto_medio_target", "minuti_totali_target", "xg_totale_target",
     "xa_totale_target", "shots_totali_target",
-    "quotazione_attuale_target", "fvm_target",
+    "quotazione_attuale_target", "fvm_target", "eta_target",
+    "infortuni_target_count", "infortuni_n_count", "altezza_target",
 }
 
 
@@ -429,9 +644,12 @@ def main():
     understat_agg = carica_understat_per_stagione()
     classifica_finale = carica_classifica_finale()
     quotazioni = carica_quotazioni()
+    eta_map = carica_eta()
+    infortuni_map = carica_infortuni()
+    profilo_map = carica_profilo()
 
     aggregati = aggrega_per_giocatore_stagione(presenze, understat_agg)
-    righe = costruisci_righe(aggregati, classifica_finale, quotazioni)
+    righe = costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortuni_map, profilo_map)
 
     if not righe:
         log.error("Nessuna riga costruita, interrompo.")
@@ -451,18 +669,36 @@ def main():
     per_stagione_count = defaultdict(int)
     per_stagione_quot_n1 = defaultdict(int)
     per_stagione_quot_target = defaultdict(int)
+    per_stagione_eta = defaultdict(int)
+    per_stagione_champions = defaultdict(int)
+    per_stagione_profilo = defaultdict(int)
     for r in righe:
         per_stagione_count[r["stagione_target"]] += 1
         if r["quotazione_iniziale_n1"] is not None:
             per_stagione_quot_n1[r["stagione_target"]] += 1
         if r["quotazione_iniziale_target"] is not None:
             per_stagione_quot_target[r["stagione_target"]] += 1
+        if r["eta_n1"] is not None:
+            per_stagione_eta[r["stagione_target"]] += 1
+        if r["squadra_in_champions_target"] == 1.0:
+            per_stagione_champions[r["stagione_target"]] += 1
+        if r["altezza_m"] is not None:
+            per_stagione_profilo[r["stagione_target"]] += 1
     for s in STAGIONI_STORICHE:
         if s in per_stagione_count:
             tot = per_stagione_count[s]
-            log.info("  %s: %d righe, quot_n1=%d (%.1f%%), quot_target=%d (%.1f%%)",
+            log.info("  %s: %d righe, quot_n1=%d (%.1f%%), quot_target=%d (%.1f%%), eta_n1=%d (%.1f%%), profilo=%d (%.1f%%), in_champions_target=%d",
                       s, tot, per_stagione_quot_n1[s], 100 * per_stagione_quot_n1[s] / tot,
-                      per_stagione_quot_target[s], 100 * per_stagione_quot_target[s] / tot)
+                      per_stagione_quot_target[s], 100 * per_stagione_quot_target[s] / tot,
+                      per_stagione_eta[s], 100 * per_stagione_eta[s] / tot,
+                      per_stagione_profilo[s], 100 * per_stagione_profilo[s] / tot,
+                      per_stagione_champions[s])
+
+    # statistiche infortuni (non per-stagione, aggregate sull'intero dataset)
+    n_con_infortuni_n1 = sum(1 for r in righe if r["infortuni_n1_count"] > 0)
+    n_con_infortuni_career = sum(1 for r in righe if r["infortuni_career_count"] > 0)
+    log.info("Righe con almeno 1 infortunio in N-1: %d/%d (%.1f%%)", n_con_infortuni_n1, len(righe), 100 * n_con_infortuni_n1 / len(righe))
+    log.info("Righe con almeno 1 infortunio in carriera (< N): %d/%d (%.1f%%)", n_con_infortuni_career, len(righe), 100 * n_con_infortuni_career / len(righe))
 
 
 if __name__ == "__main__":
