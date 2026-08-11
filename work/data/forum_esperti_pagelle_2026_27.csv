@@ -1,0 +1,496 @@
+squadra,nome_forum,titolarita_forum,media_voto_forum,salute_forum,bonus_forum,consiglio_esperti_forum,totale_forum,ruolo_testuale_forum,player_id
+ATA,Marco CARNESECCHI,9,8,9,8,8,42,"Portiere, titolare",4431
+ATA,Marco SPORTIELLO,3,6,8,7,4,28,"Portiere, si gioca il ruolo di secondo",4
+ATA,Paolo VISMARA,2,7,8,7,4,28,"Portiere, si gioca il ruolo di secondo",7545
+ATA,Davide ZAPPACOSTA,8,7,7,7,8,36,"Terzino, titolare",554
+ATA,Odilon KOSSONOU,7,7,8,6,6,34,"Difensore, il più titolare ad oggi tra i centrali",
+ATA,Raoul BELLANOVA,6,7,8,6,6,33,"Terzino, riserva",4887
+ATA,Giorgio SCALVINI,7,7,5,6,7,32,"Difensore, il più titolare ad oggi tra i centrali",5526
+ATA,Lorenzo BERNASCONI,6,7,7,5,6,32,"Terzino, si gioca il posto sulla sinistra",7219
+ATA,Honest AHANOR,6,6,8,5,6,31,"Difensore, si gioca la titolarità sulla sinistra",6916
+ATA,Berat DJIMSITI,7,6,7,5,6,31,"Difensore, in ballottaggio per una maglia da titiolare",787
+ATA,Isac HIEN,6,6,7,5,6,30,"Difensore, in ballottaggio per una maglia da titolare",6046
+ATA,Sead KOLASINAC,5,7,7,5,5,29,"Difensore, il più titolare ad oggi tra i centrali",2640
+ATA,Mitchel BAKKER,,,,,,,"Terzino, riserva",
+ATA,José dos Santos Lourenço da Silva EDERSON,9,9,8,8,8,42,"Mediano, si gioca il posto da titolare",5792
+ATA,Mario PASALIC,6,7,8,7,8,36,"Centrocampista, si gioca il ruolo da titolare",2077
+ATA,Gianluca GAETANO,7,7,8,5,6,33,"Mediano, si gioca il posto da titolare",4364
+ATA,Ibrahim SULEMANA,6,7,8,6,6,33,"Mediano, non pensiamo sarà ancora in rosa ad inizio campionato",6024
+ATA,Nicola ZALEWSKI,6,7,8,6,5,32,"Ala sinistra/ centrocampista, si gioca il posto da titolare in entrambe le posizioni",5422
+ATA,Lazar SAMARDZIC,6,5,8,7,6,32,"Centrocampista, si gioca il posto da titolare",5119
+ATA,Marten DE ROON,6,7,8,5,5,31,"Mediano, riserva",22
+ATA,Gianluca SCAMACCA,7,8,6,8,8,37,"Attaccante, titolare",2137
+ATA,Nikola KRSTOVIC,6,7,8,7,7,35,"Attaccante, riserva",6435
+ATA,Charles DE KETELAERE,8,7,7,6,7,35,"Ala, titolare",5995
+ATA,Giacomo RASPADORI,6,7,8,5,6,32,"Ala sinistra/punta centrale, riserva di entrambi i ruoli",4371
+ATA,Kamaldeen SULEMANA,6,6,8,4,5,29,"Ala, riserva",5918
+ATA,Daniel MALDINI,,,,,,,"Centrocampista, non pensiamo sarà ancora in rosa ad inizio campionato",
+ATA,El Bilal TOURE',,,,,,,"Attaccante/ala sinistra, riserva in entrambi i ruoli",
+BOL,Lukasz SKORUPSKI,8,7,6,7,7,35,"Portiere, titolare",133
+BOL,Massimo PESSINA,5,7,5,5,5,27,"Portiere, riserva",7172
+BOL,Matteo FRANCESCHELLI,1,7,7,7,1,24,"Portiere, riserva",
+BOL,Juan MIRANDA,8,7,7,7,7,36,"Terzino sinistro, titolare",4734
+BOL,Torbjørn HEGGEM,7,6,7,4,7,31,"Difensore centrale, titolare",7212
+BOL,Emil HOLM,7,6,4,7,6,30,"Terzino destro, in ballottaggio",5678
+BOL,Eivind HELLAND,6,6,7,4,7,30,"Difensore centrale, in ballottaggio",7326
+BOL,Martin VITÍK,7,6,6,5,6,30,"Difensore centrale,  in ballottaggio",7068
+BOL,Nadir ZORTEA,5,6,7,6,4,28,"Terzino destro/Esterno destro, in ballottaggio",4433
+BOL,Abdel Rahim ALHASSANE,4,5,6,5,5,25,"Terzino sinistro, riserva",7483
+BOL,Lorenzo DE SILVESTRI,4,6,5,4,4,23,"Terzino destro, capitano, riserva",487
+BOL,Nicolò CASALE,4,5,5,4,4,22,"Difensore centrale, riserva",5498
+BOL,Jhon LUCUMI',1,7,8,6,4,19,"Difensore centrale, in uscita",6042
+BOL,Jonathan ROWE,8,7,7,8,8,38,"Ala sinistra, in ballottaggio",6844
+BOL,Federico BERNARDESCHI,7,7,7,8,7,36,"Esterno Destro/Trequartista, Mezz'ala, prima alternativa",184
+BOL,Tommaso POBEGA,6,6,7,6,6,31,"Mediano, in ballottaggio",5298
+BOL,Mikel Jesus AMONDARAIN,6,7,7,5,6,31,"Mediano, in ballottaggio",7528
+BOL,Lewis FERGUSON,6,6,5,7,6,30,"Centrocampista centrale, in ballottaggio",5858
+BOL,Nikola MORO,6,6,6,4,5,27,"Mediano, titolare",6054
+BOL,Ossama EL AZZOUZI,6,6,5,4,5,26,"Mediano, riserva",6225
+BOL,Benjamin DOMINGUEZ,5,6,6,4,5,25,"Ala sinistra, riserva",6895
+BOL,Artem DOVBYK,7,6,6,8,7,34,"Punta centrale, titolare",6675
+BOL,Thjis DALLINGA,5,5,5,6,5,26,"Punta centrale, riserva",6643
+CAG,Elia CAPRILE,9,8,8,6,8,39,"Portiere, titolare",4360
+CAG,Alen SHERRI,3,5,7,5,3,23,"Portiere, secondo portiere",6650
+CAG,Giuseppe CIOCCI,1,6,5,5,1,18,"Portiere, terzo portiere",4929
+CAG,Adam OBERT,8,7,8,6,7,36,"Terzino sinistro/esterno sinistro/braccetto sinistro, titolare",5701
+CAG,Yerry MINA,8,7,6,6,7,34,"Difensore centrale, titolare",4210
+CAG,Juan RODRIGUEZ,7,6,8,5,6,32,"Difensore centrale, titolare in ballottaggio",7268
+CAG,da Silva Figueiredo ZE PEDRO,8,5,8,5,6,32,"Terzino destro/braccetto destro/difensore centrale, titolare",7274
+CAG,Raphael KOFLER,7,6,7,6,6,32,"Difensore centrale, riserva in ballottaggio",7532
+CAG,Gabriele ZAPPA,6,6,8,6,5,31,"Terzino destro/esterno destro/braccetto destro, riserva in ballottaggio",4461
+CAG,Giuseppe AURELIO,5,6,7,7,5,30,"Terzino sinistro, riserva",
+CAG,Riyad IDRISSI,5,6,6,7,6,30,"Terzino sinistro/esterno sinistro, riserva",7125
+CAG,Othniel RATERINK,4,6,8,6,4,28,"Terzino destro/esterno destro, riserva",7346
+CAG,Jacopo FAZZINI,8,7,5,7,8,35,"Mezzala sinistra/trequartista, titolare",6010
+CAG,Harry WINKS,8,6,8,5,6,33,"Regista, titolare in ballottaggio",4260
+CAG,Michel ADOPO,8,6,8,5,5,32,"Mezzala destra/centrocampista centrale, titolare",4870
+CAG,Alessandro ROMANO,6,6,8,5,6,31,"Mezzala destra/regista, titolare in ballottaggio",7311
+CAG,Alessandro DEIOLA,7,6,7,5,5,31,"Centrocampista centrale/difensore centrale, riserva in ballottaggio",1871
+CAG,Mattia FELICI,6,6,6,6,6,30,Ala sinistra/trequartista,6640
+CAG,Kevin CARLOS,8,6,8,7,7,37,"Punta centrale, titolare",
+CAG,Paul MENDY,6,6,8,5,5,30,"Punta centrale , riserva",7374
+CAG,Kingstone MUTANDWA,5,6,8,5,5,29,"Punta centrale/seconda punta , riserva",6598
+CAG,Gennaro BORRELLI,6,6,7,5,5,29,"Punta centrale , riserva",6243
+CAG,Yael TREPY,6,6,7,5,5,29,"Punta centrale , ala destra/sinistra, riserva",7317
+CAG,Sebastiano DI PAOLO,5,7,8,4,5,29,"Ala destra/seconda punta, riserva",
+CAG,Sebastiano ESPOSITO,3,8,8,7,3,29,"Seconda punta/punta centrale, titolare",4463
+CAG,Augustìn ALBARRACÌN,4,4,8,4,4,24,"esterno destro/sinistro, riserva",7338
+COM,Jacobo RAMON,9,8,8,6,9,40,"Difensore centrale, titolare",6869
+COM,Yan COUTO,8,7,9,6,8,38,"Esterno/Terzino destro, titolare",6727
+COM,Trevoh CHALOBAH,8,7,9,6,8,38,"Difensore centrale, titolare",5641
+COM,Alex VALLE,7,7,9,6,8,37,"Esterno/Terzino sinistro, in ballottaggio",6867
+COM,Bruno da Silva KAIKI,7,7,9,5,7,35,"Terzino sinistro, in ballottaggio",7414
+COM,Marc Oliver KEMPF,7,7,8,7,6,35,"Difensore centrale, semi titolare",6893
+COM,Andrès CUENCA,6,6,7,5,6,30,"Difensore Centrale, riserva",7407
+COM,Ivan SMOLCIC,6,7,8,3,5,29,"Terzino destro,   riserva",7014
+COM,Edoardo GOLDANIGA,2,6,5,5,2,20,"Difensore centrale, in ballottaggio",418
+COM,Nico PAZ,9,9,9,10,10,46,"Trequartista, titolare",6875
+COM,Martin BATURINA,9,8,9,8,9,43,"Trequartista/Ala/Centrocampista, titolare",7126
+COM,Lucas DA CUNHA,9,8,8,7,9,41,"Centrocampista centrale, titolare",5559
+COM,Maximo PERRONE,9,8,8,6,9,40,"Centrocampista centrale, titolare",6151
+COM,Luis MILLA,6,7,9,6,7,35,"Centrocampista, riserva",7412
+COM,Jesus RODRIGUEZ,6,7,9,6,6,34,"Ala sinistra, riserva",7129
+COM,Maxence CAQUERET,6,7,8,6,7,34,"Centrocampista/trequartista, in ballottaggio",5036
+COM,Mattia LIBERALI,5,7,8,6,6,32,"Trequartista/Ala, riserva",6678
+COM,Jayden ADDAI,6,6,6,5,5,28,"Ala destra, riserva",7127
+COM,Adrian LAHDO,4,6,9,4,4,27,"Centrocampista/trequartista, riserva",7357
+COM,Fabio RISPOLI,4,5,9,4,4,27,"Centrocampista/Trequartista, riserva",
+COM,Anastasios DOUVIKAS,9,7,9,8,8,41,"Punta centrale, in ballottaggio",7017
+COM,Nicolas KUHN,5,6,8,5,4,28,"Ala destra, in ballottaggio",7128
+COM,Alvaro MORATA,7,4,6,5,5,27,"Punta centrale, in ballottaggio",313
+FIO,Radu DRAGUSIN,8,7,6,7,8,36,"Difensore centrale, titolare",5365
+FIO,Domilson Cordeiro dos Santos DODÔ,7,7,8,6,7,36,"Terzino destro, titolare",5885
+FIO,Alejandro JIMÉNEZ,8,6,8,6,7,35,"Terzino destro/sinistro o ala, titolare",6531
+FIO,Fernandes Santos Lopes VIERY,7,6,8,6,6,33,"Difensore centrale, possibile titolare",7410
+FIO,Víctor VALDEPEÑAS TALAVERA,7,6,8,5,6,32,"Terzino sinistro, possibile titolare",7294
+FIO,Luca RANIERI,6,6,8,6,6,32,"Difensore centrale, possibile titolare",4378
+FIO,JOAO MARIO,6,6,8,6,5,32,"Terzino destro, possibile titolare",7175
+FIO,Marin PONGRACIC,6,6,7,5,6,30,"Difensore centrale, possibile titolare",5603
+FIO,Niccolò FORTINI,5,7,7,5,4,29,"Terzino destro/sinistro, riserva",
+FIO,Eman KOSPO,4,6,8,5,3,26,"Difensore centrale, riserva",
+FIO,Fabiano PARISI,3,7,5,7,3,25,"Terzino sinistro, attualmente infortunato",5449
+FIO,Arthur ATTA,9,7,8,8,9,41,"Mezzala, titolare",6908
+FIO,Nicolò FAGIOLI,7,7,7,7,8,36,"Mediano o mezzala, possibile titolare",4465
+FIO,Christ INAO OULAI,7,8,8,5,7,35,"Mediano o mezzala, possibile titolare",7464
+FIO,Cher NDOUR,6,7,8,6,7,34,"Mezzala, possibile titolare",6294
+FIO,Rolando MANDRAGORA,5,7,7,6,6,31,"Mediano o mezzala, riserva",1933
+FIO,Marco BRESCIANINI,5,6,8,5,5,29,"Mezzala, riserva",4947
+FIO,Giovanni FABBIAN,5,6,8,5,5,29,"Mezzala, riserva",6206
+FIO,Moise KEAN,8,7,7,7,8,37,"Centravanti, titolare",2097
+FIO,Roberto PICCOLI,6,7,8,5,6,32,"Centravanti, riserva",4359
+FRO,ILARIO MONTERISI,8,6,8,6,6,34,Difensore centrale titolare,4952
+FRO,ANTHONY OYONO,8,6,6,6,6,32,Terzino destro titolare,6238
+FRO,Kevin AKPOGUMA,7,6,8,4,6,31,"Difensore, probabile titolare",7540
+FRO,GABRIELE BRACAGLIA,6,5,7,5,5,28,Terzino sinistro titolare,7469
+FRO,JACOPO GELLI,2,5,7,2,5,26,"Riserva, probabile partente",7468
+FRO,GIORGIO CITTADINI,5,6,5,3,6,25,Difensore centrale in ballottaggio,5757
+FRO,WIDSON AMEY,4,6,8,3,2,23,"Difensore, parte dietro nelle gerarchie",5424
+FRO,GABRIELE CALVANI,5,5,5,3,4,22,Difensore centrale in ballottaggio,7467
+FRO,JEREMY OYONO,2,5,7,4,4,22,Terzino di riserva,7470
+FRO,NICCOLò CORRADO,1,5,8,1,2,17,"Terzino di riserva, probabile partente",7471
+FRO,SERGIO KALAJ,1,5,2,1,1,10,Lungodegente da non considerare,
+FRO,Giacomo CALO',8,8,9,7,7,39,Centrocampista centrale titolare,7472
+FRO,Alessio ZERBIN,8,7,8,6,7,36,Probabile titolare esterno sinistro d' attacco,5998
+FRO,Luis HASA,6,7,8,5,6,32,Probabile titolare come mezzala,6903
+FRO,PATRIZIO MASINI,6,6,7,5,6,30,Probabile titolare come mezzala,
+FRO,ILIAS KOUTSOUPIAS,5,6,7,6,5,29,Probabile titolare come mezzala,7474
+FRO,Matteo CICHELLA,4,6,8,4,5,27,Possibile titolare come mezzala,7473
+FRO,Seydou FINI,4,6,7,4,5,26,esterno di attacco di riserva,6506
+FRO,Anouar EL AZZOUZI,4,5,8,4,4,25,Probabile mezzala di riserva,7456
+FRO,Francesco GELLI,3,6,5,3,4,21,"Jolly di centrocampo, panchinaro",6241
+FRO,Ben Lhassine KONE,2,5,6,3,4,20,Riserva in ballottaggio,5725
+FRO,Fares GHEDJEMIS,9,8,9,8,8,42,Esterno sinistro titolare,6530
+FRO,Antonio RAIMONDO,8,6,8,6,6,34,Punta titolare,5436
+FRO,Giorgi KVERNADZE,6,5,7,5,5,28,"Esterno d' attacco di sinistra, in ballottaggio",6204
+GEN,Justin BIJLOW,9,7,6,6,6,34,"Portiere, titolare",7332
+GEN,Franz STOLZ,3,6,8,6,3,26,"Portiere, riserva",6569
+GEN,Daniele SOMMARIVA,1,5,8,5,1,20,"Portiere, terzo",219
+GEN,Leo OSTIGARD,9,7,9,8,8,41,"Dif Centrale, Titolare",5750
+GEN,Johan VASQUEZ,9,7,9,7,7,39,"Dif Centrale/Braccetto sinistro, Titolare",5514
+GEN,Brooke NORTON-CUFFY,8,6,7,6,6,33,"Difensore laterale, titolare (in partenza?)",6814
+GEN,David PUCZKA,6,6,8,7,6,33,"Esterno, Ballottaggio",7413
+GEN,Alessandro MARCANDALLI,8,6,9,4,6,33,"Dif Centrale/Braccetto destro, Titolare",6660
+GEN,Mario MITAJ,7,6,7,4,6,30,"Esterno sx, Ballottaggio",7537
+GEN,Stefano SABELLI,6,5,8,4,5,28,"Difensore laterale, Riserva",791
+GEN,Aaron MARTIN,3,6,8,7,4,28,"Difensore laterale, fuori dal progetto",2593
+GEN,Sebastian OTOA,5,5,8,5,4,27,"Dif Centrale, Riserva",6977
+GEN,Mamedi DOUCOURE,4,5,8,6,4,27,"Braccetto dx, Riserva",
+GEN,Luca KLYSIS,3,5,8,5,3,24,"Dif Centrale, Riserva",
+GEN,Tommaso BALDANZI,7,7,7,7,7,35,"Mezz'ala, titolare",5823
+GEN,Hamed Junior TRAORE,6,7,6,7,7,33,"Mezz'ala, titolare ( quando starà bene)",
+GEN,Franz-Ethan MEICHTRY,6,6,8,7,6,33,"centrocampista/trequartista/ala/seconda punta, riserva/ ballottaggio",7409
+GEN,Morten FRENDRUP,9,6,8,5,6,32,"Mediano, titolare",5791
+GEN,Djibril SOW,7,7,7,5,6,32,"Centrocampista, Titolare",5946
+GEN,Alexandro AMORIM,6,6,8,6,5,31,"Centrocampista, ballottaggio",7341
+GEN,Mikael Egill ELLERTSSON,8,6,8,4,5,29,"Jolly, titolare",6020
+GEN,Junior MESSIAS,5,7,4,7,5,28,"centrocampista, dipende dal fisico",4970
+GEN,Partizio MASINI,5,6,7,4,4,26,"centrocampista, riserva",6917
+GEN,Chec Bebel DOUMBIA,4,6,8,4,4,26,"centrocampista, riserva /possibile partente",
+GEN,Lorenzo VENTURINO,4,6,6,5,4,25,"Ala, Riserva/in partenza",6980
+GEN,Samuel WIAFE,4,6,8,4,3,25,"Centrocampista, Riserva",
+GEN,Lorenzo COLOMBO,8,6,8,8,7,37,"Attaccante, titolare",4923
+GEN,Vitor VITINHA,7,6,7,5,6,31,"Attaccante, titolare in ballottaggio",
+GEN,Elias HAVEL,5,5,7,5,4,26,"Attaccante,  riserva",7453
+INT,Federico DIMARCO,9,9,8,9,9,44,Esterno sinistro titolare,254
+INT,Manuel AKANJI,9,8,8,6,9,40,Difensore centrale titolare - capace di giocare anche negli altri ruoli del terzetto,4159
+INT,Alessandro BASTONI,9,8,8,6,8,39,Braccetto sinistro titolare,2120
+INT,Yann Aurel BISSECK,7,8,8,7,7,37,Braccetto destro semi-titolare,6217
+INT,Zopolato Neves CARLOS AUGUSTO,6,7,8,7,7,35,Esterno sinistro riserva / Braccetto sinistro riserva,5877
+INT,John STONES,7,8,6,7,7,35,Braccetto destro semi-titolare,2514
+INT,Benjamin Jacques Marcel PAVARD,5,7,7,6,5,30,Braccetto destro riserva,4177
+INT,Hakan CALHANOGLU,9,9,6,9,9,42,"Regista/Mediano, titolare indiscusso",2194
+INT,Piotr ZIELINSKI,8,8,7,8,8,39,"Mezzala e/o regista, tiene anche le chiavi di casa di Chivu",152
+INT,Nicolò BARELLA,9,8,8,7,7,39,"Mezzala destra/Mediano, titolare indiscusso",1870
+INT,Petar SUCIC,7,7,8,7,7,36,"Mezzala/Mediano/Trequartista, riserva jolly di centrocampo",7070
+INT,Andy DIOUF,7,7,8,6,7,35,Esterno destro semi-titolare,6274
+INT,Henrikh MKHITARYAN,6,7,8,7,6,34,"Mezzala sinistra/Trequartista rifinitore, titolare",2529
+INT,Aleksandar STANKOVIC,6,7,8,6,6,33,Mediano riserva,6503
+INT,Davide FRATTESI,5,6,7,7,5,31,"Mezzala destra/Trequartista Incursore d'area, riserva",2848
+INT,Yanis MASSOLIN,5,7,6,6,4,28,Mezzala/trequartista riserva,
+INT,Lautaro MARTINEZ,9,9,9,9,9,45,"Punta centrale, Titolare",2764
+INT,Marcus THURAM,8,9,8,8,8,41,"Punta centrale, Titolare",4871
+INT,Francesco Pio ESPOSITO,6,8,8,8,7,37,"Punta centrale, riserva",7071
+INT,Ange-Yoan BONNY,6,8,8,8,6,36,"Attaccante, riserva",6669
+JUV,Michele DI GREGORIO,7,7,9,8,8,39,"Portiere, titolare",5876
+JUV,Mattia PERIN,5,7,8,8,5,33,"Portiere, riserva",218
+JUV,Carlo PINSOGLIO,1,1,9,4,1,16,terzo Portiere / uomo spogliatoio,1930
+JUV,Gleison BREMER,9,8,7,8,9,41,"Difensore centrale, titolare",2788
+JUV,Pierre KALULU,8,8,8,6,8,38,"Terzino destro / Difensore centrale, titolare",4976
+JUV,Andrea CAMBIASO,9,6,8,7,7,37,"Terzino sinistro, titolare",5520
+JUV,Zeki CELIK,8,7,8,6,7,36,"Terzino destro, titolare",4657
+JUV,Lloyd KELLY,7,7,7,5,7,33,"Difensore centrale / Terzino sinistro, titolare",6766
+JUV,Federico GATTI,5,6,7,6,5,29,"Difensore centrale, riserva",5831
+JUV,Daniele RUGANI,4,6,7,5,4,26,"Difensore centrale, riserva",294
+JUV,Juan CABAL,4,6,5,5,4,24,"Terzino sinistro, riserva",6039
+JUV,Manuel LOCATELLI,9,8,9,6,7,39,"Centrocampista, titolare",827
+JUV,Khéphren THURAM,9,7,8,7,7,38,"Centrocampista, titolare",5562
+JUV,Weston MCKENNIE,7,7,8,8,7,37,"Centrocampista, titolare",4973
+JUV,Fabio MIRETTI,6,7,7,7,6,33,"Trequartista, riserva",5813
+JUV,DOUGLAS LUIZ,6,6,7,6,6,31,"Centrocampista, riserva",4911
+JUV,Teun KOOPMEINERS,5,5,7,6,5,28,"Centrocampista, riserva",5685
+JUV,Melo ARTHUR,4,5,7,5,3,24,"Centrocampista, riserva",
+JUV,Kenan YILDIZ,9,9,8,8,9,43,"Ala sinistra, titolare",6434
+JUV,Randall KOLO MUANI,9,8,8,8,8,41,"Punta centrale, titolare",5951
+JUV,Jérémie BOGA,6,8,7,6,6,33,"Ala sinistra, riserva",2832
+JUV,Jonathan DAVID,6,6,9,6,6,33,"Punta centrale, riserva",5544
+JUV,Jeff EKHATOR,6,7,7,6,6,32,"Punta centrale, riserva",6822
+JUV,Arkadiusz MILIK,5,6,4,6,5,26,"Punta centrale, riserva",
+JUV,Nico GONZALEZ,3,7,6,5,5,26,"Ala sinistra/destra, riserva",
+LAZ,Danilho DOEKHI,8,6,9,5,6,34,"Difensore centrale, titolare",6320
+LAZ,Oliver PROVSTGAARD,9,7,9,2,6,33,"Difensore centrale, titolare",7012
+LAZ,Alfonso PEDRAZA,7,6,8,3,7,31,"Terzino sinistro, probabile titolare",4817
+LAZ,Adam MARUSIC,6,6,8,4,6,30,"Terzino destro/sinistro, in ballottaggio",2188
+LAZ,Nuno TAVARES,6,6,7,4,6,29,"Terzino sinistro, probabile riserva",5620
+LAZ,Romano FLORIANI MUSSOLINI,6,6,9,2,6,29,"Terzino destro, probabile riserva",7131
+LAZ,Luca PELLEGRINI,5,5,8,4,5,27,"Terzino sinistro, riserva",2728
+LAZ,Manuel LAZZARI,5,5,6,3,4,23,"Terzino destro, riserva",2263
+LAZ,Alessio ROMAGNOLI,3,7,7,2,3,22,"Difensore centrale, riserva",460
+LAZ,Gabarrón Gil PATRIC,3,5,4,3,2,17,"Difensore centrale, riserva",327
+LAZ,Samuel GIGOT,3,5,4,3,2,17,"Difensore centrale, riserva",
+LAZ,Kenneth TAYLOR,9,7,8,7,8,39,"Trequartista/centrocampista centrale, titolare",7314
+LAZ,Matteo CANCELLIERI,7,6,8,6,7,34,"Ala destra, in ballottaggio",5500
+LAZ,Danilo CATALDI,6,6,8,5,6,31,"Centrocampista centrale, in ballottaggio",333
+LAZ,Nicolò ROVELLA,8,7,6,2,7,30,"Centrocampista centrale, titolare",4459
+LAZ,Fisayo DELE BASHIRU,6,5,9,4,5,29,"Centrocampista centrale, in ballottaggio",6629
+LAZ,Adrian PRZYBOREK,4,5,9,2,3,23,"Trequartista/centrocampista centrale, riserva",7345
+LAZ,Reda BELAHYANE,4,5,8,3,3,23,"Centrocampista centrale, riserva",6191
+LAZ,Bruno GALASSI,2,5,9,2,2,20,"Centrocampista centrale, riserva",
+LAZ,Valerio FARCOMENI,2,5,9,2,2,20,"Centrocampista centrale, riserva",
+LAZ,Petar RATKOV,7,5,9,4,6,31,"Punta centrale, probabile titolare",7313
+LAZ,Tijjani NOSLIN,6,5,8,5,5,29,"Ala sinistra, riserva",6556
+LAZ,Boulaye DIA,6,5,7,5,5,28,"Punta centrale/trequartista, in ballottaggio",5672
+LAZ,Gabriele ARTISTICO,5,5,9,4,4,27,"Punta centrale, riserva",
+LAZ,Federico SERRA,2,5,9,3,3,22,"Ala sinistra, riserva",
+LAZ,Sanà FERNANDES,2,5,9,2,2,20,"Ala sinistra, riserva",
+LEC,Wladimiro FALCONE,9,8,8,7,7,39,"Portiere, titolare",2134
+LEC,Christian LUPO,3,6,8,5,3,25,"Portiere, secondo",
+LEC,Jasper SAMOOJA,1,6,8,5,1,21,"Portiere, terzo",6523
+LEC,Tiago GABRIEL,9,7,8,6,7,37,"Difensore centrale, titolare",6989
+LEC,Kialonda GASPAR,8,5,7,6,6,32,"Difensore centrale, titolare",6632
+LEC,Antonino GALLO,8,6,8,5,6,33,"Terzino sinistro, titolare",4502
+LEC,Danilo VEIGA,8,5,8,4,5,30,"Terzino destra, titolare",6990
+LEC,Jamil SIEBERT,6,5,8,5,5,29,"Difensore centrale, riserva",7240
+LEC,Corrie NDABA,5,5,8,4,4,26,"Terzino sinistro, riserva",7182
+LEC,Matias PEREZ,4,4,4,4,4,20,"Difensore centrale, riserva",7164
+LEC,Gaby JEAN,5,5,7,5,4,26,"Difensore centrale, riserva",6883
+LEC,Lassana COULIBALY,8,7,8,6,7,36,"Centrocampista centrale, titolare",5504
+LEC,Medon BERISHA,7,7,4,7,8,33,"Centrocampista centrale/trequartista , titolare in ballottaggio",6015
+LEC,Omri GANDELMAN,6,6,7,6,6,31,"Centrocampista centrale/Trequartista , in ballottaggio",7318
+LEC,Olaf GORTER,6,5,8,4,5,28,"Centrocampista centrale , riserva in ballottaggio",7248
+LEC,Mohammed KABA,4,5,6,5,3,23,"Mezzala , riserva",6410
+LEC,Niko KOVAC,3,5,7,4,3,22,"Centrocampista interno , riserva",
+LEC,Willem GEUBBELS,8,6,7,6,7,34,"Punta centrale/esterno d'attacco, titolare",5029
+LEC,Hjalte LAERKE,5,6,8,4,5,28,"Esterno d'attacco,  riserva",
+LEC,Divine ONYEMACHI,5,6,8,4,5,28,"Esterno d'attacco,  riserva",
+LEC,Nikola STULIC,6,5,8,5,5,29,"Attaccante centrale , riserva in ballottaggio",7252
+LEC,Lameck BANDA,4,4,4,4,4,20,"Esterno d'attacco sinistro , fuori rosa",
+LEC,Paco ESTEBAN,4,6,8,4,4,26,"Attaccante centrale , riserva",
+LEC,Konan N'DRI,5,6,8,4,4,27,"Esterno d'attacco destro , riserva",7001
+MIL,Mike MAIGNAN,9,8,9,8,8,43,"Portiere, titolare",4312
+MIL,Pietro TERRACCIANO,2,8,9,8,3,30,"Portiere, secondo",2815
+MIL,Lorenzo TORRIANI,1,8,9,8,1,27,"Portiere, terzo",6813
+MIL,Strahinja PAVLOVIĆ,9,8,9,8,8,42,"Braccetto sinistro, titolare",5022
+MIL,Mario GILA,9,7,8,4,7,35,"Braccetto destro/Difensore centrale, titolare",5833
+MIL,Davide BARTESAGHI,6,6,8,6,6,32,"Esterno sinistro/Braccetto sinistro, in ballottaggio",6496
+MIL,Zachary ATHEKAME,4,6,8,7,6,31,"Esterno destro, riserva",7211
+MIL,Matteo GABBIA,7,6,8,5,5,31,"Difensore centrale, in leggero ballottaggio",4401
+MIL,Fikayo TOMORI,6,6,9,5,5,31,"Braccetto destro, riserva",4751
+MIL,Pervis ESTUPIÑÁN,5,5,7,6,5,28,"Esterno sinistro, riserva",5273
+MIL,Koni DE WINTER,4,5,9,6,4,28,"Difensore centrale/Braccetto destro, riserva",5739
+MIL,Sankhoun DIAWARA,2,5,9,4,3,23,"Difensore centrale/Braccetto sinistro, riserva",7525
+MIL,David ODOGU,2,5,9,4,2,22,"Difensore centrale, riserva",
+MIL,Adrien RABIOT,9,8,9,7,8,41,"Mediano, titolare",2379
+MIL,Christian PULISIC,9,7,6,9,8,39,"Trequartista, titolare",2423
+MIL,Alexis SAELEMAEKERS,9,7,8,6,7,37,"Esterno destro/sinistro, titolare",4892
+MIL,Luka MODRIĆ,6,9,9,6,6,36,"Mediano, in ballottaggio",2606
+MIL,Samuel CHUKWUEZE,6,6,8,7,6,33,"Esterno destro, riserva",4856
+MIL,Ardon JASHARI,6,5,8,5,6,30,"Mediano, in ballottaggio",7203
+MIL,Youssouf FOFANA,6,6,8,5,5,30,"Mediano, riserva",4686
+MIL,Ruben LOFTUS-CHEEK,5,7,6,6,5,29,"Trequartista, riserva",4199
+MIL,Samuele RICCI,5,6,8,5,4,28,"Mediano, riserva",5453
+MIL,Yunus MUSAH,4,6,8,4,4,26,"Esterno destro, riserva",5295
+MIL,Gonçalo RAMOS,9,5,9,8,8,39,"Punta, titolare",6397
+MIL,Christopher NKUNKU,6,6,6,6,6,31,"Trequartista, ballottaggio",4728
+MIL,Rafael LEÃO,6,6,6,6,5,29,"Trequartista, ballottaggio",4510
+MIL,Francesco CAMARDA,5,5,7,4,5,26,"Punta, riserva",6519
+MIL,Santiago GIMENEZ,4,4,5,4,4,21,"Punta, riserva",7008
+MON,Demba THIAM,7,5,9,5,6,32,Primo portiere,4485
+MON,Semuel PIZZIGNACCO,3,5,9,5,3,25,Secondo portiere,6682
+MON,STRAJNAR,1,6,9,5,1,22,Terzo portiere,7475
+MON,Ricardo MANGAS,7,8,7,6,7,35,"Esterno sinistro, titolare",7485
+MON,Samuele BIRINDELLI,8,7,7,6,7,35,"Esterno destro, titolare",5838
+MON,Eddy KOUADIO,7,6,8,4,6,31,"Centrale, potenziale titolare",7238
+MON,Andrea CARBONI,7,6,8,4,5,30,"Centrale, potenziale titolare",4925
+MON,Lorenzo LUCCHESI,6,6,8,4,5,29,"Centrale, in ballottaggio",6659
+MON,Filippo DELLI CARRI,6,6,8,4,5,29,"Centrale, in ballottaggio",2115
+MON,Adam BAKOUNE,6,6,8,4,5,29,"Esterno, riserva",7476
+MON,Arvid BRORSSON,4,6,8,1,3,22,"Centrale, riserva",
+MON,Valentin ANTOV,4,5,4,1,3,17,"Centrale, riserva",5399
+MON,Matteo PESSINA,8,7,7,7,8,37,"Centrocampista, titolare",2741
+MON,Andrea COLPANI,6,6,7,6,6,31,"Trequartista, titolare",5878
+MON,Ebenezer AKINSANMIRO,7,5,8,4,6,30,"Centrocampista, titolare",6593
+MON,Leonardo COLOMBO,6,6,8,3,4,27,"Centrocampista, riserva",7477
+MON,Patrick CIURRIA,5,5,7,5,3,25,"Centrocampista, riserva",5880
+MON,Patrick CUTRONE,8,6,7,6,7,34,"Punta centrale, titolare",2155
+MON,Dany MOTA,8,6,6,6,6,32,"Trequartista, in ballottaggio",5882
+MON,Gustavo VARELA,5,6,8,5,6,30,"Punta centrale, in ballottaggio",7523
+MON,Jay ROBINSON,5,6,7,4,6,28,"Trequartista, riserva",7546
+MON,Andrea PETAGNA,4,4,4,3,3,18,"Punta centrale, riserva",383
+NAP,Amir RRAHMANI,9,9,7,6,8,39,"Difensore centrale o braccetto di destra, titolare",4409
+NAP,Leonardo SPINAZZOLA,8,7,6,7,7,35,"Terzino sinistro o esterno sinistro, raramente esterno destro, titolare",1852
+NAP,Giovanni DI LORENZO,8,7,7,6,7,35,"Braccetto o terzino destro, titolare, capitano",2816
+NAP,Rafael Zamora MARÍN,6,7,9,5,7,34,"Difensore centrale o braccetto destro, titolare (al momento)",6638
+NAP,Sam BEUKEMA,6,7,6,5,6,30,"Difensore centrale o braccetto di destra, prima riserva",6202
+NAP,Mathías OLIVERA,6,7,7,4,6,30,"Terzino sinistro o braccetto di sinistra, prima riserva",5840
+NAP,Alessandro BUONGIORNO,7,7,4,6,5,29,"Difensore centrale o braccetto di sinistra, titolare (in infermeria)",2724
+NAP,Luca MARIANUCCI,5,6,8,4,5,28,"Difensore centrale, riserva",6809
+NAP,Nosa Edward OBARETIN,4,7,7,4,2,24,"Difensore centrale o terzino sinistro, riserva",
+NAP,Pasquale MAZZOCCHI,5,5,7,4,2,23,"Esterno ambivalente con preferenza per il lato destro, riserva",5481
+NAP,Scott Francis MCTOMINAY,9,9,7,8,9,42,"Centrocampista, mezzala sinistra, trequartista, titolare",4777
+NAP,André-Frank ZAMBO ANGUISSA,8,8,6,7,7,36,"Centrocampista, mezzala, titolare in ballottaggio",4220
+NAP,Antonio VERGARA,6,8,7,7,8,35,"Trequartista o mezzala destra, in ballottaggio",7223
+NAP,Kevin DE BRUYNE,6,8,5,7,7,33,"Jolly di centrocampo, primissima riserva o potenzialmente in ballottaggio",2517
+NAP,Stanislav LOBOTKA,9,7,7,3,6,32,"Centrocampista, mediano, titolare",4287
+NAP,Michael Ijemuan FOLORUNSHO,5,7,7,5,5,29,"Centrocampista o trequartista, riserva",6252
+NAP,Billy GILMOUR,6,7,6,4,5,28,"Centrocampista, mediano, prima riserva",5131
+NAP,Vincenzo PRISCO,4,7,8,4,3,26,"Centrocampista, mediano, riserva",
+NAP,Jesper LINDSTRØM,4,7,6,4,2,24,"Ala destra o sinistra, riserva",
+NAP,Jens CAJUSTE,3,6,7,4,2,22,"Centrocampista, mediano, riserva",
+NAP,Rasmus Winther HØJLUND,9,8,7,8,9,41,"Punta, titolare",
+NAP,Lorenzo LUCCA,5,6,8,5,6,30,"Punta, prima riserva",6215
+NAP,Romelu LUKAKU,5,7,5,5,4,26,"Punta, riserva",2531
+PAR,Edoardo CORVI,6,7,7,7,6,33,"Portiere, Primo portiere in ballottaggio",6662
+PAR,Giovanni DAFFARA,5,6,7,7,6,31,"Portiere, Secondo in ballottaggio",7411
+PAR,Alessandro MAZZOCCHI,3,4,6,4,3,20,"Portiere, Terzo",
+PAR,Zion SUZUKI,3,3,3,3,3,15,"Portiere, partente sul mercato",6641
+PAR,Enrico DEL PRATO,9,6,8,6,7,36,"Jolly difensivo, Titolare e capitano",
+PAR,Emanuele VALERI,9,6,7,6,6,34,"Terzino/esterno sx, Titolare",5862
+PAR,Mariano TROILO,7,6,8,6,6,33,"Difensore centrale, titolare",7235
+PAR,Alessandro CIRCATI,8,6,6,6,6,32,"Difensore centrale, titolare",6663
+PAR,Sascha BRITSCHGI,5,5,7,5,5,27,"Terzino/Esterno destro, riserva",7255
+PAR,Franco CARBONI,4,5,7,4,4,24,"Terzino/Esterno sinistro, riserva",6149
+PAR,Lautaro VALENTI,5,5,5,4,4,23,"Difensore centrale, riserva",5307
+PAR,Abdoulaye NDIAYE,5,4,5,4,4,22,"Difensore centrale, riserva",7202
+PAR,Dominik DROBNIC,3,4,6,4,3,20,"Difensore centrale, riserva",
+PAR,Adriàn BERNABE',9,7,5,6,7,34,"Mezz'ala, titolare",6666
+PAR,Mandela KEITA,9,6,8,4,5,32,"Mezz'ala/Mediano, titolare",6898
+PAR,Hans NICOLUSSI CAVIGLIA,8,6,5,5,6,30,"Mediano, titolare",4349
+PAR,Oliver SORENSEN,5,5,8,5,5,28,"Mezz'ala, riserva",7209
+PAR,Jacob ONDREJKA,6,5,5,5,5,26,"Esterno offensivo/Seconda punta, Riserva",6984
+PAR,Ousmane DIALLO',5,5,6,5,5,26,"Esterno offensivo, riserva",7536
+PAR,Benjamin CREMASCHI,5,5,5,5,5,25,"Mezz'ala, riserva",7276
+PAR,Christian ORDONEZ,5,5,7,5,5,25,"Mezz'ala, riserva",7138
+PAR,Abdou-Salam KONATE',5,5,7,4,4,25,"Mediano, riserva",
+PAR,Rachid KOUDA,4,5,6,5,4,24,"Mezz'ala, riserva",
+PAR,Pontus ALMQVIST,5,5,5,3,4,22,"Esterno offensivo, Riserva",6207
+PAR,Antoine JOUJOU,4,4,6,4,4,22,"Esterno offensivo, riserva",
+PAR,Mateo PELLEGRINO,9,7,8,7,7,38,"Attaccante centrale, titolare",7023
+PAR,Matija FRIGAN,7,6,4,6,6,29,"Esterno offensivo/Seconda punta, titolare",7213
+PAR,Simone LONTANI,5,5,7,5,5,27,"Attaccante, Esterno offensivo, riserva",
+PAR,Nesta ELPHEGE,5,6,5,5,5,26,"Attaccante centrale, riserva",7342
+PAR,El Bilal TOURE',8,6,4,6,6,30,"Esterno offensivo/Attaccante centrale, Titolare",6229
+ROM,Pierluigi GOLLINI,3,6,9,6,5,21,"Portiere, secondo",610
+ROM,Giorgio DE MARZI,1,1,8,1,1,12,"Portiere, terzo",7048
+ROM,Devis VASQUEZ,1,1,8,1,1,12,"Portiere, in uscita",
+ROM,Gianluca MANCINI,9,8,9,7,8,41,"Difensore centrale destro, titolare",2296
+ROM,Manu KONÉ,9,8,7,6,8,38,"Centrocampista, titolare",5589
+ROM,Bryan CRISTANTE,9,7,9,6,7,38,"Centrocampista, titolare",779
+ROM,Niccolò PISILLI,7,7,8,7,7,36,"Centrocampista, titolare",6190
+ROM,Neil EL AYNAOUI,7,6,8,7,7,35,"Centrocampista, titolare",6271
+ROM,Donyell MALEN,9,9,8,9,9,44,"Punta centrale, titolare",5585
+ROM,Robinio VAZ,5,5,8,6,5,29,"Punta centrale, riserva",6981
+SAS,Arijanet MURIC,9,7,8,6,7,37,"Portiere, Titolare",4236
+SAS,Stefano TURATI,3,7,8,5,3,26,Secondo Portiere,4867
+SAS,Alessandro RUSSO,1,1,8,5,1,16,Terzo Portiere,4518
+SAS,Jay IDZES,9,7,8,6,7,37,"Centrale, Titolare",6672
+SAS,Filippo MISSORI,7,6,8,6,6,33,"Terzino Dx, Titolare",6189
+SAS,Josh DOIG,7,6,7,6,6,32,"Terzino Sx, Titolare",5851
+SAS,Fali CANDE,7,6,7,5,6,31,"Centrale , Titolare",6985
+SAS,Sebastian WALUKIEWICZ,6,6,7,4,5,28,"Centrale, Riserva",4374
+SAS,Edoardo PIERAGNOLO,4,5,8,6,3,26,"Terzino Sx, Riserva",7156
+SAS,Cas ODENTHAL,4,5,7,4,3,23,"Centrale, Riserva",
+SAS,Kristian THORSTVEDT,7,7,8,8,7,37,"Trequartista, titolare",5844
+SAS,Cristian VOLPATO,6,8,8,7,7,36,"Trequartista/Ala Destra, riserva",5735
+SAS,Nemanja MATIC,8,7,8,5,7,35,"Mediano, Titolare",2528
+SAS,Luca LIPANI,7,7,8,5,7,34,"Mediano, titolare",6246
+SAS,Darryl BAKOLA,6,7,8,6,7,34,"Trequartista, riserva",7036
+SAS,Vasilije ADZIC,6,7,8,5,6,32,"Mediano/Mezzala, Riserva",6677
+SAS,Ismael KONE,3,7,7,7,3,27,"Mediano, infortunato",6717
+SAS,Daniel BOLOCA,3,6,6,5,3,23,"Mediano, riserva",6219
+SAS,Armand LAURIENTE',9,8,8,7,9,41,"Ala sinistra, titolare",6060
+SAS,Domenico BERARDI,9,8,6,7,8,38,"Ala destra, titolare",531
+SAS,Andrea PINAMONTI,9,6,8,7,8,38,"Punta, titolare",2038
+SAS,Kieron BOWIE,6,6,8,5,6,31,"Punta, Riserva",7347
+SAS,Luca MORO,4,5,8,4,4,25,"Punta, riserva",7158
+TOR,Alberto PALEARI,8,5,8,5,5,31,"Portiere, secondo",5320
+TOR,Diego MASCARDI,1,4,8,4,2,19,"Portiere, terzo",7457
+TOR,Franco ISRAEL,2,4,5,5,2,18,"Portiere, titolare",
+TOR,Eray COMERT,8,7,8,6,7,36,"Difensore centrale, titolare",7526
+TOR,Ardian ISMAJILI,8,8,6,5,8,35,"Difensore centrale, titolare",
+TOR,Pietro COMUZZO,8,6,8,6,7,35,"Difensore centrale, titolare",6495
+TOR,Marcus PEDERSEN,8,7,8,5,7,35,"Terzino destro, titolare",6426
+TOR,Saul COCO,8,6,8,6,6,34,"Difensore centrale, in ballottaggio",6642
+TOR,Ali DEMBELE,5,5,8,4,3,25,"Terzino/esterno dx/dif centrale, panchinaro",
+TOR,Cristiano BIRAGHI,3,4,8,6,4,25,"Terzino sx, riserva",252
+TOR,Come BIANAY BALCOT,2,6,8,5,2,23,"Terzino dx primavera, riserva",
+TOR,Nikola VLASIC,8,8,8,8,8,40,"Trequartista, titolare",5687
+TOR,Cesare CASADEI,8,7,7,8,7,37,"Centrocampista centrale, titolare",5888
+TOR,Kian FITZ-JIM,8,7,7,7,7,36,"Centrocampista, titolare",7535
+TOR,Alessio CACCIAMANI,6,7,8,7,7,35,"Esterno sinistr, titolare",7060
+TOR,Alieu NJIE,6,6,8,7,7,34,"Esterno sx/dx, prima riserva",6827
+TOR,Gvidas GINEITIS,6,6,8,6,7,33,"Centrocampista centrale, titolare",6170
+TOR,Gaetano ORISTANIO,6,6,8,7,6,33,"Trequartista dx/sx, nelle rotazioni",6218
+TOR,Emirhan ILKHAN,5,7,8,4,6,30,"Centrocampista, riserva",6005
+TOR,Andrea LUONGO,6,6,8,4,5,29,"Centrocampista, riserva",
+TOR,Tino ANJORIN,4,6,4,8,4,26,"Mezzapunta/centrocampista centrale, esubero",6889
+TOR,Ivan ILIC,3,6,4,7,4,24,"Centrocampista centrale, esubero",5007
+TOR,Giovanni SIMEONE,8,7,8,8,9,40,"Attaccante centrale, titolare",2061
+TOR,Che ADAMS,7,8,8,7,7,37,"Attaccante centrale/mezzapunta, prima riserva",6646
+TOR,Duvan ZAPATA,6,8,6,8,7,35,"Attaccante centrale, infortunato",608
+TOR,Zakaria ABOUKHLAL,6,6,8,6,4,30,"Esterno dx/sx,  in ballottaggio",7183
+TOR,Sandro KULENOVIC,3,5,8,5,4,25,Attaccante di riserva,7349
+TOR,Tommaso GABELLINI,2,6,8,2,2,20,"Attaccante primavera, riserva",
+UDI,Oumar SOLET,9,8,7,8,9,41,"Braccetto sinistro, Difensore centrale, Titolare",6956
+UDI,Thomas KRISTENSEN,8,7,8,7,7,37,"Difensore Centrale, Braccetto destro, Terzino Destro, Titolare",6485
+UDI,Alessandro ZANOLI,7,7,6,7,7,34,"Esterno Destro, Terzino Destro, Titolare",5527
+UDI,Mergim VOJVODA,6,7,7,7,7,34,"Esterno destro, Terzino destro, Braccetto destro, Esterno sinistro, in Ballottaggio",4994
+UDI,Christian KABASELE,6,7,7,7,7,34,"Difensore Centrale, in Ballottaggio",4263
+UDI,Nicolo' BERTOLA,6,6,8,6,7,33,"Braccetto destro. Braccetto sinistro, Difensore centrale, Terzino Destro, in Ballottaggio",5820
+UDI,Hassane KAMARA,7,6,8,6,6,33,"Esterno Sinistro, Terzino Sinistro, Ballottaggio",5555
+UDI,Juan David ARIZALA,6,6,8,6,6,32,"Esterno Sinistro, Riserva",7312
+UDI,James ABANKWAH,6,6,9,5,6,32,"Braccetto destro, Terzino destro, Difensore centrale, Riserva",6021
+UDI,Matteo PALMA,5,6,8,6,4,29,"Braccetto destro, Difensore Centrale, Terzino destro, Riserva",6925
+UDI,Branimir MLACIC,5,6,8,5,5,29,"Braccetto destro, Difensore Centrale, Terzino destro, Riserva",7356
+UDI,Saba GOGLICHIDZE,5,5,7,4,4,25,"Difensore Centrale, braccetto destro, Riserva",
+UDI,Enzo EBOSSE,5,5,7,4,4,25,"Braccetto sinistro, Terzino sinistro, Difensore centrale, Riserva",5994
+UDI,Jurgen EKKELENKAMP,8,7,8,8,8,39,"Mezzala, Ala, Trequartista, Titolare",6684
+UDI,Jesper KARLSTRÖM,9,6,9,5,7,36,"Centrocampista Centrale, Mediano, Titolare",6680
+UDI,Etxebarria UNAI GOMEZ,6,7,9,7,6,35,"Trequartista, Mezzala, in Ballottaggio",6783
+UDI,Giorgi CHAKVETADZE,6,7,6,7,6,32,"Trequartista, Mezzala, in Ballottaggio infortunato",7418
+UDI,Lennon MILLER,6,6,8,6,6,32,"Centrocampista Centrale, Mezzala, in Ballottaggio",7208
+UDI,Oier ZARRAGA,5,6,7,6,4,28,"Centrocampista Centrale, Riserva",6212
+UDI,Sandi LOVRIC,5,5,6,7,4,27,"Centrocampista Centrale, Mezzala, Esterno, Riserva",
+UDI,David PEJICIC,4,6,7,6,4,27,"Trequartista, mezzala, Riserva",
+UDI,Aboulaye CAMARA,4,6,8,4,2,24,"Centrocampista Centrale, Mezzala, Riserva",7392
+UDI,Keinan DAVIS,9,8,7,8,8,40,"Prima Punta, Seconda Punta, Titolare",5637
+UDI,Adam BUKSA,6,5,7,5,5,28,"Prima Punta, Riserva",7249
+UDI,Idrissa GUEYE,5,5,8,4,4,26,"Prima Punta, Seconda Punta, Riserva",7272
+UDI,Vakoun BAYO,4,5,8,4,4,25,"Prima Punta, Riserva",7161
+UDI,Giulio VINCIATI,3,5,8,4,2,22,"Prima Punta, Ala, Riserva",
+VEN,Filip STANKOVIC,9,8,8,6,7,38,"Portiere, titolare",6248
+VEN,Matteo GRANDI,1,5,9,6,1,22,"Portiere, terzo portiere",6671
+VEN,Alessio POZZI,1,5,8,5,1,20,"Portiere, riserva",7531
+VEN,Antoine HAINAUT,8,7,8,7,7,37,"Esterno destro/Esterno sinistro/Mezz'ala/Difensore centrale, titolare",6821
+VEN,Armel BELLA-KOTCHAP,8,7,6,5,7,33,"Difensore centrale, titolare",7253
+VEN,Redouane HALHAL,7,6,8,6,6,33,"Difensore centrale, titolare in ballottaggio",7538
+VEN,Joël SCHINGTIENNE,7,6,8,5,6,32,"Difensore centrale, titolare in ballottaggio",6892
+VEN,Matìas MORENO,7,6,7,6,6,32,"Difensore centrale, riserva in ballottaggio",6890
+VEN,Thierry CORREIA,7,6,6,6,6,31,"Esterno destro/Esterno sinistro, titolare in ballottaggio",4845
+VEN,Ridgeciano HAPS,6,6,7,6,6,31,"Esterno sinistro/Difensore centrale, riserva in ballottaggio",5695
+VEN,Richie SAGRADO,6,6,7,6,5,30,"Esterno destro/Esterno sinistro, riserva in ballottaggio",6681
+VEN,Alejandro GOMES FURTADO,5,6,8,5,5,29,"Difensore centrale, riserva",7454
+VEN,Bartol FRANJIC,6,5,7,4,5,27,"Difensore centrale/Esterno sinistro, riserva",7478
+VEN,Armel SVERKO,6,5,7,4,4,26,"Difensore centrale, riserva",6673
+VEN,Junior LIGUE,4,5,7,5,3,24,"Esterno sinistro/Difensore centrale, riserva",
+VEN,Michael VENTURI,3,5,8,5,2,23,"Difensore centrale, riserva",
+VEN,Simon SOHM,7,7,8,7,7,36,"Mezz'ala/Mediano/Trequartista, riserva in ballottaggio",5319
+VEN,Kike PÉREZ,7,7,8,7,7,36,"Mezz'ala/Trequartista, titolare in ballottaggio",6994
+VEN,Gianluca BUSIO,8,7,7,6,7,35,"Regista/Mezz'ala, titolare",5507
+VEN,Toma BASIC,7,7,8,6,7,35,"Mezz'ala, titolare in ballottaggio",5674
+VEN,Matteo DAGASSO,6,7,8,6,6,33,"Mezz'ala/Trequartista/Regista, riserva in ballottaggio",7481
+VEN,Marko FARJI,5,5,8,6,4,28,"Esterno sinistro/Esterno destro/Seconda punta, riserva",
+VEN,Lorenzo BERARDI,5,6,8,5,4,28,"Esterno sinistro/Mezz'ala/Trequartista, riserva",
+VEN,Thòrir Jòhann HELGASON,5,5,8,5,4,27,"Mezz'ala/Trequartista/Regista, riserva",5872
+VEN,Alfred DUNCAN,5,5,6,5,5,26,"Regista/Mezz'ala, riserva",526
+VEN,Simone PANADA,4,5,8,5,3,25,"Regista, gerarchia",
+VEN,Lamine FANNE,4,5,8,4,3,24,"Mezz'ala/Trequartista, gerarchia",
+VEN,Saad EL HADDAD,3,5,8,4,2,22,"Trequartista, riserva",
+VEN,Emil BOHINEN,3,4,7,4,2,20,"Regista/Mezz'ala, riserva",
+VEN,Akor ADAMS,7,7,8,7,7,36,"Prima punta, titolare in ballottaggio",7484
+VEN,John YEBOAH,7,7,8,6,7,35,"Seconda punta, titolare in ballottaggio",6904
+VEN,Albion RRAHMANI,7,7,8,6,6,34,"Prima punta/Seconda punta, riserva in ballottaggio",7449
+VEN,Lion LAUBERBACH,5,6,8,4,4,29,"Prima punta, riserva",7482
+VEN,Andrea ADORANTE,5,6,7,5,5,28,"Prima punta, riserva",4387
+VEN,Kornel LISMAN,5,5,6,4,4,24,"Ala sinistra/Ala destra, riserva",7408
+VEN,Alvin OKORO,4,5,8,3,3,23,"Prima punta, riserva",
+VEN,Antonio CASAS,4,5,8,3,2,22,"Prima punta/Seconda punta, riserva",

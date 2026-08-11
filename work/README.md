@@ -30,8 +30,13 @@ python3 scripts/train_model_previsionale.py       # -> models/lgbm_voto_previsio
 python3 scripts/evaluate_armax.py                 # -> armax_evaluation_log.txt + armax_per_player_results.csv (già incluso)
 
 python3 scripts/scrape_quotazioni.py                    # -> quotazioni_fantacalcio_storico_2015_2026.csv (già incluso)
+python3 scripts/scrape_eta_giocatori.py                 # -> eta_giocatori_storico_2015_2026.csv (già incluso)
+python3 scripts/scrape_infortuni_profilo_giocatori.py   # -> infortuni_/profilo_giocatori_storico_2015_2026.csv (già incluso)
+python3 scripts/scrape_forum_esperti_2026_27.py         # -> forum_esperti_pagelle_2026_27.csv (già incluso)
 python3 scripts/build_stagione_giocatore_dataset.py     # -> stagione_giocatore_dataset_2015_2026.csv (già incluso)
-python3 scripts/train_model_rendimento_stagionale.py    # -> models/lgbm_{target}_stagionale_v1.txt (x4) + metriche
+python3 scripts/train_model_rendimento_stagionale.py    # -> models/lgbm_{target}_stagionale_v1.txt (x7) + metriche
+python3 scripts/predict_serie_a_2026_27.py              # -> previsioni_serie_a_2026_27.csv/.html/.pdf (già incluso)
+python3 scripts/fuzzy_sorprese_forum.py                 # -> previsioni_serie_a_2026_27_con_sorprese.csv (già incluso)
 ```
 
 ## Fonti dati
@@ -237,6 +242,94 @@ valutazione di fattibilità iniziale.
 
 Applicato anche a `scripts/predict_como_2026_27.py` (previsioni rosa Como
 2026-27 con i modelli v3).
+
+## Aggiornamento v4-v6: nuovi target, varianza/trend, cartellini/rigori, tutte le 20 squadre
+
+- **v4**: aggiunti 2 nuovi target al modello di rendimento stagionale
+  (richiesta Dario): `voto_medio_target` (giudizio redazione puro, SENZA
+  bonus/malus, distinto da `fantamedia_target`) e
+  `presenze_titolare_target` ("partite titolari", righe Understat con
+  `position != 'Sub'`). Corretto in questa fase anche un bug di join
+  Understat pre-esistente: il join usava direttamente il `player_id` di
+  fantacalcio.it come se fosse lo stesso ID Understat (NON lo è, due
+  spazi ID indipendenti) — fix tramite il bridge già esistente
+  `player_name_mapping.csv`, copertura salita dal ~2.5% al 98.7%.
+- **v5**: aggiunte feature di varianza (`_std3`) e trend/pendenza
+  (`_trend3`) sulla stessa finestra delle ultime 3 stagioni già usata per
+  `_ma3`, per ogni metrica base — e nuove feature cartellini/rigori
+  (`ammonizioni_totali`, `espulsioni_totali`, `rigori_segnati_totali`,
+  `rigori_sbagliati_totali`, `rigori_parati_totali`, con lag1/ma3/std3/
+  trend3/career_mean come le altre metriche base).
+- **v6**: `scripts/predict_como_2026_27.py` generalizzato in
+  `scripts/predict_serie_a_2026_27.py` — previsioni per TUTTI i 503
+  giocatori delle 20 squadre di Serie A 2026-27, non solo il Como
+  (output `data/previsioni_serie_a_2026_27.csv/.html/.pdf`).
+
+## Aggiornamento v7: giudizio qualitativo forum Gruppo Esperti + correzione fuzzy
+
+Dario ha condiviso un link al forum Gruppo Esperti (gruppoesperti.it),
+board "Schede squadra" 2026/27 — 20 topic, uno per squadra, con pagelle
+degli esperti per ogni giocatore in rosa (Titolarità/Media voto/Salute/
+Bonus (o Porta inviolata per i portieri)/Consiglio Esperti, scala 0-10 +
+TOTALE /50). Richiesta esplicita: **"Consideriamo anche questi aspetti
+nell'analisi"** / **"per ogni squadra"** — integrare questo giudizio
+QUALITATIVO/soggettivo (hype preseason) con le previsioni QUANTITATIVE
+del modello (basate solo su dati storici oggettivi).
+
+**Nuovo script** `scripts/scrape_forum_esperti_2026_27.py`: scarica i 20
+topic (ID hardcoded, board `viewforum.php?f=199`), parsa la riga pagelle
+via regex (formato standardizzato, verificato identico su più squadre),
+gestisce esplicitamente i punteggi non ancora assegnati (`x/10` → `None`,
+mai riempiti a caso), e fa matching nome→`player_id` fantacalcio
+ristretto alla stessa squadra (più affidabile che sui 503 giocatori
+totali) con lo stesso approccio (`norm`/`match_score`/`MIN_MATCH_SCORE`)
+già usato per età/infortuni/profilo. Risultato: 495 giocatori estratti su
+20 squadre, 424 matchati a un `player_id` (85,7%), 71 non-match
+dichiarati (perlopiù giovani/riserve marginali fuori dalle quotazioni
+fantacalcio). Output: `data/forum_esperti_pagelle_2026_27.csv`.
+
+**Nota sul dominio**: `www.gruppoesperti.it/forum/` ha iniziato a
+rispondere HTTP 526 "Invalid SSL certificate" (guasto lato server,
+confermato anche con un browser headless reale — non un blocco
+anti-bot). Dario ha indicato il sottodominio corretto e funzionante
+`forum.gruppoesperti.it` (stesso contenuto, nessun login necessario).
+
+**Scoperta e limite onesto**: le 6 colonne `*_forum` sono state
+aggiunte prima come feature DIRETTE in `build_stagione_giocatore_dataset.py`
+(popolate solo per `stagione_target=='2026-27'`, `None`/NaN su tutte le
+stagioni storiche — sono un giudizio che esiste solo per la prossima
+stagione, non backfillabile). Verificato dopo il retrain (v7): la
+**feature importance di tutte le 6 colonne è esattamente 0.0** su tutti
+i 7 target — motivo strutturale, non un bug: essendo sempre NaN nel
+train/val/test (2017-18→2025-26), LightGBM non ha mai potuto imparare
+alcuna relazione con un dato che non esiste in nessuna riga di training.
+Le metriche MAE/RMSE/R² sul test set storico sono infatti identiche a
+v6, come atteso.
+
+**Soluzione**: sistema di **inferenza fuzzy (Mamdani, libreria
+scikit-fuzzy)** in post-processing, `scripts/fuzzy_sorprese_forum.py` —
+bypassa il limite strutturale del training confrontando, DOPO che il
+modello ha già previsto, `pred_presenze_titolare_previste` (quanto il
+modello si aspetta il giocatore titolare, da storico oggettivo) con
+`titolarita_forum_esperti` (quanto gli esperti lo giudicano titolare per
+il 2026-27, giudizio preseason). 9 regole esperte scritte a mano (nessun
+training necessario) producono un `indice_sorpresa` (-10..+10):
+divergenza forte e coerente in una direzione → "sorpresa al rialzo" o
+"rischio al ribasso"; accordo tra le due fonti → "coerente". Le funzioni
+di appartenenza sono state calibrate sui percentili REALI delle
+previsioni (non sul range teorico 0-38 giornate) dopo aver verificato
+che la calibrazione iniziale generava falsi positivi su titolari
+indiscutibili (es. Barella, Cambiaso, Di Lorenzo). Righe senza giudizio
+forum disponibile vengono escluse dal calcolo (`indice_sorpresa=None`),
+non forzate a un valore neutro.
+
+**Risultato**: su 303 giocatori 2026-27 con giudizio forum disponibile,
+29 segnalati come sorpresa al rialzo (es. Baturina, Calhanoglu, Malen —
+il forum più fiducioso del modello) e 18 come rischio al ribasso (es.
+Marusic, Lucumì, Modric, Tomori — il modello li vede titolari fissi da
+storico ma gli esperti segnalano un ballottaggio che i dati storici non
+possono cogliere). Output:
+`data/previsioni_serie_a_2026_27_con_sorprese.csv`.
 
 ## Direzione futura (fase successiva, non ancora iniziata)
 

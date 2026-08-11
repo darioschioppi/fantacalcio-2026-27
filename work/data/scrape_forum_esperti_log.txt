@@ -1,0 +1,98 @@
+2026-08-11 17:54:09,162 INFO ATA (t=232668): 27 giocatori estratti dal post
+2026-08-11 17:54:11,724 INFO BOL (t=232674): 23 giocatori estratti dal post
+2026-08-11 17:54:14,286 INFO CAG (t=232675): 26 giocatori estratti dal post
+2026-08-11 17:54:16,848 INFO COM (t=232669): 23 giocatori estratti dal post
+2026-08-11 17:54:19,433 INFO FIO (t=232665): 20 giocatori estratti dal post
+2026-08-11 17:54:22,012 INFO FRO (t=232683): 24 giocatori estratti dal post
+2026-08-11 17:54:24,577 INFO GEN (t=232677): 29 giocatori estratti dal post
+2026-08-11 17:54:27,142 INFO INT (t=232676): 20 giocatori estratti dal post
+2026-08-11 17:54:29,710 INFO JUV (t=232666): 25 giocatori estratti dal post
+2026-08-11 17:54:32,282 INFO LAZ (t=232672): 26 giocatori estratti dal post
+2026-08-11 17:54:34,845 INFO LEC (t=232673): 24 giocatori estratti dal post
+2026-08-11 17:54:37,416 INFO MIL (t=232671): 28 giocatori estratti dal post
+2026-08-11 17:54:39,983 INFO MON (t=232682): 22 giocatori estratti dal post
+2026-08-11 17:54:42,557 INFO NAP (t=232664): 23 giocatori estratti dal post
+2026-08-11 17:54:45,119 INFO PAR (t=232678): 30 giocatori estratti dal post
+2026-08-11 17:54:47,707 INFO ROM (t=232670): 10 giocatori estratti dal post
+2026-08-11 17:54:50,267 INFO SAS (t=232679): 23 giocatori estratti dal post
+2026-08-11 17:54:52,833 INFO TOR (t=232680): 28 giocatori estratti dal post
+2026-08-11 17:54:55,398 INFO UDI (t=232667): 27 giocatori estratti dal post
+2026-08-11 17:54:57,969 INFO VEN (t=232681): 37 giocatori estratti dal post
+2026-08-11 17:54:57,974 INFO === Riepilogo ===
+2026-08-11 17:54:57,974 INFO Giocatori estratti dal forum (totale su 20 squadre): 495
+2026-08-11 17:54:57,974 INFO Giocatori con pagelle NON ancora assegnate (x/10, normale, non errore): 3
+2026-08-11 17:54:57,974 INFO Match nome->player_id riusciti: 424
+2026-08-11 17:54:57,974 INFO Match nome->player_id FALLITI (dichiarati, non forzati): 71
+2026-08-11 17:54:57,975 WARNING Dettaglio non-match:
+ATA: Odilon KOSSONOU
+ATA: Mitchel BAKKER
+ATA: Daniel MALDINI
+ATA: El Bilal TOURE'
+BOL: Matteo FRANCESCHELLI
+CAG: Giuseppe AURELIO
+CAG: Kevin CARLOS
+CAG: Sebastiano DI PAOLO
+COM: Fabio RISPOLI
+FIO: Niccolò FORTINI
+FIO: Eman KOSPO
+FRO: SERGIO KALAJ
+FRO: PATRIZIO MASINI
+GEN: Mamedi DOUCOURE
+GEN: Luca KLYSIS
+GEN: Hamed Junior TRAORE
+GEN: Chec Bebel DOUMBIA
+GEN: Samuel WIAFE
+GEN: Vitor VITINHA
+INT: Yanis MASSOLIN
+JUV: Melo ARTHUR
+JUV: Arkadiusz MILIK
+JUV: Nico GONZALEZ
+LAZ: Samuel GIGOT
+LAZ: Bruno GALASSI
+LAZ: Valerio FARCOMENI
+LAZ: Gabriele ARTISTICO
+LAZ: Federico SERRA
+LAZ: Sanà FERNANDES
+LEC: Christian LUPO
+LEC: Niko KOVAC
+LEC: Hjalte LAERKE
+LEC: Divine ONYEMACHI
+LEC: Lameck BANDA
+LEC: Paco ESTEBAN
+MIL: David ODOGU
+MON: Arvid BRORSSON
+NAP: Nosa Edward OBARETIN
+NAP: Vincenzo PRISCO
+NAP: Jesper LINDSTRØM
+NAP: Jens CAJUSTE
+NAP: Rasmus Winther HØJLUND
+PAR: Alessandro MAZZOCCHI
+PAR: Enrico DEL PRATO
+PAR: Dominik DROBNIC
+PAR: Abdou-Salam KONATE'
+PAR: Rachid KOUDA
+PAR: Antoine JOUJOU
+PAR: Simone LONTANI
+ROM: Devis VASQUEZ
+SAS: Cas ODENTHAL
+TOR: Franco ISRAEL
+TOR: Ardian ISMAJILI
+TOR: Ali DEMBELE
+TOR: Come BIANAY BALCOT
+TOR: Andrea LUONGO
+TOR: Tommaso GABELLINI
+UDI: Saba GOGLICHIDZE
+UDI: Sandi LOVRIC
+UDI: David PEJICIC
+UDI: Giulio VINCIATI
+VEN: Junior LIGUE
+VEN: Michael VENTURI
+VEN: Marko FARJI
+VEN: Lorenzo BERARDI
+VEN: Simone PANADA
+VEN: Lamine FANNE
+VEN: Saad EL HADDAD
+VEN: Emil BOHINEN
+VEN: Alvin OKORO
+VEN: Antonio CASAS
+2026-08-11 17:54:57,975 INFO Output scritto in /app/sandbox/chat_-5519413290/work/data/forum_esperti_pagelle_2026_27.csv (495 righe)

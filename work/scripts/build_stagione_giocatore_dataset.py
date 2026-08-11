@@ -167,13 +167,24 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 VOTI_PATH = DATA_DIR / "voti_storici_2015_2026.csv"
 UNDERSTAT_PATH = DATA_DIR / "understat_player_match_stats_storico_2015_2026.csv"
+MAPPING_PATH = DATA_DIR / "player_name_mapping.csv"
 CLASSIFICA_PATH = DATA_DIR / "classifica_dinamica_storico_2015_2026.csv"
 QUOTAZIONI_PATH = DATA_DIR / "quotazioni_fantacalcio_storico_2015_2026.csv"
 ETA_PATH = DATA_DIR / "eta_giocatori_storico_2015_2026.csv"
 INFORTUNI_PATH = DATA_DIR / "infortuni_giocatori_storico_2015_2026.csv"
 PROFILO_PATH = DATA_DIR / "profilo_giocatori_storico_2015_2026.csv"
+FORUM_ESPERTI_PATH = DATA_DIR / "forum_esperti_pagelle_2026_27.csv"
 OUT_PATH = DATA_DIR / "stagione_giocatore_dataset_2015_2026.csv"
 LOG_PATH = DATA_DIR / "build_stagione_giocatore_dataset_log.txt"
+
+# Mappa nomi squadra fantacalcio.it -> nome squadra Understat (team_title),
+# stessa mappa di build_feature_dataset.py (le 3 uniche squadre con nome
+# diverso tra le due fonti su tutto lo storico 2015-2026).
+TEAM_NAME_MAP_UNDERSTAT = {
+    "SPAL": "SPAL 2013",
+    "Milan": "AC Milan",
+    "Parma": "Parma Calcio 1913",
+}
 
 logging.basicConfig(
     level=logging.INFO,
@@ -204,8 +215,21 @@ SIGLA_TO_NOME = {
 # colonne dei target/aggregati calcolate per una data stagione (usate sia
 # per il target della stagione N sia, con suffisso _lagK, per le feature
 # delle stagioni precedenti)
+# AGGIORNAMENTO v4 (richiesta Dario: "partite titolari" nella lista
+# completa): aggiunta 'presenze_titolare', possibile SOLO ora che il bug di
+# join Understat e' stato corretto (vedi carica_name_mapping/
+# trova_understat_agg) - conta le righe Understat del giocatore in quella
+# stagione con position != 'Sub' (colonna 'position' di Understat: 'Sub'
+# flagga in modo affidabile i subentrati, verificato con un sanity-check
+# sui minuti medi: mediana 17 min per 'Sub' vs 90 min per le altre
+# posizioni). E' un conteggio di "partite da titolare" nel senso di
+# "sceso in campo dal 1'", non richiede una soglia minuti arbitraria.
 METRICHE_BASE = ["fantamedia", "gol", "assist", "bonus_netti", "presenze",
-                  "voto_medio", "minuti_totali", "xg_totale", "xa_totale", "shots_totali"]
+                  "voto_medio", "minuti_totali", "xg_totale", "xa_totale",
+                  "shots_totali", "presenze_titolare",
+                  "ammonizioni_totali", "espulsioni_totali",
+                  "rigori_segnati_totali", "rigori_sbagliati_totali",
+                  "rigori_parati_totali"]
 
 # Squadre italiane partecipanti alla fase a gironi/campionato della UEFA
 # Champions League DI QUELLA STAGIONE (non i turni preliminari). Verificato
@@ -280,28 +304,80 @@ def carica_presenze_valide():
                 "fantavoto": fantavoto,
                 "gol_fatti": to_float(row["gol_fatti"]) or 0.0,
                 "assist": to_float(row["assist"]) or 0.0,
+                # AGGIORNAMENTO v6 (richiesta Dario: "aggiungi cartellini e
+                # rigori" come feature): campi booleani/contatori gia'
+                # presenti in voti_storici_2015_2026.csv, semplicemente non
+                # ancora aggregati per stagione finora.
+                "ammonizione": 1.0 if str(row["ammonizione"]) == "True" else 0.0,
+                "espulsione": 1.0 if str(row["espulsione"]) == "True" else 0.0,
+                "rigori_segnati": to_float(row["rigori_segnati"]) or 0.0,
+                "rigori_sbagliati": to_float(row["rigori_sbagliati"]) or 0.0,
+                "rigori_parati": to_float(row["rigori_parati"]) or 0.0,
             })
     log.info("Presenze valide caricate: %d", len(presenze))
     return presenze
 
 
 def carica_understat_per_stagione():
-    """dict {(player_id, stagione): {'minuti_totali':.., 'xg_totale':.., 'xa_totale':.., 'shots_totali':..}}"""
-    agg = defaultdict(lambda: {"minuti_totali": 0.0, "xg_totale": 0.0, "xa_totale": 0.0, "shots_totali": 0.0})
+    """dict {(player_id_understat, stagione): {'minuti_totali':.., 'xg_totale':.., 'xa_totale':.., 'shots_totali':..}}
+    ATTENZIONE: 'player_id' qui e' l'ID INTERNO di Understat, NON il
+    player_id di fantacalcio.it - i due spazi ID sono diversi e NON
+    condividono valori (verificato: solo ~323/2282 ID numerici
+    coincidono per puro caso su range sovrapposto, match reale ~2.5% se
+    usato come join diretto). Il bridge corretto e' player_name_mapping.csv
+    (stagione, squadra, nome_fantacalcio) -> player_id_understat, usato in
+    aggrega_per_giocatore_stagione() sotto - QUESTA funzione resta indicizzata
+    per player_id_understat, e' aggrega_per_giocatore_stagione() che deve
+    tradurre l'ID fantacalcio nell'ID Understat prima di interrogare questo
+    dict, non il contrario."""
+    agg = defaultdict(lambda: {"minuti_totali": 0.0, "xg_totale": 0.0, "xa_totale": 0.0,
+                                 "shots_totali": 0.0, "presenze_titolare": 0.0})
     with open(UNDERSTAT_PATH, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             stagione = row["stagione"]
-            player_id = row["player_id"]
-            if stagione not in STAGIONE_IDX or not player_id:
+            player_id_understat = row["player_id"]
+            if stagione not in STAGIONE_IDX or not player_id_understat:
                 continue
-            key = (player_id, stagione)
+            key = (player_id_understat, stagione)
             agg[key]["minuti_totali"] += to_float(row.get("time")) or 0.0
             agg[key]["xg_totale"] += to_float(row.get("xG")) or 0.0
             agg[key]["xa_totale"] += to_float(row.get("xA")) or 0.0
             agg[key]["shots_totali"] += to_float(row.get("shots")) or 0.0
-    log.info("Aggregati Understat per (player_id, stagione): %d combinazioni", len(agg))
+            # 'Sub' flagga i subentrati (verificato: mediana 17 min vs 90
+            # min delle altre posizioni) - ogni riga con position!='Sub' e'
+            # una presenza da titolare (sceso in campo dal 1').
+            if row.get("position") != "Sub":
+                agg[key]["presenze_titolare"] += 1.0
+    log.info("Aggregati Understat per (player_id_understat, stagione): %d combinazioni", len(agg))
     return agg
+
+
+def carica_name_mapping():
+    """dict {(stagione, squadra_fantacalcio, nome_fantacalcio): player_id_understat}
+    - BRIDGE CORRETTO tra i due spazi ID (fix del bug di join scoperto in
+    questa fase: il codice precedente faceva understat_agg.get((player_id,
+    stagione)) usando direttamente il player_id di fantacalcio, che NON e'
+    lo stesso ID di Understat - risultato: ~97.7% delle righe con
+    xg_totale_lag1/xa_totale_lag1/shots_totali_lag1/minuti_totali_lag1 = 0.0
+    per mancato match, non per assenza genuina di dati). Stessa fonte e
+    stessa logica di join gia' corretta in build_feature_dataset.py
+    (carica_name_mapping/trova_stats_understat), qui riusata a livello
+    stagionale invece che a livello singola partita. Copertura verificata:
+    98.7% delle combinazioni (player_id, stagione) valide trova un match
+    (vs 2.5% del join diretto precedente)."""
+    mapping = {}
+    with open(MAPPING_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            key = (row["stagione"], row["squadra"], row["nome_fantacalcio"])
+            mapping[key] = row["player_id_understat"]
+    log.info("Caricata mappa nomi giocatore (bridge fantacalcio->Understat): %d coppie (stagione, squadra, nome)", len(mapping))
+    return mapping
+
+
+def norm_team_understat(name):
+    return TEAM_NAME_MAP_UNDERSTAT.get(name, name)
 
 
 def carica_classifica_finale():
@@ -423,13 +499,75 @@ def carica_profilo():
     return profilo
 
 
-def aggrega_per_giocatore_stagione(presenze, understat_agg):
+def carica_forum_esperti():
+    """dict {player_id: {colonna_forum: valore}} da
+    scrape_forum_esperti_2026_27.py (schede squadra Gruppo Esperti,
+    richiesto da Dario: "Consideriamo anche questi aspetti nell'analisi").
+    Come per carica_profilo(): indicizzato per player_id PURO, non per
+    (player_id, stagione) - e' uno SNAPSHOT UNICO pre-stagione-2026-27,
+    non una serie storica (il forum non ha equivalenti per le stagioni
+    passate). Righe senza player_id (match nome falliito, dichiarato nel
+    log dello scraper) vengono ignorate qui, non forzate. File opzionale:
+    se assente, tutte le feature forum_* risultano None per questa run."""
+    forum = {}
+    if not FORUM_ESPERTI_PATH.exists():
+        log.warning("File forum esperti non trovato (%s): forum_* saranno sempre None per questa run", FORUM_ESPERTI_PATH)
+        return forum
+    righe_senza_player_id = 0
+    duplicati = 0
+    with open(FORUM_ESPERTI_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            player_id = row.get("player_id")
+            if not player_id:
+                righe_senza_player_id += 1
+                continue
+            if player_id in forum:
+                duplicati += 1
+                continue
+            forum[player_id] = {
+                "titolarita_forum": to_float(row["titolarita_forum"]),
+                "media_voto_forum": to_float(row["media_voto_forum"]),
+                "salute_forum": to_float(row["salute_forum"]),
+                "bonus_forum": to_float(row["bonus_forum"]),
+                "consiglio_esperti_forum": to_float(row["consiglio_esperti_forum"]),
+                "totale_forum": to_float(row["totale_forum"]),
+            }
+    log.info("Pagelle forum esperti caricate per %d player_id (righe senza player_id/non matchate scartate: %d)",
+              len(forum), righe_senza_player_id)
+    if duplicati:
+        log.warning("player_id duplicati nel CSV forum (tenuta la prima occorrenza): %d", duplicati)
+    return forum
+
+
+def trova_understat_agg(name_mapping, understat_agg, stagione, pres):
+    """Risolve l'ID Understat corretto per questo giocatore/stagione usando
+    il bridge player_name_mapping.csv (nome_fantacalcio, squadra, stagione),
+    poi recupera gli aggregati Understat per quell'ID - fix del bug di join
+    diretto sul player_id (vedi nota in carica_understat_per_stagione).
+    Prova tutte le combinazioni (nome, squadra) distinte comparse nella
+    stagione (caso raro: cambio squadra a meta' stagione), prende la prima
+    che trova un match. Nessun match -> dict vuoto (0.0 di default a valle,
+    dichiarato esplicitamente come "non matchato", non silenziato)."""
+    combinazioni = {(p["nome_giocatore"], p["squadra_giocatore"]) for p in pres}
+    for nome, squadra in combinazioni:
+        squadra_norm = norm_team_understat(squadra)
+        player_id_understat = name_mapping.get((stagione, squadra_norm, nome))
+        if player_id_understat:
+            u = understat_agg.get((player_id_understat, stagione))
+            if u:
+                return u
+    return {}
+
+
+def aggrega_per_giocatore_stagione(presenze, understat_agg, name_mapping):
     """dict {(player_id, stagione): metriche aggregate}"""
     per_key = defaultdict(list)
     for p in presenze:
         per_key[(p["player_id"], p["stagione"])].append(p)
 
     aggregati = {}
+    n_match_understat = 0
     for (player_id, stagione), pres in per_key.items():
         n = len(pres)
         fantamedia = sum(p["fantavoto"] for p in pres) / n
@@ -437,7 +575,14 @@ def aggrega_per_giocatore_stagione(presenze, understat_agg):
         gol = sum(p["gol_fatti"] for p in pres)
         assist = sum(p["assist"] for p in pres)
         bonus_netti = sum(p["fantavoto"] - p["voto"] for p in pres)
-        u = understat_agg.get((player_id, stagione), {})
+        ammonizioni_totali = sum(p["ammonizione"] for p in pres)
+        espulsioni_totali = sum(p["espulsione"] for p in pres)
+        rigori_segnati_totali = sum(p["rigori_segnati"] for p in pres)
+        rigori_sbagliati_totali = sum(p["rigori_sbagliati"] for p in pres)
+        rigori_parati_totali = sum(p["rigori_parati"] for p in pres)
+        u = trova_understat_agg(name_mapping, understat_agg, stagione, pres)
+        if u:
+            n_match_understat += 1
         aggregati[(player_id, stagione)] = {
             "fantamedia": fantamedia,
             "voto_medio": voto_medio,
@@ -449,11 +594,19 @@ def aggrega_per_giocatore_stagione(presenze, understat_agg):
             "xg_totale": u.get("xg_totale", 0.0),
             "xa_totale": u.get("xa_totale", 0.0),
             "shots_totali": u.get("shots_totali", 0.0),
+            "presenze_titolare": u.get("presenze_titolare", 0.0),
+            "ammonizioni_totali": ammonizioni_totali,
+            "espulsioni_totali": espulsioni_totali,
+            "rigori_segnati_totali": rigori_segnati_totali,
+            "rigori_sbagliati_totali": rigori_sbagliati_totali,
+            "rigori_parati_totali": rigori_parati_totali,
             "ruolo": max(set(p["ruolo"] for p in pres), key=lambda r: sum(1 for p in pres if p["ruolo"] == r)),
             "squadra_giocatore": pres[-1]["squadra_giocatore"],  # ultima nota nella stagione
             "nome_giocatore": pres[-1]["nome_giocatore"],
         }
     log.info("Aggregati (player_id, stagione) calcolati: %d", len(aggregati))
+    log.info("Di questi, con match Understat riuscito (xg/xa/shots/minuti reali, non 0.0 di default): %d (%.1f%%)",
+              n_match_understat, 100 * n_match_understat / len(aggregati) if aggregati else 0)
     return aggregati
 
 
@@ -464,7 +617,46 @@ def mean_or_none(values):
     return sum(vals) / len(vals)
 
 
-def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortuni_map, profilo_map):
+def std_or_none(values):
+    """Deviazione standard (popolazione, ddof=0) delle stesse fino-3
+    stagioni precedenti usate per _ma3 - richiesta da Dario ("considera
+    anche la varianza oltre alle medie mobili"): un giocatore con
+    fantamedia_ma3=6.5 costruita su 6.0/6.5/7.0 e' piu' "instabile" di uno
+    con 6.4/6.5/6.6, stessa media ma varianza diversa - informazione persa
+    usando solo la media. None se <2 valori disponibili (varianza non
+    definita/poco significativa su 1 solo valore, non riempita a 0 per non
+    confonderla con "davvero stabile")."""
+    vals = [v for v in values if v is not None]
+    if len(vals) < 2:
+        return None
+    m = sum(vals) / len(vals)
+    return (sum((v - m) ** 2 for v in vals) / len(vals)) ** 0.5
+
+
+def trend_or_none(values_cronologiche):
+    """Pendenza (slope) di una regressione lineare semplice y = a + b*x
+    sulle stesse fino-3 stagioni precedenti usate per _ma3/_std3, con
+    values_cronologiche in ordine DAL PIU' VECCHIO AL PIU' RECENTE (x=0,1,2..)
+    - richiesta da Dario ("considera... il trend"): un giocatore andato
+    5.5->6.0->6.5 (trend positivo) e uno andato 6.5->6.0->5.5 (trend
+    negativo) hanno la stessa media (6.0) ma direzioni opposte, rilevante
+    per capire se sta migliorando o peggiorando. None se <2 valori
+    disponibili (una pendenza non e' definibile su un solo punto)."""
+    vals = [v for v in values_cronologiche if v is not None]
+    n = len(vals)
+    if n < 2:
+        return None
+    xs = list(range(n))
+    x_mean = sum(xs) / n
+    y_mean = sum(vals) / n
+    num = sum((xs[i] - x_mean) * (vals[i] - y_mean) for i in range(n))
+    den = sum((xs[i] - x_mean) ** 2 for i in range(n))
+    if den == 0:
+        return 0.0
+    return num / den
+
+
+def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortuni_map, profilo_map, forum_map):
     per_player = defaultdict(dict)  # player_id -> {stagione: aggregato}
     for (player_id, stagione), agg in aggregati.items():
         per_player[player_id][stagione] = agg
@@ -514,12 +706,31 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortun
                 )),
             }
 
-            # target (4 + presenze di contesto)
+            # target (5 espliciti + presenze di contesto, che ora e' anche
+            # essa stessa un target esplicito - vedi AGGIORNAMENTO v4 sotto)
             riga["fantamedia_target"] = target_agg["fantamedia"]
             riga["gol_target"] = target_agg["gol"]
             riga["assist_target"] = target_agg["assist"]
             riga["bonus_netti_target"] = target_agg["bonus_netti"]
             riga["presenze_target"] = target_agg["presenze"]
+            # AGGIORNAMENTO v4 (richiesta Dario: previsioni "voto" oltre a
+            # fantamedia/gol/assist): voto_medio_target = media del "voto"
+            # REDAZIONE (giudizio tecnico puro) sulla stagione N, DISTINTO
+            # da fantamedia_target che include bonus/malus (gol, assist,
+            # cartellini, ecc.). Era in COLONNE_VIETATE come rete di
+            # sicurezza generica contro leakage accidentale finche' non era
+            # un target dichiarato: ora e' un target esplicito voluto,
+            # quindi rimosso da quell'insieme piu' sotto (stesso principio
+            # gia' applicato a fantamedia_target/gol_target/ecc., che sono
+            # anch'essi aggregati della stagione target ma dichiarati).
+            riga["voto_medio_target"] = target_agg["voto_medio"]
+            # AGGIORNAMENTO v4 (richiesta Dario: "partite titolari" nella
+            # lista completa): presenze_titolare_target = numero di
+            # presenze da titolare (position!='Sub' su Understat) nella
+            # stagione N - possibile SOLO ora che il bug di join Understat
+            # e' stato corretto (senza il fix, presenze_titolare sarebbe
+            # quasi sempre 0.0 per lo stesso motivo di xg/xa/shots).
+            riga["presenze_titolare_target"] = target_agg["presenze_titolare"]
 
             # feature lag1 (stagione N-1, componente autoregressiva diretta)
             for m in METRICHE_BASE:
@@ -528,6 +739,19 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortun
             # feature media mobile ultime fino a 3 stagioni precedenti
             for m in METRICHE_BASE:
                 riga[f"{m}_ma3"] = mean_or_none([s[m] for s in stagioni_prec])
+
+            # AGGIORNAMENTO v5 (richiesta Dario: "considera anche la
+            # varianza oltre alle medie mobili e il trend"): stessa finestra
+            # di stagioni_prec (fino a 3 precedenti), due nuove feature per
+            # ciascuna metrica base - vedi std_or_none/trend_or_none per la
+            # motivazione. stagioni_prec e' in ordine "piu' recente prima"
+            # (back=1,2,3), va invertito per il trend (serve "piu' vecchio
+            # prima" per una pendenza temporale con segno corretto: positivo
+            # = in crescita verso la stagione target, negativo = in calo).
+            stagioni_prec_cronologiche = list(reversed(stagioni_prec))
+            for m in METRICHE_BASE:
+                riga[f"{m}_std3"] = std_or_none([s[m] for s in stagioni_prec])
+                riga[f"{m}_trend3"] = trend_or_none([s[m] for s in stagioni_prec_cronologiche])
 
             # feature media di carriera: TUTTE le stagioni precedenti
             # disponibili (non solo le ultime 3 come ma3) - richiesta da
@@ -611,6 +835,33 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortun
             riga["nazionalita"] = prof["nazionalita"] if prof else None
             riga["piede_dominante"] = prof["piede_dominante"] if prof else None
 
+            # forum Gruppo Esperti: valutazione QUALITATIVA soggettiva
+            # pre-stagione, richiesta esplicitamente da Dario
+            # ("Consideriamo anche questi aspetti nell'analisi"). Snapshot
+            # UNICO disponibile solo per la stagione 2026-27 (il forum non
+            # ha equivalenti per le stagioni passate) - popolato SOLO sulla
+            # riga stagione_target=='2026-27', None su tutte le altre righe
+            # storiche (MAI 0: 0 sarebbe un falso "nessun hype" per stagioni
+            # in cui la feature semplicemente non esiste come concetto).
+            # Non entra in METRICHE_BASE (non e' una serie storica
+            # accumulabile per stagione) - stesso trattamento di
+            # altezza_m/piede_dominante sopra.
+            if stagione_target == "2026-27":
+                forum = forum_map.get(player_id)
+                riga["titolarita_forum"] = forum["titolarita_forum"] if forum else None
+                riga["media_voto_forum"] = forum["media_voto_forum"] if forum else None
+                riga["salute_forum"] = forum["salute_forum"] if forum else None
+                riga["bonus_forum"] = forum["bonus_forum"] if forum else None
+                riga["consiglio_esperti_forum"] = forum["consiglio_esperti_forum"] if forum else None
+                riga["totale_forum"] = forum["totale_forum"] if forum else None
+            else:
+                riga["titolarita_forum"] = None
+                riga["media_voto_forum"] = None
+                riga["salute_forum"] = None
+                riga["bonus_forum"] = None
+                riga["consiglio_esperti_forum"] = None
+                riga["totale_forum"] = None
+
             righe.append(riga)
 
     log.info("Righe (player_id, stagione_target) costruite: %d", len(righe))
@@ -619,12 +870,14 @@ def costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortun
 
 COLONNE_VIETATE = {
     # nessuna colonna con suffisso diverso da _lag1/_ma3/_career_mean/_n1/
-    # _target (quotazione_iniziale_target e squadra_in_champions_target
-    # sono le uniche eccezioni dichiarate sopra, entrambe genuinamente note
-    # prima che la stagione target cominci) calcolata dagli aggregati della
-    # stagione TARGET stessa deve esistere nell'output, salvo i target
-    # espliciti.
-    "voto_medio_target", "minuti_totali_target", "xg_totale_target",
+    # _target (quotazione_iniziale_target, squadra_in_champions_target e,
+    # da v4, voto_medio_target sono le eccezioni dichiarate: tutte
+    # genuinamente note prima che la stagione target cominci OPPURE, nel
+    # caso di voto_medio_target, un target esplicito voluto da Dario -
+    # stesso principio gia' applicato a fantamedia_target/gol_target/ecc.)
+    # calcolata dagli aggregati della stagione TARGET stessa deve esistere
+    # nell'output, salvo i target espliciti.
+    "minuti_totali_target", "xg_totale_target",
     "xa_totale_target", "shots_totali_target",
     "quotazione_attuale_target", "fvm_target", "eta_target",
     "infortuni_target_count", "infortuni_n_count", "altezza_target",
@@ -642,14 +895,16 @@ def verifica_anti_leakage(fieldnames):
 def main():
     presenze = carica_presenze_valide()
     understat_agg = carica_understat_per_stagione()
+    name_mapping = carica_name_mapping()
     classifica_finale = carica_classifica_finale()
     quotazioni = carica_quotazioni()
     eta_map = carica_eta()
     infortuni_map = carica_infortuni()
     profilo_map = carica_profilo()
+    forum_map = carica_forum_esperti()
 
-    aggregati = aggrega_per_giocatore_stagione(presenze, understat_agg)
-    righe = costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortuni_map, profilo_map)
+    aggregati = aggrega_per_giocatore_stagione(presenze, understat_agg, name_mapping)
+    righe = costruisci_righe(aggregati, classifica_finale, quotazioni, eta_map, infortuni_map, profilo_map, forum_map)
 
     if not righe:
         log.error("Nessuna riga costruita, interrompo.")
@@ -699,6 +954,18 @@ def main():
     n_con_infortuni_career = sum(1 for r in righe if r["infortuni_career_count"] > 0)
     log.info("Righe con almeno 1 infortunio in N-1: %d/%d (%.1f%%)", n_con_infortuni_n1, len(righe), 100 * n_con_infortuni_n1 / len(righe))
     log.info("Righe con almeno 1 infortunio in carriera (< N): %d/%d (%.1f%%)", n_con_infortuni_career, len(righe), 100 * n_con_infortuni_career / len(righe))
+
+    # forum Gruppo Esperti: copertura ESCLUSIVAMENTE sulle righe
+    # stagione_target=='2026-27' (per costruzione None altrove, atteso e
+    # dichiarato, non un errore) - dettaglio a parte per non confondere il
+    # riepilogo per-stagione sopra, dove sarebbe quasi sempre 0.
+    righe_2026_27 = [r for r in righe if r["stagione_target"] == "2026-27"]
+    if righe_2026_27:
+        n_con_forum = sum(1 for r in righe_2026_27 if r["totale_forum"] is not None)
+        log.info("Righe 2026-27 con pagelle forum esperti disponibili: %d/%d (%.1f%%) - None su tutte le altre stagioni per costruzione (snapshot pre-2026-27, non serie storica)",
+                  n_con_forum, len(righe_2026_27), 100 * n_con_forum / len(righe_2026_27))
+    else:
+        log.warning("Nessuna riga stagione_target=='2026-27' nel dataset: verificare quotazioni_fantacalcio_storico_2015_2026.csv")
 
 
 if __name__ == "__main__":

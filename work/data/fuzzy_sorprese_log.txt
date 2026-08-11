@@ -1,0 +1,53 @@
+2026-08-11 18:18:21,549 INFO === Sistema fuzzy sorprese: 303 giocatori valutati, 56 esclusi (nessun giudizio forum) ===
+2026-08-11 18:18:21,549 INFO Sorprese al RIALZO (indice>=3): 29
+2026-08-11 18:18:21,550 INFO Rischi al RIBASSO (indice<=-3): 18
+2026-08-11 18:18:21,550 INFO Output scritto in /app/sandbox/chat_-5519413290/work/data/previsioni_serie_a_2026_27_con_sorprese.csv
+2026-08-11 18:18:21,550 INFO 
+2026-08-11 18:18:21,550 INFO === Dettaglio sorprese/rischi (ordinate per intensita' indice) ===
+2026-08-11 18:18:21,550 INFO   [RIALZO] COM    Baturina                  pred_titolare=15.1 forum_titolarita=9 indice=7.90
+2026-08-11 18:18:21,550 INFO   [RIALZO] INT    Calhanoglu                pred_titolare=16.0 forum_titolarita=9 indice=7.90
+2026-08-11 18:18:21,550 INFO   [RIALZO] ROM    Malen                     pred_titolare=13.7 forum_titolarita=9 indice=7.90
+2026-08-11 18:18:21,550 INFO   [RIALZO] ROM    Konè M.                   pred_titolare=2.7 forum_titolarita=9 indice=7.89
+2026-08-11 18:18:21,550 INFO   [RIBASSO] BOL    Lucumì                    pred_titolare=22.7 forum_titolarita=1 indice=-7.84
+2026-08-11 18:18:21,550 INFO   [RIBASSO] MIL    Modric                    pred_titolare=23.6 forum_titolarita=6 indice=-7.83
+2026-08-11 18:18:21,550 INFO   [RIBASSO] MIL    Tomori                    pred_titolare=24.2 forum_titolarita=6 indice=-7.83
+2026-08-11 18:18:21,550 INFO   [RIALZO] GEN    Ostigard                  pred_titolare=3.4 forum_titolarita=9 indice=7.83
+2026-08-11 18:18:21,550 INFO   [RIALZO] CAG    Fazzini                   pred_titolare=11.7 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] FIO    Jimenez A.                pred_titolare=14.3 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] FRO    Zerbin                    pred_titolare=12.8 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] LAZ    Rovella                   pred_titolare=10.3 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] MON    Cutrone                   pred_titolare=12.5 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] NAP    Zambo Anguissa            pred_titolare=1.7 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] NAP    Spinazzola                pred_titolare=15.1 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,550 INFO   [RIALZO] TOR    Pedersen                  pred_titolare=14.6 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,551 INFO   [RIALZO] VEN    Bella-Kotchap             pred_titolare=11.9 forum_titolarita=8 indice=7.67
+2026-08-11 18:18:21,551 INFO   [RIBASSO] PAR    Suzuki                    pred_titolare=29.8 forum_titolarita=3 indice=-7.47
+2026-08-11 18:18:21,551 INFO   [RIBASSO] SAS    Konè I.                   pred_titolare=26.3 forum_titolarita=3 indice=-7.47
+2026-08-11 18:18:21,551 INFO   [RIBASSO] LAZ    Marusic                   pred_titolare=22.5 forum_titolarita=6 indice=-6.51
+2026-08-11 18:18:21,551 INFO   [RIALZO] GEN    Bijlow                    pred_titolare=16.7 forum_titolarita=9 indice=6.32
+2026-08-11 18:18:21,551 INFO   [RIALZO] MIL    Pulisic                   pred_titolare=16.7 forum_titolarita=9 indice=6.32
+2026-08-11 18:18:21,551 INFO   [RIBASSO] MIL    Terracciano               pred_titolare=9.4 forum_titolarita=2 indice=-6.08
+2026-08-11 18:18:21,551 INFO   [RIBASSO] MIL    Bartesaghi                pred_titolare=22.2 forum_titolarita=6 indice=-5.87
+2026-08-11 18:18:21,551 INFO   [RIALZO] LAZ    Provstgaard               pred_titolare=17.4 forum_titolarita=9 indice=5.18
+2026-08-11 18:18:21,551 INFO   [RIBASSO] SAS    Walukiewicz               pred_titolare=21.8 forum_titolarita=6 indice=-5.16
+2026-08-11 18:18:21,551 INFO   [RIALZO] NAP    Rrahmani                  pred_titolare=17.9 forum_titolarita=9 indice=4.54
+2026-08-11 18:18:21,551 INFO   [RIALZO] LEC    Gaspar K.                 pred_titolare=17.7 forum_titolarita=8 indice=4.53
+2026-08-11 18:18:21,551 INFO   [RIBASSO] ATA    Krstovic                  pred_titolare=21.3 forum_titolarita=6 indice=-4.45
+2026-08-11 18:18:21,551 INFO   [RIBASSO] FIO    Ndour                     pred_titolare=21.3 forum_titolarita=6 indice=-4.45
+2026-08-11 18:18:21,551 INFO   [RIBASSO] LAZ    Romagnoli                 pred_titolare=21.9 forum_titolarita=3 indice=-4.42
+2026-08-11 18:18:21,551 INFO   [RIALZO] SAS    Berardi                   pred_titolare=18.1 forum_titolarita=9 indice=4.31
+2026-08-11 18:18:21,551 INFO   [RIALZO] MIL    Gila                      pred_titolare=18.2 forum_titolarita=9 indice=4.20
+2026-08-11 18:18:21,551 INFO   [RIBASSO] FIO    Pongracic                 pred_titolare=21.0 forum_titolarita=6 indice=-4.08
+2026-08-11 18:18:21,551 INFO   [RIALZO] CAG    Zè Pedro                  pred_titolare=18.5 forum_titolarita=8 indice=3.88
+2026-08-11 18:18:21,551 INFO   [RIALZO] TOR    Comuzzo                   pred_titolare=18.6 forum_titolarita=8 indice=3.78
+2026-08-11 18:18:21,551 INFO   [RIALZO] NAP    Lobotka                   pred_titolare=18.7 forum_titolarita=9 indice=3.68
+2026-08-11 18:18:21,551 INFO   [RIALZO] LAZ    Taylor K.                 pred_titolare=18.8 forum_titolarita=9 indice=3.59
+2026-08-11 18:18:21,551 INFO   [RIALZO] ATA    Zappacosta                pred_titolare=18.9 forum_titolarita=8 indice=3.49
+2026-08-11 18:18:21,551 INFO   [RIALZO] BOL    Rowe                      pred_titolare=19.0 forum_titolarita=8 indice=3.40
+2026-08-11 18:18:21,552 INFO   [RIALZO] BOL    Miranda J.                pred_titolare=19.2 forum_titolarita=8 indice=3.22
+2026-08-11 18:18:21,552 INFO   [RIBASSO] FIO    Dodò                      pred_titolare=27.6 forum_titolarita=7 indice=-3.21
+2026-08-11 18:18:21,552 INFO   [RIBASSO] JUV    McKennie                  pred_titolare=25.3 forum_titolarita=7 indice=-3.21
+2026-08-11 18:18:21,552 INFO   [RIBASSO] JUV    Di Gregorio               pred_titolare=27.5 forum_titolarita=7 indice=-3.21
+2026-08-11 18:18:21,552 INFO   [RIBASSO] SAS    Thorstvedt                pred_titolare=23.3 forum_titolarita=7 indice=-3.21
+2026-08-11 18:18:21,552 INFO   [RIBASSO] COM    Rodriguez Je.             pred_titolare=20.1 forum_titolarita=6 indice=-3.16
+2026-08-11 18:18:21,552 INFO   [RIALZO] PAR    Bernabè                   pred_titolare=19.3 forum_titolarita=9 indice=3.13

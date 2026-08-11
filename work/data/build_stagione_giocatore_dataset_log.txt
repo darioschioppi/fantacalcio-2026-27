@@ -1,23 +1,27 @@
-2026-08-10 18:24:54,619 INFO Presenze valide caricate: 114111
-2026-08-10 18:24:55,651 INFO Aggregati Understat per (player_id, stagione): 6313 combinazioni
-2026-08-10 18:24:55,686 INFO Classifica finale (approssimata a giornata 38 pre-partita) per 220 combinazioni (stagione, squadra)
-2026-08-10 18:24:55,716 INFO Quotazioni caricate per 7794 combinazioni (player_id, stagione)
-2026-08-10 18:24:55,740 INFO Eta' giocatori caricate per 6163 combinazioni (player_id, stagione)
-2026-08-10 18:24:55,797 INFO Episodi infortunio caricati: 16996 totali, 1553 scartati (stagione fuori range 2015-2026, verificato: infortuni ante-2015), per 1997 player_id distinti
-2026-08-10 18:24:55,804 INFO Profili fisici caricati per 2088 player_id
-2026-08-10 18:24:56,085 INFO Aggregati (player_id, stagione) calcolati: 6018
-2026-08-10 18:24:56,235 INFO Righe (player_id, stagione_target) costruite: 3465
-2026-08-10 18:24:56,236 INFO Verifica anti-leakage OK: nessuna colonna vietata presente tra le 60 colonne finali
-2026-08-10 18:24:56,364 INFO Dataset scritto: 3465 righe, 60 colonne, in /app/sandbox/chat_-5519413290/work/data/stagione_giocatore_dataset_2015_2026.csv
-2026-08-10 18:24:56,370 INFO   2016-17: 337 righe, quot_n1=336 (99.7%), quot_target=337 (100.0%), eta_n1=332 (98.5%), profilo=331 (98.2%), in_champions_target=42
-2026-08-10 18:24:56,370 INFO   2017-18: 340 righe, quot_n1=340 (100.0%), quot_target=340 (100.0%), eta_n1=336 (98.8%), profilo=331 (97.4%), in_champions_target=56
-2026-08-10 18:24:56,370 INFO   2018-19: 331 righe, quot_n1=331 (100.0%), quot_target=331 (100.0%), eta_n1=328 (99.1%), profilo=322 (97.3%), in_champions_target=77
-2026-08-10 18:24:56,370 INFO   2019-20: 331 righe, quot_n1=331 (100.0%), quot_target=331 (100.0%), eta_n1=329 (99.4%), profilo=326 (98.5%), in_champions_target=71
-2026-08-10 18:24:56,370 INFO   2020-21: 381 righe, quot_n1=378 (99.2%), quot_target=381 (100.0%), eta_n1=376 (98.7%), profilo=375 (98.4%), in_champions_target=83
-2026-08-10 18:24:56,370 INFO   2021-22: 363 righe, quot_n1=363 (100.0%), quot_target=363 (100.0%), eta_n1=361 (99.4%), profilo=358 (98.6%), in_champions_target=90
-2026-08-10 18:24:56,370 INFO   2022-23: 352 righe, quot_n1=348 (98.9%), quot_target=352 (100.0%), eta_n1=349 (99.1%), profilo=344 (97.7%), in_champions_target=77
-2026-08-10 18:24:56,370 INFO   2023-24: 338 righe, quot_n1=337 (99.7%), quot_target=337 (99.7%), eta_n1=332 (98.2%), profilo=331 (97.9%), in_champions_target=75
-2026-08-10 18:24:56,370 INFO   2024-25: 343 righe, quot_n1=340 (99.1%), quot_target=343 (100.0%), eta_n1=320 (93.3%), profilo=322 (93.9%), in_champions_target=103
-2026-08-10 18:24:56,370 INFO   2025-26: 349 righe, quot_n1=349 (100.0%), quot_target=349 (100.0%), eta_n1=347 (99.4%), profilo=320 (91.7%), in_champions_target=76
-2026-08-10 18:24:56,373 INFO Righe con almeno 1 infortunio in N-1: 2124/3465 (61.3%)
-2026-08-10 18:24:56,373 INFO Righe con almeno 1 infortunio in carriera (< N): 2617/3465 (75.5%)
+2026-08-11 17:55:38,799 INFO Presenze valide caricate: 114111
+2026-08-11 17:55:39,861 INFO Aggregati Understat per (player_id_understat, stagione): 6313 combinazioni
+2026-08-11 17:55:39,882 INFO Caricata mappa nomi giocatore (bridge fantacalcio->Understat): 6504 coppie (stagione, squadra, nome)
+2026-08-11 17:55:39,916 INFO Classifica finale (approssimata a giornata 38 pre-partita) per 220 combinazioni (stagione, squadra)
+2026-08-11 17:55:39,948 INFO Quotazioni caricate per 7794 combinazioni (player_id, stagione)
+2026-08-11 17:55:39,970 INFO Eta' giocatori caricate per 6163 combinazioni (player_id, stagione)
+2026-08-11 17:55:40,035 INFO Episodi infortunio caricati: 16996 totali, 1553 scartati (stagione fuori range 2015-2026, verificato: infortuni ante-2015), per 1997 player_id distinti
+2026-08-11 17:55:40,041 INFO Profili fisici caricati per 2088 player_id
+2026-08-11 17:55:40,044 INFO Pagelle forum esperti caricate per 424 player_id (righe senza player_id/non matchate scartate: 71)
+2026-08-11 17:55:40,407 INFO Aggregati (player_id, stagione) calcolati: 6018
+2026-08-11 17:55:40,407 INFO Di questi, con match Understat riuscito (xg/xa/shots/minuti reali, non 0.0 di default): 5938 (98.7%)
+2026-08-11 17:55:40,857 INFO Righe (player_id, stagione_target) costruite: 3465
+2026-08-11 17:55:40,858 INFO Verifica anti-leakage OK: nessuna colonna vietata presente tra le 118 colonne finali
+2026-08-11 17:55:41,135 INFO Dataset scritto: 3465 righe, 118 colonne, in /app/sandbox/chat_-5519413290/work/data/stagione_giocatore_dataset_2015_2026.csv
+2026-08-11 17:55:41,143 INFO   2016-17: 337 righe, quot_n1=336 (99.7%), quot_target=337 (100.0%), eta_n1=332 (98.5%), profilo=331 (98.2%), in_champions_target=42
+2026-08-11 17:55:41,144 INFO   2017-18: 340 righe, quot_n1=340 (100.0%), quot_target=340 (100.0%), eta_n1=336 (98.8%), profilo=331 (97.4%), in_champions_target=56
+2026-08-11 17:55:41,144 INFO   2018-19: 331 righe, quot_n1=331 (100.0%), quot_target=331 (100.0%), eta_n1=328 (99.1%), profilo=322 (97.3%), in_champions_target=77
+2026-08-11 17:55:41,144 INFO   2019-20: 331 righe, quot_n1=331 (100.0%), quot_target=331 (100.0%), eta_n1=329 (99.4%), profilo=326 (98.5%), in_champions_target=71
+2026-08-11 17:55:41,144 INFO   2020-21: 381 righe, quot_n1=378 (99.2%), quot_target=381 (100.0%), eta_n1=376 (98.7%), profilo=375 (98.4%), in_champions_target=83
+2026-08-11 17:55:41,144 INFO   2021-22: 363 righe, quot_n1=363 (100.0%), quot_target=363 (100.0%), eta_n1=361 (99.4%), profilo=358 (98.6%), in_champions_target=90
+2026-08-11 17:55:41,144 INFO   2022-23: 352 righe, quot_n1=348 (98.9%), quot_target=352 (100.0%), eta_n1=349 (99.1%), profilo=344 (97.7%), in_champions_target=77
+2026-08-11 17:55:41,144 INFO   2023-24: 338 righe, quot_n1=337 (99.7%), quot_target=337 (99.7%), eta_n1=332 (98.2%), profilo=331 (97.9%), in_champions_target=75
+2026-08-11 17:55:41,144 INFO   2024-25: 343 righe, quot_n1=340 (99.1%), quot_target=343 (100.0%), eta_n1=320 (93.3%), profilo=322 (93.9%), in_champions_target=103
+2026-08-11 17:55:41,144 INFO   2025-26: 349 righe, quot_n1=349 (100.0%), quot_target=349 (100.0%), eta_n1=347 (99.4%), profilo=320 (91.7%), in_champions_target=76
+2026-08-11 17:55:41,149 INFO Righe con almeno 1 infortunio in N-1: 2124/3465 (61.3%)
+2026-08-11 17:55:41,149 INFO Righe con almeno 1 infortunio in carriera (< N): 2617/3465 (75.5%)
+2026-08-11 17:55:41,151 WARNING Nessuna riga stagione_target=='2026-27' nel dataset: verificare quotazioni_fantacalcio_storico_2015_2026.csv

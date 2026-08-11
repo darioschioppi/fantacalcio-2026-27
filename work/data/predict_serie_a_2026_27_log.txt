@@ -1,0 +1,27 @@
+2026-08-11 18:12:41,571 INFO Presenze valide caricate: 114111
+2026-08-11 18:12:42,839 INFO Pagelle forum esperti caricate per 424 player_id
+2026-08-11 18:12:43,217 INFO Giocatori 2026-27 totali (da quotazioni): 503, squadre: 20 (['ATA', 'BOL', 'CAG', 'COM', 'FIO', 'FRO', 'GEN', 'INT', 'JUV', 'LAZ', 'LEC', 'MIL', 'MON', 'NAP', 'PAR', 'ROM', 'SAS', 'TOR', 'UDI', 'VEN'])
+2026-08-11 18:13:07,314 INFO === Previsioni Serie A 2026-27: 359 giocatori PREVISTI su 503 totali (71.4%) ===
+2026-08-11 18:13:07,314 INFO Output CSV: /app/sandbox/chat_-5519413290/work/data/previsioni_serie_a_2026_27.csv
+2026-08-11 18:13:07,314 INFO 
+2026-08-11 18:13:07,314 INFO Giocatori 2026-27 SENZA storico Serie A 2025-26 (non prevedibili, 144 totali):
+2026-08-11 18:13:07,314 INFO   ATA (2): ['Rossi F.', 'Vismara']
+2026-08-11 18:13:07,314 INFO   BOL (4): ['Amondarain', 'Alhassane', 'El Azzouzi O.', 'Happonen']
+2026-08-11 18:13:07,314 INFO   CAG (7): ['Winks', 'Mutandwa', 'Kofler', 'Romano', 'Ciocci', 'Sherri', 'Raterink']
+2026-08-11 18:13:07,314 INFO   COM (11): ['Chalobah T.', 'Couto', 'Kaiki', 'Liberali', 'Milla', 'Tornqvist', 'Vigorito', 'Goldaniga', 'Cuenca A.', 'Lahdo', 'Azon']
+2026-08-11 18:13:07,314 INFO   FIO (6): ['Mastantuono', 'Dragusin', 'Valdepenas', 'Viery', 'Oulai', 'Lezzerini']
+2026-08-11 18:13:07,314 INFO   FRO (23): ['Ghedjemis', 'Calò', 'Raimondo', 'Monterisi', 'Bracaglia', 'Oyono A.', 'Palmisani', 'Calvani', 'Cichella', 'Koutsoupias', 'Kvernadze', 'Akpoguma', 'Cittadini', 'Gelli F.', 'Desplanches', 'Hasa', 'Lolic', 'Amey', 'Gelli J.', 'Oyono J.', 'Corrado', 'El Azzouzi A.', 'Kone B.']
+2026-08-11 18:13:07,315 INFO   GEN (9): ['Sow', 'Meichtry', 'Traorè Hj.', 'Mitaj', 'Havel', 'Puczka', 'Stolz', 'Vogliacco', 'Matturro']
+2026-08-11 18:13:07,315 INFO   INT (2): ['Stones', 'Stankovic A.']
+2026-08-11 18:13:07,315 INFO   JUV (4): ['Kolo Muani', 'Alajbegovic', 'Douglas Luiz', 'Pinsoglio']
+2026-08-11 18:13:07,315 INFO   LAZ (5): ['Mandas', 'Doekhi', 'Pedraza', 'Renzetti', 'Przyborek']
+2026-08-11 18:13:07,315 INFO   LEC (3): ['Geubbels', 'Fruchtl', 'Samooja']
+2026-08-11 18:13:07,315 INFO   MIL (3): ['Ramos G.', 'Diawara S.', 'Torriani']
+2026-08-11 18:13:07,315 INFO   MON (18): ['Colpani', 'Pessina', 'Mangas', 'Thiam', 'Mota', 'Delli Carri', 'Lucchesi', 'Birindelli', 'Robinson J.', 'Carboni A.', 'Colombo L.', 'Varela G.', 'Ciurria', 'Petagna', 'Pizzignacco', 'Strajnar', 'Antov', 'Bakoune']
+2026-08-11 18:13:07,315 INFO   NAP (2): ['Marin R.', 'Contini']
+2026-08-11 18:13:07,315 INFO   PAR (4): ['Tourè E.', 'Daffara', 'Frigan', 'Diallo O.']
+2026-08-11 18:13:07,315 INFO   ROM (3): ['Koulierakis', 'De Marzi', 'Gollini']
+2026-08-11 18:13:07,315 INFO   SAS (4): ['Russo A.', 'Missori', 'Pieragnolo', 'Satalino']
+2026-08-11 18:13:07,315 INFO   TOR (5): ['Cacciamani', 'Comert', 'Fitz-Jim', 'Mascardi', 'Siviero']
+2026-08-11 18:13:07,315 INFO   UDI (5): ['Unai Gomez', 'Chakvetadze', 'Piana', 'Abankwah', 'Camara A.']
+2026-08-11 18:13:07,315 INFO   VEN (24): ['Adams A.', 'Yeboah J.', 'Rrahmani Al.', 'Stankovic F.', 'Moreno M.', 'Haps', 'Busio', 'Perez K.', 'Adorante', 'Halhal', 'Correia T.', 'Schingtienne', 'Sverko', 'Hainaut', 'Franjic', 'Sagrado', 'Duncan', 'Grandi', 'Pozzi', 'Gomes', 'Bjarkason', 'Dagasso', 'Lisman', 'Lauberbach']

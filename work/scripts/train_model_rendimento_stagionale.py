@@ -69,18 +69,22 @@ TRAIN_SEASONS = ["2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23
 VAL_SEASONS = ["2023-24"]
 TEST_SEASONS = ["2024-25", "2025-26"]
 
-TARGETS = ["fantamedia_target", "gol_target", "assist_target", "bonus_netti_target"]
+TARGETS = ["fantamedia_target", "voto_medio_target", "gol_target", "assist_target",
+           "bonus_netti_target", "presenze_target", "presenze_titolare_target"]
 TARGET_TO_LAG1 = {
     "fantamedia_target": "fantamedia_lag1",
+    "voto_medio_target": "voto_medio_lag1",
     "gol_target": "gol_lag1",
     "assist_target": "assist_lag1",
     "bonus_netti_target": "bonus_netti_lag1",
+    "presenze_target": "presenze_lag1",
+    "presenze_titolare_target": "presenze_titolare_lag1",
 }
 
 ID_COLS = ["stagione_target", "player_id", "nome_giocatore",
            "squadra_giocatore_target", "squadra_giocatore_n1"]
-ALL_TARGET_COLS = ["fantamedia_target", "gol_target", "assist_target",
-                    "bonus_netti_target", "presenze_target"]
+ALL_TARGET_COLS = ["fantamedia_target", "voto_medio_target", "gol_target", "assist_target",
+                    "bonus_netti_target", "presenze_target", "presenze_titolare_target"]
 CATEGORICAL_COLS = ["ruolo", "nazionalita", "piede_dominante"]
 QUOTAZIONE_COL = "quotazione_iniziale_target"
 

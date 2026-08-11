@@ -1,96 +1,162 @@
-2026-08-10 18:30:06,465 INFO Caricamento /app/sandbox/chat_-5519413290/work/data/stagione_giocatore_dataset_2015_2026.csv ...
-2026-08-10 18:30:06,498 INFO Righe totali caricate: 3465
-2026-08-10 18:30:06,500 INFO Train: 2098 righe (['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23'])
-2026-08-10 18:30:06,500 INFO Validation: 338 righe (['2023-24'])
-2026-08-10 18:30:06,500 INFO Test: 692 righe (['2024-25', '2025-26'])
-2026-08-10 18:30:06,500 INFO Feature usate (50): ['ruolo', 'cambio_squadra', 'presenze_cumulate_carriera_n1', 'fantamedia_lag1', 'gol_lag1', 'assist_lag1', 'bonus_netti_lag1', 'presenze_lag1', 'voto_medio_lag1', 'minuti_totali_lag1', 'xg_totale_lag1', 'xa_totale_lag1', 'shots_totali_lag1', 'fantamedia_ma3', 'gol_ma3', 'assist_ma3', 'bonus_netti_ma3', 'presenze_ma3', 'voto_medio_ma3', 'minuti_totali_ma3', 'xg_totale_ma3', 'xa_totale_ma3', 'shots_totali_ma3', 'fantamedia_career_mean', 'gol_career_mean', 'assist_career_mean', 'bonus_netti_career_mean', 'presenze_career_mean', 'voto_medio_career_mean', 'minuti_totali_career_mean', 'xg_totale_career_mean', 'xa_totale_career_mean', 'shots_totali_career_mean', 'eta_n1', 'squadra_in_champions_n1', 'squadra_in_champions_target', 'squadra_punti_finali_n1', 'squadra_posizione_finale_n1', 'squadra_nuova_punti_finali_n1', 'squadra_nuova_posizione_finale_n1', 'quotazione_iniziale_n1', 'quotazione_attuale_n1', 'fvm_n1', 'quotazione_iniziale_target', 'infortuni_n1_count', 'infortuni_n1_giorni_totali', 'infortuni_career_count', 'altezza_m', 'nazionalita', 'piede_dominante']
-2026-08-10 18:30:06,500 INFO === TARGET: fantamedia_target ===
-2026-08-10 18:30:06,992 INFO   Training completato. Best iteration: 52
-2026-08-10 18:30:06,995 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_fantamedia_stagionale_v1.txt
-2026-08-10 18:30:07,092 INFO   [TRAIN] MAE=0.3060 RMSE=0.4244 R2=0.6598 (n=2098)
-2026-08-10 18:30:07,094 INFO   [VALIDATION] MAE=0.3326 RMSE=0.4746 R2=0.5354 (n=338)
-2026-08-10 18:30:07,096 INFO   [TEST] MAE=0.3133 RMSE=0.4338 R2=0.5311 (n=692)
-2026-08-10 18:30:07,100 INFO   [TEST (baseline: media train)] MAE=0.4479 RMSE=0.6336 R2=-0.0004 (n=692)
-2026-08-10 18:30:07,104 INFO   [TEST (baseline: ripeti fantamedia_lag1)] MAE=0.3992 RMSE=0.5650 R2=0.2046 (n=692)
-2026-08-10 18:30:07,112 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
-2026-08-10 18:30:07,114 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=0.3983 RMSE=0.5533 R2=0.2370 (n=692)
-2026-08-10 18:30:07,117 INFO   --- Top 10 feature per importanza (gain) ---
-bonus_netti_ma3               1861.063200
-ruolo                         1141.004378
-quotazione_iniziale_target     845.429500
-bonus_netti_career_mean        394.244786
-fantamedia_career_mean         337.234303
-bonus_netti_lag1               287.597340
-quotazione_attuale_n1          225.259721
-fantamedia_lag1                133.325500
-quotazione_iniziale_n1         111.388921
-presenze_lag1                   97.407759
-2026-08-10 18:30:07,118 INFO === TARGET: gol_target ===
-2026-08-10 18:30:07,490 INFO   Training completato. Best iteration: 65
-2026-08-10 18:30:07,492 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_gol_stagionale_v1.txt
-2026-08-10 18:30:07,559 INFO   [TRAIN] MAE=1.1790 RMSE=1.6953 R2=0.7286 (n=2098)
-2026-08-10 18:30:07,562 INFO   [VALIDATION] MAE=1.3811 RMSE=2.0401 R2=0.4870 (n=338)
-2026-08-10 18:30:07,564 INFO   [TEST] MAE=1.3282 RMSE=2.0932 R2=0.3647 (n=692)
-2026-08-10 18:30:07,567 INFO   [TEST (baseline: media train)] MAE=1.8589 RMSE=2.6410 R2=-0.0113 (n=692)
-2026-08-10 18:30:07,571 INFO   [TEST (baseline: ripeti gol_lag1)] MAE=1.5419 RMSE=2.5662 R2=0.0452 (n=692)
-2026-08-10 18:30:07,576 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
-2026-08-10 18:30:07,578 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=1.5564 RMSE=2.2839 R2=0.2437 (n=692)
-2026-08-10 18:30:07,579 INFO   --- Top 10 feature per importanza (gain) ---
-quotazione_iniziale_target    31319.443249
-bonus_netti_ma3               27313.338551
-bonus_netti_career_mean       20860.135649
-gol_lag1                      16392.355577
-voto_medio_ma3                 3802.334787
-presenze_career_mean           3277.314129
-gol_ma3                        3110.951473
-fantamedia_lag1                3096.419218
-quotazione_iniziale_n1         2726.361897
-altezza_m                      2698.415901
-2026-08-10 18:30:07,580 INFO === TARGET: assist_target ===
-2026-08-10 18:30:07,977 INFO   Training completato. Best iteration: 58
-2026-08-10 18:30:07,981 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_assist_stagionale_v1.txt
-2026-08-10 18:30:08,003 INFO   [TRAIN] MAE=0.9352 RMSE=1.2920 R2=0.6067 (n=2098)
-2026-08-10 18:30:08,007 INFO   [VALIDATION] MAE=1.1422 RMSE=1.5841 R2=0.2252 (n=338)
-2026-08-10 18:30:08,010 INFO   [TEST] MAE=1.0832 RMSE=1.5200 R2=0.2572 (n=692)
-2026-08-10 18:30:08,056 INFO   [TEST (baseline: media train)] MAE=1.3449 RMSE=1.7671 R2=-0.0040 (n=692)
-2026-08-10 18:30:08,062 INFO   [TEST (baseline: ripeti assist_lag1)] MAE=1.1879 RMSE=1.8215 R2=-0.0668 (n=692)
-2026-08-10 18:30:08,069 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
-2026-08-10 18:30:08,071 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=1.1486 RMSE=1.6153 R2=0.1611 (n=692)
-2026-08-10 18:30:08,073 INFO   --- Top 10 feature per importanza (gain) ---
-assist_career_mean            15079.634407
-quotazione_attuale_n1          6129.425276
-assist_ma3                     3485.307774
-quotazione_iniziale_target     2800.640103
-assist_lag1                    2362.340821
-bonus_netti_lag1               2173.591414
-fantamedia_lag1                1692.516091
-altezza_m                      1258.109302
-presenze_career_mean           1237.899800
-eta_n1                         1209.442994
-2026-08-10 18:30:08,074 INFO === TARGET: bonus_netti_target ===
-2026-08-10 18:30:08,475 INFO   Training completato. Best iteration: 46
-2026-08-10 18:30:08,477 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_bonus_netti_stagionale_v1.txt
-2026-08-10 18:30:08,496 INFO   [TRAIN] MAE=5.0726 RMSE=7.6444 R2=0.7749 (n=2098)
-2026-08-10 18:30:08,499 INFO   [VALIDATION] MAE=5.2604 RMSE=7.4644 R2=0.7035 (n=338)
-2026-08-10 18:30:08,501 INFO   [TEST] MAE=5.3794 RMSE=8.2648 R2=0.6027 (n=692)
-2026-08-10 18:30:08,504 INFO   [TEST (baseline: media train)] MAE=7.9857 RMSE=13.1279 R2=-0.0023 (n=692)
-2026-08-10 18:30:08,508 INFO   [TEST (baseline: ripeti bonus_netti_lag1)] MAE=6.3757 RMSE=9.8039 R2=0.4410 (n=692)
-2026-08-10 18:30:08,513 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
-2026-08-10 18:30:08,515 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=7.6586 RMSE=12.2015 R2=0.1342 (n=692)
-2026-08-10 18:30:08,516 INFO   --- Top 10 feature per importanza (gain) ---
-bonus_netti_ma3               1.025455e+06
-bonus_netti_career_mean       8.089817e+05
-quotazione_iniziale_target    7.452250e+05
-ruolo                         2.391496e+05
-bonus_netti_lag1              2.312233e+05
-quotazione_attuale_n1         8.469037e+04
-quotazione_iniziale_n1        5.731311e+04
-presenze_career_mean          4.883070e+04
-voto_medio_lag1               4.344264e+04
-fantamedia_lag1               3.728298e+04
-2026-08-10 18:30:08,517 INFO === RIEPILOGO FINALE (MAE test per target) ===
-2026-08-10 18:30:08,517 INFO   fantamedia_target: MAE=0.3133 R2=0.5311
-2026-08-10 18:30:08,517 INFO   gol_target: MAE=1.3282 R2=0.3647
-2026-08-10 18:30:08,517 INFO   assist_target: MAE=1.0832 R2=0.2572
-2026-08-10 18:30:08,517 INFO   bonus_netti_target: MAE=5.3794 R2=0.6027
-2026-08-10 18:30:08,517 INFO Analisi completata.
+2026-08-11 17:58:04,903 INFO Caricamento /app/sandbox/chat_-5519413290/work/data/stagione_giocatore_dataset_2015_2026.csv ...
+2026-08-11 17:58:04,970 INFO Righe totali caricate: 3465
+2026-08-11 17:58:04,972 INFO Train: 2098 righe (['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23'])
+2026-08-11 17:58:04,972 INFO Validation: 338 righe (['2023-24'])
+2026-08-11 17:58:04,972 INFO Test: 692 righe (['2024-25', '2025-26'])
+2026-08-11 17:58:04,972 INFO Feature usate (106): ['ruolo', 'cambio_squadra', 'presenze_cumulate_carriera_n1', 'fantamedia_lag1', 'gol_lag1', 'assist_lag1', 'bonus_netti_lag1', 'presenze_lag1', 'voto_medio_lag1', 'minuti_totali_lag1', 'xg_totale_lag1', 'xa_totale_lag1', 'shots_totali_lag1', 'presenze_titolare_lag1', 'ammonizioni_totali_lag1', 'espulsioni_totali_lag1', 'rigori_segnati_totali_lag1', 'rigori_sbagliati_totali_lag1', 'rigori_parati_totali_lag1', 'fantamedia_ma3', 'gol_ma3', 'assist_ma3', 'bonus_netti_ma3', 'presenze_ma3', 'voto_medio_ma3', 'minuti_totali_ma3', 'xg_totale_ma3', 'xa_totale_ma3', 'shots_totali_ma3', 'presenze_titolare_ma3', 'ammonizioni_totali_ma3', 'espulsioni_totali_ma3', 'rigori_segnati_totali_ma3', 'rigori_sbagliati_totali_ma3', 'rigori_parati_totali_ma3', 'fantamedia_std3', 'fantamedia_trend3', 'gol_std3', 'gol_trend3', 'assist_std3', 'assist_trend3', 'bonus_netti_std3', 'bonus_netti_trend3', 'presenze_std3', 'presenze_trend3', 'voto_medio_std3', 'voto_medio_trend3', 'minuti_totali_std3', 'minuti_totali_trend3', 'xg_totale_std3', 'xg_totale_trend3', 'xa_totale_std3', 'xa_totale_trend3', 'shots_totali_std3', 'shots_totali_trend3', 'presenze_titolare_std3', 'presenze_titolare_trend3', 'ammonizioni_totali_std3', 'ammonizioni_totali_trend3', 'espulsioni_totali_std3', 'espulsioni_totali_trend3', 'rigori_segnati_totali_std3', 'rigori_segnati_totali_trend3', 'rigori_sbagliati_totali_std3', 'rigori_sbagliati_totali_trend3', 'rigori_parati_totali_std3', 'rigori_parati_totali_trend3', 'fantamedia_career_mean', 'gol_career_mean', 'assist_career_mean', 'bonus_netti_career_mean', 'presenze_career_mean', 'voto_medio_career_mean', 'minuti_totali_career_mean', 'xg_totale_career_mean', 'xa_totale_career_mean', 'shots_totali_career_mean', 'presenze_titolare_career_mean', 'ammonizioni_totali_career_mean', 'espulsioni_totali_career_mean', 'rigori_segnati_totali_career_mean', 'rigori_sbagliati_totali_career_mean', 'rigori_parati_totali_career_mean', 'eta_n1', 'squadra_in_champions_n1', 'squadra_in_champions_target', 'squadra_punti_finali_n1', 'squadra_posizione_finale_n1', 'squadra_nuova_punti_finali_n1', 'squadra_nuova_posizione_finale_n1', 'quotazione_iniziale_n1', 'quotazione_attuale_n1', 'fvm_n1', 'quotazione_iniziale_target', 'infortuni_n1_count', 'infortuni_n1_giorni_totali', 'infortuni_career_count', 'altezza_m', 'nazionalita', 'piede_dominante', 'titolarita_forum', 'media_voto_forum', 'salute_forum', 'bonus_forum', 'consiglio_esperti_forum', 'totale_forum']
+2026-08-11 17:58:04,972 INFO === TARGET: fantamedia_target ===
+2026-08-11 17:58:05,765 INFO   Training completato. Best iteration: 60
+2026-08-11 17:58:05,768 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_fantamedia_stagionale_v1.txt
+2026-08-11 17:58:05,803 INFO   [TRAIN] MAE=0.2901 RMSE=0.3980 R2=0.7007 (n=2098)
+2026-08-11 17:58:05,806 INFO   [VALIDATION] MAE=0.3288 RMSE=0.4665 R2=0.5512 (n=338)
+2026-08-11 17:58:05,808 INFO   [TEST] MAE=0.3108 RMSE=0.4305 R2=0.5381 (n=692)
+2026-08-11 17:58:05,810 INFO   [TEST (baseline: media train)] MAE=0.4479 RMSE=0.6336 R2=-0.0004 (n=692)
+2026-08-11 17:58:05,814 INFO   [TEST (baseline: ripeti fantamedia_lag1)] MAE=0.3992 RMSE=0.5650 R2=0.2046 (n=692)
+2026-08-11 17:58:05,819 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:05,820 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=0.3983 RMSE=0.5533 R2=0.2370 (n=692)
+2026-08-11 17:58:05,822 INFO   --- Top 10 feature per importanza (gain) ---
+bonus_netti_ma3               1200.873168
+ruolo                         1115.336732
+quotazione_iniziale_target     661.973068
+bonus_netti_career_mean        652.487865
+xg_totale_career_mean          396.135604
+bonus_netti_lag1               226.117743
+shots_totali_ma3               217.473627
+shots_totali_lag1              184.127369
+xg_totale_ma3                  156.307428
+xg_totale_lag1                 112.439769
+2026-08-11 17:58:05,823 INFO === TARGET: voto_medio_target ===
+2026-08-11 17:58:06,695 INFO   Training completato. Best iteration: 44
+2026-08-11 17:58:06,697 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_voto_medio_stagionale_v1.txt
+2026-08-11 17:58:06,767 INFO   [TRAIN] MAE=0.1473 RMSE=0.1969 R2=0.4546 (n=2098)
+2026-08-11 17:58:06,770 INFO   [VALIDATION] MAE=0.1589 RMSE=0.2257 R2=0.1902 (n=338)
+2026-08-11 17:58:06,773 INFO   [TEST] MAE=0.1515 RMSE=0.1997 R2=0.2557 (n=692)
+2026-08-11 17:58:06,775 INFO   [TEST (baseline: media train)] MAE=0.1761 RMSE=0.2327 R2=-0.0106 (n=692)
+2026-08-11 17:58:06,779 INFO   [TEST (baseline: ripeti voto_medio_lag1)] MAE=0.1927 RMSE=0.2633 R2=-0.2940 (n=692)
+2026-08-11 17:58:06,784 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:06,786 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=0.1671 RMSE=0.2168 R2=0.1224 (n=692)
+2026-08-11 17:58:06,787 INFO   --- Top 10 feature per importanza (gain) ---
+voto_medio_lag1               85.681909
+voto_medio_ma3                82.715204
+voto_medio_career_mean        54.523731
+quotazione_iniziale_target    45.980894
+xa_totale_lag1                24.137168
+squadra_punti_finali_n1       22.584845
+bonus_netti_lag1              18.638352
+bonus_netti_career_mean       17.878240
+quotazione_iniziale_n1        16.368496
+fantamedia_lag1               15.963212
+2026-08-11 17:58:06,788 INFO === TARGET: gol_target ===
+2026-08-11 17:58:08,287 INFO   Training completato. Best iteration: 108
+2026-08-11 17:58:08,290 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_gol_stagionale_v1.txt
+2026-08-11 17:58:08,366 INFO   [TRAIN] MAE=0.9672 RMSE=1.3691 R2=0.8230 (n=2098)
+2026-08-11 17:58:08,368 INFO   [VALIDATION] MAE=1.3730 RMSE=2.0497 R2=0.4822 (n=338)
+2026-08-11 17:58:08,371 INFO   [TEST] MAE=1.3191 RMSE=2.0832 R2=0.3708 (n=692)
+2026-08-11 17:58:08,373 INFO   [TEST (baseline: media train)] MAE=1.8589 RMSE=2.6410 R2=-0.0113 (n=692)
+2026-08-11 17:58:08,378 INFO   [TEST (baseline: ripeti gol_lag1)] MAE=1.5419 RMSE=2.5662 R2=0.0452 (n=692)
+2026-08-11 17:58:08,383 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:08,384 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=1.5564 RMSE=2.2839 R2=0.2437 (n=692)
+2026-08-11 17:58:08,385 INFO   --- Top 10 feature per importanza (gain) ---
+quotazione_iniziale_target    22337.536598
+xg_totale_ma3                 17917.837568
+bonus_netti_ma3               14678.151330
+shots_totali_lag1             13959.052731
+bonus_netti_career_mean       13589.284523
+xg_totale_lag1                12305.236876
+xg_totale_career_mean          5425.741816
+gol_lag1                       4079.464239
+quotazione_iniziale_n1         2586.803886
+shots_totali_ma3               2370.853402
+2026-08-11 17:58:08,387 INFO === TARGET: assist_target ===
+2026-08-11 17:58:09,299 INFO   Training completato. Best iteration: 56
+2026-08-11 17:58:09,301 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_assist_stagionale_v1.txt
+2026-08-11 17:58:09,373 INFO   [TRAIN] MAE=0.8813 RMSE=1.2058 R2=0.6574 (n=2098)
+2026-08-11 17:58:09,376 INFO   [VALIDATION] MAE=1.0626 RMSE=1.4666 R2=0.3359 (n=338)
+2026-08-11 17:58:09,378 INFO   [TEST] MAE=1.0593 RMSE=1.5190 R2=0.2581 (n=692)
+2026-08-11 17:58:09,380 INFO   [TEST (baseline: media train)] MAE=1.3449 RMSE=1.7671 R2=-0.0040 (n=692)
+2026-08-11 17:58:09,384 INFO   [TEST (baseline: ripeti assist_lag1)] MAE=1.1879 RMSE=1.8215 R2=-0.0668 (n=692)
+2026-08-11 17:58:09,388 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:09,390 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=1.1486 RMSE=1.6153 R2=0.1611 (n=692)
+2026-08-11 17:58:09,391 INFO   --- Top 10 feature per importanza (gain) ---
+xa_totale_ma3                 12245.777895
+xa_totale_lag1                10980.470078
+xa_totale_career_mean          6210.469664
+quotazione_attuale_n1          1577.723878
+bonus_netti_trend3             1434.959900
+fantamedia_std3                1203.440801
+xa_totale_trend3                857.268091
+quotazione_iniziale_target      804.255100
+shots_totali_career_mean        661.539402
+voto_medio_std3                 653.735804
+2026-08-11 17:58:09,392 INFO === TARGET: bonus_netti_target ===
+2026-08-11 17:58:10,259 INFO   Training completato. Best iteration: 72
+2026-08-11 17:58:10,261 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_bonus_netti_stagionale_v1.txt
+2026-08-11 17:58:10,281 INFO   [TRAIN] MAE=4.4581 RMSE=6.5430 R2=0.8351 (n=2098)
+2026-08-11 17:58:10,283 INFO   [VALIDATION] MAE=5.1936 RMSE=7.4163 R2=0.7073 (n=338)
+2026-08-11 17:58:10,285 INFO   [TEST] MAE=5.3560 RMSE=8.2525 R2=0.6039 (n=692)
+2026-08-11 17:58:10,288 INFO   [TEST (baseline: media train)] MAE=7.9857 RMSE=13.1279 R2=-0.0023 (n=692)
+2026-08-11 17:58:10,291 INFO   [TEST (baseline: ripeti bonus_netti_lag1)] MAE=6.3757 RMSE=9.8039 R2=0.4410 (n=692)
+2026-08-11 17:58:10,296 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:10,297 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=7.6586 RMSE=12.2015 R2=0.1342 (n=692)
+2026-08-11 17:58:10,298 INFO   --- Top 10 feature per importanza (gain) ---
+bonus_netti_career_mean       916332.238739
+bonus_netti_ma3               900925.837433
+quotazione_iniziale_target    468432.752228
+shots_totali_lag1             269923.581818
+ruolo                         184945.665710
+xg_totale_lag1                118352.195129
+xg_totale_ma3                 101767.558044
+xg_totale_career_mean          92459.276550
+shots_totali_career_mean       76008.666656
+bonus_netti_lag1               63855.575775
+2026-08-11 17:58:10,300 INFO === TARGET: presenze_target ===
+2026-08-11 17:58:11,365 INFO   Training completato. Best iteration: 71
+2026-08-11 17:58:11,369 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_presenze_stagionale_v1.txt
+2026-08-11 17:58:11,393 INFO   [TRAIN] MAE=5.8330 RMSE=7.1037 R2=0.5526 (n=2098)
+2026-08-11 17:58:11,395 INFO   [VALIDATION] MAE=7.3280 RMSE=9.1166 R2=0.2472 (n=338)
+2026-08-11 17:58:11,398 INFO   [TEST] MAE=7.8641 RMSE=9.6486 R2=0.1762 (n=692)
+2026-08-11 17:58:11,400 INFO   [TEST (baseline: media train)] MAE=9.1044 RMSE=10.6428 R2=-0.0023 (n=692)
+2026-08-11 17:58:11,404 INFO   [TEST (baseline: ripeti presenze_lag1)] MAE=8.6344 RMSE=11.5888 R2=-0.1884 (n=692)
+2026-08-11 17:58:11,409 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:11,410 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=8.7762 RMSE=10.2429 R2=0.0716 (n=692)
+2026-08-11 17:58:11,411 INFO   --- Top 10 feature per importanza (gain) ---
+quotazione_iniziale_target    399312.824097
+presenze_lag1                 130362.641571
+minuti_totali_lag1             58174.207916
+presenze_titolare_lag1         37779.026093
+eta_n1                         35220.161194
+quotazione_attuale_n1          27044.735657
+minuti_totali_career_mean      26161.888794
+presenze_ma3                   22503.891083
+squadra_punti_finali_n1        18426.672882
+infortuni_career_count         18322.766022
+2026-08-11 17:58:11,413 INFO === TARGET: presenze_titolare_target ===
+2026-08-11 17:58:12,779 INFO   Training completato. Best iteration: 137
+2026-08-11 17:58:12,782 INFO   Modello salvato in /app/sandbox/chat_-5519413290/work/models/lgbm_presenze_titolare_stagionale_v1.txt
+2026-08-11 17:58:12,860 INFO   [TRAIN] MAE=5.0102 RMSE=6.1700 R2=0.6886 (n=2098)
+2026-08-11 17:58:12,862 INFO   [VALIDATION] MAE=7.4777 RMSE=9.1639 R2=0.3119 (n=338)
+2026-08-11 17:58:12,864 INFO   [TEST] MAE=7.8421 RMSE=9.6540 R2=0.2855 (n=692)
+2026-08-11 17:58:12,867 INFO   [TEST (baseline: media train)] MAE=9.9777 RMSE=11.4287 R2=-0.0013 (n=692)
+2026-08-11 17:58:12,870 INFO   [TEST (baseline: ripeti presenze_titolare_lag1)] MAE=8.6373 RMSE=11.5921 R2=-0.0301 (n=692)
+2026-08-11 17:58:12,874 INFO   (baseline quotazione: 0 righe test escluse per quotazione/target mancante)
+2026-08-11 17:58:12,876 INFO   [TEST (baseline: quotazione_iniziale_target, regressione lineare)] MAE=9.5045 RMSE=11.0129 R2=0.0703 (n=692)
+2026-08-11 17:58:12,877 INFO   --- Top 10 feature per importanza (gain) ---
+minuti_totali_lag1            357374.177246
+presenze_titolare_lag1        204338.112656
+quotazione_iniziale_target    136186.303299
+minuti_totali_ma3              65981.818741
+minuti_totali_career_mean      35815.116089
+nazionalita                    34937.497955
+presenze_titolare_ma3          33802.802124
+squadra_punti_finali_n1        33107.089172
+cambio_squadra                 32787.765930
+eta_n1                         29923.244080
+2026-08-11 17:58:12,878 INFO === RIEPILOGO FINALE (MAE test per target) ===
+2026-08-11 17:58:12,878 INFO   fantamedia_target: MAE=0.3108 R2=0.5381
+2026-08-11 17:58:12,879 INFO   voto_medio_target: MAE=0.1515 R2=0.2557
+2026-08-11 17:58:12,879 INFO   gol_target: MAE=1.3191 R2=0.3708
+2026-08-11 17:58:12,879 INFO   assist_target: MAE=1.0593 R2=0.2581
+2026-08-11 17:58:12,879 INFO   bonus_netti_target: MAE=5.3560 R2=0.6039
+2026-08-11 17:58:12,879 INFO   presenze_target: MAE=7.8641 R2=0.1762
+2026-08-11 17:58:12,879 INFO   presenze_titolare_target: MAE=7.8421 R2=0.2855
+2026-08-11 17:58:12,879 INFO Analisi completata.
