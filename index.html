@@ -40,6 +40,20 @@
   #search-box { width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 12px; }
   .badge { display: inline-block; background: var(--green); color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 10px; margin-left: 8px; }
   #listone-count { color: #777; font-size: 13px; margin-bottom: 8px; }
+  #qual-search-box { width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 12px; }
+  #qual-count { color: #777; font-size: 13px; margin-bottom: 8px; }
+  .qual-card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px 18px; margin: 12px 0; }
+  .qual-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+  .qual-head h4 { margin: 0; color: #145214; }
+  .qual-tag { font-size: 12px; font-weight: 700; padding: 2px 9px; border-radius: 10px; color: #fff; }
+  .qual-tag.consigliato { background: #2e7d32; }
+  .qual-tag.sorpresa { background: #ef6c00; }
+  .qual-tag.sconsigliato { background: #c62828; }
+  .qual-sintesi { margin: 6px 0 10px; }
+  .qual-metrics { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: #333; }
+  .qual-metrics .grp { background: #f5f5f5; border-radius: 6px; padding: 6px 10px; }
+  .qual-metrics .grp b { display: block; font-size: 11px; text-transform: uppercase; color: #777; margin-bottom: 3px; }
+  .qual-surprise { font-size: 12px; font-style: italic; color: #555; margin-top: 6px; }
   @media (max-width: 800px) {
     nav.sidebar { display: none; }
     main { padding: 16px; max-width: 100%; }
@@ -56,6 +70,7 @@
   <a href="#parte3">3. Squadra per squadra</a>
   <a href="#parte4">4. Tier-list per ruolo</a>
   <a href="#parte4-5">4.5 Analisi xG/xA</a>
+  <a href="#parte4-6">4.6 Schede giocatore</a>
   <a href="#listone">📋 Listone completo</a>
   <a href="#parte5">5. Strategia d'asta</a>
 </nav>
@@ -229,6 +244,13 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <p><b>Il "campione perfetto" (nessuna bandiera rossa statistica):</b> Lautaro Martínez (17 gol su 17,14 xG) e Dimarco (7 gol/16 assist quasi identici agli attesi) — numeri reali coerenti con le occasioni create, massima fiducia sulla ripetibilità.</p>
 </div>
 
+<h2 id="parte4-6">Parte 4.6 — Schede giocatore: analisi qualitativa forum Gruppo Esperti + previsioni del modello</h2>
+<p><i>Per ciascun giocatore citato nei thread squadra del forum <a href="https://forum.gruppoesperti.it/viewforum.php?f=199" target="_blank">Gruppo Esperti</a> (sezioni "Consigliati" / "Possibili sorprese" / "Sconsigliati" di ogni topic), una sintesi del giudizio qualitativo degli esperti affiancata alla pagella numerica del forum e alla previsione quantitativa del modello statistico. Permette di confrontare in un colpo d'occhio scouting soggettivo e stima basata sui dati.</i></p>
+<input type="text" id="qual-search-box" placeholder="🔎 Cerca giocatore o squadra (es. 'Scamacca' o 'ATA')...">
+<div id="qual-count"></div>
+<div id="qual-cards"></div>
+<p class="warn">⚠️ Copertura parziale: il forum non pubblica un'analisi discorsiva per tutti i giocatori, solo per quelli evidenziati in ciascuna sezione (di norma 5-10 per squadra). Assenza dalla lista non implica un giudizio negativo.</p>
+
 <h2 id="listone">📋 Listone completo — Quotazioni ufficiali Fantacalcio.it</h2>
 <p><i>Quotazioni Classic (QA / FVM) prelevate da <a href="https://www.fantacalcio.it/quotazioni-fantacalcio" target="_blank">fantacalcio.it/quotazioni-fantacalcio</a>. Cerca un giocatore o clicca sulle intestazioni per ordinare.</i></p>
 <input type="text" id="search-box" placeholder="🔎 Cerca giocatore o squadra (es. 'Lautaro' o 'INT')...">
@@ -271,6 +293,7 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <script src="listone_data.js"></script>
 <script src="squadre_data.js"></script>
 <script src="calendario_data.js"></script>
+<script src="qualitativo_data.js"></script>
 <script>
   document.getElementById('update-badge').textContent = "Listone aggiornato: " + LISTONE_UPDATED_AT;
 
@@ -306,6 +329,51 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
   });
 
   renderListone('');
+
+  // --- Parte 4.6: schede giocatore (analisi qualitativa forum + previsioni modello) ---
+  const TAG_CLASS = {
+    'CONSIGLIATO': 'consigliato',
+    'POSSIBILE SORPRESA': 'sorpresa',
+    'SCONSIGLIATO': 'sconsigliato',
+  };
+
+  function renderQualitativo(filter) {
+    const container = document.getElementById('qual-cards');
+    const f = (filter || '').toLowerCase();
+    const rows = QUALITATIVO_DATA.filter(r => !f || r.nome.toLowerCase().includes(f) || r.squadra.toLowerCase().includes(f));
+
+    container.innerHTML = rows.map(r => {
+      const tagClass = TAG_CLASS[r.categoria_forum] || '';
+      let pagellaHtml = '';
+      if (r.pagella) {
+        const p = r.pagella;
+        pagellaHtml = `<div class="grp"><b>Pagella forum</b>Titolarità ${p.titolarita}/10 · Voto ${p.media_voto}/10 · Salute ${p.salute}/10 · Bonus ${p.bonus}/10 · Consiglio ${p.consiglio}/10 · Tot ${p.totale}/50</div>`;
+      }
+      let quantHtml = '';
+      let surpriseHtml = '';
+      if (r.quant) {
+        const q = r.quant;
+        quantHtml = `<div class="grp"><b>Previsione modello</b>Fantamedia ${q.pred_fantamedia} · Gol ${q.pred_gol} · Assist ${q.pred_assist} · Bonus netti ${q.pred_bonus_netti} · Presenze titolare ${q.pred_presenze_titolare_previste}</div>`;
+        if (q.categoria_sorpresa) {
+          surpriseHtml = `<div class="qual-surprise">📊 ${q.categoria_sorpresa} (indice sorpresa: ${q.indice_sorpresa})</div>`;
+        }
+      }
+      return `<div class="qual-card">
+        <div class="qual-head">
+          <h4>${r.nome} <span style="color:#888;font-weight:400;font-size:13px;">(${r.squadra})</span></h4>
+          <span class="qual-tag ${tagClass}">${r.categoria_forum}</span>
+        </div>
+        <p class="qual-sintesi">${r.sintesi}</p>
+        <div class="qual-metrics">${pagellaHtml}${quantHtml}</div>
+        ${surpriseHtml}
+      </div>`;
+    }).join('');
+
+    document.getElementById('qual-count').textContent = rows.length + " giocatori" + (f ? " (filtrati)" : " con analisi qualitativa disponibile");
+  }
+
+  document.getElementById('qual-search-box').addEventListener('input', e => renderQualitativo(e.target.value));
+  renderQualitativo('');
 </script>
 
 </body>

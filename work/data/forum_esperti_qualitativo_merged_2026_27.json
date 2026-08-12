@@ -1,0 +1,3019 @@
+[
+ {
+  "player_id": "4431",
+  "squadra": "ATA",
+  "nome": "Carnesecchi",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Avrebbe tutte le carte in regola per potersi riconfermare ad alti livelli (lo scorso anno secondo portiere per MV dietro a Falcone e secondo portiere per FM dietro solo a Milinkovic Savic che però ha 11 partite in meno giocate) l'unica cosa che ci fa titubare dal metterlo tra i consigliati è il prezzo che potrebbe raggiungere in fase d'asta. Per noi avrebbe tutte le carte in regola per fare un pò come Svilar degli ultimi due anni e cioè mantenere bene o male gli stessi numeri (Svilar24/25 MV6,32 - FM5,38, Svilar 25/26 MV6,26 - FM5,45). Per questo motivo non abbiamo voluto alzare gli indici rispetto alla scheda dell'anno passato. Le incertezze che però ci sono (in particolare) quest'anno sui top portieri o presunti tali, ci lasciano pensare che anche il prezzo di porta Atalanta potrebbe essere troppo rispetto alla resa che comunque potrebbe avere. In parole povere, Carnesecchi che viene snobbato o che non va ai prezzi di portaJuve/Inter/Napoli o quella che vedete meglio scegliete voi, si prende ad occhi chiusi, perchè farà ancora bene sicuramente sotto il profilo delle parate. Igol secondo noi saranno ancora simili (35 lo scorso anno e 34 quello prima) all'inizio non sarà facile per i difensori assimilare gli schemi del nuovo mister e della nuova disposizione tattica e quindi qualche gol in più me lo aspetto, ma una volta trovata la quadra torneranno i voti da mod e i CS. Insomma, puntateci ma ad una certa somma il gioco potrebbe non valere più la candela, i big strapagati dello scorso anno insegnano!"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "9",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "42"
+  },
+  "quantitativo": {
+   "ruolo": "p",
+   "quotazione": "16.0",
+   "pred_fantamedia": "5.16",
+   "pred_gol": "0.3",
+   "pred_assist": "0.4",
+   "pred_bonus_netti": "-29.4",
+   "pred_presenze_previste": "29.9",
+   "pred_presenze_titolare_previste": "29.2",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "22",
+  "squadra": "ATA",
+  "nome": "De Roon",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "E' sempre stato l'eccellenza del tappabuchi modello, con l'inizio della nuova stagione però questo status decennale è a rischio. Con Gaetano specifica richiesta del mister e forse un nuovo innesto ancora in quella posizione abbiamo paura che il voto non sarà più così sempre scontato e difficili da prevedere. Se in più ci aggiungiamo che un posto sarà certamente di Ederson nei 3 a metà, va da se che per l'ultimo posto se la giocano in troppi e lui non è nemmeno tra i più papabili da schierare li.. Quindi potete tirare le somme anche voi sulla sua appetibilità, che diventa molto più bassa rispetto al passato"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "31"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "4.0",
+   "pred_fantamedia": "6.03",
+   "pred_gol": "0.9",
+   "pred_assist": "1.1",
+   "pred_bonus_netti": "1.9",
+   "pred_presenze_previste": "21.9",
+   "pred_presenze_titolare_previste": "19.9",
+   "indice_sorpresa": "-2.98",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5792",
+  "squadra": "ATA",
+  "nome": "Ederson D.S.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Una manna dal cielo la sua mancata cessione allo Utd. In questo nuovo schema tattico potrebbe esaltarsi ed essere un eccellente pescata a prezzi \"stracciati\" rispetto ad altri strapagati. Va ancora vista la composizione finale del cc Atalanta ma ad oggi e pure a domani ( ) lui sarà un punto fermo di questa squadra. Avrà titolarità garantita salvo turn over o infortuni, ha le caratteristiche (già dimostrate in mezza stagione di Salernitana) per portare bonus che in una squadra abbastanza offensiva non è malaccio, quando in campo avrà ALMENO la sufficienza assicurata e non verrà mai pagato quanto i top anche se a nostro avviso il suo rendimento potrebbe non discostarsi troppo dal loro. Insomma, quest'anno il brasiliano va preso, senza se e senza ma!"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "9",
+   "salute": "8",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "42"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "12.0",
+   "pred_fantamedia": "6.35",
+   "pred_gol": "2.7",
+   "pred_assist": "1.9",
+   "pred_bonus_netti": "7.8",
+   "pred_presenze_previste": "27.4",
+   "pred_presenze_titolare_previste": "25.1",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2640",
+  "squadra": "ATA",
+  "nome": "Kolasinac",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Con Kola hai la certezza che se gioca lo fa sempre bene, il problema sarà capire se Sarri lo farà giocare. La sua duttilità è certamente un arma a suo vantaggio ma per entrambi i suoli che può coprire (DC ed TS) c'è molta concorrenza: Bernasconi ed Ahanor magari non saranno migliori di lui (probabilmente però si visto che il bosniaco non è più di primo pelo e non ce lo vedo benissimo a correre sulla fascia, ma magari con dei compiti molto più difensivi può ancora dire la sua) ma certamente ci sono tutti gli interessi per valorizzarli e dare loro più minutaggio possibile rispetto a chi è a fine carriera, io credo che al massimo, li ci possa giocare in conference ma resto titubante anche su questo. Come centrale ( l'unica volta che lo ha avuto a disposizione il mister lo ha usato li) ci sono comunque HIen, Scalvini, Djimsiti, Kossonou e forse anche Obric che gli contendono il posto, non sarà per niente facile per lui ritagliarsi un pò di posto quindi anche per voi vi diciamo che per Kola, già 1, potrebbe essere troppo rischioso"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "7",
+   "salute": "7",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "29"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "5.0",
+   "pred_fantamedia": "5.76",
+   "pred_gol": "0.1",
+   "pred_assist": "0.6",
+   "pred_bonus_netti": "-0.2",
+   "pred_presenze_previste": "16.6",
+   "pred_presenze_titolare_previste": "11.6",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2137",
+  "squadra": "ATA",
+  "nome": "Scamacca",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Senza gli infortuni sarebbe un top di reparto al pari di Malen e Lautaro purtroppo però questi ci sono sempre stati e probabilmente continueranno ad esserci nonostante il Mister abbia dichiarato che punta a far fare più partite possibili Zano a Scamacca. Per quanto visto finora sarebbe da sconsigliare ma crediamo sia solo un periodo dove deve capire i nuovi compiti che gli richiede il Mister rispetto al passato la sua tecnica non si discute anche se fosse in un contesto non suo più poco più di 10 goal sono ampiamente alla sua portata. dovesse poi essere confermato rigorista guadagnerebbe ancora più appeal sperando che la salute lo assista potremmo avere un semi top in attacco senza pagarlo da tale. Noi per uno Scamacca che si porta comunque qualche incognita fisica dietro arriveremmo anche ad un 20% di budget non è poco ma per la quantità di bonus che ha nelle corde il prezzo è ragionevole. Questo è il nostro personale prezzo in base alla vostra paura sul suo rischio infortuni calate o aumentate la percentuale in base alle vostre sensazioni resta comunque uno dei migliori attaccanti di questa serie A."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "8",
+   "salute": "6",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "19.0",
+   "pred_fantamedia": "6.42",
+   "pred_gol": "2.4",
+   "pred_assist": "1.8",
+   "pred_bonus_netti": "12.6",
+   "pred_presenze_previste": "22.8",
+   "pred_presenze_titolare_previste": "12.0",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "184",
+  "squadra": "BOL",
+  "nome": "Bernardeschi",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Promozione per Bernardeschi rispetto allo scorso anno, dove un po' severamente lo avevamo colorato di rosso. Complice i periodi di calo di Orsolini, l'anno scorso si è affermato per alcuni tratti il titolare della fascia dx, portando in dote un buon score finale complessivo di gol e assist. Quest'anno non ci sono le coppe ed il talentino di Carrara andrà verso le 33 primavere, ciononostante sembra aver ritrovato una buona dimensione in quel di Bologna, con una ottima tenuta fisica. Va considerato che la concorrenza è alta sia sulla trequarti che sull'esterno, ma Tedesco lo ha provato anche come mezz'ala associativa con buoni risultati nella preparazione. Ed in assenza di Orsolini dovrebbe essere il rigorista designato. Scommessa che può valere una manciata di crediti."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "7",
+   "bonus": "8",
+   "consiglio": "7",
+   "totale": "36"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "9.0",
+   "pred_fantamedia": "6.26",
+   "pred_gol": "2.2",
+   "pred_assist": "2.2",
+   "pred_bonus_netti": "8.1",
+   "pred_presenze_previste": "21.0",
+   "pred_presenze_titolare_previste": "10.8",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6895",
+  "squadra": "BOL",
+  "nome": "Dominguez B.",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Da wonderkid del finale di stagione 24-25, Benjo sembra essere diventato l'ultima delle alternative sulle fasce. Qualche presenza ed un solo assist la scorsa stagione, bottino miserissimo nonostante qualche occasione gli sia stata data. Troppo gracile e fumoso per la massima serie italiana, è probabile che gli venga cercata una sistemazione quest'estate, qualora comunque rimanesse non vale nemmeno una spesa scommessa da ultimissimi slot."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "6",
+   "salute": "6",
+   "bonus": "4",
+   "consiglio": "5",
+   "totale": "25"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "3.0",
+   "pred_fantamedia": "6.15",
+   "pred_gol": "1.8",
+   "pred_assist": "1.1",
+   "pred_bonus_netti": "5.6",
+   "pred_presenze_previste": "14.5",
+   "pred_presenze_titolare_previste": "10.7",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6675",
+  "squadra": "BOL",
+  "nome": "Dovbyk",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Arrivato in maniera forse inaspettata, di fatto a sostituire il toto Castro come punta titolare dei rossoblu. Parliamo di un calciatore non più giovanissimo ma nemmeno espertissimo di campionato italiano dopo due stagioni a Roma con più ombre di luci. Sappiamo che Tedesco lo avesse cercato già quando era in Turchia e lo stima, avendolo convinto della destinazione nonostante l'assenza delle coppe. Come inquadrarlo quindi? Viene da una stagione tribolata per via degli infortuni, ma la società ha avuto ampie rassicurazioni sulla sua tenuta fisica. Sa sicuramente fare gol, altrimenti non avrebbe comunque portato a casa 14 centri alla prima stagione italiana, senza dimenticare il titolo di capocannoniere l'anno precedente nella Liga spagnola. La nostra impressione è che, SE riesce a riprendersi fisicamente e soprattutto mentalmente, potremmo rivedere un bomber d'area che sotto le due torri manca da tantissimo tempo. Non va tuttavia dimenticato che la società possa liberarsi di Dallinga per affiancargli un profilo pronto in modo da costruire una coppia valida per una stagione competitiva. Non è un profilo su cui fare pazzie, vale la spesa di un potenziale terzo slot con la doppia cifra alla portata, senza spingersi verso cifre che si riservano a centravanti di squadre di medio-bassa classifica con meno incognite e titolarità assicurata."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "6",
+   "bonus": "8",
+   "consiglio": "7",
+   "totale": "34"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "16.0",
+   "pred_fantamedia": "6.49",
+   "pred_gol": "2.0",
+   "pred_assist": "1.6",
+   "pred_bonus_netti": "11.3",
+   "pred_presenze_previste": "20.6",
+   "pred_presenze_titolare_previste": "11.9",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7326",
+  "squadra": "BOL",
+  "nome": "Helland",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Arrivato a Gennaio, peraltro dopo averlo affrontato nelle nottate europee, il giovane Eivind ha già mostrato qualche sprazzo di ottimo calcio nel finale della scorsa stagione. Se da una parte Heggem si dedica più alla legna che all'impostazione, dall'altra il ragazzotto alto 1.96 sembra avere delle ottime doti di lettura e di costruzione dal basso. Certo, prima di raccogliere quella che sarà l'eredità di Lucumì ce ne vorrà di tempo, e comunque c'è un Vitik che scalpita dopo una stagione con più luci che ombre, tuttavia ci sono grandi potenzialità e sotto sotto una futuribile coppia di giganti norvegesi titolari un po' gasa."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "4",
+   "consiglio": "7",
+   "totale": "30"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "2.0",
+   "pred_fantamedia": "5.71",
+   "pred_gol": "0.3",
+   "pred_assist": "0.5",
+   "pred_bonus_netti": "0.3",
+   "pred_presenze_previste": "11.7",
+   "pred_presenze_titolare_previste": "9.7",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6844",
+  "squadra": "BOL",
+  "nome": "Rowe",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "La scelta sul consigliato, per chi ha visto effettivamente le partite del Bologna la scorsa stagione, non può che ricadere sul funambolo inglese. Tante le motivazioni per cui vi invitiamo a considerarlo nella vostra batteria, specialmente se come ci aspettiamo venisse rimesso tra i centrocampisti. La più ovvia è che parliamo di un giocatore fuori categoria per gli standard della piazza, con un passo diverso ed una capacità di saltare l'uomo assai rara nella nostra massima serie. La seconda è che potrebbe beneficiare della presenza di una punta d'appoggio e di presenza in area, che gli permetta di andare al tiro e/o di regalare diversi assist. L'ultima è che l'assenza di coppe dovrebbe permettergli di rifiatare maggiormente, anche se nella scorsa stagione non che ce ne fosse stato granchè bisogno. Chiaramente non parliamo di un top assoluto di reparto, complice anche qualche possibile 'mattata' se i difensori avversari lo prendessero di mira, ma di un esterno estremamente forte con le potenzialità per diventare tale in questa stagione."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "7",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "38"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "11.0",
+   "pred_fantamedia": "6.39",
+   "pred_gol": "3.7",
+   "pred_assist": "2.4",
+   "pred_bonus_netti": "10.0",
+   "pred_presenze_previste": "26.3",
+   "pred_presenze_titolare_previste": "19.0",
+   "indice_sorpresa": "3.4",
+   "categoria_sorpresa": "SORPRESA AL RIALZO (esperti piu' fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "4433",
+  "squadra": "BOL",
+  "nome": "Zortea",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Una delle più grandi delusione della scorsa stagione, anche in virtù della spesa che i rossoblu hanno esercitato per prelevarlo a titolo definitivo dal Cagliari. Forse non proprio a suo agio nella difesa a 4, in più occasioni è sembrato pestarsi ai piedi con Orsolini quando si affacciava davanti, e disattento quando si trovava a difendere. Non verrà fatto cadere nel dimenticatoio, ma al momento risulta difficile consigliarne l'acquisto, anche in virtù del ballottaggio serrato che si può aspettare con Holm (o suo sostituto)."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "4",
+   "totale": "28"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "6.0",
+   "pred_fantamedia": "6.04",
+   "pred_gol": "1.0",
+   "pred_assist": "1.4",
+   "pred_bonus_netti": "4.4",
+   "pred_presenze_previste": "22.5",
+   "pred_presenze_titolare_previste": "16.9",
+   "indice_sorpresa": "-0.7",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6243",
+  "squadra": "CAG",
+  "nome": "Borrelli",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Anche lui potrebbe essere pagato più del dovuto, soprattutto nelle prime aste, quando verrà dato ancora titolare. Borrelli è un giocatore molto utile per la manovra di gioco, bravo a proteggere il pallone, a fare sponde e guerre con i difensori avversari, ma lato bonus lascia parecchio a desiderare (3 su 5 gol li ha segnati a porta libera). In avanti la concorrenza è tanta, dubitiamo possa fare il titolare, sarà magari più utile a partita in corso. Se giocate in leghe a 8 o a 10, non considerate per nulla il suo acquisto, da 12 in poi si può iniziare a ragionarci."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "29"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "4.0",
+   "pred_fantamedia": "6.27",
+   "pred_gol": "3.7",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "8.8",
+   "pred_presenze_previste": "17.3",
+   "pred_presenze_titolare_previste": "9.9",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4360",
+  "squadra": "CAG",
+  "nome": "Caprile",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Non un portiere che utilizzeremmo come primo, se non in leghe molto numerose, tipo dai 14 in su: il motivo è che sarà difficile subire meno di 50 gol in campionato, e purtroppo questo aspetto non dipende da lui. Da lui però dipendono i voti, che in generale sono abbastanza alti e lo rendono un buon profilo da modificatore, così come la costanza (sbaglia qualche partita, ma relativamente poche nell'arco di una stagione). C'è il problema che non è facile da gestire, dato che le partite che sbaglia raramente sono contro le grandi, mentre contro le squadre di alta classifica ha una percentuale di clean sheet più alta di quello che ci si aspetterebbe; per questo motivo, ha forse senso utilizzarlo come secondo di un portiere discreto ma non eccezionale, e utilizzarlo quando il primo ha partite che vorreste evitare - in altre parole, regolarvi sulle partite dell'altro più che sulle sue. Di buono c'è che potete prenderlo anche senza riserva, dato che le gerarchie sono consolidate."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "8",
+   "totale": "39"
+  },
+  "quantitativo": {
+   "ruolo": "p",
+   "quotazione": "9.0",
+   "pred_fantamedia": "4.83",
+   "pred_gol": "0.1",
+   "pred_assist": "0.3",
+   "pred_bonus_netti": "-37.7",
+   "pred_presenze_previste": "31.7",
+   "pred_presenze_titolare_previste": "33.2",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6010",
+  "squadra": "CAG",
+  "nome": "Fazzini",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Andati via i nostri giocatori più tecnici, Fazzini è l'acquisto che dovrebbe prendere il loro posto sotto questo profilo; al momento, non c'è nessuno più indicato di lui per essere il leader tecnico della squadra, cosa che può tradursi in voti più alti rispetto ai compagni di squadra dato che potrebbe essere l'unico a provare a creare qualcosa in partite in cui le cose dovessero mettersi male, tenendo conto che ha un discreto dribbling e potrebbe risaltare agli occhi dei giornalisti se ispirato. Non sappiamo se alla lunga giocherà sulla trequarti o come mezzala; nel secondo caso magari sarà più lontano dalla porta, però è bravo a inserirsi e qualche bonus pesante ci aspettiamo lo porti lo stesso. Inoltre pare si stia già incaricando di tirare angoli e punizioni dirette e indirette, cosa che potrebbe anche dargli qualche assist. Insomma, non è un top, però è il nostro giocatore più valido a centrocampo, e probabilmente in generale rispetto al ruolo: se non ci sarà troppo hype nei suoi confronti, si può portare a casa una bella presa a una cifra ragionevole."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "5",
+   "bonus": "7",
+   "consiglio": "8",
+   "totale": "35"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "7.0",
+   "pred_fantamedia": "5.97",
+   "pred_gol": "0.9",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "1.7",
+   "pred_presenze_previste": "19.5",
+   "pred_presenze_titolare_previste": "11.7",
+   "indice_sorpresa": "7.67",
+   "categoria_sorpresa": "SORPRESA AL RIALZO (esperti piu' fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "4896",
+  "squadra": "CAG",
+  "nome": "Maldini",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Sinora non ha fatto nulla di eccezionale in carriera, soprattutto in termini fantacalcistici. Alcuni giocatori però sono venuti fuori a Cagliari, chissà se non succeda anche con lui: con ottime probabilità sarà titolare, e si ritroverà come giocatore offensivo in un contesto che, almeno nel precampionato, dà l'impressione di creare gioco nonostante i pochi gol segnati. Inoltre potrebbe incaricarsi di tirare alcuni piazzati, non sappiamo se i rigori dato che sono un punto di domanda enorme fino a quando non ce ne danno uno, ma resta una possibilità. I numeri che ci aspettiamo non sono molto alti per un attaccante, ma può rappresentare una discreta copertura che dovrebbe garantire il voto sempre e ogni tanto può essere schierata titolare, mentre da centrocampista può essere una bella scommessa che magari ora non va a costare tantissimo e può portare un discreto bottino di gol, e da T al Mantra un'alternativa ai titolari, o una discreta seconda T. Non pagatelo tanto, ma ricordatevi il suo nome durante l'asta, quando magari state finendo gli attaccanti o i centrocampisti da bonus."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.23",
+   "pred_gol": "2.7",
+   "pred_assist": "0.6",
+   "pred_bonus_netti": "6.8",
+   "pred_presenze_previste": "15.7",
+   "pred_presenze_titolare_previste": "7.1",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "4210",
+  "squadra": "CAG",
+  "nome": "Mina",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Forse non ve lo aspettavate e in realtà è più un monito che un vero e proprio sconsigliato. Mina anche quest'anno ha rifiutato varie offerte estere, è il leader di questo Cagliari e quando sta bene giocherà sicuramente titolare. Vi mettiamo in guardia circa la sua condizione fisica, l'anno scorso ha giocato 26 partite, quest'anno potrebbero essere anche di meno considerando che ha saltato la preparazione e tornerà ad allenarsi con la squadra la settimana della Coppa Italia. La nostra indicazione è di non spendere tanto per lui, perchè Mina all'asta di Agosto, papabile rigorista, va sempre abbastanza alto. Quest'anno sia Deiola che Kofler potrebbero farlo rifiatare più di una volta, gli anni passano anche per lui, anche rimanendo la colonna difensiva dei rossoblu."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "6",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "34"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "8.0",
+   "pred_fantamedia": "5.98",
+   "pred_gol": "1.0",
+   "pred_assist": "0.5",
+   "pred_bonus_netti": "1.5",
+   "pred_presenze_previste": "22.3",
+   "pred_presenze_titolare_previste": "20.7",
+   "indice_sorpresa": "1.97",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5701",
+  "squadra": "CAG",
+  "nome": "Obert",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Difensore dalla titolarità dubbia e prestazioni non eccezionali: questo era Obert fino a metà della scorsa stagione. Da allora è migliorato molto, interpretando bene il ruolo di esterno del 352 (anche se in maniera meno offensiva rispetto a Palestra sull'altra fascia), migliorando la sua media voto, risultando spesso sufficiente e portando anche qualche assist, cosa che non stupisce dato che con i piedi ha fatto vedere qualcosa di valido anche prima di questo turning point . Probabilmente quest'anno giocheremo con la difesa a quattro: questo non dovrebbe rappresentare né un problema né un grande cambiamento per lo slovacco, che potrà comunque giocare in maniera non troppo diversa dalla scorsa stagione, anzi senza Palestra potrebbe essere anche più offensivo. Non ci aspettiamo un terzino da bonus (ok, magari un gol e tre assist li fa anche, ma non stiamo parlando del Nuno Tavares di due anni fa): quello che ha senso aspettarsi è un difensore per riempire il reparto, che però performa meglio della scartina titolare a 1 presa come riempitivo, sia in termini di bonus che di MV."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "36"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "7.0",
+   "pred_fantamedia": "5.88",
+   "pred_gol": "0.9",
+   "pred_assist": "1.3",
+   "pred_bonus_netti": "0.9",
+   "pred_presenze_previste": "25.4",
+   "pred_presenze_titolare_previste": "24.9",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5036",
+  "squadra": "COM",
+  "nome": "Caqueret",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Purtroppo dobbiamo inserirlo in questa sezione, ma per diversi motivi. Ad 1 credito potrebbe sicuramente essere un acquisto accettabile, ma temiamo che le tante alternative potrebbero anche ritoccare il suo minutaggio. Finora nel precampionato non ci è sembrato troppo coinvolto, cioè si è molto limitato a fare il compitino. Se qualcuno ci scommette è per avere quanto meno delle chance di bonus, perchè a livello di titolarità o voto ci sono giocatori più affidabili, per questo in lega a 10 ad 1 credito va bene, altrimenti valutate altri tappabuchi"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "34"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "6.0",
+   "pred_fantamedia": "6.19",
+   "pred_gol": "1.7",
+   "pred_assist": "2.4",
+   "pred_bonus_netti": "5.2",
+   "pred_presenze_previste": "23.7",
+   "pred_presenze_titolare_previste": "15.5",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7017",
+  "squadra": "COM",
+  "nome": "Douvikas",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "La nostra sensazione che rispetto ad altri colleghi può andare più sottotraccia. Il potenziale offensivo del Como è molto elevato e lui è in grado di raccogliere al meglio la quantità di palloni che gli verrà servita. Ci sentiamo che anche quest'anno può dare il suo contributo, come già anticipato, con almeno un 15 goal."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "9",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "20.0",
+   "pred_fantamedia": "6.65",
+   "pred_gol": "7.8",
+   "pred_assist": "2.5",
+   "pred_bonus_netti": "24.5",
+   "pred_presenze_previste": "31.1",
+   "pred_presenze_titolare_previste": "24.4",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7414",
+  "squadra": "COM",
+  "nome": "Kaiki",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "L'impressione fin qui (dalle amichevoli) è che Kaiki ha dei margini di miglioramento e parte da una base solida. Confrontandolo con Valle, lo spagnolo tecnicamente e atleticamente ha tanto da offrire, ma ci sembra che in alcune giornate è fenomenale, in altre completamente distratto. Il brasiliano alla lunga può dare delle garanzie a Fabregas che Valle per certi versi non ha dato, anche perchè con una difesa molto alta, Kaiki ci sembra avere maggiore concentrazione ed \"elaborazione dati\" (tradotto, fare la scelta giusta in momenti difficili)."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "9",
+   "bonus": "5",
+   "consiglio": "7",
+   "totale": "35"
+  }
+ },
+ {
+  "player_id": "6893",
+  "squadra": "COM",
+  "nome": "Kempf",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Sappiamo che il suo rendimento è buono, ma come al solito ci sono due fattori che ci portano qui: la concorrenza, che potrebbe aumentare e l'essere sempre coinvolto nelle nostre situazioni difficili. Cioè se il Como prende 1 goal, lui è probabilmente coinvolto nell'errore. E se il como dovesse prenderne 3, lui probabilmente è coinvolto almeno in 1 di questi 3. Quindi questo ci porta ad essere leggermente \"attenti\" a puntarci con ferma certezza. Non è da evitare come Morata, ma non fatevi ingolosire dai goal e spendere troppo su di lui. Scommessa da pochi crediti."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "6",
+   "totale": "35"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.04",
+   "pred_gol": "1.4",
+   "pred_assist": "0.7",
+   "pred_bonus_netti": "1.7",
+   "pred_presenze_previste": "17.2",
+   "pred_presenze_titolare_previste": "15.4",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7412",
+  "squadra": "COM",
+  "nome": "Milla",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Anche qui ci buttiamo su uno degli ultimi arrivati. Pensiamo che sia uno dei giocatori che più verrà usato da Fabregas, perchè ci sembra molto versatile e con basi tecniche/atletiche abbastanza consolidate. E' vero, non è trai più giovani in rosa, ma da l'impressione di essere letteralmente un \"professionista\" e poter avere tante energie da spendere. Ci aspettiamo un giocatore che potrebbe darvi diversi 6.5. Invece dal lato bonus non mancano gli assist però non puntatelo sperando che possa ripetere la stagione del Getafe con 10 assist (qui c'è più \"distribuzione\" dei bonus)"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "9",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "35"
+  }
+ },
+ {
+  "player_id": "313",
+  "squadra": "COM",
+  "nome": "Morata",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Non ve lo aspettavate eh?"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "4",
+   "salute": "6",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "27"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "4.0",
+   "pred_fantamedia": "6.23",
+   "pred_gol": "2.6",
+   "pred_assist": "1.9",
+   "pred_bonus_netti": "6.3",
+   "pred_presenze_previste": "10.6",
+   "pred_presenze_titolare_previste": "6.1",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6151",
+  "squadra": "COM",
+  "nome": "Perrone",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Si, non vogliamo andare sul classico Paz e Baturina, perchè noi sappiamo già che loro sono i pezzi da 90. Noi vogliamo valorizzare gli outsiders. Entrambi hanno una fantastica media voto anche senza bonus, ma per non farci mancare nulla anche quelli poco a poco si sono accumulati. Da Cunha ha il plus di essere anche rigorista. Se volete solidità al vostro centrocampo, loro fanno al caso vostro"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "9",
+   "totale": "40"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "10.0",
+   "pred_fantamedia": "6.18",
+   "pred_gol": "2.0",
+   "pred_assist": "2.5",
+   "pred_bonus_netti": "3.3",
+   "pred_presenze_previste": "31.0",
+   "pred_presenze_titolare_previste": "27.4",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6869",
+  "squadra": "COM",
+  "nome": "Ramon",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Uno dei migliori difensori da MOD in circolazione, assolutamente nella TOP 5. Può avere un ottimo rapporto qualità/prezzo per chi vuole puntare al modificatore. E non scherziamo quando diciamo che vale quanto un Bastoni o un Bremer."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "9",
+   "totale": "40"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "10.0",
+   "pred_fantamedia": "6.19",
+   "pred_gol": "2.7",
+   "pred_assist": "0.9",
+   "pred_bonus_netti": "5.2",
+   "pred_presenze_previste": "29.2",
+   "pred_presenze_titolare_previste": "25.0",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6908",
+  "squadra": "FIO",
+  "nome": "Atta",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Il talento francese si candida ad essere l'uomo in più del centrocampo viola. La sua ascesa è impressionante e, dopo un anno di \"rodaggio\", l'anno scorso è esploso definitivamente in quel di Udine, consegnando ai bianconeri una stagione da 5 gol, 3 assist e MV di 6,36, segno di una continuità impressionante (appena 5 voti sotto il 6) e di una grande capacità di essere decisivo nella metà campo avversaria. L'approdo a Firenze sembra essere l'ulteriore step da completare prima della consacrazione definitiva in una big e i tifosi della Fiorentina sperano proprio che Atta riesca a dimostrare di poter fare ancora di più. Le doti ci sono tutte e il gioco di Grosso, capace di esaltare le mezzali complete come lui, sembra il contesto giusto per far si che possa regalare ai suoi fantapossessori una stagione da protagonista assoluto. L'aspetto negativo è legato alla \"mediaticità\" del suo acquisto che, sicuramente, vi renderà difficile pagarlo poco. Tuttavia abbiamo pochi dubbi sul suo rendimento e crediamo che possa rappresentare un perfetto secondo slot (anche primo in leghe numerose). Fate solo in modo di non strapagarlo, a meno che non arriviate con tanti crediti e vi vada di mettere a tutti i costi una ciliegina sulla torta."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "8",
+   "consiglio": "9",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "17.0",
+   "pred_fantamedia": "6.43",
+   "pred_gol": "3.4",
+   "pred_assist": "3.6",
+   "pred_bonus_netti": "11.1",
+   "pred_presenze_previste": "29.0",
+   "pred_presenze_titolare_previste": "27.3",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2521",
+  "squadra": "FIO",
+  "nome": "De Gea",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Le doti del portiere iberico le conosciamo. Al suo primo anno a Firenze ebbe un impatto semplicemente devastante e riuscì a smentire chiunque lo considerasse ormai finito, portando a casa \"solo\" 38 gol subiti, 11 clean sheet, 2 rigori parati e una MV di 6,34, che lo mise in cima alla classifica dei portieri insieme a Carnesecchi. Fu anche il terzo assoluto per FM. L'anno scorso anche lui ha risentito delle difficoltà della squadra, con un numero di reti subite ben superiore (49), 10 clean sheet, un rigore parato e una MV comunque valida di 6,21. E' risultato l'undicesimo portiere per FM, dato comunque discreto se si considera che la squadra ha lottato a lungo per non retrocedere. Che annata ci aspettiamo quest'anno? La parola d'ordine del calcio di Grosso sembra essere \"equilibrio\". Il tecnico si è distinto a Sassuolo non solo per i risultati ottenuti, ma anche per una fase difensiva attenta del quale il primo a beneficiare potrebbe essere proprio De Gea. E' vero che sarà difficile ripetere i fasti della stagione 24-25, ma al tempo stesso ci aspettiamo un sensibile miglioramento rispetto alla stagione scorsa. Crediamo che De Gea possa assestarsi immediatamente sotto ai portieri delle big in termini di rendimento complessivo, distinguendosi per una MV molto interessante, che potrebbe essere importante soprattutto per chi utilizza il modificatore. I numeri non eccezionali dell'anno scorso inoltre potrebbero limitare il suo valore in sede d'asta e potrebbe rivelarsi davvero una bella presa, magari in abbinamento a un altro titolare di una medio-piccola nel caso di leghe dai 10 in giù."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "p",
+   "quotazione": "13.0",
+   "pred_fantamedia": "4.92",
+   "pred_gol": "0.1",
+   "pred_assist": "0.4",
+   "pred_bonus_netti": "-32.8",
+   "pred_presenze_previste": "28.4",
+   "pred_presenze_titolare_previste": "28.4",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "5800",
+  "squadra": "FIO",
+  "nome": "Gudmundsson A.",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Da leggere con attenzione: il mercato di Paratici è stato esplosivo in queste settimane e c'è tanto hype sulla squadra. Per questo probabilmente tanti giocatori viola saranno pagati tanto, forse anche troppo in relazione al potenziale reale. Quindi noi mettiamo qui un giocatore che, al contrario, non avrà i riflettori puntati addosso, complice un'esperienza a Firenze che fin qui ha scottato tanti fantallenatori. E perché metterlo fra le sorprese? Proprio perché comunque sembra che al momento non ci siano tante offerte per il giocatore, che potrebbe rimanere in viola, e quindi potreste riuscire a portarlo a casa per poco, soprattutto se fate l'asta con il mercato ancora aperto. È probabile che qualche innesto sugli esterni offensivi arrivi comunque, ma il campionato sarà lungo e dispendioso e, anche se non dovesse partire come un titolare sulla carta, il giocatore avrà modo di ritagliarsi un po' di spazio e parleremmo, a prescindere, di un centrocampista che gioca in attacco e che probabilmente si incaricherà di diversi piazzati (rigori compresi) quando in campo. Insomma, il classico prospetto che preso a pochi crediti e con poche aspettative potrebbe rivelarsi una sorpresa utile a completare le vostre rose."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "13.0",
+   "pred_fantamedia": "6.47",
+   "pred_gol": "3.5",
+   "pred_assist": "2.5",
+   "pred_bonus_netti": "14.8",
+   "pred_presenze_previste": "27.3",
+   "pred_presenze_titolare_previste": "20.5",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "1933",
+  "squadra": "FIO",
+  "nome": "Mandragora",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "In questo caso non parliamo di uno sconsigliato in senso assoluto. Anzi, il buon Rolando resta un interprete che ci piace molto e che pensiamo potrà avere un ruolo comunque importante nella stagione viola. Tuttavia, ci sembra doveroso suggerirvi di stare molto attenti con lui. Mandragora infatti è reduce da una stagione sorprendente: nonostante l'andamento pessimo della Fiorentina, l'ultima annata l'ha visto protagonista di un exploit importante, non solo per i 7 gol siglati, ma anche per una serie di prestazioni di alto livello che l'hanno visto spesso premiato dai pagellisti, e con buon merito. Soprattutto nella prima parte del campionato, quando la squadra sembrava colare a picco, Mandragora è stato spesso il migliore dei suoi dimostrando grande attaccamento e voglia di fare, fatto che gli ha permesso di portare a casa una MV importante. Perché lo sconsigliamo allora? Perché crediamo che sarà molto difficile per lui confermare questi numeri, ma al tempo stesso siamo consapevoli che difficilmente in un'asta un centrocampista reduce da 7 gol possa passare inosservato. Anzi, il rischio che venga pagato cifre importanti è concreto e noi vi diciamo serenamente che in quel caso è meglio rinunciare senza troppi patemi. Grosso infatti sembra intenzionato ad arretrare il suo raggio d'azione, facendolo giocare da mediano davanti alla difesa e, perciò, in una posizione più lontana dall'area avversaria. Aggiungiamo che in quella posizione è stato preso anche Inao Oulai, che sicuramente parte davanti a Rolando nelle gerarchie, e capite bene che il rischio è quello di ritrovarvi un giocatore che non garantirà il voto a ogni giornata (anche se crediamo che comunque lo potrà portare spesso) e che difficilmente potrà avvicinare il numero di bonus raggiunti nelle scorse annate. Insomma, resta un elemento che può essere valido per completare il reparto, sperando che Oulai paghi l'impatto con il nuovo campionato, ma vi sconsigliamo di valutarlo più di pochissimi crediti e di assegnargli uno slot superiore agli ultimissimi del vostro centrocampo."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "7",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "31"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "9.0",
+   "pred_fantamedia": "6.37",
+   "pred_gol": "2.7",
+   "pred_assist": "1.7",
+   "pred_bonus_netti": "7.3",
+   "pred_presenze_previste": "26.6",
+   "pred_presenze_titolare_previste": "18.5",
+   "indice_sorpresa": "-1.88",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5603",
+  "squadra": "FIO",
+  "nome": "Pongracic",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Il buon Marin al momento sembra destinato a rimanere in rosa, ma il rischio di una stagione da rincalzo si fa concreto. Con le uscite di Moreno e Comuzzo e con il giovane Kospo che sembra destinato ad andar via in prestito, il croato rimane l'unica alternativa di piede destro a Dragusin, che però, con ogni probabilità, sarà un titolare fisso. Di fatto quindi per Pongracic sembra esserci speranza solo come centrale di sinistra, ma anche in quella posizione ci pare improbabile che riesca a scalzare sia Viery che Ranieri, i quali sono entrambi mancini naturali e quindi più adatti a giocare a sinistra. Ecco che quindi, di fatto, Pongracic si ritrova a essere al massimo una buona alternativa ai titolari, fattore che ne mina parecchio l'utilità fantacalcistica. A questo aggiungiamo che, di fatto, si tratta di un giocatore buono solo per il voto, in quanto la sua MV non è mai stata particolarmente regolare, che non sia per nulla prolifico a livello di bonus, che soffra qualche problema fisico di troppo e - infine - il numero decisamente alto di cartellini che rimedia. Insomma, resta davvero poco di buono e pertanto vi consigliamo di stare alla larga da lui, a meno che non facciate leghe davvero numerose e lo vogliate prendere a copertura di Dragusin."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "5",
+   "consiglio": "6",
+   "totale": "30"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "4.0",
+   "pred_fantamedia": "5.72",
+   "pred_gol": "0.4",
+   "pred_assist": "0.3",
+   "pred_bonus_netti": "0.3",
+   "pred_presenze_previste": "22.8",
+   "pred_presenze_titolare_previste": "21.0",
+   "indice_sorpresa": "-4.08",
+   "categoria_sorpresa": "RISCHIO AL RIBASSO (esperti meno fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "7410",
+  "squadra": "FIO",
+  "nome": "Viery",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Il brasiliano classe 2006 sembra essere il prototipo del difensore moderno. Nasce terzino e pertanto è dotato di una buona tecnica, che lo rende efficace in impostazione. Non è altissimo, ma comunque abile nel gioco aereo, oltre a essere piuttosto rapido e - da quanto leggiamo - anche brillante dal punto di vista del posizionamento, delle letture difensive e dei contrasti. Insomma, sembra avere tutto per fare bene, ma è nostro compito anche limitare gli entusiasmi. Parliamo comunque di un giocatore che arriva dal campionato brasiliano, dove spesso le difese sono abbastanza allegre e pertanto dovrà inevitabilmente adattarsi rapidamente al tatticismo della serie A. Se dovesse riuscirci allora potrebbe rivelarsi una presa molto interessante, dato che ha dimostrato di saper essere pericoloso anche sul gioco aereo in area avversaria. Che fare quindi con lui? Noi vi consigliamo di non pagarlo più di tanto e di inquadrarlo - come dice questa sezione - in uno slot sorpresa. Preso a poco potrebbe infatti rivelarsi una nota lietissima per le vostre rose, ma al tempo stesso non neghiamo che c'è il rischio che in caso di qualche errore di troppo possa scivolare indietro nelle gerarchie, con due vecchie volpi come Ranieri e Pongracic che non vedono l'ora di soffiargli il posto."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "33"
+  }
+ },
+ {
+  "player_id": "7472",
+  "squadra": "FRO",
+  "nome": "Calò",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Il secondo \"fenomeno\" della squadra è sicuramente lui. Jack Calò arriva finalmente in serie A pronto a giocarsi le sue carte dopo una stagione strabiliante in serie B. 15 assist e 10 gol per il nostro folletto pronto a disegnare calcio anche nella massima serie. Arriva all' alba dei 30 anni nel miglior panorama calcistico nazionale e siamo sicuri che tanti parleranno di lui appena lo vedranno all' opera. Giocherà davanti la difesa ma è il designato per ogni singolo calcio piazzato: Rigori, punizioni e angoli saranno tutti di sua competenza. Siamo sicuri che il nostro \"mago del centrocampo\" sarà pronto a sfornare bonus per i suoi fantallenatori"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "8",
+   "salute": "9",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "39"
+  }
+ },
+ {
+  "player_id": "6530",
+  "squadra": "FRO",
+  "nome": "Ghedjemis",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Talento a dir poco cristallino, vero funambolo e spina nel fianco di qualsiasi difensore l' anno scorso in cadetteria. Trascina il Frosinone alla promozione in A e si candida ad essere la stella della squadra. 15 gol e, si spera, definitiva consacrazione del calcio che conta? Arrivò in Ciociaria nel gennaio 2024 come riserva di Soulè, oggi potrebbe ricalcarne le orme. Le speranze di salvezza del Frosinone passano anche dai suoi piedi, l' algerino è pronto ad esplodere"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "9",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "42"
+  }
+ },
+ {
+  "player_id": "6903",
+  "squadra": "FRO",
+  "nome": "Hasa",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Luis Hasa arriva a titolo definitivo dal Napoli dopo aver disputato una grandissima stagione in serie B con la Carrarese in cui ha giocato 31 partite condite da 5 gol e 4 assist. Piede educatissimo, grande tecnica individuale, visione di gioco e rapidità nello stretto lo rendono la mezzala che mancava al Frosinone. Inoltre, spesso viene coinvolto nella manovra offensiva ed è abilissimo negli inserimenti senza palla. Due anni fa, in prestito a Lecce, non incise per niente, totalizzando solo 1 presenza. Dopo l' esperienza in B, Hasa è pronto a rimettersi in gioco per dimostrare a tutti che in questo campionato può starci. Quest' anno trova una squadra che gli ha dato fiducia, comprandolo dal Napoli a titolo definitivo a 2,5 milioni di euro. Sarà pronto a ripagare le aspettative? il nostro chip sulla sorpresa di quest' anno và su di lui"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "5",
+   "consiglio": "6",
+   "totale": "32"
+  }
+ },
+ {
+  "player_id": "4923",
+  "squadra": "GEN",
+  "nome": "Colombo",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Letteralmente rinato sotto la cura De Rossi, può fare quel salto di qualità definitivo e con la fiducia che avverte può attestarsi come un perfetto terzo slot nei vostri attacchi, senza pagarlo troppo; chiaramente non è diventato un bomber di razza, e qualche occasione e relativa insufficienza potrà arrivare, ma crediamo che la doppia cifra sia tutt'altro che irraggiungibile"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "8",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "11.0",
+   "pred_fantamedia": "6.34",
+   "pred_gol": "6.6",
+   "pred_assist": "1.5",
+   "pred_bonus_netti": "13.5",
+   "pred_presenze_previste": "27.0",
+   "pred_presenze_titolare_previste": "20.6",
+   "indice_sorpresa": "2.05",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2593",
+  "squadra": "GEN",
+  "nome": "Martin",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Purtroppo ad oggi è abbastanza fuori dal progetto, lui avrebbe tutte le qualità specie per portare +1 con il piede che si ritrova, ma non possiamo che inserirlo qui seppur a malincuore"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "3",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "4",
+   "totale": "28"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.0",
+   "pred_gol": "1.1",
+   "pred_assist": "2.0",
+   "pred_bonus_netti": "2.3",
+   "pred_presenze_previste": "20.3",
+   "pred_presenze_titolare_previste": "15.6",
+   "indice_sorpresa": "-2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7409",
+  "squadra": "GEN",
+  "nome": "Meichtry",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Occhio a questo ragazzone Ha dimostrato di avere ottime qualità e soprattutto, giocando in posizione avanzata, potrebbe giovarne e risultare un'ottima scommessa per il vostro centrocampo, specie in ottica assist"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "6",
+   "totale": "33"
+  }
+ },
+ {
+  "player_id": "5750",
+  "squadra": "GEN",
+  "nome": "Ostigard",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "I due baluardi difensivi, il norvegese più bomber (e occhio ai rigori...) e con qualche più errore difensivo commesso, il messicano sempre più certezza da modificatore e che fa della costanza il suo marchio di fabbrica; potete puntare comunque su entrambi, visto che il mister ha dimostrato di dare molto valore alla fase difensiva e di conseguenza i loro voti potrebbero ulteriormente beneficiarne"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "9",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "11.0",
+   "pred_fantamedia": "6.18",
+   "pred_gol": "1.9",
+   "pred_assist": "1.0",
+   "pred_bonus_netti": "5.5",
+   "pred_presenze_previste": "26.4",
+   "pred_presenze_titolare_previste": "3.4",
+   "indice_sorpresa": "7.83",
+   "categoria_sorpresa": "SORPRESA AL RIALZO (esperti piu' fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "7413",
+  "squadra": "GEN",
+  "nome": "Puczka",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Alt! Iniziamo con il precisare che comunque lui non è un titolare e la zona di campo sia davanti che dietro è molto affollata, ma proprio per questo potrebbe passare sottotraccia ed essere un colpo low cost ad 1 da mettere lì; lui ha caratteristiche nettamente offensive e sebbene potrebbe soffrire dietro, specie in determinate partite potrebbe risultare decisivo con qualche suo inserimento"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "6",
+   "totale": "33"
+  }
+ },
+ {
+  "player_id": "4159",
+  "squadra": "INT",
+  "nome": "Akanji",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Partito inizialmente come braccetto, ha trovato ben presto la propria dimensione al centro della retroguardia, diventandone il punto di riferimento. Akanji è il classico difensore che ogni fantallenatore vorrebbe avere: affidabile, continuo e raramente sotto la sufficienza. Trasmette sicurezza all'intero reparto, detta i tempi della linea difensiva e rappresenta il vero leader della fase di non possesso nerazzurra. Lo scorso campionato ha saltato soltanto le ultime tre giornate, quando i giochi erano ormai chiusi, a testimonianza di quanto fosse imprescindibile per Chivu. Alla sua eccellente media voto ha aggiunto anche un paio di bonus, dettaglio che ne aumenta ulteriormente il valore fantacalcistico. È uno dei migliori regolaristi da modificatore dell'intero listone e, nelle leghe con il modificatore difesa, rappresenta un investimento di assoluta affidabilità. Al Mantra, nel ruolo di Dc, è semplicemente un top di categoria: pagarlo il giusto significa assicurarsi uno dei pilastri difensivi dell'intera Serie A."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "9",
+   "totale": "40"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "16.0",
+   "pred_fantamedia": "6.17",
+   "pred_gol": "1.3",
+   "pred_assist": "0.6",
+   "pred_bonus_netti": "3.2",
+   "pred_presenze_previste": "27.3",
+   "pred_presenze_titolare_previste": "27.2",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6217",
+  "squadra": "INT",
+  "nome": "Bisseck",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Sorpresa che vale quasi una conferma, viene inserito in questa sezione per via della presenza di un big come Stones ma Bisteccone ha tutte le carte in regola per rifare una grande stagione. Pressochè perfetto per la linea difensiva impostata da Chivu, capace di limare pure certe amnesie che talvolta lo penalizzavano, calciatore di uno strapotere fisico impressionante. Ha appena rinnovato il suo contratto e la società ci punterà forte, il ragazzo è quasi una certezza di questa squadra"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "11.0",
+   "pred_fantamedia": "6.24",
+   "pred_gol": "2.2",
+   "pred_assist": "0.9",
+   "pred_bonus_netti": "5.7",
+   "pred_presenze_previste": "20.8",
+   "pred_presenze_titolare_previste": "17.7",
+   "indice_sorpresa": "0.59",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "254",
+  "squadra": "INT",
+  "nome": "Dimarco",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "È stato vicino al cambio di ruolo dopo la stagione straordinaria dello scorso anno, ma averlo ancora difensore lo rende un autentico \"bug\" del listone. L'Inter sviluppa gran parte della propria manovra sulla corsia sinistra e questo gli consente di occupare stabilmente zone molto avanzate del campo. Tra assist, calci piazzati e conclusioni dalla distanza resta un top assoluto. Ripetere i numeri monstre della scorsa stagione sarà complicato, ma un bottino di 4-5 gol e 8-10 assist è assolutamente nelle sue corde."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "9",
+   "salute": "8",
+   "bonus": "9",
+   "consiglio": "9",
+   "totale": "44"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "32.0",
+   "pred_fantamedia": "6.68",
+   "pred_gol": "4.9",
+   "pred_assist": "5.4",
+   "pred_bonus_netti": "18.9",
+   "pred_presenze_previste": "27.5",
+   "pred_presenze_titolare_previste": "21.8",
+   "indice_sorpresa": "1.07",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6274",
+  "squadra": "INT",
+  "nome": "Diouf",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "La sensazione è che se non dovesse arrivare nessuno di altamente competitivo dal mercato, il posto sull'out di destra sarà molto probabilmente il suo, in questo scenario Diouf può essere una scheggia impazzita che scombussola un pò le previsioni fantacalcistiche. Al mantra rappresenta una bella soluzione come E, il 3-5-2 ormai consolidato e rodato tende a premiare gli esterni che sanno inserirsi a fari spenti sul secondo palo"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "35"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "8.0",
+   "pred_fantamedia": "6.19",
+   "pred_gol": "1.2",
+   "pred_assist": "1.7",
+   "pred_bonus_netti": "4.3",
+   "pred_presenze_previste": "18.1",
+   "pred_presenze_titolare_previste": "13.0",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7071",
+  "squadra": "INT",
+  "nome": "Esposito F.P.",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Attaccante d'altri tempi, dominante fisicamente e letale negli ultimi sedici metri. Per movimenti e presenza in area ricorda il primo Luca Toni. Dopo un anno di apprendistato è arrivato il momento di alzare l'asticella. Gli impegni ravvicinati potrebbero garantirgli un minutaggio importante e noi crediamo che abbia tutte le qualità per raggiungere la doppia cifra bassa. Tra gli attaccanti di seconda fascia è probabilmente (più che) una scommesse intrigante del listone."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "8",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "16.0",
+   "pred_fantamedia": "6.62",
+   "pred_gol": "5.1",
+   "pred_assist": "1.7",
+   "pred_bonus_netti": "16.5",
+   "pred_presenze_previste": "26.3",
+   "pred_presenze_titolare_previste": "18.3",
+   "indice_sorpresa": "-1.74",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5301",
+  "squadra": "INT",
+  "nome": "Luis Henrique",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "La scorsa stagione ha deluso le aspettative e, allo stato attuale, continua a non offrire sufficienti garanzie. Diouf sembra avergli già preso vantaggio nelle gerarchie e il mercato potrebbe ulteriormente complicarne il percorso. Da centrocampista il rapporto qualità-prezzo rischia di non essere conveniente: salvo occasioni, si può tranquillamente guardare altrove."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "4.0",
+   "pred_fantamedia": "6.04",
+   "pred_gol": "1.4",
+   "pred_assist": "1.5",
+   "pred_bonus_netti": "2.8",
+   "pred_presenze_previste": "21.0",
+   "pred_presenze_titolare_previste": "15.7",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "152",
+  "squadra": "INT",
+  "nome": "Zielinski",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Archiviati i problemi fisici (vesciche) delle stagioni precedenti, Piotr è tornato a esprimersi ai livelli migliori della carriera. Tecnica, visione di gioco, inserimenti, tiro dalla distanza e possibilità di calciare i rigori in assenza di Calhanoglu: possiede tutto ciò che serve per essere un centrocampista di altissimo profilo. Leader tecnico della squadra e punto fermo di Chivu, è uno dei nomi su cui puntare con maggiore convinzione."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "8",
+   "salute": "7",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "39"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "10.0",
+   "pred_fantamedia": "6.35",
+   "pred_gol": "2.2",
+   "pred_assist": "3.2",
+   "pred_bonus_netti": "7.7",
+   "pred_presenze_previste": "25.9",
+   "pred_presenze_titolare_previste": "21.7",
+   "indice_sorpresa": "1.24",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2788",
+  "squadra": "JUV",
+  "nome": "Bremer",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "esiste una Juventus con Bremer e una Juventus senza Bremer. Basta questo per spiegare come mai il giocatore sia in questa sezione? ma andiamo comunque ad analizzare un po' più nel dettaglio. L'anno scorso in 26 partite a voto ha portato 4 gol e 3 assist con una media di 6.33. Numeri da centrocampista per questa macchina da modificatore. Classico giocatore che da il meglio nelle partite difficili: nel doppio confronto con l'Inter, l'anno scorso ne è uscito con un 7,5 (+2 assist) e un 7. In casa col Napoli ha portato a casa un 7. 6,5 a San Siro contro il Milan e a Torino contro la Roma. Da notare come in 10 occasioni ha portato a casa un voto almeno pari a 6.5, senza fare bonus. C'è da aggiungere altro?"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "7",
+   "bonus": "8",
+   "consiglio": "9",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "15.0",
+   "pred_fantamedia": "6.24",
+   "pred_gol": "1.8",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "4.0",
+   "pred_presenze_previste": "25.6",
+   "pred_presenze_titolare_previste": "21.9",
+   "indice_sorpresa": "0.99",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5520",
+  "squadra": "JUV",
+  "nome": "Cambiaso",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "tanti fantallenatori sono stati scottati dal giocatore l'anno scorso: pagato come semitop di reparto (specialmente al mantra, dove era una delle E migliori) ha collezionato molte insufficienze (ben 17, per una media voto finale di 5.81). Lato bonus ha comunque detto la sua (3 gol e 4 assist). Perchè finisce in questa sezione? Il motivo è presto detto: l'hype per il giocatore è diminuito (non è più il giocatore desiderato di due anni fa) e nelle vostre fantaleghe potrebbe andare via a meno. Sarà titolare indiscusso sulla fascia (sia come terzino sinistro che eventualmente come esterno di centrocampo) con discrete possibilità di bonus: nelle amichevoli, schierandosi a 4 dietro, i terzini hanno goduto di molta libertà di azione offensiva. Pagandolo il giusto, potrebbe comunque portarvi qualche soddisfazione"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "9.0",
+   "pred_fantamedia": "6.19",
+   "pred_gol": "1.2",
+   "pred_assist": "2.5",
+   "pred_bonus_netti": "3.4",
+   "pred_presenze_previste": "27.3",
+   "pred_presenze_titolare_previste": "24.5",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4911",
+  "squadra": "JUV",
+  "nome": "Douglas Luiz",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "sta giocando un ottimo precampionato: gli manca ancora la condizione, ma è chiaro che vuole dimostrare di essere da Juve e di poter giocare in questa squadra. Gode della fiducia del tecnico, che potrebbe impiegarlo come incontrista/tuttocampista al posto di Thuram (per far rifiatare quest'ultimo in occasione degli impegni europei). Non diventerà titolare fisso, ma potrebbe avere molto minutaggio: è dotato di piedi molto buoni e di una forza più che discreta; i suoi inserimenti partendo da dietro potrebbero far male. Tra i vari partenti, lui è sicuramente il giocatore che ha più possibilità di rimanere e di fare bene."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "31"
+  }
+ },
+ {
+  "player_id": "5831",
+  "squadra": "JUV",
+  "nome": "Gatti",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "l'arrivo di Celik potrebbe ulteriormente affollare gli spazi dietro, col possibile slittamento di Kalulu al centro. Già lo scorso anno ha avuto poco spazio, e non pensiamo che questa stagione sarà diversa, almeno ai nastri di partenza. Difficile gestione, e all'asta rischiereste pure di non riuscire a prenderlo a 1 credito. Forse non ne vale la pena."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "5",
+   "totale": "29"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "4.0",
+   "pred_fantamedia": "5.97",
+   "pred_gol": "1.1",
+   "pred_assist": "0.6",
+   "pred_bonus_netti": "1.6",
+   "pred_presenze_previste": "18.4",
+   "pred_presenze_titolare_previste": "12.7",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5685",
+  "squadra": "JUV",
+  "nome": "Koopmeiners",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "speriamo che il detto \"non c'è due senza tre\" per lui non valga, e che la terza stagione possa regalargli qualche gioia in maglia bianconera. Tuttavia, a oggi, non possiamo non ribadire la poca fiducia che abbiamo in lui. Ad attestarlo, c'è il giudizio complessivo di noi esperti, nella somma che abbiamo fatto per ogni giocatore (peggio di lui a centrocampo, solo i partenti Arthur e Douglas Luiz). E' chiaro che in leghe numerose, volendo, una manciata di crediti come slot scommessa, se siete coperti, potete anche decidere di buttarcelo. Però poi finisce lì, anche perché ha parte dietro in tutte le gerarchie per i posti che potrebbe occupare, che sia in mediana o sulla trequarti. Le prospettive sono quindi poco convincenti ed esaltanti, e non lasciano molto spazio a speranze."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "5",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "5",
+   "totale": "28"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.07",
+   "pred_gol": "2.2",
+   "pred_assist": "1.3",
+   "pred_bonus_netti": "7.0",
+   "pred_presenze_previste": "16.1",
+   "pred_presenze_titolare_previste": "8.6",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6434",
+  "squadra": "JUV",
+  "nome": "Yildiz",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "probabilmente il giocatore più talentuoso della squadra, un \"numero dieci\" di cui la Juve sentiva la mancanza. Se si prendono in esame i giocatori che hanno giocato almeno la metà delle partite, la scorsa stagione ha visto il turco chiudere al 12° posto dell'intero listone per fantamedia, diventando il 9° se consideriamo solo gli attaccanti. Se poi prendiamo in esame la media voto, è stato 8° in tutto il listone e 4° tra i soli attaccanti. Di conseguenza, considerando anche la giovane età e quindi il percorso di crescita ancora in atto, non possiamo non candidarlo come TOP non solo in questa Juve, ma anche negli attaccanti di questa edizione. Se riesce ad avere quella continuità che a un certo punto è venuta a mancare nel finale di stagione, può comodamente puntare alla doppia cifra come goal e, perché no, magari anche coi +1. Chiaramente non è quella tipologia di attaccante che punta ai 20 goal; piuttosto quello che ogni giornata potete schierare con tranquillità, tra buoni voti e bonus di solito ben distribuiti, che siano pesanti o leggeri."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "9",
+   "salute": "8",
+   "bonus": "8",
+   "consiglio": "9",
+   "totale": "43"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "23.0",
+   "pred_fantamedia": "6.79",
+   "pred_gol": "5.9",
+   "pred_assist": "6.9",
+   "pred_bonus_netti": "22.1",
+   "pred_presenze_previste": "30.7",
+   "pred_presenze_titolare_previste": "26.7",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6191",
+  "squadra": "LAZ",
+  "nome": "Belahyane",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Qualunque sarà il modulo adottato, temiamo che possa andare in difficoltà sotto molteplici aspetti. Principalmente, i suoi limiti fisici non lo rendono adatto per un campionato fatto di lotta muscolare nel 4-2-3-1, mentre una certa lentezza nella gestione del pallone lo rende limitato anche come regista in un eventuale 4-3-3. Considerato poi che nel reparto di centrocampo le soluzioni, almeno dal punto di vista numerico, sono sufficienti, pensiamo che la sua stagione non potrà offrire spunti particolarmente brillanti."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "4",
+   "media_voto": "5",
+   "salute": "8",
+   "bonus": "3",
+   "consiglio": "3",
+   "totale": "23"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "1.0",
+   "pred_fantamedia": "5.87",
+   "pred_gol": "0.5",
+   "pred_assist": "0.7",
+   "pred_bonus_netti": "1.0",
+   "pred_presenze_previste": "10.8",
+   "pred_presenze_titolare_previste": "10.1",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6320",
+  "squadra": "LAZ",
+  "nome": "Doekhi",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Arrivato per sostituire Gila, potrebbe passare sottotraccia nelle vostre aste, visto il calo generale nell'appetibilità della difesa della Lazio. Ci aspettiamo un inevitabile periodo di adattamento, dovuto soprattutto alle sue caratteristiche fisiche, che non lo rendono un difensore velocissimo in fase di recupero negli spazi aperti. Tuttavia, la sua capacità di farsi vedere in area avversaria sulle palle inattive potrebbe regalarvi più di qualche gioia dal punto di vista realizzativo. Dovrebbe garantire anche una titolarità pressoché certa, visto che la concorrenza nel ruolo è rappresentata soltanto da Marusic e Gigot: il primo che in realtà sarebbe un terzino destro e il secondo che deve ancora recuperare dal lungo infortunio. Per questo, se riusciste ad assicurarvelo per pochi crediti potrebbe sorprendervi in positivo."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "6",
+   "salute": "9",
+   "bonus": "5",
+   "consiglio": "6",
+   "totale": "34"
+  }
+ },
+ {
+  "player_id": "7131",
+  "squadra": "LAZ",
+  "nome": "Floriani Mussolini",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Questa stagione può diventare per lui un'ottima occasione per mettersi in mostra e continuare nel percorso di crescita che lo ha portato a salire in prima squadra dalle giovanili. A suo vantaggio possiamo sottolineare una concorrenza nel ruolo di terzino destro non proprio granitica, dal momento che Marusic potrebbe essere utilizzato anche come difensore centrale e Lazzari non offre garanzie talmente solide da assicurarsi la titolarità. Per questo, crediamo che Floriani potrebbe ottenere anche più minutaggio del previsto, rivelandosi una buona sorpresa da acquistare a pochissimi crediti. Se il gioco di Gattuso, come intravisto nel precampionato, dovesse valorizzare gli esterni in fase offensiva, potrebbe anche riuscire a collezionare qualche bonus leggero e discreti voti."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "9",
+   "bonus": "2",
+   "consiglio": "6",
+   "totale": "29"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "3.0",
+   "pred_fantamedia": "5.79",
+   "pred_gol": "0.6",
+   "pred_assist": "0.9",
+   "pred_bonus_netti": "0.4",
+   "pred_presenze_previste": "15.2",
+   "pred_presenze_titolare_previste": "5.1",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2263",
+  "squadra": "LAZ",
+  "nome": "Lazzari",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Rimane in rosa per l'ultimo anno di contratto a causa delle scarse capacità economiche della società, ma già da tempo si è dimostrato un calciatore in calo dal punto di vista fisico. Quella che un tempo era la sua caratteristica principale, cioè la capacità di strappare sulle medie distanze, sta pian piano venendo meno, se non per spezzoni di partita. Altro elemento a suo svantaggio è la scarsa integrità muscolare, confermata dal fatto che ogni anno è costretto a fermarsi per ripetuti infortuni al polpaccio. Se a questo uniamo una certa tendenza ad essere poco attento difensivamente e a perdere tutti i duelli sulle palle alte, non possiamo che mettervi in guardia dall'ipotesi di un suo acquisto."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "5",
+   "salute": "6",
+   "bonus": "3",
+   "consiglio": "4",
+   "totale": "23"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "2.0",
+   "pred_fantamedia": "5.71",
+   "pred_gol": "0.2",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "-0.1",
+   "pred_presenze_previste": "12.4",
+   "pred_presenze_titolare_previste": "9.0",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4817",
+  "squadra": "LAZ",
+  "nome": "Pedraza",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Attualmente, visti i limiti fisici e tattici di Tavares, sembra destinato a guadagnare i gradi da titolare sulla fascia difensiva di sinistra. La sua capacità di spinta, insieme a una buona tenuta fisica, potrebbero portarlo a diventare una buona sorpresa per questo campionato, anche regalando più di un assist, come già visto nella sua precedente esperienza in Spagna. Anche dal punto di vista della regolarità di prestazioni e di voto potrebbe mettervi al riparo da sorprese negative, dimostrandosi un profilo in grado di offrire una buona tenuta in fase difensiva e affidabilità all'interno della vostra rosa."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "3",
+   "consiglio": "7",
+   "totale": "31"
+  }
+ },
+ {
+  "player_id": "7314",
+  "squadra": "LAZ",
+  "nome": "Taylor K.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Nei primi mesi giocati in maglia Lazio ha dimostrato di possedere qualità tecniche, visione di gioco e capacità di attaccare l'area avversaria con concretezza. All'interno del reparto di centrocampo è sicuramente il calciatore che offre le maggiori potenzialità sia dal punto di vista della titolarità che da quello della ricerca del bonus. Potrebbe offrire un ottimo rendimento sia da trequartista nel 4-2-3-1, sia da mezzala in un eventuale 4-3-3, proponendosi spesso al limite dell'area avversaria e cercando la conclusione dal limite. Si è dimostrato tecnicamente valido con entrambi i piedi sia in fase di gestione che di conclusione a rete, mettendo in mostra anche una buona personalità."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "8",
+   "totale": "39"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "13.0",
+   "pred_fantamedia": "6.25",
+   "pred_gol": "2.2",
+   "pred_assist": "1.2",
+   "pred_bonus_netti": "6.0",
+   "pred_presenze_previste": "22.6",
+   "pred_presenze_titolare_previste": "18.8",
+   "indice_sorpresa": "3.59",
+   "categoria_sorpresa": "SORPRESA AL RIALZO (esperti piu' fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "6015",
+  "squadra": "LEC",
+  "nome": "Berisha M.",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Il più talentuoso del Lecce: visione di gioco, tiro da fuori, calci piazzati, inserimenti, sarebbe il principale consigliato del Lecce. C'è un però un grosso però, che già conoscete, gli infortuni. L'anno scorso ha giocato solo 13 partite, segnando 2 gol e facendo 3 assist, poi si è rotto a Dicembre e non ha più messo piede in campo. Purtroppo l'anno scorso non è stato un caso, in 3 stagioni di serie A, non è riuscito mai a giocare più di 17 partite. Tuttora sta ancora facendo riabilitazione, si tratta di una vera e propria scommessa, perchè il rischio che anche quest'anno non arrivi a 20 partite è alto. Di contro, se gioca, è il giocatore del Lecce più appetibile al fantacalcio per le sue caratteristiche."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "4",
+   "bonus": "7",
+   "consiglio": "8",
+   "totale": "33"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.02",
+   "pred_gol": "1.1",
+   "pred_assist": "2.1",
+   "pred_bonus_netti": "3.3",
+   "pred_presenze_previste": "16.4",
+   "pred_presenze_titolare_previste": "9.0",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5029",
+  "squadra": "LEC",
+  "nome": "Geubbels",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Lui è il gran colpo del mercato estivo del Lecce, Trinchera ha sborsato 5 milioni al Paris FC per portarlo in Salento. Geubbels è un'ex giovane promessa francese, costato ben 20 milioni a soli 17 anni, quando dal Lione passò al Monaco. Poi un brutto infortunio ha fermato la sua crescita, costringendolo a vari prestiti inconcludenti, fino a alla ritrovata luce in Svizzera al San Gallo. L'anno scorso nel Paris FC ha tradito un po' le attese, segnando solo 5 gol per poi finire a fare la riserva nel girone di ritorno. Arriva a Lecce, forse una piccola squadra che ti da fiducia è più congeniale per lui, che il grande salto lo ha sempre fallito. Potendo giocare in qualsiasi ruolo dell'attacco, giocherà praticamente sempre, anche se verosimilmente giocherà da punta centrale. Quello che ci preoccupa maggiormente è il modo di giocare del Lecce, che non valorizza molto la punta, come abbiamo visto l'anno scorso, per quello non ci azzardiamo a metterlo tra i consigliati. Considerando che batterà i rigori (in carriera 7 rigori tutti segnati), pensiamo che un 7-9 gol dovrebbe assicurarli. Rimane la punta titolare del Lecce, magari ci sorprende e ne farà qualcuno di più, noi per ora rimaniamo cauti, abbiamo visto la fine che l'anno scorso hanno fatti i vari Stulic/Cheddira/Camarda."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "34"
+  }
+ },
+ {
+  "player_id": "6989",
+  "squadra": "LEC",
+  "nome": "Tiago Gabriel",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "L'anno scorso il migliore del Lecce per distacco, sia lato calcio, che fantacalcio, l'unico con una MV superiore al 6. Il giocatore c'è, non ci sembra un fuoco di paglia, è veloce, bravo nell'uno contro uno e soprattutto sempre concentrato. Il modo di giocare di Di Francesco molto difensivo lo ha aiutato e pensiamo che anche quest'anno possa ripetersi. Chiaramente è sempre un difensore del Lecce, quindi ci saranno alti e bassi, ma secondo noi quest'anno, essendo più conosciuto e acclamato, potrebbe anche portare una MV più alta. Sempre presente in area avversaria, per lui 2 gol l'anno scorso, i due contro principali sono le ammonizioni e la possibile partenza, che potrebbe peggiorare il suo status fantacalcistico. Per noi ad un prezzo basso potrebbe essere un buon colpo, un titolarissimo, che spesso porta voti da modificatore."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "7.0",
+   "pred_fantamedia": "5.91",
+   "pred_gol": "1.6",
+   "pred_assist": "0.6",
+   "pred_bonus_netti": "0.8",
+   "pred_presenze_previste": "29.9",
+   "pred_presenze_titolare_previste": "28.6",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6990",
+  "squadra": "LEC",
+  "nome": "Veiga D.",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "A livello calcistico fa il suo, senza infamia e senza lode. A livello fantacalcistico invece è un disastro, MV del 5,82, FM del 5,69, 9 ammonizioni, potenziali bonus visti neanche dal binocolo. Totalmente inutile a parte la titolarità. Si dice di lui che è un terzino offensivo, quasi un esterno, ma al momento non ha fatto vedere nulla di tutto ciò, anche quando schierato esterno di centrocampo. Per di più, anche quando gioca partite da 6, viene bastonato dai pagellisti. Insomma meglio lasciar perdere."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "5",
+   "salute": "8",
+   "bonus": "4",
+   "consiglio": "5",
+   "totale": "30"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "5.0",
+   "pred_fantamedia": "5.74",
+   "pred_gol": "0.5",
+   "pred_assist": "0.9",
+   "pred_bonus_netti": "0.4",
+   "pred_presenze_previste": "25.1",
+   "pred_presenze_titolare_previste": "27.6",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4856",
+  "squadra": "MIL",
+  "nome": "Chukwueze",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Di rientro dal prestito al Fulham, sembrava essere il classico esubero da piazzare in estate; invece Amorim, fin dalla sua prima intervista, ne ha sottolineato l'importanza per le sue spiccate qualità nel dribbling e nell'uno contro uno. Nelle prime uscite estive viene provato come esterno/laterale di destra: pur mostrando qualche fisiologico limite in fase di copertura, garantisce una spinta notevole e costante in fase di possesso. È un profilo che potrebbe passare eccessivamente sottotraccia all'asta ma che, al contrario, rischia di trovare parecchio spazio nella prossima stagione, sia da laterale a tutta fascia sia da sottopunta, rivelandosi uno di quei jolly offensivi sempre preziosi da avere in rosa, soprattutto visto che è listato come C."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "6",
+   "totale": "33"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "6.0",
+   "pred_fantamedia": "6.36",
+   "pred_gol": "2.2",
+   "pred_assist": "1.1",
+   "pred_bonus_netti": "4.3",
+   "pred_presenze_previste": "18.9",
+   "pred_presenze_titolare_previste": "10.6",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4401",
+  "squadra": "MIL",
+  "nome": "Gabbia",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Il roccioso centrale rossonero potrebbe soffrire particolarmente il modo di giocare di Amorim, caratterizzato da una linea difensiva molto alta e da una costante impostazione dal basso, fondamentali in cui l'italiano fa più fatica. Avere tanto campo alle spalle da coprire può rappresentare un grosso problema, così come l'assetto spiccatamente offensivo del Milan lo costringerà a sostenere numerosi duelli in velocità, situazioni che per caratteristiche soffre. Inoltre, con il mercato aperto ancora per qualche settimana, non è escluso l'arrivo di un nuovo centrale che possa soffiargli il posto. Una sua presa può avere senso soltanto a pochissimi crediti per completare il reparto: non acquistatelo sperando di assicurarvi un titolare fisso dalla buona media voto."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "31"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "7.0",
+   "pred_fantamedia": "5.89",
+   "pred_gol": "1.0",
+   "pred_assist": "0.6",
+   "pred_bonus_netti": "0.4",
+   "pred_presenze_previste": "24.0",
+   "pred_presenze_titolare_previste": "22.5",
+   "indice_sorpresa": "-2.47",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4728",
+  "squadra": "MIL",
+  "nome": "Nkunku",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Complici le incertezze generali che avvolgono l'ambiente rossonero e l'affollamento sulla trequarti, Nkunku rischia di passare ingiustamente sottotraccia all'asta. Invece, grazie alle sue eccelse doti tecniche, all'estrema duttilità (può spaziare indifferentemente in entrambe le posizioni di sottopunta), al controllo di palla nello stretto unito ad un gran tiro, il francese ha tutto per imporsi e giocare molte partite anche se la titolarità resta non garantita . Non va poi sottovalutato che ad oggi sembra confermato lo status di primo rigorista, confermato anche nel derby in preseason (con sia lui che Ramos in campo, dal dischetto si è presentato e ha trasformato proprio il francese). Può rivelarsi un ottimo 3° slot da far ruotare nelle vostre rose, pronto a scalare in fretta le gerarchie del vostro attacco e a regalarvi parecchi bonus: monitoratelo con attenzione, perché al giusto prezzo rischia di essere una grandissima sorpresa."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "6",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "31"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "13.0",
+   "pred_fantamedia": "6.58",
+   "pred_gol": "4.7",
+   "pred_assist": "1.9",
+   "pred_bonus_netti": "13.3",
+   "pred_presenze_previste": "21.8",
+   "pred_presenze_titolare_previste": "12.5",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6397",
+  "squadra": "MIL",
+  "nome": "Ramos G.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Sarà il terminale offensivo di un Milan a forte trazione anteriore, costruito su misura per rifornire la prima punta con una mole di gioco importante. Forte di testa ed efficace all'interno dell'area di rigore, Ramos ha il compito di capitalizzare il lavoro dei trequartisti e degli esterni nel sistema di Amorim. Possiede tutte le caratteristiche fisiche e tecniche per imporsi con forza nel nostro campionato e, complice anche lo status di potenziale rigorista (anche se le prime indicazioni vedono ancora Nkunku come primo rigorista rossonero), rappresenta senza dubbio il profilo di maggior spicco dell'attacco rossonero e un attaccante di prima fascia sul listone di quest'anno."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "5",
+   "salute": "9",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "39"
+  }
+ },
+ {
+  "player_id": "4892",
+  "squadra": "MIL",
+  "nome": "Saelemaekers",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "L'esterno belga incarna alla perfezione la duttilità e le caratteristiche richieste da Amorim sia ai laterali di fascia che ai trequartisti. Giocatore che durante l'anno verosimilmente si disimpegnerà in diversi ruoli tra le due corsie esterne e i due sottopunta, fa del dinamismo, della tecnica nello stretto e dell'uno contro uno i suoi principali cavalli di battaglia: qualità ideali per la proposta di gioco del tecnico portoghese. Il belga si prospetta come un elemento fondamentale nelle rotazioni del Milan della prossima stagione e, per la sua capacità di andare a voto praticamente sempre garantendo un ottimo rendimento, rappresenta una pedina preziosa da avere nella propria squadra."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "10.0",
+   "pred_fantamedia": "6.31",
+   "pred_gol": "2.8",
+   "pred_assist": "3.5",
+   "pred_bonus_netti": "8.9",
+   "pred_presenze_previste": "28.7",
+   "pred_presenze_titolare_previste": "24.3",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4751",
+  "squadra": "MIL",
+  "nome": "Tomori",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Con l'arrivo di Mario Gila, il difensore inglese vede soffiarsi molto probabilmente il posto da braccetto titolare di destra. Reduce da ultime stagioni caratterizzate da più errori che salvataggi o prestazioni da ricordare, nel nuovo Milan di Amorim ogni piccola ingenuità rischia di costare caro: l'assetto difensivo spinto e molto alto del tecnico portoghese, infatti, lascia pochissimo margine di errore ai centrali. Tomori non è ormai più né un titolare inamovibile né un profilo da media voto garanzia: una sua presa può aver senso soltanto a pochissimi crediti a completamento del reparto, altrimenti vi consigliamo di guardare altrove."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "9",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "31"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "7.0",
+   "pred_fantamedia": "5.9",
+   "pred_gol": "0.8",
+   "pred_assist": "0.5",
+   "pred_bonus_netti": "0.4",
+   "pred_presenze_previste": "27.8",
+   "pred_presenze_titolare_previste": "24.2",
+   "indice_sorpresa": "-7.83",
+   "categoria_sorpresa": "RISCHIO AL RIBASSO (esperti meno fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "5880",
+  "squadra": "MON",
+  "nome": "Ciurria",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Entrambi sconsigliati per lo stesso motivo: età avanzata, concorrenza nel ruolo (partono entrambi dietro a livello gerarchico), e soprattutto nel caso del centravanti, una tenuta fisica che non impressiona per niente. Tutti motivi per il quale finiscono di diritto in questa sezione, sperando che diano lo stesso una mano ai brianzoli per provare a raggiungere la salvezza... ma voi che potete, statene alla larga durante l'asta!"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "5",
+   "salute": "7",
+   "bonus": "5",
+   "consiglio": "3",
+   "totale": "25"
+  }
+ },
+ {
+  "player_id": "5878",
+  "squadra": "MON",
+  "nome": "Colpani",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Ragazzo che ne ha passate delle brutte in maglia Viola... al Monza riuscirà riscattarsi e tornare il centrocampista ammirato nell'anno 23-24? Molto difficile riproporre quei bonus, considerando anche la squadra che è profondamente cambiata, ma può essere allo stesso modo una buona scommessa a basso prezzo per il vostro centrocampo, con un potenziale enorme. Tutti quanti noi facciamo il tifo per lui, perché i colpi da biliardo certamente non gli mancano..."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "31"
+  }
+ },
+ {
+  "player_id": "2155",
+  "squadra": "MON",
+  "nome": "Cutrone",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Eterna promessa o meno, Patrick ha ancora tanto da dare al Monza, e sicuramente avrà anche tanto da dare a voi fantallenatori. Potrebbe venire snobbato discretamente all'asta, ed è lì che dovete fiondarvi per prenderlo subito e fare l'affare a basso costo. Giocatore che diventa utile principalmente per aiutarvi nei turni in cui il Monza sarà impegnato in casa e in partite semplici, soprattutto per dare il cambio a qualche vostro titolare con una partita molto più impegnativa. Per noi Esperti il gioco può valere la candela, rappresenta uno dei migliori attaccanti per chiudere il reparto."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "34"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "9.0",
+   "pred_fantamedia": "6.36",
+   "pred_gol": "3.0",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "7.8",
+   "pred_presenze_previste": "18.8",
+   "pred_presenze_titolare_previste": "12.5",
+   "indice_sorpresa": "7.67",
+   "categoria_sorpresa": "SORPRESA AL RIALZO (esperti piu' fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "7485",
+  "squadra": "MON",
+  "nome": "Mangas",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Anche il portoghese è uno degli elementi più interessanti lato fantacalcistico per il Monza. D'altronde, da queste parti non si vedono troppo spesso profili che hanno giocato anche in Champions League, e come non farsi conquistare dal suo look anni '80 con quel baffetto suave... Porterà al Monza esperienza internazionale, e il gioco di Juric favorisce gli esterni a tutta fascia, motivo per il quale se volete essere cool & fashion anche voi, l'acquisto del buon Ricardo ha buone possibilità di portarvi buoni voti e qualche sporadico bonus in rosa, come elemento da ruotare nelle partite più alla portata dei biancorossi."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "8",
+   "salute": "7",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "35"
+  }
+ },
+ {
+  "player_id": "2741",
+  "squadra": "MON",
+  "nome": "Pessina",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Oh capitano, mio capitano. Sarà un'altra volta una colonna portante del ritorno in Serie A, e sicuramente è l'elemento più appetibile di questo Monza, essendo rigorista designato e anche battitore di piazzati. Naturalmente, in base anche a quanto scritto nella sua descrizione, fate attenzione al prezzo ragazzi, il buon Matteo è un regolarista con buone velleità di bonus e gioca pur sempre in una neopromossa... però per noi questa stagione continuerà a essere uno degli elementi più decisivi dei brianzoli."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "7",
+   "bonus": "7",
+   "consiglio": "8",
+   "totale": "37"
+  }
+ },
+ {
+  "player_id": "2724",
+  "squadra": "NAP",
+  "nome": "Buongiorno",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Umanamente dispiace perché il ragazzo si vede che ci tiene e che ce la mette anche tutta, ma il suo corpo è obiettivamente fatto di cartapesta, e tranne per il primo anno al Napoli non è riuscito a confermarsi ai livelli di Torino. Vedremo se ci saprà dare una mano durante la stagione, ma il suo acquisto è fortemente sconsigliato ad agosto o settembre perché correte il serio rischio di rivederlo l'anno prossimo nella peggiore delle ipotesi. Meglio valutarlo con calma più avanti. Se proprio volete puntare forte sul suo nome e siete consapevoli dei rischi, 1 credito e stop."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "4",
+   "bonus": "6",
+   "consiglio": "5",
+   "totale": "29"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "7.0",
+   "pred_fantamedia": "5.97",
+   "pred_gol": "0.8",
+   "pred_assist": "0.5",
+   "pred_bonus_netti": "0.3",
+   "pred_presenze_previste": "24.0",
+   "pred_presenze_titolare_previste": "18.4",
+   "indice_sorpresa": "0.07",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2517",
+  "squadra": "NAP",
+  "nome": "De Bruyne",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Un nome pesante, vero, ma a differenza degli altri due non è sconsigliato in senso assoluto. Vogliamo solamente invitarvi a fare attenzione sul prezzo da spendere per lui in sede d'asta, perché sebbene sia l'incaricato numero uno dal dischetto (e i rigori si devono anche segnare...) non è detto che giochi con continuità; soprattutto la tenuta fisica del belga è un argomento di discussione. Lapalissiano dire che è un elemento di esperienza internazionale, e probabilmente uno dei giocatori sulla carta più forti passati per Napoli; volendo però utilizzare una metafora, De Bruyne è un tizzone che lentamente si sta affievolendo. Questa stagione può definitivamente decretare se la sua fiamma si spegnerà del tutto, o se una scintilla potrà farlo nuovamente diventare un maestoso fuoco che arde in campo e nel cuore dei suoi tifosi."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "8",
+   "salute": "5",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "33"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "15.0",
+   "pred_fantamedia": "6.59",
+   "pred_gol": "3.1",
+   "pred_assist": "3.4",
+   "pred_bonus_netti": "14.2",
+   "pred_presenze_previste": "23.5",
+   "pred_presenze_titolare_previste": "16.5",
+   "indice_sorpresa": "-0.41",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7162",
+  "squadra": "NAP",
+  "nome": "Giovane",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Per un esterno che scende più indietro sul campo, ce n'è un altro che svaria un po' dovunque sulla trequarti. Il brasiliano, che sta venendo particolarmente apprezzato da Allegri nel precampionato, è quel classico giocatore che si compra a 1 credito o giù di lì per completare il reparto offensivo, ma che di fatto può overperformare e risultare una validissima alternativa ai vostri titolari, soprattutto nei turni più favorevoli. Può avere senso prenderlo in coppia con Højlund, ma francamente in sede di formazione può essere molto difficile dover schierare due attaccanti del Napoli, motivo per il quale per sfruttarlo al meglio andrebbe preso solo se non si possiede il danese. Scommessa low-cost, ma adatta un po' a tutti. E voi, lo farete questo salto nel vuoto?"
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "4.0",
+   "pred_fantamedia": "6.22",
+   "pred_gol": "2.5",
+   "pred_assist": "2.6",
+   "pred_bonus_netti": "10.0",
+   "pred_presenze_previste": "17.3",
+   "pred_presenze_titolare_previste": "12.1",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "6052",
+  "squadra": "NAP",
+  "nome": "Hojlund",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Come scritto nel suo specchietto, abbiamo fiducia che il ragazzo possa migliorare i suoi numeri, anche perché il ritorno al 4-3-3 può essere letto come un ritorno alle radici, ciò che ha caratterizzato il Napoli nell'ultimo decennio per intenderci, da Sarri passando per Spalletti e Conte, con Allegri che sfrutterà le caratteristiche dei suoi ragazzi nel tridente, risultando dunque in una squadra più offensiva. Il danese per noi può fare bene ed essere valorizzato di più dai suoi compagni. Perderà i rigori con ogni probabilità, ma una migliore costanza sottoporta gli permetterà di compensare più che abbondantemente la mancanza dei tiri dal dischetto. Date un occhio al prezzo in sede d'asta come sempre, ma Højlund è da ritenersi un attaccante sicuro in cui investire quest'anno, che vi garantisce come minimo la doppia cifra e un paio di assist. E stesso il giocatore ha riferito che vuole fare meglio rispetto alla scorsa stagione..."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "28.0",
+   "pred_fantamedia": "6.85",
+   "pred_gol": "7.0",
+   "pred_assist": "2.9",
+   "pred_bonus_netti": "23.9",
+   "pred_presenze_previste": "26.3",
+   "pred_presenze_titolare_previste": "0.0",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "6215",
+  "squadra": "NAP",
+  "nome": "Lucca",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "In tutte le salse e in tutti i nomi, al momento Lucca non è un giocatore da Napoli. Dispiace, ma qualora rimanesse ci sono semplicemente riserve migliori in giro da prendere. Per carità, mai dire mai, può farlo il salto di qualità... ma dopo quello che abbiamo passato la scorsa stagione con lui in rosa crediamo fermamente che anche le sue di chance siano finite. Sconsigliato."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "5",
+   "consiglio": "6",
+   "totale": "30"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "3.0",
+   "pred_fantamedia": "6.42",
+   "pred_gol": "2.8",
+   "pred_assist": "0.9",
+   "pred_bonus_netti": "10.1",
+   "pred_presenze_previste": "16.1",
+   "pred_presenze_titolare_previste": "7.2",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6638",
+  "squadra": "NAP",
+  "nome": "Marin R.",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Con Buongiorno out il Napoli è vero che si sta interfacciando sul mercato, ma allo stesso tempo si stanno valutando soluzioni interne, e il nome di Rafa Marin è indubbiamente tra quelli più intriganti per fare coppia con Rrahmani. Maturato un sacco dall'esperienza al Villarreal, e certamente il centrale più \"sano\" a livello di salute se confrontato con Beukema e Marianucci, lo spagnolo fino all'arrivo del nuovo difensore (se ci sarà e quale sarà), sarà da reputarsi con discrete probabilità il partner titolare a fianco del kosovaro, e per tale motivo può essere un'ottima intuizione a basso prezzo. A oggi lo valutiamo tra le possibili sorprese, vedremo poi a settembre se sarà il caso di confermarlo in questo specchietto o se il Napoli effettivamente interverrà e prenderà un altro centrale di spessore."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "9",
+   "bonus": "5",
+   "consiglio": "7",
+   "totale": "34"
+  }
+ },
+ {
+  "player_id": "7351",
+  "squadra": "NAP",
+  "nome": "Santos A.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Sorpresa di questa stagione? Noi crediamo e ci auguriamo di sì. Poco da dire, va puntato e forte all'asta, il brasiliano ha tutte le qualità per mettersi in mostra e portarsi sulle spalle i propri compagni in attacco, sia da titolare che da subentrante. In solo tredici partite (in una squadra difensiva allenata da Conte), ha portato 4 gol e un'ottima media voto. Pensate in un intero campionato cosa può fare, e in questo nuovo tridente più offensivo. Nel caso non doveste riuscire ad acquistare il biondino danese, lui è la primissima alternativa in termini di rendimento, e tra l'altro verrà pagato molto meno. Semplicemente un Super Santos consigliatissimo."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "14.0",
+   "pred_fantamedia": "6.41",
+   "pred_gol": "3.8",
+   "pred_assist": "1.7",
+   "pred_bonus_netti": "13.4",
+   "pred_presenze_previste": "21.5",
+   "pred_presenze_titolare_previste": "14.6",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "7223",
+  "squadra": "NAP",
+  "nome": "Vergara",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Stagione della possibile consacrazione quella del centenario, in una veste nuova: quella di mezzala. Ruolo che nel precampionato sta riuscendo a interpretare bene, rendendosi sempre pericoloso lì davanti, grazie alla capacità di inserirsi con facilità e allo stesso tempo di rientrare dietro all'occorrenza. Come scritto nel suo specchietto gli unici freni a una sua esplosione sono la concorrenza con Anguissa e Politano in quella zolla di campo, e qualche eventuale problemino fisico, ma esistono tutti i presupposti affinché il ragazzo di Frattaminore faccia bene in questo campionato. L'unico neo è che non passerà sottotraccia, e sarà importante allora aggiudicarselo a un prezzo vantaggioso."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "8",
+   "salute": "7",
+   "bonus": "7",
+   "consiglio": "8",
+   "totale": "35"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "8.0",
+   "pred_fantamedia": "6.11",
+   "pred_gol": "0.9",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "1.7",
+   "pred_presenze_previste": "14.2",
+   "pred_presenze_titolare_previste": "11.0",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6666",
+  "squadra": "PAR",
+  "nome": "Bernabè",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Lo spagnolo è un giocatore importante per qualità, tecnica e capacità di gioco. L'impostazione tattica estremamente difensiva dello scorso anno lo ha costretto più a rincorrere che a gestire palla, spesso partendo da un baricentro molto basso e quindi lontano dalla porta limitandogli la possibilità di fare la differenza nella metà campo avversaria. Quest'anno Cuesta sta cercando di evolvere la proposta e in questo scenario Bernabè potrebbe emergere più di quanto visto finora. Va inquadrato principalmente come centrocampista di rendimento con una buonissima MV ma pochi bonus complessivi. Le cose potrebbero migliorare nel caso la squadra riuscisse ad esprimersi meglio offensivamente. Occhio però alla possibilità di una cessione, essendo in scadenza nel 2027 potrebbe diventare un'occasione di mercato per squadre più importanti"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "5",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "34"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "7.0",
+   "pred_fantamedia": "6.21",
+   "pred_gol": "2.4",
+   "pred_assist": "2.5",
+   "pred_bonus_netti": "10.0",
+   "pred_presenze_previste": "21.4",
+   "pred_presenze_titolare_previste": "19.3",
+   "indice_sorpresa": "3.13",
+   "categoria_sorpresa": "SORPRESA AL RIALZO (esperti piu' fiduciosi del modello)"
+  }
+ },
+ {
+  "player_id": "7213",
+  "squadra": "PAR",
+  "nome": "Frigan",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Il croato è reduce da un'intera stagione ai box a causa del grave infortunio che aveva interrotto, ancora prima di cominciare, la sua avventura in Emilia. Dopo così tanto tempo fermo è sempre complicato fare ipotesi di rendimento e capire che tipo di impatto avrà sulla squadra, però rimane un giocatore sul quale si era fatto un investimento importante (quasi 10mln) e che in Belgio aveva fatto bene. Può giocare sia da esterno destro che da seconda punta, è un attaccante che vede la porta e probabilmente verrà trascurato in tante aste. Va preso come slot scommessa, sapendo che ci sono punti interrogativi sull'aspetto fisico e di brillantezza, ma che tecnicamente si tratta di un giocatore valido."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "4",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "29"
+  }
+ },
+ {
+  "player_id": "6984",
+  "squadra": "PAR",
+  "nome": "Ondrejka",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "L'esterno svedese è stata una grande delusione della scorsa stagione, chiudendo con 0 bonus e tanta panchina. I 6 mesi precedenti dove era riuscito ad infiammare il Tardini segnando 5 gol in poco più di 500 minuti sono stati un caso oppure no? Il dubbio resta e le aspettative attorno al ragazzo si sono inevitabilmente ridotte. L'arrivo di El Bilal Tourè e di diversi giovani esterni da lanciare come Diallo, Lontani e Zouin, fanno pensare che ci sia veramente poca fiducia sul rilancio dello svedese nonostante un modulo che sarebbe per lui congeniale"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "5",
+   "salute": "5",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "26"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.18",
+   "pred_gol": "2.3",
+   "pred_assist": "0.9",
+   "pred_bonus_netti": "5.5",
+   "pred_presenze_previste": "16.4",
+   "pred_presenze_titolare_previste": "14.4",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7023",
+  "squadra": "PAR",
+  "nome": "Pellegrino M.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "La sua permanenza è appesa alle dinamiche di mercato, ma se dovesse restare, sarebbe certamente il giocatore con più appeal fantacalcistico della squadra. E' infatti il terminale offensivo principale e nonostante l'anno scorso la fase offensiva era stata povera e prevedibile, l'attaccante argentino ha dimostrato di poter flirtare con la doppia cifra di gol segnati (chiudendo a 9 in campionato, 12 considerando la Coppa Italia) avendo un peso specifico importante nell'economia del gioco. L'evoluzione tattica proclamata da Cuesta che dovrebbe (tutto da verificare) portare maggiori benefici alla fase offensiva, potrebbe permettergli di migliorare il suo 'score' anche alla luce del fatto che è uno dei candidati rigoristi. L'anno scorso però i crociati hanno avuto appena due rigori a favore e il buon Pellegrino ne ha calciato soltanto uno (l'altro lo cedette a Benedyczak per farlo sbloccare). Non sarà mai un grande bomber da 20 gol, ma pensare ad un bottino di 10-12 reti è un'ipotesi concreta"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "38"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "15.0",
+   "pred_fantamedia": "6.63",
+   "pred_gol": "6.7",
+   "pred_assist": "1.8",
+   "pred_bonus_netti": "18.3",
+   "pred_presenze_previste": "32.5",
+   "pred_presenze_titolare_previste": "29.4",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6229",
+  "squadra": "PAR",
+  "nome": "Tourè E.",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "E' un giocatore importante che però si porta dietro uno storico infortuni poco rassicurante e la consapevolezza di non essere stato in grado di ripagare l'enorme investimento fatto dall'Atalanta nell'estate 2023. La sua capacità di poter giocare sia da esterno offensivo che da attaccante centrale gli darà l'opportunità di giocare molto e lo si può definire già oggi un titolare. Molto dipenderà dalla sua integrità fisica, non avere intoppi significativi sarà fondamentale per avere brillantezza ed esplosività godendo di un contesto ambientale con meno pressioni. Il potenziale è importante, i suoi problemi fisici sono un aspetto da considerare e per questo motivo può valere una chiamata per gli ultimi slot in attacco investendo cifre modeste consci dei rischi"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "6",
+   "salute": "4",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "30"
+  }
+ },
+ {
+  "player_id": "6572",
+  "squadra": "ROM",
+  "nome": "Castro S.",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Pagato tanto dalla Roma e già in hype tra supporters e fantallenatori, il rischio è quello di pagare più del dovuto il Torito. Sicuramente saprà rivelarsi utile e garantirà alla Roma di non fare affidamento sul solo Malen, ma vale realmente la pena svenarsi per una punta che non giocherà sempre e che, per quanto giovane, non ha mai raggiunto la doppia cifra? Bene ponderare scelte e budget per non ripetere l'errore di chi fondò il proprio attacco su Ferguson."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "14.0",
+   "pred_fantamedia": "6.67",
+   "pred_gol": "4.0",
+   "pred_assist": "2.0",
+   "pred_bonus_netti": "15.2",
+   "pred_presenze_previste": "21.7",
+   "pred_presenze_titolare_previste": "15.8",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "309",
+  "squadra": "ROM",
+  "nome": "Dybala",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Con buona pace dei tifosi del Boca, Paulino continuerà a incantare i tifosi dell'Olimpico e non quelli della Bombonera. Ormai siamo abituati a sapere che parliamo di uno dei maggiori talenti della Serie A, limitato però da infortuni e gestione conservativa obbligata. Nonostante ciò si tratta di un giocatore che provoca diffidenza in molti fantallenatori, tanto più dopo aver perso lo status di rigorista, ma che è in grado, anche in sole 20/25 presenze, di poter raggiungere la doppia cifra tra gol e assist, con una media voto tra i primi della classe. Dai pochi assaggi visti nel finale di stagione, la connessione con Malen può regalare grandi sorprese. Al giusto prezzo è una pedina su cui continuare a puntare."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "14.0",
+   "pred_fantamedia": "6.76",
+   "pred_gol": "3.4",
+   "pred_assist": "3.9",
+   "pred_bonus_netti": "18.0",
+   "pred_presenze_previste": "22.7",
+   "pred_presenze_titolare_previste": "13.4",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "6271",
+  "squadra": "ROM",
+  "nome": "El Aynaoui",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Primo anno sotto le aspettative tra concorrenza e Coppa d'Africa. Il buon Neil ha comunque lasciato intravedere i segni di un buon prospetto, sia nelle gare con la Roma che soprattutto con il sorprendente Marocco. Ha nelle sue corde la capacità di interpretare diversi ruoli del centrocampo e di saper essere incisivo in zona gol. Sarà verosimilmente pagato pochi crediti non avendo la certezza della titolarità e non essendo reduce da una prima stagione fantacalcistica entusiasmante. Pertanto può essere una scommessa interessante per gli slot finali del centrocampo, con una Roma che, impegnata in Champions, avrà bisogno di usufruire a pieno di tutta la rosa, più che negli anni passati."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "35"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "4.0",
+   "pred_fantamedia": "6.1",
+   "pred_gol": "0.9",
+   "pred_assist": "1.5",
+   "pred_bonus_netti": "2.0",
+   "pred_presenze_previste": "17.9",
+   "pred_presenze_titolare_previste": "10.0",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7529",
+  "squadra": "ROM",
+  "nome": "Koulierakis",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Colpo più rapido e imprevisto del mercato della Roma che si assicura il sesto centrale del pacchetto, ad una cifra inferiore al suo valore stimato di mercato e battendo la concorrenza di numerosi top club europei. Dotato di buona fisicità e ottimo colpo di testa (4 i gol nel 2026 con la maglia del Wolfsburg), il greco può trasformarsi in una piacevole sorpresa per rendimento e bonus, sperando ripercorra le orme di un più noto Konstantinos all'ombra del Colosseo."
+   }
+  ]
+ },
+ {
+  "player_id": "2296",
+  "squadra": "ROM",
+  "nome": "Mancini",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Patto d'amore giallorosso per il Mancio, pronto a iniziare la sua ottava stagione nella capitale. Prezzo in sede d'asta mai particolarmente elevato per assicurarsi una certezza del fantacalcio. Buoni voti, 3/4 gol stagionali e poche assenze, al costo di qualche giallo di troppo. Uno di quelli da avere sempre in rosa e schierare ogni weekend senza troppi dubbi, con un esborso solitamente ben più ridotto dei più quotati Bastoni, Bremer & Co."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "9",
+   "bonus": "7",
+   "consiglio": "8",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "15.0",
+   "pred_fantamedia": "6.26",
+   "pred_gol": "1.4",
+   "pred_assist": "1.4",
+   "pred_bonus_netti": "4.8",
+   "pred_presenze_previste": "30.1",
+   "pred_presenze_titolare_previste": "28.9",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6190",
+  "squadra": "ROM",
+  "nome": "Pisilli",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Finale di stagione in netto crescendo, con un girone di ritorno da protagonista per minutaggio, rendimento e bonus. L'indisponibilità nel precampionato e la consueta predisposizione dei fantallenatori a puntare più sul nuovo e sull'esotico, possono portare il Piso ad essere totalmente dimenticato nelle aste di Agosto. Grazie alle sue doti di inserimento e finalizzazione, può rivelarsi una bella arma per gli slot finali del reparto, pur consci che non sia un titolare della squadra."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "36"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "5.0",
+   "pred_fantamedia": "6.19",
+   "pred_gol": "2.2",
+   "pred_assist": "1.7",
+   "pred_bonus_netti": "4.1",
+   "pred_presenze_previste": "19.3",
+   "pred_presenze_titolare_previste": "13.2",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6060",
+  "squadra": "SAS",
+  "nome": "Laurientè",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Per rapporto qualità/prezzo potrebbe essere uno dei migliori 3° slot che potrebbe rendere addirittura da secondo (13° per FM l'anno scorso), le sirene (Estere e non) ci sono, ma il giocatore sembra immerso al 100% nei colori neroverdi e con uno stile di gioco che potrebbe esaltarne le caratteristiche."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "9",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "15.0",
+   "pred_fantamedia": "6.6",
+   "pred_gol": "4.0",
+   "pred_assist": "6.7",
+   "pred_bonus_netti": "13.7",
+   "pred_presenze_previste": "30.7",
+   "pred_presenze_titolare_previste": "22.4",
+   "indice_sorpresa": "0.54",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "4236",
+  "squadra": "SAS",
+  "nome": "Muric",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Habitué della sezione già dallo scorso anno, se il gioco offensivo di Aquilani può valorizzare ali e trequartisti sarà il contrario per i difensori che già per loro caratteristiche faticavano lo scorso anno: Muric che ha dei cali di concentrazione pericolosissimi per un portiere di questo livello può peggiorare le sue statistiche mentre Doig mi aspetto che diventi una esca in base ai video dei fantaguru che lo pomperanno a manetta."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "37"
+  },
+  "quantitativo": {
+   "ruolo": "p",
+   "quotazione": "7.0",
+   "pred_fantamedia": "4.81",
+   "pred_gol": "0.5",
+   "pred_assist": "0.4",
+   "pred_bonus_netti": "-41.1",
+   "pred_presenze_previste": "29.0",
+   "pred_presenze_titolare_previste": "29.1",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5735",
+  "squadra": "SAS",
+  "nome": "Volpato",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Meme a parte sulla sua presunta positività alla cocaina, accuse che tra l'altro sembrano essere decadute del tutto, il 4-2-3-1 rappresenta finalmente l'occasione per Volpato di giocare da trequartista e da titolare nel Sassuolo, invece di sperare negli infortuni di Mimmo e negli scampoli di partita dove bisognava recuperare. Abilissimo nell'ultimo passaggio (Pinamonti ne ha approfittato più di una volta l'anno scorso) ma anche lato realizzativo, con la cessione di Thorstvedt gli si aprirebbe una titolarità indiscussa e la possibilità di essere una delle scommesse più intriganti dell'anno. ATTENZIONE:"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "36"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "7.0",
+   "pred_fantamedia": "6.2",
+   "pred_gol": "1.6",
+   "pred_assist": "1.7",
+   "pred_bonus_netti": "5.5",
+   "pred_presenze_previste": "21.2",
+   "pred_presenze_titolare_previste": "13.4",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7060",
+  "squadra": "TOR",
+  "nome": "Cacciamani",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "se non fosse per Liberali, parleremmo del miglior giocatore della B dell'anno passato. Le aspettative su di lui sono alte, qualcuno scomoda anche Lentini (Gigi ). Se avete una chiamata a sorpresa da fare, è un buon nome da spendere."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "35"
+  }
+ },
+ {
+  "player_id": "6827",
+  "squadra": "TOR",
+  "nome": "Njie",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "al momento, le aspettative sono poche e gli spazi sembrano essere ancora meno. ma se il 3421 di Abate virasse in un attacco a 3 (o 4) punte, Njie sarebbe chiamato allo stesso ruolo di Cacciamani ma sul lato opposto. Ed avrebbe tutto per fare bene"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "34"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "4.0",
+   "pred_fantamedia": "5.95",
+   "pred_gol": "1.1",
+   "pred_assist": "0.5",
+   "pred_bonus_netti": "2.1",
+   "pred_presenze_previste": "15.5",
+   "pred_presenze_titolare_previste": "8.0",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "2061",
+  "squadra": "TOR",
+  "nome": "Simeone",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "con la rosa attuale (31 luglio), se c'è un bonus passa dai loro piedi. Reduci da un'ottima stagione, specie Niksi, attenti però alla dinamica d'asta. Si ripeteranno? il tifoso ci spera molto, l'esperto pensa che dipenda dal rendimento di tutta la squadra e dall'impatto che mister Abate avrà sul nuovo (per lui) campionato"
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "8",
+   "consiglio": "9",
+   "totale": "40"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "15.0",
+   "pred_fantamedia": "6.62",
+   "pred_gol": "7.3",
+   "pred_assist": "2.8",
+   "pred_bonus_netti": "20.7",
+   "pred_presenze_previste": "28.3",
+   "pred_presenze_titolare_previste": "22.0",
+   "indice_sorpresa": "0.99",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "7312",
+  "squadra": "UDI",
+  "nome": "Arizala",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "\"El Principito\" è una scommessa interessante soprattutto per come potrebbe svilupparsi l'inizio della stagione. Con Zanoli ancora impegnato nel recupero dall'infortunio e Vojvoda destinato inizialmente a occupare la corsia destra, potrebbe avere l'occasione di mettersi in mostra come prima alternativa a Kamara sulla fascia sinistra. Lo scorso anno aveva fatto intravedere buoni spunti soprattutto da subentrante, mentre da titolare era apparso meno convincente, evidenziando qualche limite in più nella fase difensiva, aspetto al quale Runjaić dà grande importanza. Se saprà sfruttare le prime opportunità, non è escluso che possa ritagliarsi più spazio del previsto. Va inoltre considerato che Runjaić è solito sostituire con frequenza gli esterni nel corso del secondo tempo, una gestione che potrebbe garantirgli minutaggio anche quando non partirà dal primo minuto. Resta però una scommessa: è ancora molto giovane e quando Zanoli tornerà al 100% la possibilità di vedere Vojvoda impiegato anche sulla corsia sinistra aumenterà inevitabilmente la concorrenza."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "32"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "4.0",
+   "pred_fantamedia": "5.79",
+   "pred_gol": "0.6",
+   "pred_assist": "0.5",
+   "pred_bonus_netti": "0.9",
+   "pred_presenze_previste": "15.3",
+   "pred_presenze_titolare_previste": "10.1",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5637",
+  "squadra": "UDI",
+  "nome": "Davis K.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Che stagione quella appena conclusa! È stata senza dubbio la migliore della carriera di Davis, che ha finalmente trovato continuità chiudendo con 30 presenze, 10 gol e 4 assist. Numeri che gli sono valsi anche il rinnovo di contratto fino al 2031 e che lo hanno consacrato come leader dell’attacco bianconero. Lo stesso Davis ha dichiarato di voler essere un punto di riferimento anche per i compagni più giovani. Alla base di questa crescita c’è anche la preparazione personalizzata studiata dallo staff tecnico la scorsa estate, che ha permesso di gestire al meglio un fisico spesso frenato dagli infortuni. Visti i risultati, anche quest’anno è stato seguito un programma molto simile, nella speranza di raccogliere gli stessi frutti. È il rigorista della squadra e dagli undici metri si è dimostrato molto affidabile. Preparatevi però a pagarlo sensibilmente più dello scorso anno, dopo la miglior stagione della carriera è inevitabile che le aspettative siano cresciute. L’obiettivo ora è provare a migliorare ulteriormente il bottino di 10 reti della passata stagione."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "7",
+   "bonus": "8",
+   "consiglio": "8",
+   "totale": "40"
+  },
+  "quantitativo": {
+   "ruolo": "a",
+   "quotazione": "19.0",
+   "pred_fantamedia": "6.6",
+   "pred_gol": "4.7",
+   "pred_assist": "3.8",
+   "pred_bonus_netti": "19.3",
+   "pred_presenze_previste": "29.2",
+   "pred_presenze_titolare_previste": "24.6",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "5555",
+  "squadra": "UDI",
+  "nome": "Kamara H.",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Kamara è uno di quei giocatori che rischiano di ingannare. Il ruolo di esterno a tutta fascia e la continuità di impiego fanno pensare a un buon potenziale offensivo, ma nelle stagioni scorse i bonus hanno sempre faticato ad arrivare. Ha grande gamba, accompagna spesso l’azione e arriva con continuità negli ultimi trenta metri, senza però riuscire sempre a trasformare quanto costruisce in occasioni realmente pericolose. La qualità dell’ultimo passaggio e dei cross resta infatti piuttosto altalenante. La cessione di Zemura sembra garantirgli una posizione di vantaggio nelle gerarchie e almeno nelle prime giornate è il titolare designato sulla corsia sinistra. Con Zanoli ancora ai box, Vojvoda è infatti destinato soprattutto alla fascia destra, mentre per Arizala sembra ancora presto per insidiare stabilmente il posto da titolare. Lo scenario potrebbe però cambiare nel corso della stagione. Il pieno recupero di Zanoli consentirebbe infatti a Vojvoda di essere impiegato anche sulla corsia opposta, aumentando la concorrenza. Attenzione inoltre allo stesso Arizala che, se dovesse sfruttare al meglio le occasioni che gli verranno concesse, potrebbe ritagliarsi uno spazio maggiore del previsto. Resta quindi un profilo affidabile soprattutto per il minutaggio almeno nella prima parte della stagione, ma meno interessante in termini di bonus di quanto il ruolo possa far pensare. Con il passare dei mesi inoltre la concorrenza potrebbe aumentare e le sue presenze da titolare non essere più così scontate come nelle ultime stagioni."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "6",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "6",
+   "totale": "33"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "6.0",
+   "pred_fantamedia": "5.9",
+   "pred_gol": "0.9",
+   "pred_assist": "1.4",
+   "pred_bonus_netti": "1.2",
+   "pred_presenze_previste": "23.3",
+   "pred_presenze_titolare_previste": "19.6",
+   "indice_sorpresa": "-0.49",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6680",
+  "squadra": "UDI",
+  "nome": "Karlstrom",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "Karlström non è tanto uno sconsigliato quanto un giocatore da utilizzare solo per coprire gli ultimi slot del centrocampo. La titolarità non è in discussione, ma difficilmente porta qualcosa in più del semplice voto. I bonus sono praticamente assenti e quando l'Udinese fatica anche le sue valutazioni tendono a risentirne. In alcune partite della scorsa stagione è sembrato prendersi qualche tocco di troppo in fase di impostazione, rallentando a tratti il ritmo della manovra. Un aspetto che unito al limitato peso offensivo e ai cartellini che ogni tanto arrivano, ne riduce ulteriormente l'appeal al fantacalcio. Se cercate un centrocampista in grado di farvi vincere una giornata, è difficile che il profilo giusto sia il suo."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "6",
+   "salute": "9",
+   "bonus": "5",
+   "consiglio": "7",
+   "totale": "36"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "6.0",
+   "pred_fantamedia": "5.87",
+   "pred_gol": "0.6",
+   "pred_assist": "0.8",
+   "pred_bonus_netti": "0.7",
+   "pred_presenze_previste": "29.6",
+   "pred_presenze_titolare_previste": "26.7",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6956",
+  "squadra": "UDI",
+  "nome": "Solet",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "Difensore moderno e completo, abbina una straordinaria solidità difensiva a qualità tecniche non comuni per il ruolo. Difende con grande tranquillità ed è soprattutto nella costruzione dal basso che fa la differenza. Imposta l’azione come un vero regista aggiunto, conduce palla anche per 20-30 metri, supera la pressione avversaria con personalità, trova con continuità filtranti per gli attaccanti e non gli manca nemmeno un ottimo tiro dalla distanza. Garantisce ottimi voti, poche insufficienze e ha tutte le qualità per portare anche qualche bonus. Lo scorso anno, in assenza di Davis e Zaniolo, si è presentato anche dal dischetto, particolare tutt’altro che trascurabile per un difensore. Pur non partendo come primo rigorista, potrebbe comunque tornare dagli undici metri in caso di assenza o sostituzione di chi lo precede nelle gerarchie. L’unica incognita riguarda il mercato, ma il suo valore è tale che anche qualora venisse ceduto prima della chiusura delle trattative senza lasciare la Serie A, resterebbe comunque un profilo fortemente consigliato."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "7",
+   "bonus": "8",
+   "consiglio": "9",
+   "totale": "41"
+  },
+  "quantitativo": {
+   "ruolo": "d",
+   "quotazione": "13.0",
+   "pred_fantamedia": "6.15",
+   "pred_gol": "1.6",
+   "pred_assist": "1.6",
+   "pred_bonus_netti": "4.8",
+   "pred_presenze_previste": "29.0",
+   "pred_presenze_titolare_previste": "27.0",
+   "indice_sorpresa": "0.0",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6783",
+  "squadra": "UDI",
+  "nome": "Unai Gomez",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "\"Rambo\" questo è il soprannome che gli hanno dato nello spogliatoio dell'Atletic di Bilbao ma la somiglianza con Sylvester Stallone non è l'unico motivo: Unai è un trequartista mancino, atipico e adattabile perché è un vero combattente. Forse è proprio questa grinta e adattabilità che non lo hanno aiutato finora in quanto non è mai riuscito a ritagliarsi un posto fisso in squadra, ma è stato più che altro sfruttato come jolly giocando dalla mezzala all'esterno offensivo, al suo ruolo di trequartista ma pure da falso nueve. E' molto dinamico, scattante e veloce coi piedi, buona tecnica, visione di gioco e tanta grinta con buone capacità anche senza palla, sia per gli inserimenti sia che per la fase difensiva. Il ragazzo è uno che non molla, l'impressione che abbiamo è che sia capitato nel posto giusto per valorizzarlo, necessiterà probabilmente di un pò di tempo per capire la serie A, ma crediamo che si inserirà bene. Fantacalcisticamente tutto questo suo correre non lo aiuta del tutto a livello di numeri, ma è giovane ed è probabile che gli verrà anche insegnata la gestione e la tempistica. Probabilmente giocherà nei due dietro la punta nel 3421, nel 352 potrebbe fare la mezzala ed in caso di 442 potrebbe fare l'esterno o più difficilmente la seconda punta. La sensazione è che già da quest'anno i suoi numeri scarsi (2 gol e 1 assist) potrebbero venire facilmente migliorati."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "6",
+   "media_voto": "7",
+   "salute": "9",
+   "bonus": "7",
+   "consiglio": "6",
+   "totale": "35"
+  }
+ },
+ {
+  "player_id": "2766",
+  "squadra": "UDI",
+  "nome": "Zaniolo",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "La conferma del ruolo di centrocampista è una delle notizie migliori per i fantallenatori. Se Runjaić confermerà il 3-4-2-1 agirà stabilmente sulla trequarti, mentre con un sistema a due punte verrebbe schierato come seconda punta. Qualunque sia il modulo, giocherà comunque molto vicino alla porta. Dopo i 5 gol e 3 assist della scorsa stagione ci sono tutti i presupposti per confermarsi, se non addirittura migliorarsi. Per rapporto tra ruolo e potenziale offensivo è uno dei profili più interessanti del campionato."
+   }
+  ],
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "18.0",
+   "pred_fantamedia": "6.63",
+   "pred_gol": "5.6",
+   "pred_assist": "3.1",
+   "pred_bonus_netti": "16.9",
+   "pred_presenze_previste": "28.5",
+   "pred_presenze_titolare_previste": "24.2",
+   "indice_sorpresa": "",
+   "categoria_sorpresa": ""
+  }
+ },
+ {
+  "player_id": "7484",
+  "squadra": "VEN",
+  "nome": "Adams A.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "probabile rigorista, unico elemento della rosa ad aver dimostrato di saper segnare sia in campionati top 5 europei sia in nazionale. Se dovessi scommettere su un arancioneroverde che possa avvicinarsi, o addirittura raggiungere, la doppia cifra, penserei a lui."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "36"
+  }
+ },
+ {
+  "player_id": "4387",
+  "squadra": "VEN",
+  "nome": "Adorante",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "qualcuno avrà negli occhi i suoi numerosi gol negli scorsi due campionati in cadetteria ma, a malincuore, almeno fino a dicembre/gennaio, non ha senso occupare uno slot per lui, tenendo conto del delicato infortunio e della concorrenza agguerrita che è arrivata in laguna."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "6",
+   "salute": "7",
+   "bonus": "5",
+   "consiglio": "5",
+   "totale": "28"
+  }
+ },
+ {
+  "player_id": "6821",
+  "squadra": "VEN",
+  "nome": "Hainaut",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "i quinti di centrocampo che arrivano dalla B spesso si portano dietro un grande hype che finiscono per non rispettare sul campo. Il francese è un giocatore molto costante, solido in entrambe le fasi grazie a doti fisiche ed atletiche sopra la media. Già due anni fa, con la maglia del Parma, mise a segno due reti, pur giocando con poca continuità, perciò quest'anno, in un sistema collaudato che lo valorizza al meglio, potrebbe rivelarsi un elemento valido sia se siete alla ricerca di una MV affidabile e non altalenante sia per un discreto numero di bonus."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "8",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "37"
+  }
+ },
+ {
+  "player_id": "7408",
+  "squadra": "VEN",
+  "nome": "Lisman",
+  "blocchi": [
+   {
+    "categoria": "SCONSIGLIATO",
+    "testo": "acquisto lautamente pagato ed esotico, il classico profilo che può far gola. Io vi invito alla prudenza e, sinceramente, continuo a capire poco questo colpo considerando che, nonostante il ragazzo sia molto giovane, il curriculum per adesso non ha mai fatto intravedere picchi a livello di rendimento ma, piuttosto, ha evidenziato una certa fragilità fisica. In più, le caratteristiche tecniche del polacco sono quelle di un'ala pura e la sua collocazione nel 3-5-2 di Stroppa appare un po' forzata."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "5",
+   "media_voto": "5",
+   "salute": "6",
+   "bonus": "4",
+   "consiglio": "4",
+   "totale": "24"
+  }
+ },
+ {
+  "player_id": "5319",
+  "squadra": "VEN",
+  "nome": "Sohm",
+  "blocchi": [
+   {
+    "categoria": "POSSIBILE SORPRESA",
+    "testo": "Busio e Basic verosimilmente si alterneranno nei compiti di impostazione e saranno i primi a schermare in interdizione l'offensiva avversaria mentre l'altra mezz'ala avrà il compito di accompagnare l'azione, andando a riempire gli spazi liberati dai movimenti della seconda punta. Tatticamente parlando, è lo slot con più potenziale offensivo del centrocampo. Qui subentrano due incognite: la prima riguarda la titolarità perchè entrambi vantano una buona verve offensiva ma interpretano il ruolo in maniera completamente diversa, il che rende molto difficile prevedere chi potrebbe spuntarla e, soprattutto, rende concreta l'opzione di un avvicendamento a seconda della tipologia di avversario, e la seconda riguarda un cinismo sottoporta che mai in carriera hanno messo in mostra con continuità. Nonostante ed alla luce di tutto ciò, rappresentano a pieno quei nomi da \"possibile sorpresa\" che, al giusto prezzo, potrebbero regalare gioie."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "7",
+   "media_voto": "7",
+   "salute": "8",
+   "bonus": "7",
+   "consiglio": "7",
+   "totale": "36"
+  },
+  "quantitativo": {
+   "ruolo": "c",
+   "quotazione": "5.0",
+   "pred_fantamedia": "5.92",
+   "pred_gol": "0.8",
+   "pred_assist": "1.2",
+   "pred_bonus_netti": "1.8",
+   "pred_presenze_previste": "21.0",
+   "pred_presenze_titolare_previste": "15.6",
+   "indice_sorpresa": "2.34",
+   "categoria_sorpresa": "coerente (modello ed esperti d'accordo)"
+  }
+ },
+ {
+  "player_id": "6248",
+  "squadra": "VEN",
+  "nome": "Stankovic F.",
+  "blocchi": [
+   {
+    "categoria": "CONSIGLIATO",
+    "testo": "parliamo di una neopromossa che sicuramente non si farà notare per clean sheet collezionati ma lo stile nelle parate e la reattività felina lo rendono, esattamente come successe due stagioni fa (15 partite a voto, 6,60 di MV con 23 gol subìti ed 1 rigore parato), un elemento molto interessante sotto il punto di vista del modificatore difesa. In un reparto ben studiato, saprà darvi non poche soddisfazioni se lo acquisterete consci dei pro e dei contro di cui sopra."
+   }
+  ],
+  "pagella_numerica": {
+   "titolarita": "9",
+   "media_voto": "8",
+   "salute": "8",
+   "bonus": "6",
+   "consiglio": "7",
+   "totale": "38"
+  }
+ }
+]
