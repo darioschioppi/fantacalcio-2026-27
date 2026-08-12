@@ -8,19 +8,19 @@
   :root { --green: #2e7d32; --dark-green: #0b3d0b; }
   * { box-sizing: border-box; }
   body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color: #1a1a1a; background: #fafafa; }
-  .layout { display: flex; max-width: 1200px; margin: 0 auto; }
-  nav.sidebar { position: sticky; top: 0; align-self: flex-start; width: 220px; padding: 20px 14px; background: #fff; border-right: 1px solid #ddd; height: 100vh; overflow-y: auto; }
-  nav.sidebar h3 { font-size: 13px; text-transform: uppercase; color: #888; margin: 18px 0 6px; }
-  nav.sidebar a { display: block; padding: 6px 8px; color: #1b5e20; text-decoration: none; border-radius: 6px; font-size: 14px; }
+  .layout { display: block; max-width: 1200px; margin: 0 auto; }
+  nav.sidebar { position: sticky; top: 0; z-index: 200; width: 100%; padding: 8px 14px; background: #fff; border-bottom: 1px solid #ddd; display: flex; align-items: center; gap: 2px; overflow-x: auto; white-space: nowrap; }
+  nav.sidebar h3 { display: none; }
+  nav.sidebar a { display: inline-block; padding: 8px 10px; color: #1b5e20; text-decoration: none; border-radius: 6px; font-size: 14px; }
   nav.sidebar a:hover { background: #e8f5e9; }
-  nav.sidebar details { margin: 0; }
-  nav.sidebar summary { list-style: none; cursor: pointer; }
+  nav.sidebar details { position: relative; display: inline-block; margin: 0; }
+  nav.sidebar summary { list-style: none; cursor: pointer; display: inline-block; }
   nav.sidebar summary::-webkit-details-marker { display: none; }
   nav.sidebar summary a { display: inline-block; }
-  nav.sidebar summary::before { content: '▾ '; color: #888; font-size: 11px; }
-  nav.sidebar details:not([open]) summary::before { content: '▸ '; }
-  nav.sidebar details a { padding-left: 20px; font-size: 13px; }
-  main { flex: 1; padding: 24px 32px; max-width: 900px; line-height: 1.55; }
+  nav.sidebar summary::after { content: ' ▾'; color: #888; font-size: 11px; }
+  nav.sidebar details[open] summary::after { content: ' ▴'; }
+  nav.sidebar details > a { position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 6px; display: block; min-width: 200px; box-shadow: 0 4px 12px rgba(0,0,0,.12); white-space: nowrap; z-index: 210; }
+  main { padding: 24px 32px; max-width: 900px; margin: 0 auto; line-height: 1.55; }
   h1 { color: var(--dark-green); border-bottom: 3px solid var(--dark-green); padding-bottom: 8px; }
   h2 { color: #145214; margin-top: 40px; border-left: 5px solid var(--green); padding-left: 10px; scroll-margin-top: 12px; }
   h3 { color: #1b5e20; margin-top: 22px; scroll-margin-top: 12px; }
@@ -72,8 +72,8 @@
   .mvm-tag.coerente { background: #757575; }
   #mvm-table td, #mvm-table th { font-size: 13px; }
   @media (max-width: 800px) {
-    nav.sidebar { display: none; }
     main { padding: 16px; max-width: 100%; }
+    nav.sidebar a { font-size: 13px; padding: 6px 8px; }
   }
 </style>
 </head>
@@ -85,7 +85,7 @@
   <a href="#parte1">1. Modelli di forecasting</a>
   <a href="#parte2">2. Quadro Serie A 2026-27</a>
   <a href="#parte3">3. Squadra per squadra</a>
-  <details open>
+  <details>
     <summary><a href="#parte4">4. Tier-list per ruolo</a></summary>
     <a href="#parte4-5">4.5 Analisi xG/xA</a>
     <a href="#parte4-6">4.6 Schede giocatore</a>
@@ -512,6 +512,20 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
   });
 
   renderMercatoVsModello('');
+
+  // --- Sidebar orizzontale in alto: chiudi il menu a tendina "4. Tier-list"
+  // dopo un click su una sua voce o fuori dall'area, per non lasciarlo aperto
+  // a coprire il contenuto sottostante (comportamento tipico di un dropdown).
+  document.querySelectorAll('nav.sidebar details').forEach(det => {
+    det.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => { det.open = false; });
+    });
+  });
+  document.addEventListener('click', e => {
+    document.querySelectorAll('nav.sidebar details[open]').forEach(det => {
+      if (!det.contains(e.target)) det.open = false;
+    });
+  });
 </script>
 
 </body>
