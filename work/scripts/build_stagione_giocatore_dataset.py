@@ -161,10 +161,13 @@ Uso:
 """
 import csv
 import logging
+import os
 from collections import defaultdict
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+# DATA_DIR e' sovrascrivibile via env var (usato dalla test suite in work/tests
+# per puntare a fixture invece dei dati reali); default invariato se non impostata.
+DATA_DIR = Path(os.environ.get("FANTACALCIO_DATA_DIR") or (Path(__file__).resolve().parent.parent / "data"))
 VOTI_PATH = DATA_DIR / "voti_storici_2015_2026.csv"
 UNDERSTAT_PATH = DATA_DIR / "understat_player_match_stats_storico_2015_2026.csv"
 MAPPING_PATH = DATA_DIR / "player_name_mapping.csv"

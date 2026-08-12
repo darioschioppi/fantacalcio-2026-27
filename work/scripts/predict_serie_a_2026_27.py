@@ -52,14 +52,17 @@ Output:
 """
 import csv
 import logging
+import os
 from collections import defaultdict
 from pathlib import Path
 
 import lightgbm as lgb
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
+# DATA_DIR/MODELS_DIR sono sovrascrivibili via env var (usato dalla test suite in
+# work/tests per puntare a fixture/modelli di test); default invariato se non impostate.
+DATA_DIR = Path(os.environ.get("FANTACALCIO_DATA_DIR") or (Path(__file__).resolve().parent.parent / "data"))
+MODELS_DIR = Path(os.environ.get("FANTACALCIO_MODELS_DIR") or (Path(__file__).resolve().parent.parent / "models"))
 VOTI_PATH = DATA_DIR / "voti_storici_2015_2026.csv"
 UNDERSTAT_PATH = DATA_DIR / "understat_player_match_stats_storico_2015_2026.csv"
 CLASSIFICA_PATH = DATA_DIR / "classifica_dinamica_storico_2015_2026.csv"
@@ -582,6 +585,17 @@ def main():
         for model_file, out_name in TARGETS.items():
             pred[out_name] = float(models[model_file].predict(X)[0])
 
+        # LightGBM regression non e' vincolata a valori non-negativi: per i
+        # conteggi che per definizione non possono essere negativi (gol,
+        # assist, presenze) una predizione vicina a 0 puo' uscire leggermente
+        # sotto zero (bug scoperto dalla test suite: presenze_titolare_previste
+        # osservato a -0.2 sui dati reali). Clampiamo a 0 solo queste 4
+        # metriche - fantamedia/voto/bonus_netti NON vengono clampati perche'
+        # bonus_netti puo' essere legittimamente negativo (piu' malus che
+        # bonus) e fantamedia/voto non hanno mai mostrato il problema.
+        for count_key in ("gol", "assist", "presenze_previste", "presenze_titolare_previste"):
+            pred[count_key] = max(pred[count_key], 0.0)
+
         risultati.append({
             "squadra": squadra_sigla,
             "nome": agg_n1["nome_giocatore"],
@@ -602,6 +616,10 @@ def main():
         })
 
     risultati.sort(key=lambda r: (r["squadra"], -(r["quotazione_iniziale_2026_27"] or 0)))
+
+    if not risultati:
+        log.warning("Nessun giocatore previsto: lista risultati vuota, nessun CSV scritto.")
+        return
 
     fieldnames = list(risultati[0].keys())
     with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:

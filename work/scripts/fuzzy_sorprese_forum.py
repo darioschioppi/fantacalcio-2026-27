@@ -50,13 +50,16 @@ Output:
 """
 import csv
 import logging
+import os
 from pathlib import Path
 
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+# DATA_DIR e' sovrascrivibile via env var (usato dalla test suite in work/tests
+# per puntare a fixture invece dei dati reali); default invariato se non impostata.
+DATA_DIR = Path(os.environ.get("FANTACALCIO_DATA_DIR") or (Path(__file__).resolve().parent.parent / "data"))
 IN_PATH = DATA_DIR / "previsioni_serie_a_2026_27.csv"
 OUT_PATH = DATA_DIR / "previsioni_serie_a_2026_27_con_sorprese.csv"
 LOG_PATH = DATA_DIR / "fuzzy_sorprese_log.txt"
@@ -174,7 +177,13 @@ def main():
             continue
 
         forum_val = float(titolarita_forum_raw)
-        pred_val = min(max(float(pred_titolare_raw), 0.0), 35.0)
+        # Clamp a 34.99 (non 35.0): il vertice esatto della membership
+        # function "alto" (trimf [16,26,35]) vale 0 in x=35, quindi TUTTE le
+        # membership risultano 0 in quel punto esatto -> nessuna regola si
+        # attiva -> sim.output resta vuoto -> KeyError su sim.output["sorpresa"]
+        # (bug scoperto dalla test suite: accade quando una previsione viene
+        # clampata esattamente al bordo superiore del range).
+        pred_val = min(max(float(pred_titolare_raw), 0.0), 34.99)
 
         sim.input["pred_titolare"] = pred_val
         sim.input["forum_titolarita"] = forum_val
@@ -191,6 +200,10 @@ def main():
         elif indice <= -3.0:
             n_rischio_ribasso += 1
             dettaglio_sorprese.append((indice, r["squadra"], r["nome"], pred_val, forum_val, "RIBASSO"))
+
+    if not righe:
+        log.warning("Nessuna riga da scrivere: input vuoto, nessun CSV di output generato.")
+        return
 
     fieldnames = list(righe[0].keys())
     with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:

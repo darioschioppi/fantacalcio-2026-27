@@ -1,0 +1,217 @@
+stagione,player_id,nome_giocatore,squadra_sigla,ruolo_classic,ruolo_mantra,quotazione_iniziale,quotazione_attuale,fvm
+2015-16,309,Dybala,JUV,a,a,29.0,32.0,
+2015-16,608,Zapata D.,UDI,a,pc,19.0,17.0,
+2015-16,152,Zielinski,EMP,c,cc|t,9.0,15.0,
+2015-16,4,Sportiello,ATA,p,por,10.0,12.0,
+2015-16,218,Perin,GEN,p,por,12.0,12.0,
+2015-16,536,Politano,SAS,a,w|a,6.0,11.0,
+2015-16,133,Skorupski,EMP,p,por,9.0,9.0,
+2015-16,460,Romagnoli,MIL,d,dc,9.0,9.0,
+2015-16,487,De Silvestri,SAM,d,dd|cd,9.0,9.0,
+2015-16,543,Padelli,TOR,p,por,11.0,9.0,
+2015-16,294,Rugani,JUV,d,dc,7.0,8.0,
+2015-16,530,Pellegrini Lo.,SAS,c,m|cc,2.0,7.0,
+2015-16,333,Cataldi,LAZ,c,cc,7.0,4.0,
+2015-16,779,Cristante,PAL,c,m|cc,8.0,3.0,
+2015-16,252,Biraghi,CHI,d,ds|cs,2.0,2.0,
+2015-16,327,Patric,LAZ,d,dd|cd,1.0,2.0,
+2015-16,787,Djimsiti,ATA,d,dd|ds|dc,4.0,2.0,
+2015-16,827,Locatelli,MIL,c,cc,1.0,1.0,
+2016-17,309,Dybala,JUV,a,a,33.0,30.0,
+2016-17,608,Zapata D.,UDI,a,pc,21.0,20.0,
+2016-17,152,Zielinski,NAP,c,c|t,9.0,16.0,
+2016-17,536,Politano,SAS,a,a,10.0,15.0,
+2016-17,530,Pellegrini Lo.,SAS,c,m|c,8.0,12.0,
+2016-17,133,Skorupski,EMP,p,por,9.0,10.0,
+2016-17,779,Cristante,ATA,c,m|c,5.0,10.0,
+2016-17,460,Romagnoli,MIL,d,dc,9.0,8.0,
+2016-17,294,Rugani,JUV,d,dc,5.0,6.0,
+2016-17,487,De Silvestri,TOR,d,dd|e,10.0,6.0,
+2016-17,333,Cataldi,GEN,c,m|c,6.0,5.0,
+2016-17,827,Locatelli,MIL,c,m|c,1.0,5.0,
+2016-17,218,Perin,GEN,p,por,10.0,4.0,
+2016-17,252,Biraghi,PES,d,ds|e,5.0,4.0,
+2016-17,327,Patric,LAZ,d,dd|e,4.0,3.0,
+2016-17,787,Djimsiti,ATA,d,dd|ds|dc,3.0,2.0,
+2016-17,4,Sportiello,FIO,p,por,10.0,1.0,
+2016-17,543,Padelli,TOR,p,por,2.0,1.0,
+2017-18,309,Dybala,JUV,a,a,29.0,30.0,
+2017-18,536,Politano,SAS,a,a,14.0,19.0,
+2017-18,152,Zielinski,NAP,c,c|t,17.0,18.0,
+2017-18,608,Zapata D.,SAM,a,pc,16.0,18.0,
+2017-18,779,Cristante,ATA,c,m|c,8.0,15.0,
+2017-18,487,De Silvestri,TOR,d,dd|e,5.0,13.0,
+2017-18,4,Sportiello,FIO,p,por,10.0,12.0,
+2017-18,218,Perin,GEN,p,por,8.0,12.0,
+2017-18,294,Rugani,JUV,d,dc,9.0,10.0,
+2017-18,460,Romagnoli,MIL,d,dc,10.0,10.0,
+2017-18,530,Pellegrini Lo.,ROM,c,c,11.0,9.0,
+2017-18,252,Biraghi,FIO,d,ds|e,5.0,7.0,
+2017-18,333,Cataldi,BEN,c,m|c,5.0,7.0,
+2017-18,787,Djimsiti,BEN,d,dc,2.0,6.0,
+2017-18,827,Locatelli,MIL,c,m|c,3.0,4.0,
+2017-18,327,Patric,LAZ,d,dd|ds|e,2.0,3.0,
+2017-18,133,Skorupski,ROM,p,por,1.0,2.0,
+2017-18,543,Padelli,INT,p,por,1.0,1.0,
+2018-19,608,Zapata D.,ATA,a,pc,26.0,32.0,
+2018-19,309,Dybala,JUV,a,a,36.0,23.0,
+2018-19,152,Zielinski,NAP,c,c|t,14.0,17.0,
+2018-19,536,Politano,INT,a,a,15.0,16.0,
+2018-19,779,Cristante,ROM,c,c|t,18.0,14.0,
+2018-19,460,Romagnoli,MIL,d,dc,10.0,13.0,
+2018-19,487,De Silvestri,TOR,d,dd|e,14.0,13.0,
+2018-19,530,Pellegrini Lo.,ROM,c,c,14.0,13.0,
+2018-19,133,Skorupski,BOL,p,por,9.0,10.0,
+2018-19,827,Locatelli,SAS,c,m|c,7.0,10.0,
+2018-19,252,Biraghi,FIO,d,ds|e,6.0,9.0,
+2018-19,294,Rugani,JUV,d,dc,8.0,7.0,
+2018-19,333,Cataldi,LAZ,c,m|c,4.0,7.0,
+2018-19,787,Djimsiti,ATA,d,dc,2.0,7.0,
+2018-19,4,Sportiello,FRO,p,por,6.0,6.0,
+2018-19,218,Perin,JUV,p,por,1.0,4.0,
+2018-19,327,Patric,LAZ,d,dd|ds|e,2.0,4.0,
+2018-19,543,Padelli,INT,p,por,1.0,1.0,
+2019-20,608,Zapata D.,ATA,a,pc,36.0,40.0,
+2019-20,309,Dybala,JUV,a,a,26.0,31.0,
+2019-20,530,Pellegrini Lo.,ROM,c,c|t,13.0,14.0,
+2019-20,152,Zielinski,NAP,c,c|t,17.0,12.0,
+2019-20,252,Biraghi,INT,d,ds|e,10.0,11.0,
+2019-20,787,Djimsiti,ATA,d,dc,8.0,11.0,
+2019-20,827,Locatelli,SAS,c,m|c,11.0,11.0,
+2019-20,460,Romagnoli,MIL,d,dc,14.0,10.0,
+2019-20,536,Politano,NAP,a,w|a,12.0,8.0,
+2019-20,133,Skorupski,BOL,p,por,9.0,6.0,
+2019-20,218,Perin,GEN,p,por,1.0,5.0,
+2019-20,333,Cataldi,LAZ,c,m|c,5.0,5.0,
+2019-20,779,Cristante,ROM,c,c,10.0,5.0,
+2019-20,327,Patric,LAZ,d,dd|dc|e,2.0,4.0,
+2019-20,4,Sportiello,ATA,p,por,1.0,3.0,
+2019-20,487,De Silvestri,TOR,d,dd|e,10.0,3.0,
+2019-20,294,Rugani,JUV,d,dc,7.0,1.0,
+2019-20,543,Padelli,INT,p,por,1.0,1.0,
+2020-21,608,Zapata D.,ATA,a,pc,40.0,32.0,
+2020-21,152,Zielinski,NAP,c,c|t,12.0,26.0,
+2020-21,536,Politano,NAP,c,w|a,13.0,24.0,
+2020-21,530,Pellegrini Lo.,ROM,c,c|t,15.0,20.0,
+2020-21,827,Locatelli,SAS,c,m|c,12.0,16.0,
+2020-21,309,Dybala,JUV,a,a,31.0,15.0,
+2020-21,218,Perin,GEN,p,por,8.0,11.0,
+2020-21,252,Biraghi,FIO,d,ds|e,8.0,10.0,
+2020-21,787,Djimsiti,ATA,d,dc,9.0,10.0,
+2020-21,133,Skorupski,BOL,p,por,8.0,9.0,
+2020-21,4,Sportiello,ATA,p,por,1.0,8.0,
+2020-21,294,Rugani,CAG,d,dc,6.0,6.0,
+2020-21,460,Romagnoli,MIL,d,dc,13.0,6.0,
+2020-21,487,De Silvestri,BOL,d,dd|e,8.0,6.0,
+2020-21,779,Cristante,ROM,c,m|c,8.0,6.0,
+2020-21,327,Patric,LAZ,d,dd|dc|e,4.0,3.0,
+2020-21,333,Cataldi,LAZ,c,m|c,5.0,2.0,
+2020-21,543,Padelli,INT,p,por,1.0,2.0,
+2021-22,608,Zapata D.,ATA,a,pc,33.0,29.0,
+2021-22,309,Dybala,JUV,a,a,25.0,27.0,
+2021-22,530,Pellegrini Lo.,ROM,c,c|t,22.0,23.0,
+2021-22,152,Zielinski,NAP,c,c|t,24.0,20.0,
+2021-22,536,Politano,NAP,a,w|a,19.0,14.0,
+2021-22,827,Locatelli,JUV,c,m|c,16.0,14.0,
+2021-22,487,De Silvestri,BOL,d,dd|e,7.0,12.0,
+2021-22,133,Skorupski,BOL,p,por,9.0,11.0,
+2021-22,252,Biraghi,FIO,d,ds|e,9.0,11.0,
+2021-22,333,Cataldi,LAZ,c,m|c,3.0,10.0,
+2021-22,779,Cristante,ROM,c,m|c,7.0,9.0,
+2021-22,787,Djimsiti,ATA,d,dc,10.0,6.0,
+2021-22,327,Patric,LAZ,d,dd|dc|e,3.0,5.0,
+2021-22,4,Sportiello,ATA,p,por,1.0,4.0,
+2021-22,294,Rugani,JUV,d,dc,5.0,4.0,
+2021-22,460,Romagnoli,MIL,d,dc,7.0,4.0,
+2021-22,543,Padelli,UDI,p,por,1.0,3.0,
+2021-22,218,Perin,JUV,p,por,1.0,2.0,
+2022-23,309,Dybala,ROM,a,a,29.0,33.0,259.0
+2022-23,152,Zielinski,NAP,c,c|t,19.0,20.0,61.0
+2022-23,608,Zapata D.,ATA,a,pc,32.0,16.0,62.0
+2022-23,460,Romagnoli,LAZ,d,dc,11.0,14.0,32.0
+2022-23,133,Skorupski,BOL,p,por,11.0,13.0,32.0
+2022-23,530,Pellegrini Lo.,ROM,c,t,27.0,13.0,64.0
+2022-23,536,Politano,NAP,c,w|a,15.0,13.0,28.0
+2022-23,4,Sportiello,ATA,p,por,1.0,10.0,23.0
+2022-23,252,Biraghi,FIO,d,ds|e,13.0,10.0,33.0
+2022-23,827,Locatelli,JUV,c,m|c,14.0,10.0,29.0
+2022-23,218,Perin,JUV,p,por,1.0,9.0,4.0
+2022-23,779,Cristante,ROM,c,m|c,9.0,8.0,20.0
+2022-23,333,Cataldi,LAZ,c,m|c,8.0,7.0,12.0
+2022-23,787,Djimsiti,ATA,d,dc,7.0,7.0,12.0
+2022-23,327,Patric,LAZ,d,dd|dc,5.0,6.0,8.0
+2022-23,487,De Silvestri,BOL,d,dd|e,9.0,5.0,2.0
+2022-23,294,Rugani,JUV,d,dc,5.0,3.0,5.0
+2022-23,543,Padelli,UDI,p,por,1.0,1.0,1.0
+2023-24,309,Dybala,ROM,a,a,30.0,35.0,330.0
+2023-24,608,Zapata D.,TOR,a,pc,19.0,26.0,210.0
+2023-24,536,Politano,NAP,c,w,14.0,22.0,85.0
+2023-24,530,Pellegrini Lo.,ROM,c,c|t,16.0,21.0,175.0
+2023-24,133,Skorupski,BOL,p,por,10.0,15.0,65.0
+2023-24,779,Cristante,ROM,c,m|c,9.0,15.0,34.0
+2023-24,152,Zielinski,NAP,c,c|t,20.0,11.0,30.0
+2023-24,252,Biraghi,FIO,d,ds|e,10.0,9.0,29.0
+2023-24,327,Patric,LAZ,d,dd|dc,5.0,9.0,20.0
+2023-24,827,Locatelli,JUV,c,m|c,12.0,9.0,28.0
+2023-24,294,Rugani,JUV,d,dc,3.0,8.0,14.0
+2023-24,487,De Silvestri,BOL,d,dd|e,2.0,8.0,8.0
+2023-24,787,Djimsiti,ATA,d,dc,7.0,8.0,33.0
+2023-24,4,Sportiello,MIL,p,por,1.0,6.0,2.0
+2023-24,460,Romagnoli,LAZ,d,dc,13.0,6.0,32.0
+2023-24,333,Cataldi,LAZ,c,m|c,7.0,5.0,20.0
+2023-24,218,Perin,JUV,p,por,1.0,4.0,2.0
+2023-24,543,Padelli,UDI,p,por,1.0,1.0,1.0
+2024-25,309,Dybala,ROM,a,a,34.0,20.0,141.0
+2024-25,536,Politano,NAP,c,w,24.0,15.0,70.0
+2024-25,779,Cristante,ROM,c,m|c,9.0,15.0,32.0
+2024-25,133,Skorupski,BOL,p,por,11.0,13.0,40.0
+2024-25,827,Locatelli,JUV,c,m|c,8.0,13.0,34.0
+2024-25,608,Zapata D.,TOR,a,pc,25.0,13.0,90.0
+2024-25,333,Cataldi,FIO,c,m|c,3.0,12.0,15.0
+2024-25,530,Pellegrini Lo.,ROM,c,c|t,22.0,11.0,15.0
+2024-25,152,Zielinski,INT,c,c|t,11.0,9.0,16.0
+2024-25,787,Djimsiti,ATA,d,dc,8.0,8.0,23.0
+2024-25,460,Romagnoli,LAZ,d,dc,10.0,8.0,27.0
+2024-25,252,Biraghi,TOR,d,b|ds|e,7.0,7.0,18.0
+2024-25,487,De Silvestri,BOL,d,dd|e,3.0,5.0,11.0
+2024-25,294,Rugani,JUV,d,dc,5.0,5.0,6.0
+2024-25,218,Perin,JUV,p,por,2.0,2.0,1.0
+2024-25,4,Sportiello,MIL,p,por,1.0,2.0,1.0
+2024-25,327,Patric,LAZ,d,dd|dc,5.0,1.0,5.0
+2024-25,543,Padelli,UDI,p,por,1.0,1.0,1.0
+2025-26,152,Zielinski,INT,c,c|t,4.0,20.0,60.0
+2025-26,536,Politano,NAP,c,w,15.0,13.0,31.0
+2025-26,779,Cristante,ROM,c,m|c,9.0,13.0,26.0
+2025-26,530,Pellegrini Lo.,ROM,c,c|t,11.0,13.0,24.0
+2025-26,309,Dybala,ROM,a,a,26.0,13.0,50.0
+2025-26,827,Locatelli,JUV,c,m|c,12.0,12.0,47.0
+2025-26,133,Skorupski,BOL,p,por,10.0,11.0,14.0
+2025-26,333,Cataldi,LAZ,c,m|c,5.0,11.0,17.0
+2025-26,218,Perin,JUV,p,por,1.0,8.0,10.0
+2025-26,460,Romagnoli,LAZ,d,dc,8.0,8.0,16.0
+2025-26,608,Zapata D.,TOR,a,pc,20.0,8.0,15.0
+2025-26,787,Djimsiti,ATA,d,dc,8.0,7.0,13.0
+2025-26,487,De Silvestri,BOL,d,dd|e,4.0,3.0,8.0
+2025-26,327,Patric,LAZ,d,dd|dc,4.0,3.0,10.0
+2025-26,294,Rugani,FIO,d,dc,3.0,2.0,10.0
+2025-26,252,Biraghi,TOR,d,ds|e,8.0,2.0,5.0
+2025-26,4,Sportiello,ATA,p,por,1.0,1.0,1.0
+2025-26,543,Padelli,UDI,p,por,1.0,1.0,1.0
+2026-27,309,Dybala,ROM,a,a,14.0,14.0,67.0
+2026-27,133,Skorupski,BOL,p,por,10.0,10.0,37.0
+2026-27,152,Zielinski,INT,c,c,10.0,10.0,41.0
+2026-27,536,Politano,NAP,c,w,10.0,10.0,47.0
+2026-27,530,Pellegrini Lo.,ROM,c,c|t,10.0,10.0,28.0
+2026-27,827,Locatelli,JUV,c,m|c,8.0,8.0,32.0
+2026-27,779,Cristante,ROM,c,m|c,8.0,8.0,29.0
+2026-27,787,Djimsiti,ATA,d,dc,7.0,7.0,16.0
+2026-27,460,Romagnoli,LAZ,d,dc,7.0,7.0,24.0
+2026-27,608,Zapata D.,TOR,a,pc,7.0,7.0,18.0
+2026-27,218,Perin,JUV,p,por,6.0,6.0,10.0
+2026-27,333,Cataldi,LAZ,c,m|c,4.0,4.0,12.0
+2026-27,252,Biraghi,TOR,d,b|ds|e,2.0,2.0,5.0
+2026-27,4,Sportiello,ATA,p,por,1.0,1.0,1.0
+2026-27,487,De Silvestri,BOL,d,dd|e,1.0,1.0,4.0
+2026-27,294,Rugani,JUV,d,dc,1.0,1.0,3.0
+2026-27,327,Patric,LAZ,d,dd|dc,1.0,1.0,4.0
+2026-27,543,Padelli,UDI,p,por,1.0,1.0,1.0

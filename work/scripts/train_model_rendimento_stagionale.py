@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Training e validazione di 4 modelli LightGBM che predicono il RENDIMENTO
+Training e validazione di 7 modelli LightGBM che predicono il RENDIMENTO
 STAGIONALE AGGREGATO di un giocatore (non il voto di una singola partita),
 usando SOLO informazione nota prima dell'inizio della stagione target -
 vedi build_stagione_giocatore_dataset.py per la costruzione del dataset e
@@ -8,16 +8,21 @@ il principio anti-leakage (feature calcolate solo su stagioni <= N-1, più
 la quotazione ufficiale iniziale della stagione N stessa, pubblicata prima
 del campionato quindi non leakage).
 
-I 4 target, tutti richiesti esplicitamente da Dario ("fantamedia redazione
-fantacalcio di ogni singolo giocatore e anche gol, assist e bonus"):
-  - fantamedia_target   (media fantavoto sulla stagione)
-  - gol_target          (somma gol fatti sulla stagione)
-  - assist_target       (somma assist sulla stagione)
-  - bonus_netti_target  (somma fantavoto-voto sulla stagione, bonus/malus
-                          netti già calcolati dalla redazione)
+I 7 target (i primi 4 richiesti esplicitamente da Dario: "fantamedia
+redazione fantacalcio di ogni singolo giocatore e anche gol, assist e
+bonus"; gli altri 3 aggiunti nelle fasi successive per completare il
+quadro presenze/voto):
+  - fantamedia_target            (media fantavoto sulla stagione)
+  - gol_target                   (somma gol fatti sulla stagione)
+  - assist_target                (somma assist sulla stagione)
+  - bonus_netti_target           (somma fantavoto-voto sulla stagione, bonus/malus
+                                   netti già calcolati dalla redazione)
+  - presenze_target              (presenze totali sulla stagione)
+  - voto_medio_target            (media voto puro, senza bonus/malus, sulla stagione)
+  - presenze_titolare_target     (presenze da titolare sulla stagione)
 
 Si allena un modello LightGBM SEPARATO per ciascun target (stessa lista di
-feature per tutti e 4, cambia solo il target). Per ognuno si confrontano
+feature per tutti e 7, cambia solo il target). Per ognuno si confrontano
 TRE baseline, non solo una:
   1. "media train" (predici sempre la media del target sul train) - la
      baseline più debole, incluso solo per continuità con le fasi precedenti.
@@ -39,12 +44,13 @@ qui per evitare un anno con feature ma3 quasi sempre vuote).
 
 Output:
   work/data/model_train_stagionale_log.txt
-  work/models/lgbm_{target}_stagionale_v1.txt   (x4)
+  work/models/lgbm_{target}_stagionale_v1.txt   (x7)
 
 Uso:
   python3 train_model_rendimento_stagionale.py
 """
 import logging
+import os
 from pathlib import Path
 
 import numpy as np
@@ -53,8 +59,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import lightgbm as lgb
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
+# DATA_DIR/MODELS_DIR sono sovrascrivibili via env var (usato dalla test suite in
+# work/tests per puntare a fixture/modelli di test); default invariato se non impostate.
+DATA_DIR = Path(os.environ.get("FANTACALCIO_DATA_DIR") or (Path(__file__).resolve().parent.parent / "data"))
+MODELS_DIR = Path(os.environ.get("FANTACALCIO_MODELS_DIR") or (Path(__file__).resolve().parent.parent / "models"))
 FEATURE_PATH = DATA_DIR / "stagione_giocatore_dataset_2015_2026.csv"
 LOG_PATH = DATA_DIR / "model_train_stagionale_log.txt"
 
@@ -240,6 +248,7 @@ def main():
         log.info("  %s: MAE=%.4f R2=%.4f", target_col, res["mae"], res["r2"])
 
     log.info("Analisi completata.")
+    return risultati
 
 
 if __name__ == "__main__":

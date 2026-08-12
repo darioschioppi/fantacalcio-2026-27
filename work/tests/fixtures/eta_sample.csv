@@ -1,0 +1,191 @@
+player_id,stagione,eta_al_1_agosto,nome_transfermarkt,squadra,match_type,player_tm_id
+4,2015-16,23,Marco Sportiello,Atalanta,cognome/token,199976
+787,2015-16,22,Berat Djimsiti,Atalanta,cognome/token,165513
+133,2015-16,24,Lukasz Skorupski,Empoli,cognome/token,80894
+152,2015-16,21,Piotr Zielinski,Empoli,cognome/token,181136
+218,2015-16,22,Mattia Perin,Genoa,cognome/token,110923
+309,2015-16,21,Paulo Dybala,Juventus,cognome/token,206050
+294,2015-16,21,,Juventus,iniziale,
+327,2015-16,22,Patric,Lazio,cognome/token,126729
+333,2015-16,20,Danilo Cataldi,Lazio,cognome/token,199733
+460,2015-16,20,Alessio Romagnoli,Milan,cognome/token,197747
+827,2015-16,17,Manuel Locatelli,Milan,cognome/token,265088
+779,2015-16,20,Bryan Cristante,Palermo,cognome/token,199248
+487,2015-16,27,Lorenzo De Silvestri,Sampdoria,iniziale,33571
+536,2015-16,21,Matteo Politano,Sassuolo,cognome/token,165895
+530,2015-16,19,Lorenzo Pellegrini,Sassuolo,iniziale,286297
+543,2015-16,29,Daniele Padelli,Torino,cognome/token,27807
+608,2015-16,24,Duván Zapata,Udinese,iniziale,73794
+4,2016-17,24,Marco Sportiello,Atalanta,cognome/token,199976
+779,2016-17,21,Bryan Cristante,Atalanta,cognome/token,199248
+133,2016-17,25,Lukasz Skorupski,Empoli,cognome/token,80894
+4,2016-17,24,Marco Sportiello,Fiorentina,cognome/token,199976
+218,2016-17,23,Mattia Perin,Genoa,cognome/token,110923
+333,2016-17,21,Danilo Cataldi,Genoa,cognome/token,199733
+309,2016-17,22,Paulo Dybala,Juventus,cognome/token,206050
+294,2016-17,22,,Juventus,iniziale,
+327,2016-17,23,Patric,Lazio,cognome/token,126729
+333,2016-17,21,Danilo Cataldi,Lazio,cognome/token,199733
+460,2016-17,21,Alessio Romagnoli,Milan,cognome/token,197747
+827,2016-17,18,Manuel Locatelli,Milan,cognome/token,265088
+152,2016-17,22,Piotr Zielinski,Napoli,cognome/token,181136
+252,2016-17,23,Cristiano Biraghi,Pescara,cognome/token,124555
+779,2016-17,21,Bryan Cristante,Pescara,cognome/token,199248
+536,2016-17,22,Matteo Politano,Sassuolo,cognome/token,165895
+530,2016-17,20,Lorenzo Pellegrini,Sassuolo,iniziale,286297
+543,2016-17,30,Daniele Padelli,Torino,cognome/token,27807
+487,2016-17,28,Lorenzo De Silvestri,Torino,iniziale,33571
+608,2016-17,25,Duván Zapata,Udinese,iniziale,73794
+779,2017-18,22,Bryan Cristante,Atalanta,cognome/token,199248
+333,2017-18,22,Danilo Cataldi,Benevento,cognome/token,199733
+787,2017-18,24,Berat Djimsiti,Benevento,cognome/token,165513
+4,2017-18,25,Marco Sportiello,Fiorentina,cognome/token,199976
+252,2017-18,24,Cristiano Biraghi,Fiorentina,cognome/token,124555
+218,2017-18,24,Mattia Perin,Genoa,cognome/token,110923
+309,2017-18,23,Paulo Dybala,Juventus,cognome/token,206050
+294,2017-18,23,,Juventus,iniziale,
+327,2017-18,24,Patric,Lazio,cognome/token,126729
+827,2017-18,19,Manuel Locatelli,Milan,cognome/token,265088
+460,2017-18,22,Alessio Romagnoli,Milan,cognome/token,197747
+152,2017-18,23,Piotr Zielinski,Napoli,cognome/token,181136
+133,2017-18,26,Lukasz Skorupski,Roma,cognome/token,80894
+530,2017-18,21,Lorenzo Pellegrini,Roma,iniziale,286297
+608,2017-18,26,Duván Zapata,Sampdoria,iniziale,73794
+536,2017-18,23,Matteo Politano,Sassuolo,cognome/token,165895
+487,2017-18,29,Lorenzo De Silvestri,Torino,iniziale,33571
+787,2018-19,25,Berat Djimsiti,Atalanta,cognome/token,165513
+608,2018-19,27,Duván Zapata,Atalanta,iniziale,73794
+133,2018-19,27,Lukasz Skorupski,Bologna,cognome/token,80894
+252,2018-19,25,Cristiano Biraghi,Fiorentina,cognome/token,124555
+4,2018-19,26,Marco Sportiello,Frosinone,cognome/token,199976
+536,2018-19,24,Matteo Politano,Inter,cognome/token,165895
+309,2018-19,24,Paulo Dybala,Juventus,cognome/token,206050
+218,2018-19,25,Mattia Perin,Juventus,cognome/token,110923
+294,2018-19,24,,Juventus,iniziale,
+327,2018-19,25,Patric,Lazio,cognome/token,126729
+333,2018-19,23,Danilo Cataldi,Lazio,cognome/token,199733
+460,2018-19,23,Alessio Romagnoli,Milan,cognome/token,197747
+152,2018-19,24,Piotr Zielinski,Napoli,cognome/token,181136
+779,2018-19,23,Bryan Cristante,Roma,cognome/token,199248
+530,2018-19,22,Lorenzo Pellegrini,Roma,iniziale,286297
+827,2018-19,20,Manuel Locatelli,Sassuolo,cognome/token,265088
+487,2018-19,21,,Torino,iniziale,
+787,2019-20,26,Berat Djimsiti,Atalanta,cognome/token,165513
+4,2019-20,27,Marco Sportiello,Atalanta,cognome/token,199976
+608,2019-20,28,Duván Zapata,Atalanta,iniziale,73794
+133,2019-20,28,Lukasz Skorupski,Bologna,cognome/token,80894
+218,2019-20,26,Mattia Perin,Genoa,cognome/token,110923
+536,2019-20,25,Matteo Politano,Inter,cognome/token,165895
+252,2019-20,26,Cristiano Biraghi,Inter,cognome/token,124555
+543,2019-20,33,Daniele Padelli,Inter,cognome/token,27807
+309,2019-20,25,Paulo Dybala,Juventus,cognome/token,206050
+327,2019-20,26,Patric,Lazio,cognome/token,126729
+333,2019-20,24,Danilo Cataldi,Lazio,cognome/token,199733
+460,2019-20,24,Alessio Romagnoli,Milan,cognome/token,197747
+152,2019-20,25,Piotr Zielinski,Napoli,cognome/token,181136
+536,2019-20,25,Matteo Politano,Napoli,cognome/token,165895
+779,2019-20,24,Bryan Cristante,Roma,cognome/token,199248
+530,2019-20,23,Lorenzo Pellegrini,Roma,iniziale,286297
+827,2019-20,21,Manuel Locatelli,Sassuolo,cognome/token,265088
+487,2019-20,31,Lorenzo De Silvestri,Torino,iniziale,33571
+4,2020-21,28,Marco Sportiello,Atalanta,cognome/token,199976
+787,2020-21,27,Berat Djimsiti,Atalanta,cognome/token,165513
+608,2020-21,29,Duván Zapata,Atalanta,iniziale,73794
+133,2020-21,29,Lukasz Skorupski,Bologna,cognome/token,80894
+487,2020-21,32,Lorenzo De Silvestri,Bologna,iniziale,33571
+294,2020-21,26,Daniele Rugani,Cagliari,cognome/token,162959
+252,2020-21,27,Cristiano Biraghi,Fiorentina,cognome/token,124555
+218,2020-21,27,Mattia Perin,Genoa,cognome/token,110923
+543,2020-21,34,Daniele Padelli,Inter,cognome/token,27807
+309,2020-21,26,Paulo Dybala,Juventus,cognome/token,206050
+327,2020-21,27,Patric,Lazio,cognome/token,126729
+333,2020-21,25,Danilo Cataldi,Lazio,cognome/token,199733
+460,2020-21,25,Alessio Romagnoli,Milan,cognome/token,197747
+152,2020-21,26,Piotr Zielinski,Napoli,cognome/token,181136
+536,2020-21,26,Matteo Politano,Napoli,cognome/token,165895
+779,2020-21,25,Bryan Cristante,Roma,cognome/token,199248
+530,2020-21,24,Lorenzo Pellegrini,Roma,iniziale,286297
+827,2020-21,22,Manuel Locatelli,Sassuolo,cognome/token,265088
+787,2021-22,28,Berat Djimsiti,Atalanta,cognome/token,165513
+4,2021-22,29,Marco Sportiello,Atalanta,cognome/token,199976
+608,2021-22,30,Duván Zapata,Atalanta,iniziale,73794
+133,2021-22,30,Lukasz Skorupski,Bologna,cognome/token,80894
+487,2021-22,16,,Bologna,iniziale,
+252,2021-22,28,Cristiano Biraghi,Fiorentina,cognome/token,124555
+827,2021-22,23,Manuel Locatelli,Juventus,cognome/token,265088
+309,2021-22,27,Paulo Dybala,Juventus,cognome/token,206050
+218,2021-22,28,Mattia Perin,Juventus,cognome/token,110923
+327,2021-22,28,Patric,Lazio,cognome/token,126729
+333,2021-22,26,Danilo Cataldi,Lazio,cognome/token,199733
+460,2021-22,26,Alessio Romagnoli,Milan,cognome/token,197747
+152,2021-22,27,Piotr Zielinski,Napoli,cognome/token,181136
+536,2021-22,27,Matteo Politano,Napoli,cognome/token,165895
+779,2021-22,26,Bryan Cristante,Roma,cognome/token,199248
+530,2021-22,25,Lorenzo Pellegrini,Roma,iniziale,286297
+543,2021-22,35,Daniele Padelli,Udinese,cognome/token,27807
+787,2022-23,29,Berat Djimsiti,Atalanta,cognome/token,165513
+4,2022-23,30,Marco Sportiello,Atalanta,cognome/token,199976
+608,2022-23,31,Duván Zapata,Atalanta,iniziale,73794
+133,2022-23,31,Lukasz Skorupski,Bologna,cognome/token,80894
+487,2022-23,18,,Bologna,iniziale,
+252,2022-23,29,Cristiano Biraghi,Fiorentina,cognome/token,124555
+218,2022-23,29,Mattia Perin,Juventus,cognome/token,110923
+827,2022-23,24,Manuel Locatelli,Juventus,cognome/token,265088
+327,2022-23,29,Patric,Lazio,cognome/token,126729
+460,2022-23,27,Alessio Romagnoli,Lazio,cognome/token,197747
+333,2022-23,27,Danilo Cataldi,Lazio,cognome/token,199733
+152,2022-23,28,Piotr Zielinski,Napoli,cognome/token,181136
+536,2022-23,28,Matteo Politano,Napoli,cognome/token,165895
+779,2022-23,27,Bryan Cristante,Roma,cognome/token,199248
+309,2022-23,28,Paulo Dybala,Roma,cognome/token,206050
+530,2022-23,17,,Roma,iniziale,
+787,2023-24,30,Berat Djimsiti,Atalanta,cognome/token,165513
+608,2023-24,32,Duván Zapata,Atalanta,iniziale,73794
+133,2023-24,32,Lukasz Skorupski,Bologna,cognome/token,80894
+487,2023-24,35,Lorenzo De Silvestri,Bologna,iniziale,33571
+252,2023-24,30,Cristiano Biraghi,Fiorentina,cognome/token,124555
+827,2023-24,25,Manuel Locatelli,Juventus,cognome/token,265088
+218,2023-24,30,Mattia Perin,Juventus,cognome/token,110923
+327,2023-24,30,Patric,Lazio,cognome/token,126729
+460,2023-24,28,Alessio Romagnoli,Lazio,cognome/token,197747
+333,2023-24,28,Danilo Cataldi,Lazio,cognome/token,199733
+4,2023-24,31,Marco Sportiello,Milan,cognome/token,199976
+152,2023-24,29,Piotr Zielinski,Napoli,cognome/token,181136
+536,2023-24,29,Matteo Politano,Napoli,cognome/token,165895
+608,2023-24,18,,Torino,iniziale,
+787,2024-25,31,Berat Djimsiti,Atalanta,cognome/token,165513
+133,2024-25,33,Lukasz Skorupski,Bologna,cognome/token,80894
+487,2024-25,36,Lorenzo De Silvestri,Bologna,iniziale,33571
+252,2024-25,31,Cristiano Biraghi,Fiorentina,cognome/token,124555
+333,2024-25,29,Danilo Cataldi,Fiorentina,cognome/token,199733
+152,2024-25,30,Piotr Zielinski,Inter,cognome/token,181136
+827,2024-25,26,Manuel Locatelli,Juventus,cognome/token,265088
+218,2024-25,31,Mattia Perin,Juventus,cognome/token,110923
+327,2024-25,31,Patric,Lazio,cognome/token,126729
+460,2024-25,29,Alessio Romagnoli,Lazio,cognome/token,197747
+4,2024-25,32,Marco Sportiello,Milan,cognome/token,199976
+536,2024-25,30,Matteo Politano,Napoli,cognome/token,165895
+779,2024-25,29,Bryan Cristante,Roma,cognome/token,199248
+309,2024-25,30,Paulo Dybala,Roma,cognome/token,206050
+530,2024-25,22,,Roma,iniziale,
+252,2024-25,31,Cristiano Biraghi,Torino,cognome/token,124555
+608,2024-25,19,,Torino,iniziale,
+543,2024-25,38,Daniele Padelli,Udinese,cognome/token,27807
+787,2025-26,32,Berat Djimsiti,Atalanta,cognome/token,165513
+4,2025-26,33,Marco Sportiello,Atalanta,cognome/token,199976
+133,2025-26,34,Lukasz Skorupski,Bologna,cognome/token,80894
+487,2025-26,25,,Bologna,iniziale,
+294,2025-26,31,Daniele Rugani,Fiorentina,cognome/token,162959
+152,2025-26,31,Piotr Zielinski,Inter,cognome/token,181136
+827,2025-26,27,Manuel Locatelli,Juventus,cognome/token,265088
+218,2025-26,32,Mattia Perin,Juventus,cognome/token,110923
+327,2025-26,32,Patric,Lazio,cognome/token,126729
+333,2025-26,30,Danilo Cataldi,Lazio,cognome/token,199733
+460,2025-26,30,Alessio Romagnoli,Lazio,cognome/token,197747
+536,2025-26,31,Matteo Politano,Napoli,cognome/token,165895
+779,2025-26,30,Bryan Cristante,Roma,cognome/token,199248
+309,2025-26,31,Paulo Dybala,Roma,cognome/token,206050
+530,2025-26,18,,Roma,iniziale,
+252,2025-26,32,Cristiano Biraghi,Torino,cognome/token,124555
+608,2025-26,23,,Torino,iniziale,
+543,2025-26,39,Daniele Padelli,Udinese,cognome/token,27807

@@ -1,0 +1,177 @@
+stagione,squadra,nome_fantacalcio,player_understat,player_id_understat,n_partite_confermate
+2015-16,Empoli,Skorupski,Lukasz Skorupski,1305,31
+2015-16,Empoli,Zielinski,Piotr Zielinski,1386,35
+2015-16,Torino,Padelli,Daniele Padelli,1195,35
+2015-16,Atalanta,Sportiello,Marco Sportiello,1501,36
+2015-16,Juventus,Dybala,Paulo Dybala,1294,34
+2015-16,Udinese,Zapata D.,Duván Zapata,1148,25
+2015-16,Lazio,Cataldi,Danilo Cataldi,1206,20
+2015-16,Sassuolo,Politano,Matteo Politano,1473,25
+2015-16,Lazio,Patric,Patric,1204,9
+2015-16,Genoa,Perin,Mattia Perin,1093,25
+2015-16,Sampdoria,De Silvestri,Lorenzo De Silvestri,1193,17
+2015-16,Sassuolo,Pellegrini Lo.,Lorenzo Pellegrini,1471,19
+2015-16,Juventus,Rugani,Daniele Rugani,1301,17
+2015-16,Palermo,Cristante,Bryan Cristante,1168,4
+2016-17,Juventus,Dybala,Paulo Dybala,1294,30
+2016-17,Torino,Padelli,Daniele Padelli,1195,2
+2016-17,Torino,De Silvestri,Lorenzo De Silvestri,1193,16
+2016-17,Sassuolo,Politano,Matteo Politano,1473,32
+2016-17,Pescara,Biraghi,Cristiano Biraghi,1164,34
+2016-17,Pescara,Cristante,Bryan Cristante,1168,16
+2016-17,Napoli,Zielinski,Piotr Zielinski,1386,36
+2016-17,Udinese,Zapata D.,Duván Zapata,1148,38
+2016-17,Atalanta,Sportiello,Marco Sportiello,1501,8
+2016-17,Lazio,Cataldi,Danilo Cataldi,1206,11
+2016-17,Lazio,Patric,Patric,1204,19
+2016-17,Empoli,Skorupski,Lukasz Skorupski,1305,35
+2016-17,Sassuolo,Pellegrini Lo.,Lorenzo Pellegrini,1471,28
+2016-17,Genoa,Perin,Mattia Perin,1093,15
+2016-17,Juventus,Rugani,Daniele Rugani,1301,14
+2016-17,Genoa,Cataldi,Danilo Cataldi,1206,13
+2016-17,Fiorentina,Sportiello,Marco Sportiello,1501,1
+2016-17,Atalanta,Cristante,Bryan Cristante,1168,12
+2017-18,Atalanta,Cristante,Bryan Cristante,1168,34
+2017-18,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,28
+2017-18,Napoli,Zielinski,Piotr Zielinski,1386,36
+2017-18,Fiorentina,Sportiello,Marco Sportiello,1501,36
+2017-18,Juventus,Dybala,Paulo Dybala,1294,32
+2017-18,Juventus,Rugani,Daniele Rugani,1301,22
+2017-18,Benevento,Cataldi,Danilo Cataldi,1206,29
+2017-18,Sassuolo,Politano,Matteo Politano,1473,35
+2017-18,Genoa,Perin,Mattia Perin,1093,36
+2017-18,Fiorentina,Biraghi,Cristiano Biraghi,1164,33
+2017-18,Torino,De Silvestri,Lorenzo De Silvestri,1193,34
+2017-18,Sampdoria,Zapata D.,Duván Zapata,1148,30
+2017-18,Lazio,Patric,Patric,1204,11
+2017-18,Roma,Skorupski,Lukasz Skorupski,1305,1
+2018-19,Atalanta,Zapata D.,Duván Zapata,1148,37
+2018-19,Frosinone,Sportiello,Marco Sportiello,1501,35
+2018-19,Bologna,Skorupski,Lukasz Skorupski,1305,38
+2018-19,Juventus,Dybala,Paulo Dybala,1294,30
+2018-19,Lazio,Cataldi,Danilo Cataldi,1206,12
+2018-19,Napoli,Zielinski,Piotr Zielinski,1386,36
+2018-19,Inter,Politano,Matteo Politano,1473,36
+2018-19,Torino,De Silvestri,Lorenzo De Silvestri,1193,32
+2018-19,Roma,Cristante,Bryan Cristante,1168,35
+2018-19,Sassuolo,Locatelli,Manuel Locatelli,1122,29
+2018-19,Fiorentina,Biraghi,Cristiano Biraghi,1164,35
+2018-19,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,25
+2018-19,Juventus,Rugani,Daniele Rugani,1301,15
+2018-19,Lazio,Patric,Patric,1204,14
+2018-19,Juventus,Perin,Mattia Perin,1093,9
+2019-20,Napoli,Zielinski,Piotr Zielinski,1386,37
+2019-20,Bologna,Skorupski,Lukasz Skorupski,1305,37
+2019-20,Inter,Politano,Matteo Politano,1473,11
+2019-20,Roma,Cristante,Bryan Cristante,1168,26
+2019-20,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,27
+2019-20,Lazio,Cataldi,Danilo Cataldi,1206,21
+2019-20,Atalanta,Zapata D.,Duván Zapata,1148,28
+2019-20,Torino,De Silvestri,Lorenzo De Silvestri,1193,29
+2019-20,Sassuolo,Locatelli,Manuel Locatelli,1122,32
+2019-20,Juventus,Dybala,Paulo Dybala,1294,33
+2019-20,Lazio,Patric,Patric,1204,20
+2019-20,Inter,Biraghi,Cristiano Biraghi,1164,25
+2019-20,Atalanta,Sportiello,Marco Sportiello,1501,6
+2019-20,Juventus,Rugani,Daniele Rugani,1301,10
+2019-20,Genoa,Perin,Mattia Perin,1093,21
+2019-20,Inter,Padelli,Daniele Padelli,1195,3
+2019-20,Napoli,Politano,Matteo Politano,1473,15
+2020-21,Fiorentina,Biraghi,Cristiano Biraghi,1164,35
+2020-21,Genoa,Perin,Mattia Perin,1093,32
+2020-21,Lazio,Patric,Patric,1204,24
+2020-21,Lazio,Cataldi,Danilo Cataldi,1206,19
+2020-21,Atalanta,Sportiello,Marco Sportiello,1501,15
+2020-21,Atalanta,Zapata D.,Duván Zapata,1148,37
+2020-21,Bologna,Skorupski,Lukasz Skorupski,1305,28
+2020-21,Bologna,De Silvestri,Lorenzo De Silvestri,1193,29
+2020-21,Napoli,Zielinski,Piotr Zielinski,1386,36
+2020-21,Napoli,Politano,Matteo Politano,1473,37
+2020-21,Sassuolo,Locatelli,Manuel Locatelli,1122,34
+2020-21,Roma,Cristante,Bryan Cristante,1168,34
+2020-21,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,34
+2020-21,Juventus,Dybala,Paulo Dybala,1294,20
+2020-21,Cagliari,Rugani,Daniele Rugani,1301,16
+2020-21,Inter,Padelli,Daniele Padelli,1195,1
+2021-22,Juventus,Locatelli,Manuel Locatelli,1122,31
+2021-22,Juventus,Dybala,Paulo Dybala,1294,29
+2021-22,Bologna,Skorupski,Lukasz Skorupski,1305,36
+2021-22,Bologna,De Silvestri,Lorenzo De Silvestri,1193,31
+2021-22,Roma,Cristante,Bryan Cristante,1168,34
+2021-22,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,28
+2021-22,Fiorentina,Biraghi,Cristiano Biraghi,1164,37
+2021-22,Napoli,Zielinski,Piotr Zielinski,1386,35
+2021-22,Napoli,Politano,Matteo Politano,1473,33
+2021-22,Lazio,Patric,Patric,1204,24
+2021-22,Lazio,Cataldi,Danilo Cataldi,1206,32
+2021-22,Atalanta,Sportiello,Marco Sportiello,1501,5
+2021-22,Atalanta,Zapata D.,Duván Zapata,1148,24
+2021-22,Juventus,Perin,Mattia Perin,1093,5
+2021-22,Juventus,Rugani,Daniele Rugani,1301,12
+2021-22,Udinese,Padelli,Daniele Padelli,1195,3
+2022-23,Atalanta,Zapata D.,Duván Zapata,1148,25
+2022-23,Fiorentina,Biraghi,Cristiano Biraghi,1164,33
+2022-23,Lazio,Patric,Patric,1204,18
+2022-23,Lazio,Cataldi,Danilo Cataldi,1206,29
+2022-23,Lazio,Romagnoli,Alessio Romagnoli,1119,34
+2022-23,Bologna,Skorupski,Lukasz Skorupski,1305,37
+2022-23,Bologna,De Silvestri,Lorenzo De Silvestri,1193,15
+2022-23,Roma,Cristante,Bryan Cristante,1168,36
+2022-23,Roma,Dybala,Paulo Dybala,1294,25
+2022-23,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,32
+2022-23,Napoli,Zielinski,Piotr Zielinski,1386,37
+2022-23,Napoli,Politano,Matteo Politano,1473,27
+2022-23,Juventus,Locatelli,Manuel Locatelli,1122,32
+2022-23,Juventus,Perin,Mattia Perin,1093,11
+2022-23,Juventus,Rugani,Daniele Rugani,1301,9
+2022-23,Atalanta,Sportiello,Marco Sportiello,1501,15
+2023-24,Napoli,Zielinski,Piotr Zielinski,1386,28
+2023-24,Napoli,Politano,Matteo Politano,1473,37
+2023-24,Fiorentina,Biraghi,Cristiano Biraghi,1164,29
+2023-24,Roma,Cristante,Bryan Cristante,1168,37
+2023-24,Atalanta,Zapata D.,Duván Zapata,1148,2
+2023-24,Lazio,Patric,Patric,1204,20
+2023-24,Lazio,Cataldi,Danilo Cataldi,1206,28
+2023-24,Lazio,Romagnoli,Alessio Romagnoli,1119,29
+2023-24,Juventus,Locatelli,Manuel Locatelli,1122,36
+2023-24,Bologna,Skorupski,Lukasz Skorupski,1305,32
+2023-24,Roma,Dybala,Paulo Dybala,1294,28
+2023-24,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,29
+2023-24,Juventus,Perin,Mattia Perin,1093,3
+2023-24,Bologna,De Silvestri,Lorenzo De Silvestri,1193,15
+2023-24,Torino,Zapata D.,Duván Zapata,1148,35
+2023-24,Juventus,Rugani,Daniele Rugani,1301,17
+2024-25,Fiorentina,Biraghi,Cristiano Biraghi,1164,8
+2024-25,Torino,Zapata D.,Duván Zapata,1148,7
+2024-25,Bologna,Skorupski,Lukasz Skorupski,1305,27
+2024-25,Napoli,Politano,Matteo Politano,1473,37
+2024-25,Roma,Cristante,Bryan Cristante,1168,30
+2024-25,Roma,Dybala,Paulo Dybala,1294,24
+2024-25,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,25
+2024-25,Lazio,Romagnoli,Alessio Romagnoli,1119,32
+2024-25,Juventus,Locatelli,Manuel Locatelli,1122,36
+2024-25,Lazio,Patric,Patric,1204,10
+2024-25,Bologna,De Silvestri,Lorenzo De Silvestri,1193,18
+2024-25,Fiorentina,Cataldi,Danilo Cataldi,1206,24
+2024-25,Juventus,Perin,Mattia Perin,1093,5
+2024-25,Inter,Zielinski,Piotr Zielinski,1386,26
+2024-25,Torino,Biraghi,Cristiano Biraghi,1164,15
+2024-25,Udinese,Padelli,Daniele Padelli,1195,1
+2025-26,Napoli,Politano,Matteo Politano,1473,34
+2025-26,Roma,Cristante,Bryan Cristante,1168,37
+2025-26,Roma,Dybala,Paulo Dybala,1294,22
+2025-26,Bologna,Skorupski,Lukasz Skorupski,1305,19
+2025-26,Bologna,De Silvestri,Lorenzo De Silvestri,1193,12
+2025-26,Lazio,Cataldi,Danilo Cataldi,1206,27
+2025-26,Juventus,Locatelli,Manuel Locatelli,1122,36
+2025-26,Inter,Zielinski,Piotr Zielinski,1386,34
+2025-26,Torino,Biraghi,Cristiano Biraghi,1164,14
+2025-26,Lazio,Romagnoli,Alessio Romagnoli,1119,32
+2025-26,Roma,Pellegrini Lo.,Lorenzo Pellegrini,1471,24
+2025-26,Torino,Zapata D.,Duván Zapata,1148,28
+2025-26,Lazio,Patric,Patric,1204,14
+2025-26,Juventus,Rugani,Daniele Rugani,1301,6
+2025-26,Juventus,Perin,Mattia Perin,1093,9
+2025-26,Udinese,Padelli,Daniele Padelli,1195,2
+2025-26,Fiorentina,Rugani,Daniele Rugani,1301,6
+2025-26,Atalanta,Sportiello,Marco Sportiello,1501,1
