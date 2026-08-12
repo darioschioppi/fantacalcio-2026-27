@@ -399,7 +399,10 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
   function renderQualitativo(filter) {
     const container = document.getElementById('qual-cards');
     const f = (filter || '').toLowerCase();
-    const rows = QUALITATIVO_DATA.filter(r => !f || r.nome.toLowerCase().includes(f) || r.squadra.toLowerCase().includes(f));
+    const rows = QUALITATIVO_DATA
+      .filter(r => !f || r.nome.toLowerCase().includes(f) || r.squadra.toLowerCase().includes(f))
+      .slice()
+      .sort((a, b) => (a.squadra + '|' + a.nome).localeCompare(b.squadra + '|' + b.nome));
 
     container.innerHTML = rows.map(r => {
       const tagClass = TAG_CLASS[r.categoria_forum] || '';
@@ -442,10 +445,11 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
   };
 
   let mvmFilter = 'all';
-  let mvmSortState = { col: 'divergenza_abs', asc: false };
+  let mvmSortState = { col: 'squadra_nome', asc: true };
 
   function mvmSortValue(r, col) {
     if (col === 'divergenza_abs') return Math.abs(r.divergenza);
+    if (col === 'squadra_nome') return r.squadra + '|' + r.nome;
     return r[col];
   }
 
