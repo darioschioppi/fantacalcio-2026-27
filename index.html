@@ -54,6 +54,16 @@
   .qual-metrics .grp { background: #f5f5f5; border-radius: 6px; padding: 6px 10px; }
   .qual-metrics .grp b { display: block; font-size: 11px; text-transform: uppercase; color: #777; margin-bottom: 3px; }
   .qual-surprise { font-size: 12px; font-style: italic; color: #555; margin-top: 6px; }
+  #mvm-search-box { width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 12px; }
+  #mvm-count { color: #777; font-size: 13px; margin-bottom: 8px; }
+  #mvm-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  #mvm-filters button { border: 1px solid #ccc; background: #fff; padding: 6px 12px; border-radius: 16px; font-size: 13px; cursor: pointer; }
+  #mvm-filters button.active { background: var(--green); color: #fff; border-color: var(--green); }
+  .mvm-tag { font-size: 12px; font-weight: 700; padding: 2px 9px; border-radius: 10px; color: #fff; white-space: nowrap; }
+  .mvm-tag.occasione { background: #2e7d32; }
+  .mvm-tag.sopravvalutato { background: #c62828; }
+  .mvm-tag.coerente { background: #757575; }
+  #mvm-table td, #mvm-table th { font-size: 13px; }
   @media (max-width: 800px) {
     nav.sidebar { display: none; }
     main { padding: 16px; max-width: 100%; }
@@ -71,6 +81,7 @@
   <a href="#parte4">4. Tier-list per ruolo</a>
   <a href="#parte4-5">4.5 Analisi xG/xA</a>
   <a href="#parte4-6">4.6 Schede giocatore</a>
+  <a href="#parte4-7">4.7 Mercato vs modello</a>
   <a href="#listone">📋 Listone completo</a>
   <a href="#parte5">5. Strategia d'asta</a>
 </nav>
@@ -251,6 +262,44 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <div id="qual-cards"></div>
 <p class="warn">⚠️ Copertura parziale: il forum non pubblica un'analisi discorsiva per tutti i giocatori, solo per quelli evidenziati in ciascuna sezione (di norma 5-10 per squadra). Assenza dalla lista non implica un giudizio negativo.</p>
 
+<h2 id="parte4-7">Parte 4.7 — Mercato vs modello: dove il prezzo ufficiale e la previsione statistica divergono</h2>
+<p><i>A differenza della scheda 4.6 (limitata ai ~110 giocatori citati nei thread discorsivi del forum), questa tabella copre <b>tutti i 359 giocatori</b> per cui il modello ha una previsione E un Fantavalore di mercato ufficiale (lo stesso indicatore "FVM" della Guida all'Asta di Fantacalcio.it). Per ogni ruolo confrontiamo la posizione in classifica secondo il mercato (FVM) e secondo il modello (bonus netti previsti): una grande divergenza tra le due segnala un possibile disaccordo tra il prezzo/hype ufficiale e la stima statistica.</i></p>
+<div class="box">
+<p><b>Come leggere il giudizio:</b></p>
+<ul>
+<li><span class="mvm-tag occasione">OCCASIONE</span> il modello lo valuta molto meglio di quanto suggerisca il prezzo/hype ufficiale — possibile affare a basso costo</li>
+<li><span class="mvm-tag sopravvalutato">SOPRAVVALUTATO</span> il prezzo/hype ufficiale è molto più alto di quanto il modello preveda — occhio a non sovrapagare</li>
+<li><span class="mvm-tag coerente">COERENTE</span> mercato e modello sono relativamente d'accordo</li>
+</ul>
+</div>
+<input type="text" id="mvm-search-box" placeholder="🔎 Cerca giocatore o squadra (es. 'Scamacca' o 'ATA')...">
+<div id="mvm-filters">
+  <button data-f="all" class="active">Tutti</button>
+  <button data-f="Portiere">Portieri</button>
+  <button data-f="Difensore">Difensori</button>
+  <button data-f="Centrocampista">Centrocampisti</button>
+  <button data-f="Attaccante">Attaccanti</button>
+  <button data-f="OCCASIONE">Solo occasioni</button>
+  <button data-f="SOPRAVVALUTATO">Solo sopravvalutati</button>
+</div>
+<div id="mvm-count"></div>
+<table id="mvm-table">
+<thead>
+<tr>
+<th data-col="nome">Giocatore</th>
+<th data-col="squadra">Squadra</th>
+<th data-col="ruolo">Ruolo</th>
+<th data-col="fvm">FVM</th>
+<th data-col="pred_bonus_netti">Bonus netti prev.</th>
+<th data-col="rank_fvm">Rank mercato</th>
+<th data-col="rank_pred">Rank modello</th>
+<th data-col="giudizio">Giudizio</th>
+</tr>
+</thead>
+<tbody id="mvm-body"></tbody>
+</table>
+<p class="warn">⚠️ Il ranking (e quindi il giudizio) è calcolato separatamente per ruolo ed è relativo, non assoluto: un difensore "sopravvalutato" non è necessariamente scarso, significa solo che il prezzo di mercato scommette più di quanto il modello preveda sui suoi bonus netti. Il FVM ufficiale riflette anche fattori (fama, marketing, aspettative di mercato) che il modello statistico non cattura — usa questa tabella come spunto di verifica, non come verità assoluta.</p>
+
 <h2 id="listone">📋 Listone completo — Quotazioni ufficiali Fantacalcio.it</h2>
 <p><i>Quotazioni Classic (QA / FVM) prelevate da <a href="https://www.fantacalcio.it/quotazioni-fantacalcio" target="_blank">fantacalcio.it/quotazioni-fantacalcio</a>. Cerca un giocatore o clicca sulle intestazioni per ordinare.</i></p>
 <input type="text" id="search-box" placeholder="🔎 Cerca giocatore o squadra (es. 'Lautaro' o 'INT')...">
@@ -294,6 +343,7 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 <script src="squadre_data.js"></script>
 <script src="calendario_data.js"></script>
 <script src="qualitativo_data.js"></script>
+<script src="mercato_vs_modello_data.js"></script>
 <script>
   document.getElementById('update-badge').textContent = "Listone aggiornato: " + LISTONE_UPDATED_AT;
 
@@ -374,6 +424,81 @@ Atalanta, Bologna, Cagliari, Como, Fiorentina, Frosinone, Genoa, Inter, Juventus
 
   document.getElementById('qual-search-box').addEventListener('input', e => renderQualitativo(e.target.value));
   renderQualitativo('');
+
+  // --- Parte 4.7: mercato (FVM ufficiale) vs modello statistico, tutti i 359 giocatori ---
+  const MVM_GIUDIZIO_CLASS = {
+    'OCCASIONE': 'occasione',
+    'SOPRAVVALUTATO': 'sopravvalutato',
+    'COERENTE': 'coerente',
+  };
+
+  let mvmFilter = 'all';
+  let mvmSortState = { col: 'divergenza_abs', asc: false };
+
+  function mvmSortValue(r, col) {
+    if (col === 'divergenza_abs') return Math.abs(r.divergenza);
+    return r[col];
+  }
+
+  function renderMercatoVsModello(searchText) {
+    const tbody = document.getElementById('mvm-body');
+    const f = (searchText || '').toLowerCase();
+
+    let rows = MERCATO_VS_MODELLO_DATA.filter(r => !f || r.nome.toLowerCase().includes(f) || r.squadra.toLowerCase().includes(f));
+
+    if (mvmFilter === 'OCCASIONE' || mvmFilter === 'SOPRAVVALUTATO') {
+      rows = rows.filter(r => r.giudizio === mvmFilter);
+    } else if (mvmFilter !== 'all') {
+      rows = rows.filter(r => r.ruolo === mvmFilter);
+    }
+
+    rows = rows.slice().sort((a, b) => {
+      const va = mvmSortValue(a, mvmSortState.col);
+      const vb = mvmSortValue(b, mvmSortState.col);
+      if (typeof va === 'string') {
+        return mvmSortState.asc ? va.localeCompare(vb) : vb.localeCompare(va);
+      }
+      return mvmSortState.asc ? va - vb : vb - va;
+    });
+
+    tbody.innerHTML = rows.map(r => {
+      const tagClass = MVM_GIUDIZIO_CLASS[r.giudizio] || '';
+      return `<tr>
+        <td>${r.nome}</td>
+        <td>${r.squadra}</td>
+        <td>${r.ruolo}</td>
+        <td>${r.fvm}</td>
+        <td>${r.pred_bonus_netti}</td>
+        <td>${r.rank_fvm}</td>
+        <td>${r.rank_pred}</td>
+        <td><span class="mvm-tag ${tagClass}">${r.giudizio}</span></td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('mvm-count').textContent = rows.length + " giocatori" + (f || mvmFilter !== 'all' ? " (filtrati)" : " su 359 con FVM ufficiale disponibile");
+  }
+
+  document.getElementById('mvm-search-box').addEventListener('input', e => renderMercatoVsModello(e.target.value));
+
+  document.querySelectorAll('#mvm-filters button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#mvm-filters button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      mvmFilter = btn.dataset.f;
+      renderMercatoVsModello(document.getElementById('mvm-search-box').value);
+    });
+  });
+
+  document.querySelectorAll('#mvm-table th').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (mvmSortState.col === col) mvmSortState.asc = !mvmSortState.asc;
+      else { mvmSortState.col = col; mvmSortState.asc = false; }
+      renderMercatoVsModello(document.getElementById('mvm-search-box').value);
+    });
+  });
+
+  renderMercatoVsModello('');
 </script>
 
 </body>
