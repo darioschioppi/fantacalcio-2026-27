@@ -13,6 +13,13 @@
   nav.sidebar h3 { font-size: 13px; text-transform: uppercase; color: #888; margin: 18px 0 6px; }
   nav.sidebar a { display: block; padding: 6px 8px; color: #1b5e20; text-decoration: none; border-radius: 6px; font-size: 14px; }
   nav.sidebar a:hover { background: #e8f5e9; }
+  nav.sidebar details { margin: 0; }
+  nav.sidebar summary { list-style: none; cursor: pointer; }
+  nav.sidebar summary::-webkit-details-marker { display: none; }
+  nav.sidebar summary a { display: inline-block; }
+  nav.sidebar summary::before { content: '▾ '; color: #888; font-size: 11px; }
+  nav.sidebar details:not([open]) summary::before { content: '▸ '; }
+  nav.sidebar details a { padding-left: 20px; font-size: 13px; }
   main { flex: 1; padding: 24px 32px; max-width: 900px; line-height: 1.55; }
   h1 { color: var(--dark-green); border-bottom: 3px solid var(--dark-green); padding-bottom: 8px; }
   h2 { color: #145214; margin-top: 40px; border-left: 5px solid var(--green); padding-left: 10px; scroll-margin-top: 12px; }
@@ -78,10 +85,12 @@
   <a href="#parte1">1. Modelli di forecasting</a>
   <a href="#parte2">2. Quadro Serie A 2026-27</a>
   <a href="#parte3">3. Squadra per squadra</a>
-  <a href="#parte4">4. Tier-list per ruolo</a>
-  <a href="#parte4-5">4.5 Analisi xG/xA</a>
-  <a href="#parte4-6">4.6 Schede giocatore</a>
-  <a href="#parte4-7">4.7 Mercato vs modello</a>
+  <details open>
+    <summary><a href="#parte4">4. Tier-list per ruolo</a></summary>
+    <a href="#parte4-5">4.5 Analisi xG/xA</a>
+    <a href="#parte4-6">4.6 Schede giocatore</a>
+    <a href="#parte4-7">4.7 Mercato vs modello</a>
+  </details>
   <a href="#listone">📋 Listone completo</a>
   <a href="#parte5">5. Strategia d'asta</a>
 </nav>
