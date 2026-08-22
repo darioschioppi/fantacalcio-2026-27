@@ -331,6 +331,77 @@ storico ma gli esperti segnalano un ballottaggio che i dati storici non
 possono cogliere). Output:
 `data/previsioni_serie_a_2026_27_con_sorprese.csv`.
 
+## Aggiornamento v8: schede partita giornata 1 (Gruppo Esperti)
+
+Dario ha condiviso il link al topic Roma-Fiorentina della board Gruppo
+Esperti "Schede squadra e schede partita" (`viewforum.php?f=199`),
+chiedendo esplicitamente: **"Analizza tutti i thread delle partite
+della prima giornata per aumentare i dati della valutazione"**. A
+differenza dei 20 topic "SQUADRA [TOPIC UNICO]" già scrapati in v7
+(giudizio generico/preseason valido per tutta la stagione), la board
+contiene una sezione sorella di 10 topic "schede partita" — uno per
+ogni incontro della giornata 1 — con contenuto molto più specifico e
+fresco: probabile formazione, ballottaggi con percentuale, giocatori
+indisponibili per QUESTA giornata, voto consigliato 1/5-5/5 per OGNI
+giocatore della rosa (non solo i titolari), rigoristi e chi calcia
+punizioni/angoli.
+
+**Nuovo script** `scripts/scrape_schede_partita_2026_27.py`: scarica i
+10 topic (ID hardcoded, `TOPIC_TO_PARTITA`, verificati dal vivo su
+Roma-Fiorentina e Atalanta-Sassuolo poi generalizzati agli altri 8),
+riusa `HEADERS`/`get_con_retry`/`norm`/`match_score`/
+`MIN_MATCH_SCORE`/`carica_quotazioni_2026_27` da
+`scrape_forum_esperti_2026_27.py` via import. Ogni topic ha 2 post
+ufficiali (uno per squadra, autore = nome ufficiale es. "AS Roma");
+sezioni delimitate da marcatori-immagine (stesso pattern di
+riconoscimento robusto di `scrape_forum_esperti_qualitativo_2026_27.py`:
+fermarsi al marcatore successivo QUALSIASI, non solo a quelli noti).
+Il blocco voto 1/5-5/5 ha un formato leggermente incoerente tra squadre
+(wrapper `<strong class="text-strong">` esterno presente o assente,
+colore sia hex `#00BF00` sia nome CSS `red`) — gestito con una regex
+tollerante dopo averlo scoperto dal vivo sul post Sassuolo (0 voti
+estratti con la prima versione della regex). Matching nome→`player_id`
+ristretto alle due squadre della partita corrente (più stringente di
+tutta la rosa). Non-match dichiarati e loggati, mai forzati.
+
+**Risultato scraping**: 459 righe (giocatori con voto) su 10 partite/20
+squadre, 397 matchati a un `player_id` (86,5%), 62 non-match dichiarati
+(perlopiù giovani/riserve marginali fuori da
+`quotazioni_fantacalcio_storico_2015_2026.csv`, o acquisti troppo
+recenti — es. Frattesi alla Lazio — non ancora presenti nel listone).
+Output: `data/schede_partita_giornata1_2026_27.csv`.
+
+**Nuovo script di merge** `scripts/merge_schede_partita_giornata1.py`:
+left-join con `previsioni_serie_a_2026_27_con_sorprese.csv` su
+`(squadra, nome)` tramite la stessa tabella quotazioni (join esatto per
+costruzione, non serve fuzzy matching qui). Aggiunge le colonne
+`giornata1_*`/`titolare_previsto_giornata1`/`ballottaggio_pct_giornata1`/
+`indisponibile_giornata1`/ecc. e un **nuovo indice fuzzy**
+`indice_rischio_giornata1` (stesso sistema Mamdani di
+`fuzzy_sorprese_forum.py`, riusato via import di
+`costruisci_sistema_fuzzy()`), che confronta
+`pred_presenze_titolare_previste` (storico) con una `titolarita_giornata1`
+derivata SOLO da segnali espliciti della scheda partita (indisponibile
+dichiarato → 0; ballottaggio_pct/10; nessun altro caso dedotto — un
+giocatore matchato ma senza ballottaggio né indisponibilità non riceve
+un valore inventato, principio anti-invenzione-dati applicato in modo
+ancora più stringente che in v7, perché ballottaggi/indisponibili sono
+per natura un elenco di eccezioni, non una lista esaustiva).
+
+**Risultato merge**: su 359 giocatori del report, 290 hanno dati di
+giornata 1 disponibili; di questi, l'indice è calcolabile per 76
+giocatori (quelli con ballottaggio o indisponibilità dichiarati) — 2
+"OCCASIONE GIORNATA 1" (es. N'Dri/Lecce, Corvi/Parma: ballottaggio alto
+ma modello previsionale storico basso, tipico di un titolare designato
+con poco storico) e 25 "RISCHIO GIORNATA 1" (es. Atta/Fiorentina,
+Pulisic e Leao/Milan: indisponibili per questa giornata ma il modello,
+guardando solo lo storico, li prevede titolari fissi). Output:
+`data/previsioni_serie_a_2026_27_giornata1.csv`.
+
+**Fuori scope** (non incluso in questo giro): integrazione nel sito
+statico GitHub Pages (`index.html` + nuovo `*_data.js`) — proponibile
+come follow-up separato se richiesto.
+
 ## Direzione futura (fase successiva, non ancora iniziata)
 
 Modello a livello **squadra** (stagione, squadra_target): stessa logica,
